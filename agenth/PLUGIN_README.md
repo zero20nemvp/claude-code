@@ -38,11 +38,11 @@ You focus on **creative work**: architecture, novel problems, strategic tradeoff
 ### Install AgentH Plugin
 
 ```bash
-# Install from local directory
-claude plugin install /path/to/agenth-extraction
+# Add the AgentMe marketplace
+/plugin marketplace add http://git.laki.zero2one.ee/claude/turg.git
 
-# Or from marketplace (when published)
-claude plugin install agenth
+# Install AgentH plugin
+/plugin install agenth@agentme-marketplace
 ```
 
 ### Verify Installation

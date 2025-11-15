@@ -34,14 +34,14 @@ You see ONE task at a time. No prioritization, no context switching. Pure execut
 
 ### 1. Installation
 
-Copy this entire directory structure into your project root:
+Install AgentH as a Claude Code plugin:
 
 ```bash
-# Navigate to your project
-cd your-project/
+# Add the AgentMe marketplace
+/plugin marketplace add http://git.laki.zero2one.ee/claude/turg.git
 
-# Copy AgentH files (adjust path as needed)
-cp -r /path/to/agenth-extraction/* .
+# Install AgentH plugin
+/plugin install agenth@agentme-marketplace
 ```
 
 ### 2. Your First Goal
