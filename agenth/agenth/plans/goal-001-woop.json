@@ -1,0 +1,29 @@
+{
+  "wish": "Fix timer command for plugin usage",
+  "current_state": [
+    "Timer fails in plugin mode - uses hardcoded ./agenth/agenth/timer.sh path",
+    "No plugin path resolution mechanism exists",
+    "Commands only work inside agenth repository"
+  ],
+  "done_when": [
+    "/timer start/stop/status works in any project with agenth installed from marketplace",
+    "Reusable path resolution mechanism exists for finding plugin-installed scripts",
+    "Verified working in actual project (not just agenth repo)"
+  ],
+  "obstacles": [
+    "Plugin path complexity - installation paths might vary by setup",
+    "Scope creep - temptation to over-engineer when simple fix would work"
+  ],
+  "ifThenRules": [
+    {
+      "condition": "Plugin paths are complex or variable across installations",
+      "action": "Use environment variable or detection script for path resolution"
+    },
+    {
+      "condition": "Tempted to build elaborate general solution",
+      "action": "Implement simplest working solution first, iterate if needed"
+    }
+  ],
+  "deadline": "2025-11-08T23:59:59Z",
+  "created": "2025-11-08T00:00:00Z"
+}

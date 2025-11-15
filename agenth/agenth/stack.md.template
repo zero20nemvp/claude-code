@@ -1,0 +1,115 @@
+# Project Stack
+
+## Technology Stack
+
+**Languages:**
+- JavaScript/TypeScript (Node.js v18+)
+- Python 3.11+
+- Go 1.21+
+
+**Frontend:**
+- React 18.2
+- Next.js 14
+- TailwindCSS 3.3
+- shadcn/ui components
+
+**Backend:**
+- Express.js 4.18
+- FastAPI 0.104
+- PostgreSQL 15
+- Redis 7
+
+**Testing:**
+- Jest 29
+- Pytest 7.4
+- Cypress 13
+
+**Build & Deploy:**
+- Vite 5.0
+- Docker & Docker Compose
+- GitHub Actions
+- Vercel
+
+## Key Dependencies
+
+**Production:**
+- `react`: ^18.2.0
+- `next`: ^14.0.0
+- `@tanstack/react-query`: ^5.0.0
+- `zod`: ^3.22.0
+- `prisma`: ^5.6.0
+
+**Development:**
+- `typescript`: ^5.3.0
+- `eslint`: ^8.54.0
+- `prettier`: ^3.1.0
+
+## Architecture
+
+**Pattern:** Feature-based modular architecture
+- Each feature has: components, hooks, api, types, tests
+- Shared utilities in `/lib`
+- UI components in `/components/ui`
+
+**Database:** PostgreSQL with Prisma ORM
+- Schema defined in `prisma/schema.prisma`
+- Migrations in `prisma/migrations/`
+
+**API:** RESTful API with tRPC for type safety
+- Routes: `/api/trpc/[trpc]`
+- Auth: NextAuth.js with JWT
+
+**State Management:**
+- Server state: TanStack Query
+- Client state: React Context + useState
+- Form state: React Hook Form + Zod
+
+## Conventions
+
+**Code Style:**
+- ESLint + Prettier (auto-format on save)
+- 2 spaces, single quotes, semicolons
+- Named exports preferred over default exports
+
+**Naming:**
+- Components: PascalCase (`UserProfile.tsx`)
+- Files: kebab-case (`user-profile.utils.ts`)
+- Hooks: camelCase with `use` prefix (`useUserData`)
+- Constants: UPPER_SNAKE_CASE
+
+**Git:**
+- Branch naming: `feature/`, `fix/`, `refactor/`
+- Commits: Conventional Commits format
+- PR: Required reviews, all checks must pass
+
+## Environment
+
+**Required:**
+- Node.js 18+
+- PostgreSQL 15
+- Redis 7 (for caching)
+
+**Environment Variables:**
+```
+DATABASE_URL=postgresql://...
+REDIS_URL=redis://...
+NEXTAUTH_SECRET=...
+NEXTAUTH_URL=http://localhost:3000
+```
+
+**Setup:**
+```bash
+npm install
+npx prisma generate
+npx prisma migrate dev
+npm run dev
+```
+
+## Notes
+
+- Use server components by default in Next.js
+- Client components only when needed (interactivity, hooks)
+- All API routes validate input with Zod schemas
+- Database queries use Prisma transactions for consistency
+- Images optimized with next/image
+- API responses follow JSON:API spec
