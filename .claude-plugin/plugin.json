@@ -1,0 +1,39 @@
+{
+  "name": "agenth",
+  "version": "1.0.0",
+  "description": "AgentH - Autonomous goal tracking and task management with enforced workflow",
+  "author": "AgentH Team",
+  "homepage": "https://github.com/agenth/agenth",
+  "commands": [
+    {
+      "name": "next",
+      "description": "Shows the next task from active goals (does not start timer)"
+    },
+    {
+      "name": "do",
+      "description": "Starts the timer for the current task"
+    },
+    {
+      "name": "done",
+      "description": "Completes current task: stops timer, commits to git, tags milestones"
+    },
+    {
+      "name": "add-goal",
+      "description": "Creates a new goal with milestones (required for all planning)"
+    },
+    {
+      "name": "journal",
+      "description": "Add a journal entry with auto-commit"
+    },
+    {
+      "name": "status",
+      "description": "Show current timer status, active task, and progress"
+    }
+  ],
+  "enforcementRules": {
+    "blockExitPlanMode": true,
+    "requireGoalsForPlanning": true,
+    "mandatoryWorkflow": ["/next", "/do", "/done"],
+    "statusBarIndicator": "AgentH Active"
+  }
+}

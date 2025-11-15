@@ -1,0 +1,27 @@
+{
+  "name": "agentme-marketplace",
+  "metadata": {
+    "description": "Official marketplace for AgentH and AgentMe ecosystem plugins",
+    "version": "1.0.0",
+    "pluginRoot": "./marketplace"
+  },
+  "owner": {
+    "name": "AgentMe Project",
+    "email": "delaney@zero2one.ee"
+  },
+  "plugins": [
+    {
+      "name": "agenth",
+      "source": "./agenth",
+      "description": "Autonomous goal-driven project building with parallel AI agent execution",
+      "version": "0.1.0",
+      "author": {
+        "name": "AgentMe Project"
+      },
+      "license": "MIT",
+      "category": "workflow",
+      "keywords": ["goals", "automation", "orchestration", "velocity", "woop", "project-management"],
+      "strict": true
+    }
+  ]
+}
