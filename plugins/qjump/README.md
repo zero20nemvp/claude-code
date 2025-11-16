@@ -1,12 +1,12 @@
-# QJump Client Landing Page Generator
+# QJump - Invisible Queue Management for Claude Code
 
 Generate production-ready landing pages for QJump queue widget clients in seconds.
 
-## Overview
+## What is QJump?
 
-This plugin creates self-contained HTML landing pages for QJump widget integration. Perfect for onboarding new clients who want a complete, branded queue experience without building from scratch.
+QJump is a queue management system plugin for Claude Code that helps you rapidly build branded landing pages with integrated queue widgets. Perfect for onboarding new clients who want a complete, branded queue experience without building from scratch.
 
-**What you get:**
+**Key Features:**
 - Full-screen hero section with background image
 - Rewards/benefits section explaining position-based incentives
 - Instructions section for queue participation
@@ -14,51 +14,58 @@ This plugin creates self-contained HTML landing pages for QJump widget integrati
 - Tailwind CSS styling via CDN
 - Fully responsive, self-contained HTML (no build step required)
 
-## Installation
-
-### Option 1: Install from Marketplace (Recommended)
-```bash
-claude-code plugin install qjump
-```
-
-### Option 2: Install from Local Directory
-```bash
-# From the widget project root
-claude-code plugin install ./marketplace/qjump
-```
-
 ## Quick Start
 
-### Generate a Landing Page
+### 1. Installation
+
+Install QJump as a Claude Code plugin:
+
+```bash
+# Add the Zero2One marketplace
+/plugin marketplace add http://git.laki.zero2one.ee/claude/turg.git
+
+# Install QJump plugin
+/plugin install qjump@zero2one-turg
+```
+
+### 2. Generate Your First Landing Page
 
 Run the command and answer the prompts:
 
 ```bash
-/qjump:generate-landing
+/generate-landing
 ```
 
-You'll be asked for:
-1. **Brand/Client Name** (e.g., "Sneaker Heaven")
-2. **Queue Slug** (e.g., "sneaker-heaven-main")
-3. **Hero Section**:
-   - Headline (e.g., "Join the Exclusive Sneaker Drop")
-   - Subheadline (e.g., "Limited edition releases. First in line gets first pick.")
-   - Background image URL
-   - CTA button text (e.g., "Join the Queue")
-4. **Rewards Section**:
-   - Title and subtitle
-   - Three reward tiers with positions and benefits
-5. **Instructions Section**:
-   - Title and subtitle
-   - Three steps explaining how it works
-6. **Brand Colors** (optional, defaults to QJump colors)
+The AI will guide you through customizing:
+- **Brand/Client Name**: Name of the client/campaign
+- **Queue Slug**: QJump queue identifier (e.g., "shm-main-queue")
+- **Hero Section**: Headline, subheadline, background image, CTA button text
+- **Rewards Section**: Three reward tiers with positions and benefits
+- **Instructions Section**: Three steps explaining how it works
+- **Brand Colors** (optional): Defaults to QJump blue/orange
 
-### Example Usage
+### 3. Deploy and Use
+
+The command generates a complete `landing-page.html` file ready to deploy anywhere:
 
 ```bash
-/qjump:generate-landing
+# Deploy to any static host:
+# - Netlify, Vercel, S3, etc.
+# - No build step required
+# - No dependencies to install
+```
 
-# Prompts and example answers:
+## Core Commands
+
+```bash
+/generate-landing    # Create a new branded landing page
+```
+
+## Example Session
+
+```bash
+$ /generate-landing
+
 Brand Name: Sneaker Heaven
 Queue Slug: sneaker-heaven-main
 
@@ -71,140 +78,120 @@ Rewards Title: What You Get
 Rewards Subtitle: Position matters. Here's what early joiners receive.
 
 Tier 1 Title: First 100
-Tier 1 Positions: Positions 1-100
 Tier 1 Benefit 1: 30% off all releases
 Tier 1 Benefit 2: Exclusive colorways access
-Tier 1 Benefit 3: Free express shipping
 
-# ... (continues for all tiers and instructions)
+# ... (continues)
+
+✓ Generated landing-page.html
+✓ Complete, self-contained HTML
+✓ QJump widgets pre-integrated
+✓ Ready to deploy
+
+Deploy to any static host - no build step required.
 ```
 
-### Output
+## How QJump Works
 
-The command generates a complete `landing-page.html` file ready to deploy anywhere:
+### Generated Page Structure
 
-```html
-<!DOCTYPE html>
-<html>
-  <!-- Complete, self-contained landing page -->
-  <!-- Tailwind CSS via CDN -->
-  <!-- QJump widgets pre-integrated -->
-  <!-- Fully responsive design -->
-</html>
-```
-
-## Generated Page Structure
-
-### Section 1: Hero (Full Screen)
+**Section 1: Hero (Full Screen)**
 - Eye-catching headline
 - Supporting subheadline
 - Call-to-action button that opens the Join Widget
 - Background image with overlay
 - Smooth scroll indicator
 
-### Section 2: Rewards
+**Section 2: Rewards**
 - Explanation of position-based benefits
 - Three reward tiers (gold, silver, bronze)
 - Live leaderboard widget showing current positions
 - Visual hierarchy with QJump brand colors
 
-### Section 3: Instructions
+**Section 3: Instructions**
 - Clear 3-step process explanation
 - Client-branded (doesn't mention "QJump")
 - Status widget for checking position
 - Instructions tailored to queue mechanics
 
-## Widget Integration
+### Widget Integration
 
 The generated page includes three QJump widgets automatically:
 
-### 1. Join Widget
-```html
-<script src="https://www.qjump.ee/widget/qjump-join-widget.js"
-        data-queue="YOUR_QUEUE_SLUG"></script>
-```
+**1. Join Widget**
 - Modal popup for joining the queue
 - Email collection and validation
 - Referral system integration
 
-### 2. Leaderboard Widget
-```html
-<script src="https://www.qjump.ee/widget/qjump-leaderboard-widget.js"
-        data-queue="YOUR_QUEUE_SLUG"></script>
-```
+**2. Leaderboard Widget**
 - Real-time position rankings
 - Shows top positions and user's position
 - Updates automatically
 
-### 3. Status Widget
-```html
-<script src="https://www.qjump.ee/widget/qjump-status-widget.js"
-        data-queue="YOUR_QUEUE_SLUG"></script>
-```
+**3. Status Widget**
 - Check current position by email
 - Shows queue statistics
 - Position-specific benefits display
 
-## Customization
+## Advanced Features
 
-### Colors
+### Customization
 
-The template uses QJump brand colors by default:
-- **QJump Blue**: `#2E5C8A` (trust, reliability)
-- **QJump Orange**: `#F5A042` (energy, action)
+**Colors**
+- Default: QJump Blue (`#2E5C8A`) and Orange (`#F5A042`)
+- Override with client brand colors during generation
 
-You can override with client brand colors during generation.
+**Styling**
+- Tailwind CSS via CDN
+- Fully responsive, mobile-first design
+- No external CSS files needed
 
-### Styling
-
-The page uses Tailwind CSS via CDN. All styling is inline - no external CSS files needed. Fully responsive with mobile-first design.
-
-### Content
-
-All content is customizable through the generation prompts:
-- Hero messaging
-- Reward structure (3 tiers)
-- Instruction steps (3 steps)
+**Content**
+- Hero messaging fully customizable
+- 3 reward tiers with position-based benefits
+- 3-step instruction flow
 - Button text and colors
 
-## Deployment
+### Deployment
 
 The generated HTML file is completely self-contained:
 
-```bash
-# Deploy anywhere:
-- Upload to web host (Netlify, Vercel, S3, etc.)
-- Serve from CDN
-- Add to existing website
+- Deploy to any static host (Netlify, Vercel, S3, etc.)
 - No build step required
 - No dependencies to install
+- Works with any web server
+
+## File Structure
+
 ```
-
-## Example Output
-
-See `examples/sneaker-heaven-landing.html` for a complete example with sample content.
-
-## Technical Stack
-
-- **HTML5**: Semantic, accessible markup
-- **Tailwind CSS**: Via CDN (v3.x)
-- **JavaScript**: Vanilla JS for widget integration
-- **QJump Widgets**: Loaded from https://www.qjump.ee
-- **Responsive**: Mobile-first design
+qjump/
+├── README.md              # This file
+├── .claude-plugin/
+│   └── plugin.json        # Plugin configuration
+├── commands/
+│   └── generate-landing.md   # Landing page generator command
+├── templates/
+│   └── landing.html       # Landing page template
+├── examples/
+│   └── sneaker-heaven-landing.html  # Sample output
+├── agents/                # Future: AI agent definitions
+└── hooks/                 # Future: Event hooks
+```
 
 ## Requirements
 
 - Active QJump queue (queue slug required)
 - Background image hosted online (HTTPS recommended)
 - Modern browser support (ES6+)
+- Claude Code environment
 
-## Best Practices
+## Tips for Success
 
-1. **Images**: Use high-quality, optimized images (WebP recommended)
-2. **Queue Slug**: Ensure the queue exists before generating page
-3. **Testing**: Test the generated page with your actual queue
-4. **Mobile**: Always verify mobile responsiveness
-5. **Content**: Keep headlines concise and benefit-focused
+1. **Use High-Quality Images**: WebP format recommended for performance
+2. **Verify Queue First**: Ensure the queue exists before generating page
+3. **Test on Mobile**: Always verify mobile responsiveness
+4. **Keep Headlines Concise**: Benefit-focused messaging works best
+5. **Deploy to HTTPS**: Widgets require secure context
 
 ## Troubleshooting
 
@@ -286,6 +273,10 @@ has been blocked by CORS policy
 ## Support
 
 For issues and questions:
-- Documentation: https://qjump.ee/docs
-- Support: support@qjump.ee
-- Issues: https://git.laki.zero2one.ee/qjump/widget/issues
+- **Documentation**: https://qjump.ee/docs
+- **Support Email**: support@qjump.ee
+- **Issues**: https://git.laki.zero2one.ee/qjump/widget/issues
+
+---
+
+Welcome to QJump. Let's build invisible queue experiences. 🚀
