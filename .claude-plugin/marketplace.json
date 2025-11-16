@@ -22,6 +22,19 @@
       "category": "workflow",
       "keywords": ["goals", "automation", "orchestration", "velocity", "woop", "project-management"],
       "strict": true
+    },
+    {
+      "name": "qjump",
+      "source": "./plugins/qjump",
+      "description": "QJump Queue Management System - Widgets, API integration, and deployment tools for invisible queue management",
+      "version": "1.0.0",
+      "author": {
+        "name": "QJump"
+      },
+      "license": "MIT",
+      "category": "development",
+      "keywords": ["queue-management", "widgets", "nextjs", "sqlite", "api", "deployment"],
+      "strict": true
     }
   ]
 }

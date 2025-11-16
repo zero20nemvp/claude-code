@@ -1,0 +1,21 @@
+{
+  "name": "qjump",
+  "description": "QJump Queue Management System - Widgets, API integration, and deployment tools for invisible queue management",
+  "version": "1.0.0",
+  "author": {
+    "name": "QJump",
+    "url": "https://qjump.ee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.laki.zero2one.ee/qjump/widget"
+  },
+  "keywords": [
+    "queue-management",
+    "widgets",
+    "nextjs",
+    "sqlite",
+    "api",
+    "deployment"
+  ]
+}
