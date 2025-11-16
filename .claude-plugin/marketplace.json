@@ -1,22 +1,22 @@
 {
-  "name": "agentme-marketplace",
+  "name": "zero2one-marketplace",
   "metadata": {
-    "description": "Official marketplace for AgentH and AgentMe ecosystem plugins",
+    "description": "Zero2One marketplace for Claude Code plugins",
     "version": "1.0.0",
-    "pluginRoot": "./marketplace"
+    "pluginRoot": "./plugins"
   },
   "owner": {
-    "name": "AgentMe Project",
+    "name": "Zero2One",
     "email": "delaney@zero2one.ee"
   },
   "plugins": [
     {
       "name": "agenth",
-      "source": "./agenth",
+      "source": "./plugins/agenth",
       "description": "Autonomous goal-driven project building with parallel AI agent execution",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "author": {
-        "name": "AgentMe Project"
+        "name": "Zero2One"
       },
       "license": "MIT",
       "category": "workflow",
