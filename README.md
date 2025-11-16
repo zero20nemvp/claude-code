@@ -40,7 +40,7 @@ AI-orchestrated project building where Claude manages you (Agent H) alongside au
 
 ```bash
 # Install AgentH
-/plugin install agenth@zero2one-marketplace
+/plugin install agenth@zero2one-turg
 ```
 
 ## Plugin Structure
