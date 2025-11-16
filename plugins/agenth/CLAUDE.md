@@ -661,6 +661,40 @@ Tasks are synthesized fresh each time based on reality, not pre-planned.
 ### 8. Journal-Driven Adaptation
 Log observations passively. System detects patterns and adapts.
 
+### 9. Active Goal Limit
+**Maximum 3 active goals at once.**
+
+This prevents:
+- **Context overflow** - goals.json growing beyond token limits
+- **Attention fragmentation** - trying to build too many things simultaneously
+- **Progress dilution** - spreading development effort too thin
+- **Decision paralysis** - too many competing project priorities
+
+**Why 3 goals?**
+- Fits comfortably within context limits (allows holistic reasoning across all goals)
+- Matches realistic development capacity (focus on shipping, not starting)
+- Forces prioritization (you must choose what matters most)
+- Enables cross-goal leverage (easier to spot code/architecture synergies with fewer projects)
+
+**Shelving mechanism:**
+- When at capacity (3 active goals), adding a new goal requires shelving an existing one
+- Use `/shelve-goal [id]` to pause a goal without losing progress
+- Shelved goals retain all milestones, progress, and state
+- Use `/unshelve-goal [id]` to resume when ready
+- Use `/goals` to see all goals (active, shelved, completed)
+
+**When to shelve:**
+- Project becomes lower priority
+- Blocked waiting for external dependencies (API access, design assets, etc.)
+- Experimental project that didn't pan out
+- Need to focus intensely on urgent deadline
+
+**Benefits:**
+- Keeps goals.json readable in single context window
+- Preserves holistic reasoning capability
+- Encourages focus and shipping
+- Prevents context thrashing
+
 ## Task Assignment Rules
 
 **Assign to Agent H when:**

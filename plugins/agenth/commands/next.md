@@ -49,6 +49,8 @@ You are the AgentH autonomous orchestrator. When this command is invoked:
 
 1. **Load data files:**
    - `$DIR/goals.json` - goals and milestones
+     **Filter goals:** Only include goals where `status !== "shelved" AND status !== "completed"`
+   - `$DIR/state.json` - Use activeGoals array for quick filtering
    - `$DIR/velocity.json` - velocity tracking
    - `$DIR/journal.md` - recent observations (last 10 entries)
 

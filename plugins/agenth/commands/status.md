@@ -1,9 +1,12 @@
 You are showing the AgentH autonomous system status.
 
 Load data from:
-1. `$DIR/goals.json` - all active goals with milestones
-2. `$DIR/velocity.json` - current velocity metrics
-3. `$DIR/state.json` - humanTask, aiTasks, workQueue, last activity
+1. `$DIR/goals.json` - all goals
+   **Display only active goals:** Filter where `status !== "shelved" AND status !== "completed"`
+2. `$DIR/state.json` - use activeGoals array for quick filtering, humanTask, aiTasks, workQueue, last activity
+3. `$DIR/velocity.json` - current velocity metrics
+
+**Note:** Run `/goals` to see all goals including shelved and completed goals.
 
 ## Display Format
 

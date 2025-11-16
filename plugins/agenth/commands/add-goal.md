@@ -1,5 +1,21 @@
 You are adding a new goal to the AgentH system using MILESTONE-BASED PLANNING (no pre-planned tasks).
 
+**Step 0: Check Active Goal Limit**
+1. Load `$DIR/state.json` and count activeGoals.length
+2. **If activeGoals.length >= 3:**
+   - Display: "⚠️ You have 3 active goals (maximum). To add a new goal, shelve one first using `/shelve-goal`"
+   - Load goals.json and show current active goals:
+     ```
+     Current active goals:
+     - [ACTIVE] goal-xxx: [Goal Name] (deadline: [date])
+     - [ACTIVE] goal-yyy: [Goal Name] (deadline: [date])
+     - [ACTIVE] goal-zzz: [Goal Name] (deadline: [date])
+     ```
+   - Offer: "Would you like to shelve a goal now to make room?"
+   - If yes: Run inline shelve workflow (ask which goal, get reason, shelve it)
+   - If no: Abort goal creation with message "Run `/shelve-goal [id]` when ready, then try `/add-goal` again"
+3. **Otherwise (< 3 active goals):** Proceed to Step 1
+
 **Step 1: Gather WOOP Information**
 Use AskUserQuestion tool to prompt for:
 1. **Wish**: What do you want to achieve?
