@@ -1,97 +1,75 @@
-# /do - Start Timer & Implement Task
+# /execute - Start Timer & Execute Task
 
-Starts the 8-minute block timer AND implements the current assigned task. This is where the actual work gets done.
+You are executing the currently assigned AgentH task. This is the EXECUTION phase where actual work gets done.
 
-## Instructions
+## Directory Detection (Run First)
 
-### Step 1: Verify Task Assigned
+**IMPORTANT:** Detect which directory contains AgentH data files:
 
-Read `dev/agentme/state.json` and check:
+1. Check if `agenth/` directory exists
+2. If not, check if `agentme/` directory exists
+3. Use whichever exists as `$DIR` for all file paths below
+4. If neither exists, show error: "AgentH not initialized. Run setup first."
+
+**All file paths below use `$DIR` as the base directory.**
+
+## STEP 1: Verify Task Assigned
+
+Read `$DIR/state.json` and check:
 - `humanTask` exists and is not null
 - `humanTask.status` is "assigned" (not "completed" or "in_progress")
 
 If no task assigned:
 ```
-❌ No task assigned. Use /next to get your next task.
+❌ No task assigned. Use /agenth:next to get your next task.
 ```
 
-### Step 2: Check Timer State
-
-Read `dev/agentme/timer-state.json` (if it exists):
-- If timer is already running, show error:
+If task already in progress:
 ```
-❌ Timer already running!
+⚠️  Task already in progress!
 
 Current task: [task description]
-Elapsed: [X]m [Y]s
-Blocks completed: [Z]
+Timer status: [running/paused]
+Elapsed: [X blocks]
 
-Use /status to see progress or /done to complete.
+Use /agenth:done to complete or /agenth:now for status.
 ```
 
-### Step 3: Start Timer
+## STEP 2: Display Task Summary
 
-Execute the timer script:
-```bash
-cd /Users/db/Desktop/agentme/dev/agentme && ./timer.sh start
+Show the human what they're about to execute:
+
+```
+=== READY TO EXECUTE ===
+
+TASK [X points | Est: Y blocks]
+[Task description from humanTask]
+
+Goal: [goal name]
+Milestone: [milestone name]
+
+Analyzing automation potential...
 ```
 
-### Step 4: Update Task Status
-
-Update `dev/agentme/state.json`:
-```json
-{
-  "humanTask": {
-    ...existing fields...,
-    "status": "in_progress",
-    "startedAt": "[ISO timestamp]"
-  }
-}
-```
-
-### Step 5: Clarify Task Requirements (If Unclear)
-
-Read the task details from `humanTask` and the related milestone acceptance criteria.
-
-**If anything is unclear or ambiguous:**
-- Use the AskUserQuestion tool to clarify requirements
-- Ask about:
-  - Specific implementation approach
-  - Technology choices
-  - Acceptance criteria interpretation
-  - Edge cases or constraints
-  - Dependencies or prerequisites
-
-**Example questions:**
-- "The task mentions 'authentication' - should I use JWT or sessions?"
-- "For the API endpoint, do you want REST or GraphQL?"
-- "Should this support mobile or just web for now?"
-- "Are there any existing patterns in the codebase I should follow?"
-
-**Do NOT proceed with implementation until:**
-- Requirements are crystal clear
-- Approach is confirmed
-- Any ambiguity is resolved
-
-### Step 6: Analyze Task Automation Potential
+## STEP 3: Analyze Automation Potential
 
 **CRITICAL: Break down the task to understand what can be automated.**
 
-Based on the task description and acceptance criteria, decompose into subtasks and categorize each:
+Based on task description and milestone acceptance criteria, decompose into subtasks and categorize:
 
 **Categories:**
-- ✅ **Automatable**: Claude can do this NOW with current skills/tools
+- ✅ **Automatable**: Claude can do this NOW with current tools/capabilities
 - 🛠️ **Need skill**: Could automate WITH a new skill/tool/MCP server
-- 👤 **Human-only**: Only human can do (design decisions, meetings, approvals, etc.)
+- 👤 **Human-only**: Only human can do (design decisions, approvals, external actions)
 
 **Examples:**
-- ✅ Automatable: Write code, add tests, update docs, refactor, run commands
-- 🛠️ Need skill: Deploy to cloud (need deployment MCP), run E2E tests (need test tool), design UI (need design tool)
-- 👤 Human-only: Stakeholder review, choose brand colors, approve budget, attend meeting
+- ✅ Automatable: Write code, add tests, update docs, refactor, run commands, research
+- 🛠️ Need skill: Deploy to cloud (need deployment MCP), run E2E tests (need browser tool), design UI mockups (need design tool)
+- 👤 Human-only: Stakeholder review, choose brand colors, approve budget, attend meeting, physical actions
 
 **Analysis process:**
 1. List all subtasks needed to complete the task
-2. For each subtask, honestly assess: Can Claude do this?
+2. For each subtask, assess: Can Claude do this right now?
 3. If no: Is it lack of skill/tool (acquirable) or inherently human (not automatable)?
 4. Calculate percentages: automation % = automatable / total
 
@@ -122,59 +100,85 @@ Adding these skills would increase automation to [X+Y]%:
   - [Skill 1]: [why it helps]
   - [Skill 2]: [why it helps]
 
-Should I proceed with the [X]% I can automate? (y/n)
-[If X < 50%: Consider splitting this into separate tasks?]
+Ready to execute? (Continue/Cancel)
 ```
 
-**Store the breakdown** in memory to include in /done velocity tracking later.
+**Wait for user confirmation** before proceeding.
 
-**If user says no:** Stop, don't start timer, return to /next
+If user cancels: Stop here, return to /agenth:next
 
-**If user says yes:** Proceed to next step
+## STEP 4: Update State & Start Timer
 
-**Update goals.json skillsNeeded:**
-If "Need skill" items identified, read `dev/agentme/goals.json`, find current goal, add to `skillsNeeded` array:
-```json
-{
-  "name": "[Skill name]",
-  "reason": "[Why this helps automate]",
-  "impact": "high|medium|low",
-  "revealedByTasks": ["[current-task-id]"],
-  "status": "needed",
-  "acquiredAt": null
-}
-```
+1. **Update `$DIR/state.json`:**
+   ```json
+   {
+     "humanTask": {
+       ...existing fields...,
+       "status": "in_progress",
+       "startedAt": "[ISO timestamp]",
+       "automationBreakdown": {
+         "automatable": ["subtask1", "subtask2"],
+         "needSkill": [{"task": "subtask3", "skillNeeded": "deployment"}],
+         "humanOnly": ["subtask4"]
+       }
+     }
+   }
+   ```
 
-If skill already exists, append current task to `revealedByTasks`.
+2. **Start timer:**
+   ```bash
+   cd $DIR && ./timer.sh start
+   ```
 
-### Step 7: Plan Implementation Steps
+3. **Confirm to user:**
+   ```
+   ✅ Timer started - beginning execution
 
-Based on the AUTOMATABLE subtasks only, create a mental checklist:
+   ⏱️  Timer running - you'll get notifications every 8 minutes
 
-1. What files need to be created or modified?
-2. What's the order of implementation?
-3. Are there dependencies to handle first?
-4. What edge cases need coverage?
-5. How will this be tested?
+   Starting implementation of automatable parts...
+   ```
 
-**DO NOT use TodoWrite** - we're already in an AgentH task. Just work through the implementation systematically.
+## STEP 5: Clarify Requirements (If Unclear)
 
-### Step 8: Implement the Task (Automatable Parts Only)
+Read the task details and milestone acceptance criteria.
 
-Now do the actual work on AUTOMATABLE subtasks:
+**If anything is unclear or ambiguous:**
+- Use the AskUserQuestion tool to clarify requirements
+- Ask about:
+  - Specific implementation approach
+  - Technology choices
+  - Acceptance criteria interpretation
+  - Edge cases or constraints
+  - Dependencies or prerequisites
 
-1. **Read relevant files** - Understand the current codebase
-2. **Write/Edit code** - Implement the automatable parts
+**Example questions:**
+- "The task mentions 'authentication' - should I use JWT or sessions?"
+- "For the API endpoint, do you want REST or GraphQL?"
+- "Should this support mobile or just web for now?"
+- "Are there any existing patterns in the codebase I should follow?"
+
+**Do NOT proceed with implementation until:**
+- Requirements are crystal clear
+- Approach is confirmed
+- Any ambiguity is resolved
+
+## STEP 6: Execute Automatable Parts
+
+Now do the actual work on **AUTOMATABLE subtasks only**:
+
+1. **Read relevant files** - Understand current codebase
+2. **Write/Edit code** - Implement automatable parts
 3. **Test as you go** - Verify functionality
 4. **Handle errors** - Fix issues that arise
 5. **Refactor if needed** - Keep code clean
 6. **Verify acceptance criteria** - Check off automated criteria
 
-**Work autonomously** - You don't need to ask for permission at every step. You've started the timer, now execute.
+**Work autonomously** - You don't need permission at every step. Timer is running, now execute.
 
 **For "Need skill" subtasks:**
 - Add clear TODO comments in code
-- Example: `// TODO [Human/Skill needed]: Deploy to staging - need deployment MCP`
+- Example: `// TODO [Skill needed]: Deploy to staging - need deployment MCP server`
 - Document what needs to be done and why
 
 **For "Human-only" subtasks:**
@@ -186,36 +190,27 @@ Now do the actual work on AUTOMATABLE subtasks:
 - Try to solve it yourself first
 - Check documentation, existing code patterns
 - If truly stuck, inform the user and ask for guidance
-- Keep the timer running - time spent debugging counts
+- Keep timer running - debugging time counts
 
-### Step 9: Confirm Start to User
+## STEP 7: Update skills.json (If Skills Identified)
 
-After showing breakdown and getting approval:
-```
-✅ Timer started - implementing automatable parts ([X]%)
+If "Need skill" items were identified, update `$DIR/skills.json`:
 
-Goal: [goal-name]
-Milestone: [milestone-name]
-Task: [task description]
-Estimated: [X] blocks
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-⏱️  Timer running - you'll get notifications every 8 minutes
-
-Implementing:
-  ✅ [Automatable subtask 1]
-  ✅ [Automatable subtask 2]
-
-Leaving for human/skills:
-  👤 [Human-only subtask]
-  🛠️ [Need-skill subtask]
-
-Starting implementation...
+For each skill needed:
+```json
+{
+  "name": "[Skill name]",
+  "description": "[What this skill would enable]",
+  "impact": "high|medium|low",
+  "revealedByTasks": ["[current-task-id]"],
+  "status": "needed",
+  "acquiredAt": null
+}
 ```
 
-Then proceed directly with the work.
+If skill already exists, append current task to `revealedByTasks` array.
 
-### Step 10: Complete the Implementation
+## STEP 8: Complete Implementation
 
 Work through all AUTOMATABLE steps.
 
@@ -237,30 +232,30 @@ Implementation complete! ([X]% automated)
   - [Subtask 3]: [specific instructions]
   - [Subtask 4]: [specific instructions]
 
-🛠️ SKILLS NEEDED (added to goal)
+🛠️ SKILLS NEEDED (tracked for future)
   - [Skill 1]: Would automate [subtask 5]
   - [Skill 2]: Would automate [subtask 6]
 
-Ready for review. Call /done when satisfied.
+Ready for review. Call /agenth:done when satisfied.
 ```
 
-User will call `/done` when they're ready to commit.
+User will call `/agenth:done` when ready to record completion.
 
 ## Important Notes
 
 ### This Command Does Two Things
 
 1. **Starts the timer** (administrative)
-2. **Implements the task** (the actual work)
+2. **Executes the task** (the actual work)
 
-This is the "do the work" command. When the user says `/do`, they're saying "start the timer and implement this task for me."
+This is the "do the work" command. When you run `/agenth:execute`, you're saying "start the timer and implement this task autonomously."
 
 ### Autonomous Execution
 
-Once `/do` is called:
+Once `/agenth:execute` is running:
 - You have permission to create/edit files
 - You should work autonomously toward the goal
-- Ask questions ONLY if truly unclear
+- Ask questions ONLY if truly unclear (use AskUserQuestion tool)
 - Don't ask permission for every small decision
 - Use your judgment as an experienced developer
 
@@ -269,7 +264,7 @@ Once `/do` is called:
 - Write production-quality code
 - Follow existing code patterns
 - Include error handling
-- Be security-conscious
+- Be security-conscious (see Safety Rules below)
 - Keep it clean and maintainable
 
 ### Time Awareness
@@ -277,7 +272,7 @@ Once `/do` is called:
 - Timer is running - work efficiently
 - Don't gold-plate or over-engineer
 - Satisfy acceptance criteria, then stop
-- User will call `/done` when satisfied
+- User will call `/agenth:done` when satisfied
 
 ---
 
@@ -387,7 +382,8 @@ Following security best practices.
 
 ## Error Handling
 
+- If no task assigned: remind to use `/agenth:next` first
+- If timer already running: show status and suggest `/agenth:done` or `/agenth:now`
 - If timer.sh fails: show error and suggest checking timer script
 - If state.json is corrupted: show error and suggest manual recovery
-- If humanTask is null: remind to use /next first
-- If task requires illegal/unethical code: REFUSE with explanation
+- If task requires illegal/unethical code: REFUSE with explanation and alternatives

@@ -166,6 +166,8 @@ Advances: goal-xxx → Milestone N: [name]
 Background AI work:
   → [AI task 1] (if any active or just dispatched)
   → [AI task 2] (if any)
+
+Ready to start? Run /agenth:execute when ready.
 ```
 
 **Optional multi-goal format:**
@@ -182,6 +184,8 @@ Advances:
 Background AI work:
   → [AI task 1]
   → [AI task 2]
+
+Ready to start? Run /agenth:execute when ready.
 ```
 
 **Deadline warnings (if applicable):**
@@ -195,7 +199,7 @@ Background AI work:
 - Cross-goal benefits (if any)
 - Why chosen over other tasks
 
-## STEP 7: Update State & Start Timer
+## STEP 7: Update State (Do NOT Start Timer)
 
 1. **Update `$DIR/state.json`:**
    ```json
@@ -211,7 +215,8 @@ Background AI work:
        "targetMilestones": [
          {"goalId": "goal-xxx", "milestoneId": "m1"}
        ],
-       "startedAt": "2025-11-06T20:30:00Z"
+       "status": "assigned",
+       "assignedAt": "2025-11-06T20:30:00Z"
      },
      "aiTasks": [
        /* updated array with currently running AI tasks */
@@ -223,9 +228,9 @@ Background AI work:
    }
    ```
 
-2. **Start timer automatically:**
-   - Execute: `./$DIR/timer.sh start`
-   - Display timer confirmation
+2. **Do NOT start timer** - task is assigned but not started
+   - Human will use `/agenth:execute` when ready to begin work
+   - This allows for review, questions, and preparation before execution
 
 ## Important Notes
 

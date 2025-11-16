@@ -6,6 +6,16 @@ AgentH inverts the traditional development model. Instead of you orchestrating A
 ## Core Principle
 **The AI is the orchestrator. You are Agent H - a specialized agent for creative and judgment work.**
 
+## Three-Phase Workflow
+
+AgentH uses a clear three-phase execution model:
+
+1. **PLANNING** (`/next`) - AI analyzes codebase, generates optimal task, assigns work
+2. **EXECUTION** (`/execute`) - AI analyzes automation potential, executes automatable parts, leaves human-only work
+3. **RECORDING** (`/done`) - AI records completion, updates velocity, advances milestones
+
+**Key benefit:** Planning and execution are separated, allowing review and clarification before work begins.
+
 ## What is AgentH?
 
 AgentH is a holistic project orchestration system for building projects:
@@ -504,7 +514,7 @@ Next: Run /done when complete
 ### `/next [in|out]`
 Generate and return the optimal task for Agent H.
 
-**This command changes state** - assigns new task, starts timer, dispatches AI agents.
+**This command changes state** - assigns new task (does NOT start timer or execution).
 
 **Process:**
 1. Analyze codebase (scan files, detect patterns, find issues)
@@ -512,7 +522,7 @@ Generate and return the optimal task for Agent H.
 3. Reason holistically across all goals
 4. Consider cross-goal impact
 5. Generate optimal task
-6. Start timer automatically
+6. Assign task (ready for execution)
 
 **Output Format:**
 ```
@@ -524,12 +534,74 @@ Why this matters: [Strategic reasoning - deadline pressure,
 what it unlocks, obstacles addressed, cross-goal benefits]
 
 Advances: goal-xxx → Milestone: [name]
+
+Ready to start? Run /agenth:execute when ready.
 ```
 
 **Energy States:**
 - `in` = Low energy (mechanical, simple, repetitive tasks)
 - `out` = High energy (creative, complex, architectural work)
 - DEFAULT: `out`
+
+### `/execute`
+Start timer and execute the currently assigned task.
+
+**This command changes state** - starts timer, executes work autonomously.
+
+**Process:**
+1. Verify task is assigned (from `/next`)
+2. Analyze automation potential (automatable vs human-only vs need-skill)
+3. Show breakdown to user and get confirmation
+4. Start timer
+5. Execute all automatable parts autonomously
+6. Leave clear TODOs for human-only parts
+7. Track skills needed for future automation
+
+**What gets automated:**
+- Code writing, editing, refactoring
+- Documentation updates
+- Test generation and execution
+- File operations
+- Research and analysis
+- Configuration setup
+
+**What remains for human:**
+- Design decisions and approvals
+- Novel problem-solving
+- Strategic tradeoffs
+- External actions (meetings, deployments requiring credentials)
+
+**Output Format:**
+```
+TASK BREAKDOWN ANALYSIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ AUTOMATABLE ([X]%)
+  - [Subtask 1]
+  - [Subtask 2]
+
+🛠️ NEED SKILL ([Y]%)
+  - [Subtask 3] → Need: [specific skill/tool]
+
+👤 HUMAN-ONLY ([Z]%)
+  - [Subtask 4]
+
+I can automate [X]% of this task right now.
+
+Ready to execute? (Continue/Cancel)
+
+[After confirmation and execution:]
+
+Implementation complete! ([X]% automated)
+
+✅ COMPLETED
+  - [Implemented subtasks]
+
+👤 HUMAN ACTION REQUIRED
+  - [Remaining manual tasks with instructions]
+
+Ready for review. Call /agenth:done when satisfied.
+```
 
 ### `/done [X]`
 Record completion of last task.
@@ -654,9 +726,56 @@ AI: 🔍 Codebase Analysis:
     - goal-monitoring (consistent errors)
     - goal-auth (will follow established pattern)
 
-    Timer started at 14:30:00
+    Ready to start? Run /agenth:execute when ready.
 
-[Agent H works...]
+Agent H: /execute
+
+AI: === READY TO EXECUTE ===
+
+    TASK BREAKDOWN ANALYSIS
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+    ✅ AUTOMATABLE (85%)
+      - Create standardized error handler middleware
+      - Update 12 endpoints to use new handler
+      - Write unit tests for error scenarios
+      - Update API documentation
+
+    🛠️ NEED SKILL (0%)
+
+    👤 HUMAN-ONLY (15%)
+      - Review error messages for user-friendliness
+      - Approve error response format
+
+    I can automate 85% of this task right now.
+
+    Ready to execute? (Continue/Cancel)
+
+Agent H: Continue
+
+AI: ✅ Timer started at 14:30:00 - beginning execution
+
+    [Working autonomously...]
+    ✓ Created error handler middleware
+    ✓ Updated 12 endpoints
+    ✓ Generated test suite
+    ✓ Updated documentation
+
+    Implementation complete! (85% automated)
+
+    ✅ COMPLETED
+      - Error handler middleware created
+      - All 12 endpoints updated
+      - Test suite added (100% coverage)
+      - Documentation updated
+
+    👤 HUMAN ACTION REQUIRED
+      - Review error messages in src/middleware/errors.ts
+      - Confirm error format meets UX requirements
+
+    Ready for review. Call /agenth:done when satisfied.
+
+[Agent H reviews, approves...]
 
 Agent H: /done
 
