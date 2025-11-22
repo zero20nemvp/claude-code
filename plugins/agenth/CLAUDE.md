@@ -479,22 +479,86 @@ AI: I notice you've mentioned "setting up test data manually" 3 times.
 - Strategic tradeoffs
 - Creative solutions
 
+## Core Terminology
+
+**The hierarchy:**
+```
+GOAL (ongoing direction - never completes)
+  └── INTENT (WOOP commitment - has acceptance criteria, completes)
+        └── TASK (immediate action - dynamically generated)
+```
+
+| Term | Nature | Example |
+|------|--------|---------|
+| **Goal** | Ongoing direction you move toward | "Codebase should be maintainable" |
+| **Intent** | Concrete WOOP commitment | "Add test coverage to auth module" |
+| **Task** | Immediate action | "Write unit tests for login flow" |
+
+**Key insight:** Goals never complete. "Codebase should be maintainable" is an ongoing direction. Intents complete and spawn new intents. Claude reasons about what intent to suggest based on goal direction + current state.
+
 ## Data Structure
 
 ### `goals.json` (in agenth data directory)
-Array of goal objects using WOOP methodology:
-- id, name, type, frontOfMind (priority flag)
-- wish (what you want to achieve)
-- current_state (array of statements describing where you are now)
-- done_when (array of acceptance criteria)
-- obstacles (internal blocks)
-- milestones (checkpoint array with acceptance_criteria, status, progress %)
-- ifThenRules (contingency rules for obstacles)
-- deadline
+Goals are lightweight pointers. Claude reasons about what work to suggest.
 
-**No pre-planned tasks.** Tasks are generated dynamically by analyzing milestones and codebase state.
+```json
+{
+  "id": "goal-001",
+  "name": "Codebase should be maintainable",
+  "direction": "Toward code that's easy to change and understand",
+  "current_state": [
+    "Test coverage at 45%",
+    "Auth module has no tests",
+    "Documentation is sparse"
+  ],
+  "goalType": "construction",
+  "frontOfMind": false,
+  "status": "active"
+}
+```
 
-**Goal Types:** feature, quality, infrastructure, deployment, architecture, performance, security, automation, dx (developer experience)
+**Goal fields:**
+- `id` - Unique identifier
+- `name` - Short name for the goal
+- `direction` - The ongoing aspiration
+- `current_state` - Array of statements describing where you are NOW
+- `goalType` - construction (default), feature, quality, infrastructure, etc.
+- `frontOfMind` - Priority override flag
+- `status` - active | shelved
+
+**Goals do NOT have:** wish, done_when, obstacles, milestones, ifThenRules, deadline. Those belong to intents.
+
+### `intents.json` (in agenth data directory)
+Intents are concrete commitments with acceptance criteria. They use WOOP methodology.
+
+```json
+{
+  "id": "intent-001",
+  "goalId": "goal-001",
+  "wish": "Add test coverage to auth module",
+  "outcome": [
+    "Auth module has 80%+ test coverage",
+    "All critical paths tested"
+  ],
+  "obstacles": ["Time pressure", "Complex legacy code"],
+  "plan": [{"if": "Stuck on legacy code", "then": "Write integration tests first"}],
+  "milestones": [...],
+  "deadline": "2025-12-01T23:59:59Z",
+  "status": "active"
+}
+```
+
+### Auto-Migration (Legacy Format)
+
+On first use of `/next`, detect old format:
+- **Detection:** If goals.json has `wish`, `done_when`, or `milestones` at goal level → old format
+- **Migration:** Backup goals.json, extract WOOP to intents.json, simplify goals.json
+
+Migration is idempotent - safe to run multiple times.
+
+**No pre-planned tasks.** Tasks are generated dynamically by analyzing intents and codebase state.
+
+**Goal Types:** construction, feature, quality, infrastructure, deployment, architecture, performance, security, automation, dx
 
 ### `velocity.json` (in agenth data directory)
 Velocity tracking metrics:
