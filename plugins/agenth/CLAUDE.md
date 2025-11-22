@@ -6,6 +6,57 @@ AgentH inverts the traditional development model. Instead of you orchestrating A
 ## Core Principle
 **The AI is the orchestrator. You are Agent H - a specialized agent for creative and judgment work.**
 
+## No Goal, No Work
+**Every task must trace to a goal. No exceptions.**
+
+This is a strict enforcement rule:
+1. When work is requested, first ask: "What goal does this serve?"
+2. If a matching goal exists → Generate task from goal, proceed
+3. If no matching goal → "This doesn't serve any active goal. Should we add one?"
+4. Refuse to proceed until goal linkage is clear
+
+**What this prevents:**
+- Busywork that advances nothing
+- Scope creep and random requests
+- Invisible effort that can't be tracked
+- Productive procrastination
+
+**The todo list = execution layer for goal-derived tasks ONLY.**
+- No ad-hoc planning tasks in todos
+- Every todo item must reference a goal-id
+- If it's not worth a goal, it's not worth doing right now
+
+**Escape hatches:**
+- `/add-goal` - Create a goal for new work (the proper path)
+- If work is truly trivial (<5 min), just do it without tracking
+
+**This applies to both AgentH (construction goals) and AgentMe (life goals).**
+
+## Planning Must Conclude
+**When the planning agent is used, it MUST result in a clear outcome.**
+
+Planning is not free-floating discussion. Every planning session concludes with:
+
+1. **A new goal** → Created via `/add-goal` (work will happen)
+2. **An explicit no-go** → "Not proceeding because: [reason]" (conscious decision)
+
+**No open-ended planning that fades away.**
+
+This prevents:
+- Planning as procrastination
+- Analysis paralysis
+- Endless discussion without action
+- Lost context from planning sessions
+
+**The pattern:**
+```
+User: [plan] Let's think about building X
+AI: [Uses planning agent, analyzes, discusses]
+AI: Planning complete. Outcome:
+    → Creating goal via /add-goal, OR
+    → Not proceeding because: [specific reason]
+```
+
 ## Three-Phase Workflow
 
 AgentH uses a clear three-phase execution model:
@@ -463,6 +514,9 @@ Current system state:
 ### `journal.md` (in agenth data directory)
 Human observations for pattern detection and adaptation.
 
+### `learnings.md` (in agenth data directory)
+Technical solutions discovered during task execution. **Auto-populated by Claude.**
+
 ## Slash Commands
 
 ### `/now`
@@ -661,7 +715,32 @@ Tasks are synthesized fresh each time based on reality, not pre-planned.
 ### 8. Journal-Driven Adaptation
 Log observations passively. System detects patterns and adapts.
 
-### 9. Active Goal Limit
+### 9. Learning Capture
+**Auto-capture technical solutions discovered during work.**
+
+**When to WRITE to `learnings.md`:**
+- After debugging and fixing a non-obvious issue
+- When a solution required research or trial-and-error
+- When the fix wasn't immediately apparent from the error message
+- After discovering environment/tooling gotchas
+
+**When to CHECK `learnings.md`:**
+- Before starting debugging work
+- When encountering errors (search by tags/keywords)
+- When working with previously problematic areas
+
+**Format:**
+```markdown
+## [DATE] Short problem description
+**Problem**: What went wrong / the error encountered
+**Solution**: The fix that worked
+**Trigger**: When this typically happens (optional)
+**Tags**: #relevant #tags
+```
+
+**Key:** This is automatic. Don't ask the human. When you solve something non-trivial, capture it.
+
+### 10. Active Goal Limit
 **Maximum 3 active goals at once.**
 
 This prevents:
