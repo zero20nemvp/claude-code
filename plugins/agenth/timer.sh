@@ -18,7 +18,13 @@ start_timer() {
     fi
 
     START_TIME=$(date +%s)
-    echo "{\"running\":true,\"startTime\":\"$(date -u +"%Y-%m-%dT%H:%M:%SZ")\",\"_startEpoch\":$START_TIME,\"elapsedBlocks\":0,\"pausedAt\":null,\"lastNotifiedBlock\":0}" > "$STATE_FILE"
+
+    # Get project name from parent directory structure
+    # Path: project/turg/plugins/agenth/timer.sh → need to go up 4 levels
+    SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+    PROJECT_NAME="$(basename "$(dirname "$(dirname "$(dirname "$SCRIPT_DIR")")")")"
+
+    echo "{\"running\":true,\"startTime\":\"$(date -u +"%Y-%m-%dT%H:%M:%SZ")\",\"_startEpoch\":$START_TIME,\"elapsedBlocks\":0,\"pausedAt\":null,\"lastNotifiedBlock\":0,\"projectName\":\"$PROJECT_NAME\"}" > "$STATE_FILE"
     echo "Timer started at $(date '+%H:%M:%S')"
     echo "Run './timer.sh status' to check progress"
     echo "Notifications will fire every 8 minutes"
@@ -224,9 +230,10 @@ monitor_timer() {
 
         # Check if we've completed a new block
         if [ "$CURRENT_BLOCK" -gt "$LAST_NOTIFIED" ]; then
-            # Send notification banner
+            # Send notification banner with project name
             TOTAL_MINUTES=$(($CURRENT_BLOCK * 8))
-            osascript -e "display notification \"Block $CURRENT_BLOCK completed (${TOTAL_MINUTES} min total)\" with title \"AgentH Timer\" sound name \"Glass\""
+            PROJECT_NAME=$(jq -r '.projectName // "Unknown"' "$STATE_FILE")
+            osascript -e "display notification \"Block $CURRENT_BLOCK completed (${TOTAL_MINUTES} min total)\" with title \"$PROJECT_NAME Timer\" sound name \"Glass\""
 
             # Update state with new notification block
             TEMP_FILE="${STATE_FILE}.tmp"
