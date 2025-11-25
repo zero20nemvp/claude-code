@@ -11,6 +11,109 @@ You are the AgentH autonomous orchestrator. When this command is invoked:
 
 **All file paths below use `$DIR` as the base directory.**
 
+## STEP 0: Auto-Migration Check (Legacy Format → Intent-Separated Format)
+
+**Run this BEFORE any other step. Migration is idempotent - safe to run multiple times.**
+
+### Detection
+
+Check if `$DIR/goals.json` contains legacy format by looking for ANY goal with these fields at the goal level:
+- `wish`
+- `done_when`
+- `milestones` (array with acceptance_criteria)
+- `obstacles`
+- `ifThenRules`
+
+**If NO legacy fields found:** Skip to STEP 1 (already migrated or new format)
+
+**If legacy fields found:** Run migration below
+
+### Migration Process
+
+1. **Backup first:**
+   - Copy `$DIR/goals.json` → `$DIR/goals.json.backup`
+   - Log: "Backed up goals.json before migration"
+
+2. **Check for existing intents.json:**
+   - If `$DIR/intents.json` doesn't exist, create it with empty array: `[]`
+   - If it exists, load current intents
+
+3. **For each goal with legacy format:**
+
+   **Extract to intent (add to intents.json):**
+   ```json
+   {
+     "id": "intent-[goalId]",
+     "goalId": "[goal.id]",
+     "wish": "[goal.wish]",
+     "outcome": "[goal.done_when array]",
+     "obstacles": "[goal.obstacles array]",
+     "plan": "[goal.ifThenRules array, converted to {if, then} format]",
+     "milestones": "[goal.milestones array]",
+     "deadline": "[goal.deadline]",
+     "status": "[goal.status === 'completed' ? 'completed' : 'active']",
+     "created": "[goal.created or current timestamp]"
+   }
+   ```
+
+   **Simplify goal (update in goals.json):**
+   ```json
+   {
+     "id": "[goal.id]",
+     "name": "[goal.name]",
+     "direction": "[derive from goal.wish - make it ongoing/aspirational]",
+     "current_state": "[goal.current_state array]",
+     "goalType": "[goal.goalType or 'construction']",
+     "frontOfMind": "[goal.frontOfMind or false]",
+     "status": "[goal.status]"
+   }
+   ```
+
+   **Remove these fields from goal:** wish, done_when, obstacles, milestones, ifThenRules, deadline, created
+
+4. **Handle already-migrated goals:**
+   - If a goal already has `direction` field and NO `wish` field, skip it (already new format)
+   - This makes migration idempotent
+
+5. **Save files:**
+   - Write updated goals to `$DIR/goals.json`
+   - Write intents to `$DIR/intents.json`
+
+6. **Log migration summary:**
+   ```
+   === Auto-Migration Complete ===
+   Migrated X goals → X intents
+   Backup saved to: $DIR/goals.json.backup
+
+   Goals now use minimal format (direction + current_state)
+   Intents contain WOOP commitments with milestones
+   ```
+
+### Direction Derivation
+
+When converting `wish` to `direction`, transform from specific outcome to ongoing aspiration:
+- wish: "Fix timer command for plugin usage" → direction: "Toward reliable timer functionality across all installation modes"
+- wish: "Build user authentication" → direction: "Toward secure user identity management"
+- wish: "Achieve 80% test coverage" → direction: "Toward comprehensive test coverage and code quality"
+
+If unsure, use: "Toward [wish in continuous form]"
+
+### ifThenRules → plan Conversion
+
+Convert:
+```json
+"ifThenRules": [
+  {"condition": "X happens", "action": "Do Y"}
+]
+```
+
+To:
+```json
+"plan": [
+  {"if": "X happens", "then": "Do Y"}
+]
+```
+
 ## STEP 1: Check Current Work Status
 
 1. Load `$DIR/state.json` and check:
@@ -48,8 +151,11 @@ You are the AgentH autonomous orchestrator. When this command is invoked:
 ## STEP 2: Load Data & Codebase Analysis
 
 1. **Load data files:**
-   - `$DIR/goals.json` - goals and milestones
+   - `$DIR/goals.json` - goals (minimal format: direction + current_state)
      **Filter goals:** Only include goals where `status !== "shelved" AND status !== "completed"`
+   - `$DIR/intents.json` - WOOP commitments with milestones (NEW)
+     **Filter intents:** Only include intents where `status === "active"`
+     **Link to goals:** Each intent has `goalId` linking to parent goal
    - `$DIR/state.json` - Use activeGoals array for quick filtering
    - `$DIR/velocity.json` - velocity tracking
    - `$DIR/journal.md` - recent observations (last 10 entries)
@@ -73,7 +179,14 @@ You are the AgentH autonomous orchestrator. When this command is invoked:
 
 ## STEP 3: Analyze All Incomplete Milestones
 
-For ALL active goals (unless frontOfMind set), extract atomic tasks:
+**Milestones now live in intents.json, not goals.json.**
+
+For ALL active intents (filtered by parent goal's frontOfMind if set), extract atomic tasks:
+
+**Intent → Goal relationship:**
+- Each intent has `goalId` linking to its parent goal
+- If a goal has `frontOfMind: true`, ONLY consider intents for that goal
+- Otherwise, consider all active intents across all active goals
 
 **Task Classification:**
 
@@ -203,23 +316,36 @@ Ready to start? Run /agenth:execute when ready.
 
 ## STEP 7: Update State (Do NOT Start Timer)
 
-1. **Update `$DIR/state.json`:**
+1. **Generate task ID:**
+   - Read `$DIR/velocity.json` history array
+   - Find highest taskId number (parse "t1", "t2", etc.)
+   - New taskId = "t" + (highest + 1)
+   - If no history, start with "t1"
+
+2. **Save task reasoning:**
+   - Capture WHY this task was selected over alternatives
+   - Include: which goals/intents were considered, cross-goal tradeoffs, deadline factors
+   - This survives compaction/clear and enables context recovery
+
+3. **Update `$DIR/state.json`:**
    ```json
    {
      "lastUpdated": "2025-11-06T20:30:00Z",
      "activeGoals": ["goal-001", "goal-002"],
      "autonomousMode": true,
      "humanTask": {
+       "taskId": "t4",
        "description": "[task description]",
        "points": 5,
        "estimatedBlocks": 4,
        "energyLevel": "out",
        "targetMilestones": [
-         {"goalId": "goal-xxx", "milestoneId": "m1"}
+         {"goalId": "goal-xxx", "milestoneId": "m1", "intentId": "intent-xxx"}
        ],
        "status": "assigned",
        "assignedAt": "2025-11-06T20:30:00Z"
      },
+     "taskReasoning": "[Why this task was selected - goals considered, tradeoffs, deadline factors]",
      "aiTasks": [
        /* updated array with currently running AI tasks */
      ],
@@ -230,7 +356,7 @@ Ready to start? Run /agenth:execute when ready.
    }
    ```
 
-2. **Do NOT start timer** - task is assigned but not started
+4. **Do NOT start timer** - task is assigned but not started
    - Human will use `/agenth:execute` when ready to begin work
    - This allows for review, questions, and preparation before execution
 

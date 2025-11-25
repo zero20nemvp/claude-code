@@ -531,6 +531,18 @@ Goals are lightweight pointers. Claude reasons about what work to suggest.
 ### `intents.json` (in agenth data directory)
 Intents are concrete commitments with acceptance criteria. They use WOOP methodology.
 
+**Intent fields:**
+- `id` - Unique identifier (e.g., "intent-001")
+- `goalId` - Links to parent goal
+- `wish` - What you want to achieve (concrete)
+- `outcome` - Array of "done when" acceptance criteria
+- `obstacles` - Internal blocks that might prevent success
+- `plan` - Array of if-then contingency rules
+- `milestones` - Optional checkpoints with acceptance criteria
+- `deadline` - When this intent must be complete
+- `status` - active | completed | superseded
+- `created` - Timestamp
+
 ```json
 {
   "id": "intent-001",
@@ -542,11 +554,41 @@ Intents are concrete commitments with acceptance criteria. They use WOOP methodo
   ],
   "obstacles": ["Time pressure", "Complex legacy code"],
   "plan": [{"if": "Stuck on legacy code", "then": "Write integration tests first"}],
-  "milestones": [...],
+  "milestones": [
+    {
+      "id": "m1",
+      "name": "Test Infrastructure",
+      "description": "Set up testing framework",
+      "acceptance_criteria": [
+        "Jest configured",
+        "Test database setup",
+        "CI runs tests"
+      ],
+      "status": "completed",
+      "progress": 100,
+      "estimatedBlocks": 3
+    },
+    {
+      "id": "m2",
+      "name": "Auth Unit Tests",
+      "description": "Write unit tests for auth functions",
+      "acceptance_criteria": [
+        "Login tests pass",
+        "Logout tests pass",
+        "Token refresh tests pass"
+      ],
+      "status": "in_progress",
+      "progress": 60,
+      "estimatedBlocks": 4
+    }
+  ],
   "deadline": "2025-12-01T23:59:59Z",
-  "status": "active"
+  "status": "active",
+  "created": "2025-11-20T00:00:00Z"
 }
 ```
+
+**Key:** Milestones live in intents.json, NOT goals.json. Goals are minimal (direction + current_state only).
 
 ### Auto-Migration (Legacy Format)
 
@@ -567,13 +609,57 @@ Velocity tracking metrics:
 - currentVelocity (points/block ratio)
 - tasksCompleted
 - estimationAccuracy
-- history array (all completed tasks)
+- history array (human task completions)
+- aiHistory array (AI agent task completions)
+
+**History entry format:**
+```json
+{
+  "taskId": "t1",
+  "task": "Task description",
+  "goalId": "goal-001",
+  "intentId": "intent-001",
+  "goalType": "construction",
+  "points": 5,
+  "estimatedBlocks": 4,
+  "actualBlocks": 3,
+  "completedAt": "2025-11-25T15:00:00Z",
+  "milestones": [{"goalId": "goal-001", "milestoneId": "m1", "intentId": "intent-001"}],
+  "notes": "Optional human notes"
+}
+```
+
+**aiHistory** tracks AI-completed autonomous tasks with similar format.
 
 ### `state.json` (in agenth data directory)
 Current system state:
 - lastUpdated timestamp
 - activeGoals array
-- currentTask (description, points, estimatedBlocks, energyLevel, targetMilestones)
+- humanTask object (current task assigned to human)
+- taskReasoning (why this task was selected - survives compaction/clear)
+- autonomousMode (true = fully proactive)
+- aiTasks array (running AI agent tasks)
+- workQueue array (queued human tasks with priority)
+- lastCheckIn timestamp
+
+**humanTask format:**
+```json
+{
+  "taskId": "t2",
+  "description": "Task description",
+  "points": 5,
+  "estimatedBlocks": 4,
+  "energyLevel": "out",
+  "targetMilestones": [
+    {"goalId": "goal-001", "milestoneId": "m1", "intentId": "intent-001"}
+  ],
+  "status": "assigned|in_progress",
+  "assignedAt": "2025-11-25T15:15:00Z",
+  "startedAt": "2025-11-25T15:20:00Z"
+}
+```
+
+**taskReasoning** captures why this task was selected - which goals were considered, cross-goal tradeoffs, deadline factors. This enables context recovery after compaction or `/clear`.
 
 ### `journal.md` (in agenth data directory)
 Human observations for pattern detection and adaptation.
@@ -733,16 +819,33 @@ Record completion of last task.
 6. Clear current task
 
 ### `/add-goal`
-Add a new goal using WOOP methodology.
+Add a new goal (ongoing direction).
+
+**Goals are minimal - WOOP details go in intents.**
 
 **Steps:**
-1. Prompt for: Wish, Current State, Done When, Obstacles, Deadline
-2. Suggest goal type (feature, testing, deployment, etc.)
-3. Reverse-engineer milestones from current → done
-4. Define acceptance criteria for each milestone
-5. Create if-then rules for obstacles
-6. Show milestone plan for approval
-7. Save to goals.json
+1. Prompt for: Name, Direction, Current State
+2. Suggest goal type (construction, feature, quality, etc.)
+3. Save to goals.json
+4. Prompt to create first intent via `/add-intent`
+
+**Example:**
+```
+Goal added: goal-003 "Maintainable codebase"
+Direction: Toward code that's easy to change and understand
+
+Run /add-intent goal-003 to create your first commitment
+```
+
+### `/add-intent [goal-id]`
+Add a new intent (WOOP commitment) for a goal.
+
+**Steps:**
+1. Prompt for: Wish, Outcome, Obstacles, Plan, Deadline
+2. Reverse-engineer milestones from current → outcome
+3. Define acceptance criteria for each milestone
+4. Show intent plan for approval
+5. Save to intents.json
 
 ### `/status`
 Show progress on all goals with deadline analysis.

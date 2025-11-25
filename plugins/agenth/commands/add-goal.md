@@ -1,103 +1,74 @@
-You are adding a new goal to the AgentH system using MILESTONE-BASED PLANNING (no pre-planned tasks).
+You are adding a new GOAL to the AgentH system.
 
-**Step 0: Check Active Goal Limit**
-1. Load `$DIR/state.json` and count activeGoals.length
-2. **If activeGoals.length >= 3:**
-   - Display: "⚠️ You have 3 active goals (maximum). To add a new goal, shelve one first using `/shelve-goal`"
-   - Load goals.json and show current active goals:
-     ```
-     Current active goals:
-     - [ACTIVE] goal-xxx: [Goal Name] (deadline: [date])
-     - [ACTIVE] goal-yyy: [Goal Name] (deadline: [date])
-     - [ACTIVE] goal-zzz: [Goal Name] (deadline: [date])
-     ```
-   - Offer: "Would you like to shelve a goal now to make room?"
-   - If yes: Run inline shelve workflow (ask which goal, get reason, shelve it)
-   - If no: Abort goal creation with message "Run `/shelve-goal [id]` when ready, then try `/add-goal` again"
-3. **Otherwise (< 3 active goals):** Proceed to Step 1
+**Goals are ongoing directions you move toward - they never "complete".**
+WOOP commitments go in intents (run /add-intent after creating a goal).
 
-**Step 1: Gather WOOP Information**
+Examples:
+- "Codebase should be maintainable" (ongoing direction)
+- "Ship reliable software" (ongoing aspiration)
+- "Have comprehensive test coverage" (continuous goal)
+
+## Directory Detection
+
+Check if `agenth/` exists, else check `agentme/`. Use as `$DIR`.
+
+## Step 0: Check Active Goal Limit
+
+1. Load `$DIR/goals.json` and count goals where `status === "active"`
+2. **If activeGoals >= 3:**
+   - Display: "You have 3 active goals (maximum). To add a new goal, shelve one first using `/shelve-goal`"
+   - Show current active goals
+   - Offer to shelve one now or abort
+3. **Otherwise:** Proceed to Step 1
+
+## Step 1: Gather Minimal Goal Information
+
 Use AskUserQuestion tool to prompt for:
-1. **Wish**: What do you want to achieve?
-2. **Current State**: Where are you now? (array of statements describing current reality)
-3. **Done When**: What are the acceptance criteria? (array of "we are done when..." statements)
-4. **Obstacles**: What internal blocks might prevent success? (procrastination, doubt, habits)
-5. **Deadline**: When must this be complete?
+1. **Name**: Short name for the goal (e.g., "Maintainable codebase")
+2. **Direction**: What ongoing aspiration? (e.g., "Toward code that's easy to change and understand")
+3. **Current State**: Where are you now? (array of statements describing current reality)
+4. **Goal Type** (optional): construction, feature, quality, infrastructure, deployment, architecture, performance, security, automation, dx
 
-**Step 2: Create Milestone Plan**
-1. Read `$DIR/goals.json` to check existing goals
-2. Generate a unique goal ID (e.g., "goal-003")
-3. **Reverse-engineer milestone checkpoints** from current_state → done_when criteria
-   - Each milestone represents a meaningful state transition
-   - Bridge the gap between where they are and where they want to be
-   - Typically 3-5 milestones per goal
-4. For each milestone, define:
-   - id, name, description
-   - **acceptance_criteria**: array of specific, measurable criteria (what must be true to consider this milestone done)
-   - status: "pending"
-   - progress: 0
-5. Create **if-then rules** for each obstacle:
-   - condition: when obstacle manifests
-   - action: specific response/mitigation
+**DO NOT collect:** wish, done_when, obstacles, milestones, ifThenRules, deadline
+These belong to intents, not goals.
 
-**Step 3: Estimate Total Effort**
-Make a rough estimate of total blocks needed for the entire goal:
-- Consider complexity of each milestone
-- Use velocity data if available (from velocity.json)
-- This is just for deadline feasibility check, not task-level planning
+## Step 2: Create Goal Object
 
-**Step 4: Present MILESTONE PLAN for Approval**
-Show the human:
-```
-Goal: [Wish]
-
-Milestones:
-1. [Milestone Name]
-   Bridge: [description]
-   Acceptance Criteria:
-   - [criterion 1]
-   - [criterion 2]
-   ...
-
-2. [Milestone Name]
-   ...
-
-If-Then Rules:
-- If [obstacle], then [action]
-
-Estimated Total Effort: ~X blocks
-Deadline: [date] ([Y days from now])
-Feasibility: [On track / Tight / Unrealistic]
+```json
+{
+  "id": "goal-XXX",
+  "name": "[name]",
+  "direction": "[direction]",
+  "current_state": [...],
+  "goalType": "[type or 'construction']",
+  "frontOfMind": false,
+  "status": "active"
+}
 ```
 
-**Step 5: Wait for Approval**
-Human can:
-- Accept (proceed to save)
-- Modify milestones/criteria (iterate on plan)
-- Reject (cancel)
+## Step 3: Save Goal
 
-**Step 6: Save Goal**
-1. Create `$DIR/plans/` directory if it doesn't exist
-2. Save WOOP plan to `$DIR/plans/goal-{id}-woop.json`
-3. Add the goal object to `$DIR/goals.json` with structure:
-   ```json
-   {
-     "id": "goal-xxx",
-     "name": "[name]",
-     "frontOfMind": false,
-     "wish": "[wish]",
-     "current_state": [...],
-     "done_when": [...],
-     "obstacles": [...],
-     "milestones": [...],
-     "ifThenRules": [...],
-     "deadline": "[ISO date]",
-     "created": "[ISO date]",
-     "status": "active"
-   }
-   ```
-4. Update `$DIR/state.json` to include this goal in activeGoals
+1. Read existing `$DIR/goals.json`
+2. Generate unique goal ID (highest existing + 1)
+3. Append new goal to array
+4. Write back to `$DIR/goals.json`
+5. Update `$DIR/state.json` activeGoals array
 
-Confirm goal added successfully.
+## Step 4: Confirm and Suggest Intent
 
-**IMPORTANT: Do NOT pre-plan tasks. Tasks will be generated dynamically by /next based on milestone acceptance criteria.**
+```
+Goal added: goal-XXX "[name]"
+Direction: [direction]
+Current state: [current_state summary]
+
+Goals are ongoing directions. To make progress, create an intent:
+
+Run /add-intent goal-XXX to create your first commitment
+```
+
+**Key Principles:**
+- Goals are minimal (direction + current_state only)
+- Goals never complete - you move toward them
+- WOOP methodology goes in intents
+- Milestones and deadlines belong to intents
+- One active intent per goal at a time

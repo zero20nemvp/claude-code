@@ -1,0 +1,107 @@
+[
+  {
+    "id": "intent-002",
+    "goalId": "goal-002",
+    "wish": "Backfill AgentH with task tracking and intent system from AgentMe",
+    "outcome": [
+      "intents.json file exists and stores WOOP commitments separately from goals",
+      "goals.json uses minimal format (direction + current_state only)",
+      "Auto-migration converts legacy goals to new format",
+      "Tasks have sequential IDs (t1, t2...)",
+      "taskReasoning persists in state.json for context recovery",
+      "velocity.json has aiHistory array",
+      "Commands updated: next.md, done.md, add-goal.md, add-intent.md",
+      "CLAUDE.md documents new data structures"
+    ],
+    "obstacles": [
+      "Breaking existing goals.json format",
+      "Migration complexity for legacy data",
+      "Keeping commands in sync across both files"
+    ],
+    "plan": [
+      {"if": "Migration breaks existing data", "then": "Auto-backup to goals.json.backup before migrating"},
+      {"if": "Commands get complex", "then": "Keep migration idempotent - safe to run multiple times"},
+      {"if": "Unsure about format", "then": "Reference AgentMe's intents.json as source of truth"}
+    ],
+    "milestones": [
+      {
+        "id": "m1",
+        "name": "Intent System Migration",
+        "description": "Create intents.json and add auto-migration logic",
+        "acceptance_criteria": [
+          "intents.json file created (empty array initially)",
+          "Auto-migration logic added to next.md (STEP 0)",
+          "Migration extracts wish, done_when, obstacles, milestones, ifThenRules from goals",
+          "Migration simplifies goals to minimal format",
+          "Migration is idempotent and creates backup"
+        ],
+        "status": "pending",
+        "progress": 0,
+        "estimatedBlocks": 4
+      },
+      {
+        "id": "m2",
+        "name": "Update Goal/Intent Commands",
+        "description": "Update add-goal.md and add-intent.md for new format",
+        "acceptance_criteria": [
+          "add-goal.md collects only minimal fields (name, direction, current_state)",
+          "add-goal.md prompts to run add-intent after creation",
+          "add-intent.md creates intents in intents.json",
+          "done.md updates milestones in intents.json (not goals.json)"
+        ],
+        "status": "pending",
+        "progress": 0,
+        "estimatedBlocks": 3
+      },
+      {
+        "id": "m3",
+        "name": "Task Tracking Enhancement",
+        "description": "Add taskId, taskReasoning, and enhanced velocity tracking",
+        "acceptance_criteria": [
+          "next.md generates sequential taskId (t1, t2...)",
+          "next.md saves taskReasoning to state.json",
+          "humanTask includes taskId and intentId",
+          "done.md records enhanced history (taskId, goalId, intentId, description, notes)",
+          "velocity.json has aiHistory array"
+        ],
+        "status": "pending",
+        "progress": 0,
+        "estimatedBlocks": 3
+      },
+      {
+        "id": "m4",
+        "name": "Documentation Update",
+        "description": "Update CLAUDE.md with new data structures",
+        "acceptance_criteria": [
+          "CLAUDE.md documents intents.json format",
+          "CLAUDE.md documents simplified goals.json format",
+          "CLAUDE.md documents taskReasoning in state.json",
+          "CLAUDE.md documents aiHistory in velocity.json",
+          "Core terminology updated: Goal → Intent → Task hierarchy"
+        ],
+        "status": "pending",
+        "progress": 0,
+        "estimatedBlocks": 2
+      },
+      {
+        "id": "m5",
+        "name": "Verification",
+        "description": "Test end-to-end flow with new format",
+        "acceptance_criteria": [
+          "/agenth:next triggers auto-migration on legacy data",
+          "intents.json populated with extracted WOOP data",
+          "goals.json simplified after migration",
+          "/agenth:done updates milestones in intents.json",
+          "velocity.json has full task records",
+          "/agenth:add-goal + /agenth:add-intent works end-to-end"
+        ],
+        "status": "pending",
+        "progress": 0,
+        "estimatedBlocks": 2
+      }
+    ],
+    "deadline": "2025-11-30T23:59:59Z",
+    "status": "active",
+    "created": "2025-11-25T00:00:00Z"
+  }
+]
