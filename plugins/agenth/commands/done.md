@@ -6,9 +6,242 @@ Expected format: `/done [X]` where X is the number of 8-minute blocks used (opti
 
 Check if `agenth/` exists, else check `agentme/`. Use as `$DIR`.
 
+## STEP 0: Check for Lightweight Tracking Mode
+
+**Check `$DIR/state.json` for `tracking: true`**
+
+If `tracking: true` is set, this is a lightweight block tracking session (started via `/track`).
+Use the **LIGHTWEIGHT COMPLETION FLOW** below instead of the standard flow.
+
+---
+
+## INTELLIGENT ATTRIBUTION FLOW (when tracking: true)
+
+This flow analyzes your commit and intelligently attributes work to existing goals or creates retroactive goals.
+
+### A1: Stop Timer & Get Blocks
+
+Stop timer via `turg/plugins/agenth/timer.sh stop`:
+- Parse "Blocks: N" from output
+- If timer not running and X parameter provided, use X
+
+### A2: Analyze Commit (Commit Context Extraction)
+
+Extract work context from the most recent commit:
+
+```bash
+# Get commit subject
+SUBJECT=$(git log -1 --format='%s')
+
+# Get commit body
+BODY=$(git log -1 --format='%b')
+
+# Get changed files
+FILES=$(git log -1 --name-only --format='')
+
+# Get diff stats
+STATS=$(git diff HEAD~1..HEAD --stat 2>/dev/null)
+```
+
+Build **work context object**:
+```json
+{
+  "subject": "[commit subject line]",
+  "body": "[commit body if exists]",
+  "files": ["list", "of", "changed", "files"],
+  "keywords": ["extracted", "keywords", "from", "subject", "and", "files"],
+  "pathPatterns": {
+    "agenth": [count of agenth/ files],
+    "agentme": [count of agentme/ files],
+    "other": [count of other files]
+  }
+}
+```
+
+**Keyword extraction:**
+- Split subject on spaces, remove common words (the, a, an, to, for, with, and, or)
+- Extract file extensions (.md, .json, .ts)
+- Extract directory names from paths
+- Clean conventional commit prefixes (feat:, fix:, docs:, etc.)
+
+**If no commit found:** Prompt user for task description, skip to A6 with manual attribution.
+
+### A3: Load All Goals & Intents
+
+Load from BOTH systems:
+- `agentme/goals.json` + `agentme/intents.json` (life goals)
+- `agenth/goals.json` + `agenth/intents.json` (construction goals)
+
+Filter to:
+- Goals where `status !== "shelved"` AND `status !== "completed"`
+- Intents where `status === "active"`
+
+### A4: Score Goal/Intent Matches
+
+For each active goal and intent, calculate relevance score:
+
+**Scoring algorithm:**
+```
+score = 0
+
+# Name similarity (0-40 points)
+- Exact keyword match in goal.name or goal.direction: +20 each
+- Partial match (substring): +10 each
+
+# File path patterns (0-30 points)
+- If agenth/ files changed AND goal.goalType === "construction": +30
+- If agentme/ files changed AND goal is life goal: +30
+- Path contains goal-related directory: +15
+
+# Intent match bonus (0-30 points)
+- Commit keywords match intent.wish words: +15 per match (max 30)
+- Commit keywords match milestone names: +10 per match (max 20)
+
+# Normalize to 0-1 scale
+finalScore = min(score / 100, 1.0)
+```
+
+Return ranked list: `[{goal, intent, score}, ...]`
+
+### A5: Attribution Decision
+
+**High confidence (score > 0.7):**
+- Auto-attach to top match
+- Display: "Auto-attributed to: [goal-name] → [intent-wish]"
+
+**Medium confidence (0.4 ≤ score ≤ 0.7):**
+- Use AskUserQuestion to present top 3 matches:
+  ```
+  Which goal does this work belong to?
+
+  Options:
+  1. [goal-name] ([score]%) - [direction snippet]
+  2. [goal-name] ([score]%) - [direction snippet]
+  3. [goal-name] ([score]%) - [direction snippet]
+  4. Create new goal from this commit
+  ```
+- If user selects existing: attribute to that goal/intent
+- If user selects "Create new": proceed to A5b
+
+**Low confidence (score < 0.4):**
+- Proceed to A5b (create retroactive goal)
+
+### A5b: Create Retroactive Goal + Intent
+
+**Determine target system:**
+- If `pathPatterns.agenth > pathPatterns.agentme`: → `agenth/`
+- Else: → `agentme/`
+
+**Generate goal:**
+```json
+{
+  "id": "[next goal-id in target system]",
+  "name": "[Clean commit subject - remove prefixes like 'feat:', 'fix:']",
+  "direction": "Toward [derived from commit subject]",
+  "current_state": ["Work completed: [commit subject]"],
+  "goalType": "[construction if agenth/, otherwise infer from content]",
+  "frontOfMind": false,
+  "status": "active"
+}
+```
+
+**Generate completed intent:**
+```json
+{
+  "id": "[next intent-id]",
+  "goalId": "[new goal id]",
+  "wish": "[commit subject]",
+  "outcome": ["[commit subject] - completed"],
+  "obstacles": [],
+  "plan": [],
+  "milestones": [
+    {
+      "id": "m1",
+      "name": "Initial work",
+      "description": "[commit body or subject]",
+      "acceptance_criteria": ["Work committed"],
+      "status": "completed",
+      "progress": 100
+    }
+  ],
+  "status": "completed",
+  "completedAt": "[now]",
+  "created": "[now]"
+}
+```
+
+**Confirm with user:**
+```
+Creating retroactive goal from commit:
+
+Goal: [name]
+Direction: [direction]
+Intent: [wish] (completed)
+
+Confirm? [Yes / Edit name / Cancel]
+```
+
+### A6: Generate Task ID
+
+Read velocity.json from the TARGET system (where goal lives):
+- Find highest taskId number
+- New taskId = "t" + (highest + 1)
+
+### A7: Record to Velocity
+
+Add to velocity.json (in the correct system - agenth/ or agentme/):
+```json
+{
+  "taskId": "[generated taskId]",
+  "task": "[commit subject]",
+  "goalId": "[matched or created goal id]",
+  "intentId": "[matched or created intent id]",
+  "goalType": "[from goal]",
+  "points": null,
+  "estimatedBlocks": null,
+  "actualBlocks": [blocks from timer],
+  "completedAt": "[ISO timestamp]",
+  "milestones": [{"goalId": "...", "milestoneId": "m1", "intentId": "..."}],
+  "notes": "Retroactively attributed from /track"
+}
+```
+
+Update velocity totals:
+- totalBlocksUsed += actualBlocks
+- tasksCompleted += 1
+
+### A8: Clear Tracking State
+
+Update state.json (in the system that was used):
+- Set `tracking: false` or remove field
+- Remove `trackingStartedAt`
+- Update `lastUpdated`
+
+### A9: Output Summary
+
+```
+Work attributed successfully
+
+Commit: [subject]
+Blocks: [N]
+
+Attributed to:
+  Goal: [goal-id] "[name]"
+  Intent: [intent-id] "[wish]"
+  [NEW if retroactive]
+
+Run /next for your next task
+```
+
+**STOP HERE** - Do not continue to standard flow.
+
+---
+
+## STANDARD COMPLETION FLOW (when humanTask exists)
+
 ## STEP 1: Get Blocks Used
 
-Try to stop the timer automatically using `./$DIR/timer.sh stop`:
+Try to stop the timer automatically using `turg/plugins/agenth/timer.sh stop`:
 - If timer was running:
   - Parse output for "Blocks: N" and extract N
   - Display: "Timer stopped: N blocks used"

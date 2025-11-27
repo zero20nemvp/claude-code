@@ -818,6 +818,62 @@ Record completion of last task.
 5. Update goal current_state if milestone completed
 6. Clear current task
 
+**Lightweight tracking mode:** If `/track` was used (no goal), `/done` uses simplified flow:
+- Pulls last git commit message as task description
+- Records to velocity with `goalId: null`
+- No milestone updates needed
+
+### `/track`
+Start lightweight block tracking for ad-hoc work.
+
+**Purpose:** Track work that doesn't fit the Goal → Intent → Task hierarchy but should still count toward velocity.
+
+**Flow:**
+```
+/track              → Starts timer immediately (zero friction)
+[work, commit]
+/done               → Stops timer, pulls commit msg, records with goalId: null
+```
+
+**What it does:**
+1. Starts timer immediately (no arguments needed)
+2. Sets `tracking: true` in state.json
+3. No task assignment, no goal linkage
+
+**When `/done` is called after `/track`:**
+1. Stops timer, calculates blocks
+2. Runs `git log -1 --format='%s'` to get last commit message
+3. Falls back to prompting if no commit found
+4. Records to velocity.json with:
+   - `goalId: null`
+   - `intentId: null`
+   - `goalType: "tracked"`
+   - Task description from commit message
+
+**Use for:**
+- Quick fixes not worth a goal
+- Helping others (PRs, reviews)
+- Exploration/research sessions
+- Maintenance work
+- Any ad-hoc work you want to track
+
+**Velocity format for tracked blocks:**
+```json
+{
+  "taskId": "t5",
+  "task": "fix: auth token refresh bug",
+  "goalId": null,
+  "intentId": null,
+  "goalType": "tracked",
+  "points": null,
+  "estimatedBlocks": null,
+  "actualBlocks": 2,
+  "completedAt": "2025-11-26T10:00:00Z",
+  "milestones": [],
+  "notes": "Ad-hoc tracked work"
+}
+```
+
 ### `/add-goal`
 Add a new goal (ongoing direction).
 
