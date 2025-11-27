@@ -1,0 +1,55 @@
+{
+  "name": "agenth",
+  "version": "1.2.1",
+  "description": "AgentH - Autonomous goal tracking and task management with enforced workflow",
+  "author": "AgentH Team",
+  "homepage": "https://github.com/agenth/agenth",
+  "commands": [
+    {
+      "name": "next",
+      "description": "Shows the next task from active goals (does not start timer)"
+    },
+    {
+      "name": "do",
+      "description": "Starts the timer for the current task"
+    },
+    {
+      "name": "done",
+      "description": "Completes current task: stops timer, commits to git, tags milestones"
+    },
+    {
+      "name": "add-goal",
+      "description": "Creates a new goal with milestones (required for all planning)"
+    },
+    {
+      "name": "journal",
+      "description": "Add a journal entry with auto-commit"
+    },
+    {
+      "name": "status",
+      "description": "Show current timer status, active task, and progress"
+    },
+    {
+      "name": "track",
+      "description": "Start lightweight block tracking for ad-hoc work (no goal needed)"
+    },
+    {
+      "name": "shelve-goal",
+      "description": "Pause/shelve a goal to remove it from active task selection"
+    },
+    {
+      "name": "unshelve-goal",
+      "description": "Resume a shelved/paused goal and add it back to active task selection"
+    },
+    {
+      "name": "add-intent",
+      "description": "The goal ID to add an intent for (e.g., goal-001)"
+    }
+  ],
+  "enforcementRules": {
+    "blockExitPlanMode": true,
+    "requireGoalsForPlanning": true,
+    "mandatoryWorkflow": ["/next", "/do", "/done"],
+    "statusBarIndicator": "AgentH Active"
+  }
+}
