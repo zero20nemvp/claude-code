@@ -28,6 +28,10 @@
     {
       "name": "status",
       "description": "Show current timer status, active task, and progress"
+    },
+    {
+      "name": "track",
+      "description": "Start lightweight block tracking for ad-hoc work (no goal needed)"
     }
   ],
   "enforcementRules": {
