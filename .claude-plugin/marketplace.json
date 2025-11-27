@@ -14,7 +14,7 @@
       "name": "agenth",
       "source": "./plugins/agenth",
       "description": "Autonomous goal-driven project building with parallel AI agent execution",
-      "version": "1.2.1",
+      "version": "1.2.2",
       "author": {
         "name": "Zero2One"
       },
