@@ -22,6 +22,10 @@
       "description": "Creates a new goal with milestones (required for all planning)"
     },
     {
+      "name": "add-intent",
+      "description": "Add a WOOP intent to a goal (e.g., goal-001)"
+    },
+    {
       "name": "journal",
       "description": "Add a journal entry with auto-commit"
     },
@@ -42,8 +46,36 @@
       "description": "Resume a shelved/paused goal and add it back to active task selection"
     },
     {
-      "name": "add-intent",
-      "description": "The goal ID to add an intent for (e.g., goal-001)"
+      "name": "now",
+      "description": "Read-only status check of current state"
+    },
+    {
+      "name": "goals",
+      "description": "List all goals and their status"
+    },
+    {
+      "name": "focus",
+      "description": "Set priority override for a specific goal"
+    },
+    {
+      "name": "timer",
+      "description": "Check or control the block timer"
+    },
+    {
+      "name": "analyze-project",
+      "description": "Analyze project structure and suggest goals"
+    },
+    {
+      "name": "import-goal",
+      "description": "Import a goal from external source"
+    },
+    {
+      "name": "deadline-check",
+      "description": "Check upcoming deadlines across all goals"
+    },
+    {
+      "name": "execute",
+      "description": "Execute autonomous AI tasks in parallel"
     }
   ],
   "enforcementRules": {
