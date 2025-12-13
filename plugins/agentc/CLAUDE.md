@@ -1,0 +1,317 @@
+# AgentC
+
+**Superpowers methodology delivered through cognitive-load-reducing interface.**
+
+AgentC combines the best coding discipline (from Superpowers) with the best workflow design (from AgentH) into a single, powerful system.
+
+## Philosophy
+
+- **Superpowers** = the *what* (TDD, verification, brainstorming, code review)
+- **AgentH** = the *how* (one task at a time, AI orchestration, zero decision fatigue)
+
+### Human as Agent
+
+The human is an **agent with specific capabilities** that Claude currently lacks:
+
+| Human Capabilities | Why Claude Can't |
+|-------------------|------------------|
+| External system access | No production credentials |
+| Physical device testing | No physical presence |
+| Real browser sessions | No persistent auth |
+| Strategic authority | Decisions require human sign-off |
+| External communication | Can't send emails, Slack, etc. |
+| Subjective UX judgment | "Does this feel right?" |
+| Domain expertise | Knowledge not in codebase |
+
+**Tasks are assigned by CAPABILITY requirement, not importance.**
+
+If Claude can do it → Claude does it.
+Human only does what ONLY human can do.
+
+### Continuous Efficiency Improvement
+
+Claude continuously identifies ways to expand its capabilities:
+- MCP servers for external access
+- Skills to codify human knowledge
+- Automations for repetitive tasks
+
+**Goal:** Reduce human load to true capability gaps only.
+
+## The Only Interface
+
+```
+/next → /do → /done (repeat)
+```
+
+That's it. The system handles everything else.
+
+## Core Workflow
+
+### Goal Creation (with Brainstorming)
+```
+/add-goal
+```
+- Socratic design questions
+- One question at a time
+- Design decisions captured
+- Creates ongoing direction (never completes)
+
+### Intent Creation (with Write-Plan)
+```
+/add-intent [goal-id]
+```
+- WOOP methodology (Wish, Outcome, Obstacles, Plan)
+- Generates bite-sized tasks (2-5 minutes each)
+- TDD-based task structure
+- Deadline and acceptance criteria
+
+### Task Execution
+```
+/next [in|out]    # Get next optimal task
+/do               # Execute with TDD discipline
+/done [blocks]    # Record with verification
+```
+
+## The Discipline (Automatic)
+
+### TDD (Test-Driven Development)
+Every code task follows RED-GREEN-REFACTOR:
+1. Write failing test → See RED
+2. Write minimal code → See GREEN
+3. Refactor → Stay GREEN
+
+### Code Review
+Automatic after every `/do` completion:
+- Critical issues block completion
+- Important issues fixed before `/done`
+- Minor issues noted for future
+
+### Verification
+Required before `/done`:
+- Must see actual test output
+- "Should work" is not acceptable
+- Evidence before completion claims
+
+### Milk Quality (Testing Tiers)
+
+Code quality is calibrated via three tiers:
+
+| Tier | Tests Required | Code Philosophy |
+|------|----------------|-----------------|
+| **Skimmed** | Happy case only | Bare minimum to pass |
+| **Semi-skimmed** | Happy + essential sad cases | Minimal but extensible, no overengineering |
+| **Full phat** | Happy + all sad + essential mad + logging/monitoring | Production-ready, "bet our future" |
+
+**Configuration:**
+- **Default**: Semi-skimmed
+- **Override**: `/do --tier skimmed|semi|full`
+- **Enforcement**: Strict - `/done` blocked if tier requirements unmet
+
+**Tier Checklists:**
+
+Skimmed:
+- [ ] Happy case test written FIRST
+- [ ] Happy case test passes
+- [ ] Minimal code only
+
+Semi-skimmed:
+- [ ] Happy case test written FIRST
+- [ ] Essential sad case tests written
+- [ ] All tests pass
+- [ ] Code extensible but not overengineered
+
+Full phat:
+- [ ] Happy case test written FIRST
+- [ ] Essential sad case tests written
+- [ ] Non-essential sad case tests written
+- [ ] Essential mad case tests written
+- [ ] Logging implemented
+- [ ] Monitoring hooks added
+- [ ] All tests pass
+- [ ] Production-ready quality
+
+## Data Model
+
+Single file: `agentc/agentc.json`
+
+```json
+{
+  "version": "1.0",
+  "goals": [{
+    "id": "g1",
+    "name": "Auth system",
+    "direction": "Secure user authentication",
+    "design": {
+      "decisions": ["JWT tokens", "Redis sessions"],
+      "brainstormedAt": "2025-12-12T10:00:00Z"
+    },
+    "status": "active",
+    "frontOfMind": false
+  }],
+  "intents": [{
+    "id": "i1",
+    "goalId": "g1",
+    "wish": "Implement login flow",
+    "outcome": ["Login works", "Tests pass"],
+    "obstacles": ["Complex legacy code"],
+    "ifThen": [{"if": "Stuck on legacy", "then": "Write integration tests first"}],
+    "milestones": [
+      {
+        "id": "m1",
+        "name": "Auth infrastructure",
+        "description": "User model, JWT, middleware",
+        "acceptance_criteria": ["User model exists", "JWT utilities work"],
+        "status": "pending",
+        "progress": 0
+      }
+    ],
+    "deadline": "2025-12-20T23:59:59Z",
+    "status": "active",
+    "created": "2025-12-12T10:30:00Z"
+  }],
+  "current": {
+    "humanTask": {
+      "taskId": "t1",
+      "description": "Task description",
+      "milkQuality": "semi-skimmed",
+      "qualityVerification": {
+        "happyCaseTested": false,
+        "sadCasesTested": false,
+        "madCasesTested": false,
+        "loggingAdded": false,
+        "monitoringAdded": false
+      }
+    },
+    "aiTasks": [],
+    "lastCheckIn": null
+  },
+  "velocity": {
+    "totalPoints": 0,
+    "totalBlocks": 0,
+    "history": []
+  },
+  "journal": [],
+  "suggestedCapabilities": [
+    {
+      "type": "mcp",
+      "description": "Slack MCP for sending messages",
+      "wouldAutomate": "Notification tasks",
+      "suggestedAt": "2025-12-12T10:00:00Z"
+    }
+  ]
+}
+```
+
+**Key insight:** Intents have MILESTONES, not pre-planned tasks. `/next` dynamically generates tasks from codebase reality + milestone acceptance criteria.
+
+## Commands
+
+| Command | Purpose |
+|---------|---------|
+| `/add-goal` | Create goal with brainstorming |
+| `/add-intent [goal-id]` | Create intent with implementation plan |
+| `/next [in\|out]` | Get next optimal task |
+| `/do` | Execute with TDD + code review |
+| `/done [blocks]` | Complete with verification |
+| `/status` | Show all goals and progress |
+| `/now` | Quick current task check (read-only) |
+| `/focus [goal-id\|clear]` | Priority override |
+| `/journal <entry>` | Log observation |
+| `/timer [action]` | Control block timer |
+
+## Skills (Embedded)
+
+All 22 superpowers skills are embedded:
+
+**Core Discipline:**
+- `test-driven-development` - RED-GREEN-REFACTOR
+- `systematic-debugging` - 4-phase root cause investigation
+- `verification-before-completion` - Evidence before claims
+
+**Design & Planning:**
+- `brainstorming` - Socratic design refinement
+- `writing-plans` - Bite-sized implementation tasks
+- `executing-plans` - Batch execution with checkpoints
+
+**Quality:**
+- `requesting-code-review` - Dispatch code reviewer
+- `receiving-code-review` - Respond to feedback
+- `testing-anti-patterns` - Common testing mistakes
+- `defense-in-depth` - Multiple validation layers
+
+**Workflow:**
+- `using-git-worktrees` - Isolated workspaces
+- `finishing-a-development-branch` - Merge/PR decisions
+- `subagent-driven-development` - Per-task subagents
+- `dispatching-parallel-agents` - Concurrent workflows
+
+**And more...**
+
+## Key Principles
+
+### Recursive Task Decomposition
+- Break tasks down recursively
+- For each subtask: does THIS need human?
+- If no → Claude does it
+- Find the ATOMIC human action
+- Human only does the minimum capability gap
+
+Example:
+```
+"Deploy to production" → breaks down to:
+  ✓ Write script → Claude
+  ✓ Test locally → Claude
+  → Run `ssh prod` → HUMAN (credential gap)
+  ◦ Verify health → Claude after
+```
+
+### One Task at a Time
+- Zero decision fatigue
+- Clear focus
+- No context switching
+
+### AI Orchestration
+- Claude handles everything within its capabilities
+- Up to 5 AI tasks running simultaneously
+- Human handles capability gaps only
+
+### Continuous Improvement
+- Suggest MCPs for external access
+- Suggest skills to codify knowledge
+- Suggest automations for repetitive tasks
+- Goal: expand Claude's capabilities over time
+
+### System Never Idles
+- After `/done`, immediately analyze for new work
+- Dispatch AI agents if tasks available
+- Queue next human task only if requires human capability
+
+## Getting Started
+
+1. **Add a goal:**
+   ```
+   /add-goal
+   ```
+   Answer brainstorming questions one at a time.
+
+2. **Create an intent:**
+   ```
+   /add-intent g1
+   ```
+   System generates bite-sized implementation plan.
+
+3. **Start working:**
+   ```
+   /next
+   /do
+   /done
+   ```
+   Repeat until intent complete.
+
+## Block Timer
+
+Each block = 8 minutes of focused work.
+
+- `/timer start` - Start timer
+- `/timer stop` - Stop and get blocks
+- `/timer status` - Check current time

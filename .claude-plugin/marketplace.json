@@ -11,29 +11,16 @@
   },
   "plugins": [
     {
-      "name": "agenth",
-      "source": "./plugins/agenth",
-      "description": "Autonomous goal-driven project building with parallel AI agent execution",
-      "version": "1.2.2",
+      "name": "agentc",
+      "source": "./plugins/agentc",
+      "description": "Superpowers + AgentH combined: TDD, verification, code review delivered through zero-decision-fatigue workflow. /next → /do → /done",
+      "version": "1.0.0",
       "author": {
         "name": "Zero2One"
       },
       "license": "MIT",
       "category": "workflow",
-      "keywords": ["goals", "automation", "orchestration", "velocity", "woop", "project-management"],
-      "strict": true
-    },
-    {
-      "name": "qjump",
-      "source": "./plugins/qjump",
-      "description": "QJump Queue Management System - Widgets, API integration, and deployment tools for invisible queue management",
-      "version": "1.0.0",
-      "author": {
-        "name": "QJump"
-      },
-      "license": "MIT",
-      "category": "development",
-      "keywords": ["queue-management", "widgets", "nextjs", "sqlite", "api", "deployment"],
+      "keywords": ["workflow", "tdd", "productivity", "ai-orchestration", "superpowers", "goals", "automation"],
       "strict": true
     }
   ]

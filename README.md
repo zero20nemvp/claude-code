@@ -2,20 +2,19 @@
 
 **Official marketplace for Zero2One Claude Code plugins**
 
-This marketplace provides production-ready plugins to enhance your Claude Code development workflow.
-
 ## Available Plugins
 
-### AgentH - Autonomous Project Orchestration
+### AgentC
 
-AI-orchestrated project building where Claude manages you (Agent H) alongside autonomous AI agents to build projects holistically.
+AI-powered development workflow with zero decision fatigue. One simple interface: `/next` → `/do` → `/done`
 
-**Key Features:**
+**Features:**
 - Goal-driven development with WOOP methodology
-- Holistic reasoning across features, testing, deployment, and architecture
+- TDD discipline (RED-GREEN-REFACTOR)
+- Automatic code review after every task
+- Verification before completion
 - Dynamic task generation based on codebase reality
-- Progressive automation that learns from patterns
-- Velocity tracking and estimation
+- 22 embedded skills for debugging, collaboration, and best practices
 - 8-minute block timer for focus
 
 **Use Cases:**
@@ -25,46 +24,21 @@ AI-orchestrated project building where Claude manages you (Agent H) alongside au
 - Automation scripts and tools
 - Any project with deliverable milestones
 
-[→ View AgentH Documentation](./plugins/agenth/README.md)
+[→ View AgentC Documentation](./plugins/agentc/README.md)
 
 ## Installation
 
 ### Add This Marketplace
 
 ```bash
-# Add the Zero2One marketplace to Claude Code
 /plugin marketplace add https://git.laki.zero2one.ee/claude/turg.git
 ```
 
-### Install Plugins
+### Install AgentC
 
 ```bash
-# Install AgentH
-/plugin install agenth@zero2one-turg
+/plugin install agentc@zero2one-turg
 ```
-
-## Plugin Structure
-
-```
-zero2one-marketplace/
-├── README.md (this file)
-├── .claude-plugin/
-│   └── marketplace.json
-└── plugins/
-    └── agenth/
-        ├── README.md
-        ├── CLAUDE.md
-        ├── commands/
-        └── agenth/
-```
-
-## Development
-
-This marketplace follows the Claude Code marketplace standards:
-- Semantic versioning
-- Comprehensive documentation
-- Command-based interfaces
-- Plugin metadata in `marketplace.json`
 
 ## Support
 
@@ -73,7 +47,7 @@ This marketplace follows the Claude Code marketplace standards:
 
 ## License
 
-Individual plugins are licensed separately. See plugin directories for details.
+MIT
 
 ---
 
