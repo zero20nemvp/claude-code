@@ -35,7 +35,7 @@ Claude continuously identifies ways to expand its capabilities:
 - Skills to codify human knowledge
 - Automations for repetitive tasks
 
-**Goal:** Reduce human load to true capability gaps only.
+**Aim:** Reduce human load to true capability gaps only.
 
 ## The Only Interface
 
@@ -47,21 +47,21 @@ That's it. The system handles everything else.
 
 ## Core Workflow
 
-### Goal Creation (with Brainstorming)
+### North Star Creation (with Socratic Questioning)
 ```
-/add-goal
+/add-north-star
 ```
-- Socratic design questions
-- One question at a time
-- Design decisions captured
+- Context-aware questioning flow
+- Problem-first, future-first, or constraint-first
+- Unearths guiding direction
 - Creates ongoing direction (never completes)
 
-### Intent Creation (with Write-Plan)
+### Goal Creation (with WOOP)
 ```
-/add-intent [goal-id]
+/add-goal [north-star-id]
 ```
 - WOOP methodology (Wish, Outcome, Obstacles, Plan)
-- Generates bite-sized tasks (2-5 minutes each)
+- Generates milestones (state transitions)
 - TDD-based task structure
 - Deadline and acceptance criteria
 
@@ -136,21 +136,23 @@ Single file: `agentc/agentc.json`
 
 ```json
 {
-  "version": "1.0",
-  "goals": [{
-    "id": "g1",
-    "name": "Auth system",
+  "version": "1.1",
+  "northStars": [{
+    "id": "ns1",
+    "name": "Secure Auth",
     "direction": "Secure user authentication",
+    "why": "Users need to trust their data is safe",
+    "not": ["Social login", "Enterprise SSO"],
     "design": {
-      "decisions": ["JWT tokens", "Redis sessions"],
+      "questioningFlow": "problem-first",
       "brainstormedAt": "2025-12-12T10:00:00Z"
     },
     "status": "active",
     "frontOfMind": false
   }],
-  "intents": [{
-    "id": "i1",
-    "goalId": "g1",
+  "goals": [{
+    "id": "g1",
+    "northStarId": "ns1",
     "wish": "Implement login flow",
     "outcome": ["Login works", "Tests pass"],
     "obstacles": ["Complex legacy code"],
@@ -202,20 +204,22 @@ Single file: `agentc/agentc.json`
 }
 ```
 
-**Key insight:** Intents have MILESTONES, not pre-planned tasks. `/next` dynamically generates tasks from codebase reality + milestone acceptance criteria.
+**Key insight:** Goals have MILESTONES, not pre-planned tasks. `/next` dynamically generates tasks from codebase reality + milestone acceptance criteria.
+
+**Auto-migration:** Old schema (`goals`/`intents`) automatically migrates to new schema (`northStars`/`goals`) when commands run.
 
 ## Commands
 
 | Command | Purpose |
 |---------|---------|
-| `/add-goal` | Create goal with brainstorming |
-| `/add-intent [goal-id]` | Create intent with implementation plan |
+| `/add-north-star` | Create north star with Socratic questioning |
+| `/add-goal [north-star-id]` | Create goal with WOOP methodology |
 | `/next [in\|out]` | Get next optimal task |
 | `/do` | Execute with TDD + code review |
 | `/done [blocks]` | Complete with verification |
-| `/status` | Show all goals and progress |
+| `/status` | Show all north stars and progress |
 | `/now` | Quick current task check (read-only) |
-| `/focus [goal-id\|clear]` | Priority override |
+| `/focus [north-star-id\|clear]` | Priority override |
 | `/journal <entry>` | Log observation |
 | `/timer [action]` | Control block timer |
 
@@ -279,7 +283,7 @@ Example:
 - Suggest MCPs for external access
 - Suggest skills to codify knowledge
 - Suggest automations for repetitive tasks
-- Goal: expand Claude's capabilities over time
+- Aim: expand Claude's capabilities over time
 
 ### System Never Idles
 - After `/done`, immediately analyze for new work
@@ -288,17 +292,17 @@ Example:
 
 ## Getting Started
 
-1. **Add a goal:**
+1. **Add a north star:**
    ```
-   /add-goal
+   /add-north-star
    ```
-   Answer brainstorming questions one at a time.
+   Answer Socratic questions to unearth your guiding direction.
 
-2. **Create an intent:**
+2. **Create a goal:**
    ```
-   /add-intent g1
+   /add-goal ns1
    ```
-   System generates bite-sized implementation plan.
+   System generates milestones toward your north star.
 
 3. **Start working:**
    ```
@@ -306,7 +310,7 @@ Example:
    /do
    /done
    ```
-   Repeat until intent complete.
+   Repeat until goal complete.
 
 ## Block Timer
 

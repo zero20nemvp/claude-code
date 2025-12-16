@@ -84,27 +84,27 @@ Run /do to complete tier requirements before /done.
 
 ## STEP 3: Update Task Status in Plan
 
-1. Find the task in intent.plan.tasks matching humanTask.taskId
+1. Find the task in goal.plan.tasks matching humanTask.taskId
 2. Set task.status = "completed"
 3. Check if all tasks in plan are complete
 
-## STEP 4: Intent Progress Check
+## STEP 4: Goal Progress Check
 
-Calculate intent completion:
+Calculate goal completion:
 - Count completed tasks vs total tasks
-- If all tasks complete: Set intent.status = "completed"
+- If all tasks complete: Set goal.status = "completed"
 
 ```
-Intent progress: [completed]/[total] tasks (X%)
+Goal progress: [completed]/[total] tasks (X%)
 ```
 
-If intent complete:
+If goal complete:
 ```
-INTENT COMPLETE: "[wish]"
+GOAL COMPLETE: "[wish]"
 All acceptance criteria met!
 
-Goal "[goal-name]" continues.
-Run /add-intent [goal-id] to create next commitment.
+North Star "[north-star-name]" continues.
+Run /add-goal [north-star-id] to create next commitment.
 ```
 
 ## STEP 5: Velocity Tracking
@@ -114,8 +114,8 @@ Add to velocity.history:
 {
   "taskId": "[humanTask.taskId]",
   "task": "[task description]",
+  "northStarId": "[north star id]",
   "goalId": "[goal id]",
-  "intentId": "[intent id]",
   "points": [points],
   "estimatedBlocks": [estimate],
   "actualBlocks": [actual],
@@ -141,14 +141,14 @@ While human was working, AI agents may have finished:
    ✓ [AI task 1]
    ✓ [AI task 2]
    ```
-3. Update those tasks in intent.plan.tasks
+3. Update those tasks in goal.plan.tasks
 4. Archive completed AI tasks
 
 ## STEP 7: Immediate Analysis for Next Work
 
 **The system never idles after /done:**
 
-1. Analyze remaining tasks across active intents
+1. Analyze remaining tasks across active goals
 2. Classify: AI-executable vs Human-required
 3. Dispatch new AI agents if available (up to 5)
 4. Identify next human task
@@ -169,7 +169,7 @@ Task: [description]
 Milk Quality: [TIER] ✓
 Estimated: X blocks | Actual: Y blocks
 
-Intent progress: [intent-id] "[wish]"
+Goal progress: [goal-id] "[wish]"
   [completed]/[total] tasks (X%)
 
 Velocity: Z points/block

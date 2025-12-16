@@ -1,5 +1,5 @@
 ---
-description: "Get your next optimal task - dynamically generated across all goals/intents"
+description: "Get your next optimal task - dynamically generated across all north stars/goals"
 arguments:
   - name: energy
     description: "Energy level: 'in' for focused/complex, 'out' for mechanical/simple"
@@ -14,13 +14,21 @@ allowed-tools:
   - Task
 ---
 
-You are the AgentC orchestrator. Dynamically generate the ONE optimal task across ALL goals and intents.
+You are the AgentC orchestrator. Dynamically generate the ONE optimal task across ALL north stars and goals.
 
 ## Directory Detection
 
 Use `agentc/` as `$DIR`. Load `$DIR/agentc.json`.
 
-If no goals exist, prompt user to add goals first using `/add-goal`.
+## STEP 0: Auto-Migration
+
+**If old schema detected, migrate first:**
+- If `goals[]` exists but `northStars[]` doesn't: rename `goals` → `northStars`
+- If `intents[]` exists: rename `intents` → `goals`
+- Update all `goalId` references to `northStarId` in goals array
+- Save and announce: "Migrated data schema: goals → northStars, intents → goals"
+
+If no north stars exist, prompt user to add north stars first using `/add-north-star`.
 
 ## STEP 1: Check Current Work Status
 
@@ -36,8 +44,8 @@ AI Agents Working:
   → [task 1] (running Xm)
   → [task 2] (running Ym)
 
-Goals Advancing:
-- [goal-name] → [intent-wish] at X%
+North Stars Advancing:
+- [north-star-name] → [goal-wish] at X%
 
 Estimated completion: [time] minutes
 Next check-in: Run /next or /status to see progress
@@ -50,8 +58,8 @@ Status: All systems working autonomously
 ## STEP 2: Load Data & Codebase Analysis
 
 1. **Load from agentc.json:**
-   - ALL goals (filter: status !== "shelved" AND status !== "completed")
-   - ALL intents (filter: status === "active")
+   - ALL north stars (filter: status !== "shelved" AND status !== "completed")
+   - ALL goals (filter: status === "active")
    - velocity history
 
 2. **Energy state:**
@@ -66,7 +74,7 @@ Status: All systems working autonomously
 
 ## STEP 3: Analyze ALL Incomplete Milestones
 
-**Look across ALL active intents from ALL active goals.**
+**Look across ALL active goals from ALL active north stars.**
 
 For each milestone with status !== "completed":
 - What acceptance criteria remain unmet?
@@ -127,8 +135,8 @@ For each ready AI-executable task:
      "description": "Generate unit tests for auth module",
      "status": "running",
      "startedAt": "[timestamp]",
+     "northStarId": "ns1",
      "goalId": "g1",
-     "intentId": "i1",
      "milestoneId": "m2"
    }
    ```
@@ -171,7 +179,7 @@ RECURSIVE DECOMPOSITION:
 
 **Priority factors for human task selection:**
 
-1. **Front of Mind**: If any goal has `frontOfMind: true`, ONLY consider that goal
+1. **Front of Mind**: If any north star has `frontOfMind: true`, ONLY consider that north star
 2. **Blocker Urgency**: Blocks Claude agents or on critical path
 3. **Deadline Pressure**: Closer deadlines = higher priority
 4. **Energy State Match**: "in" = complex/creative, "out" = mechanical/simple
@@ -205,7 +213,7 @@ Claude will do after:
   ◦ [subtask that waits on human]
   ◦ [verification/next steps]
 
-Advances: [goal-name] → [milestone-name]
+Advances: [north-star-name] → [milestone-name]
 
 Ready? Run /do to start.
 ```
@@ -213,12 +221,12 @@ Ready? Run /do to start.
 **Multi-goal format (if applicable):**
 ```
 Advances:
-- [goal-1] → [milestone]
-- [goal-2] → [milestone]
+- [north-star-1] → [milestone]
+- [north-star-2] → [milestone]
 ```
 
 **Deadline warnings:**
-- "⚠️ DEADLINE RISK - [intent-wish] due in X hours"
+- "⚠️ DEADLINE RISK - [goal-wish] due in X hours"
 
 **Efficiency Suggestions (if any):**
 ```
@@ -241,7 +249,7 @@ Update agentc.json:
       "estimatedBlocks": 4,
       "energyLevel": "out",
       "targetMilestones": [
-        {"goalId": "g1", "intentId": "i1", "milestoneId": "m1"}
+        {"northStarId": "ns1", "goalId": "g1", "milestoneId": "m1"}
       ],
       "status": "assigned",
       "assignedAt": "[timestamp]"
@@ -278,7 +286,7 @@ Human uses `/do` when ready to begin.
 **Continuous Efficiency Improvement:**
 - Always look for ways to expand Claude's capabilities
 - Suggest MCPs, skills, automations that would reduce human load
-- Goal: human only does what ONLY human can do
+- Aim: human only does what ONLY human can do
 
 **Dynamic Task Generation:**
 - Tasks synthesized FRESH from codebase reality
@@ -286,7 +294,7 @@ Human uses `/do` when ready to begin.
 - Milestones define WHAT, /next determines HOW
 
 **Cross-Goal Holistic Reasoning:**
-- Consider ALL active goals simultaneously
+- Consider ALL active north stars simultaneously
 - Optimize for cross-goal leverage
 - One task might advance multiple milestones
 

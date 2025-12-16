@@ -1,9 +1,9 @@
 {
   "name": "agentc",
-  "version": "1.0.0",
-  "description": "Superpowers methodology delivered through cognitive-load-reducing interface. One task at a time: /next → /do → /done",
+  "version": "1.1.0",
+  "description": "Superpowers methodology delivered through cognitive-load-reducing interface. North Stars → Goals → /next → /do → /done",
   "author": {
     "name": "db"
   },
-  "keywords": ["workflow", "tdd", "productivity", "ai-orchestration"]
+  "keywords": ["workflow", "tdd", "productivity", "ai-orchestration", "north-star"]
 }

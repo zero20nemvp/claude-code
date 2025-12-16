@@ -17,7 +17,7 @@ Load `agentc/agentc.json` - READ ONLY, do not modify.
 
 Your Task: [description]
   Status: [assigned/in_progress]
-  Intent: [goal-name] → [intent-wish]
+  North Star: [north-star-name] → Goal: [goal-wish]
   [Started Xm ago / Not started]
 
 AI Working:

@@ -8,3 +8,9 @@
 # Temporary files
 *.tmp
 *.log
+
+# Node
+node_modules/
+
+# Environment
+.env

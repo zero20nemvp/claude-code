@@ -12,8 +12,8 @@ That's it. The system handles everything else.
 
 ## How It Works
 
-1. **Create a goal** (`/add-goal`) - Brainstorming refines your direction
-2. **Create an intent** (`/add-intent`) - Generates bite-sized tasks (2-5 min each)
+1. **Create a North Star** (`/add-north-star`) - Socratic questioning unearths your guiding direction
+2. **Create a Goal** (`/add-goal`) - WOOP methodology generates milestones
 3. **Get next task** (`/next`) - ONE optimal task, AI works in parallel
 4. **Execute with discipline** (`/do`) - TDD + automatic code review
 5. **Complete with verification** (`/done`) - Must show evidence
@@ -39,12 +39,12 @@ That's it. The system handles everything else.
 
 | Command | Purpose |
 |---------|---------|
-| `/add-goal` | Create goal with brainstorming |
-| `/add-intent` | Create intent with implementation plan |
+| `/add-north-star` | Create north star with Socratic questioning |
+| `/add-goal` | Create goal with WOOP methodology |
 | `/next` | Get next optimal task |
 | `/do` | Execute with TDD + code review |
 | `/done` | Complete with verification |
-| `/status` | Show all goals and progress |
+| `/status` | Show all north stars and progress |
 | `/now` | Quick current task check |
 | `/focus` | Priority override |
 | `/journal` | Log observation |

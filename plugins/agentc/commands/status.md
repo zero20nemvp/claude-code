@@ -1,10 +1,18 @@
 ---
-description: "Show all goals with progress, deadlines, and velocity"
+description: "Show all north stars with progress, deadlines, and velocity"
 allowed-tools:
   - Read
 ---
 
 You are showing the AgentC system status.
+
+## STEP 0: Auto-Migration
+
+**If old schema detected, migrate first:**
+- If `goals[]` exists but `northStars[]` doesn't: rename `goals` → `northStars`
+- If `intents[]` exists: rename `intents` → `goals`
+- Update all `goalId` references to `northStarId` in goals array
+- Save and announce: "Migrated data schema: goals → northStars, intents → goals"
 
 ## Load Data
 
@@ -15,12 +23,13 @@ Load `agentc/agentc.json` and display comprehensive status.
 ```
 === AgentC Status ===
 
-GOALS:
-──────
-[For each active goal:]
-[goal-id] [name] [frontOfMind? → "*"]
+NORTH STARS:
+────────────
+[For each active north star:]
+[north-star-id] [name] [frontOfMind? → "*"]
   Direction: [direction]
-  Active Intent: [intent-wish] ([X% complete])
+  Why: [why]
+  Active Goal: [goal-wish] ([X% complete])
   Deadline: [date] ([Y days remaining])
   Tasks: [completed]/[total] ([AI running], [human pending])
 
@@ -42,13 +51,13 @@ AI Tasks:
 DEADLINE RISKS:
 ───────────────
 [If any deadlines at risk:]
-⚠️ [intent-wish] due in X hours - need Y blocks, have Z
+⚠️ [goal-wish] due in X hours - need Y blocks, have Z
 ```
 
 ## Key Information
 
-- Show all active goals with their intents
-- Highlight front-of-mind goal with *
+- Show all active north stars with their goals
+- Highlight front-of-mind north star with *
 - Show deadline pressure
 - Show velocity metrics
 - Show current human and AI work

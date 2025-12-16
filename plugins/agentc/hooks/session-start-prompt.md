@@ -5,11 +5,11 @@ You have AgentC - superpowers methodology with cognitive-load-reducing interface
 ## Core Workflow
 
 ```
-/add-goal    → Brainstorming to capture design
-/add-intent  → Write-plan to create bite-sized tasks
-/next        → Get ONE optimal task (AI dispatched in parallel)
-/do          → Execute with TDD discipline + automatic code review
-/done        → Record with verification evidence
+/add-north-star → Socratic questioning to unearth guiding direction
+/add-goal       → WOOP methodology to create milestones
+/next           → Get ONE optimal task (AI dispatched in parallel)
+/do             → Execute with TDD discipline + automatic code review
+/done           → Record with verification evidence
 ```
 
 ## The Discipline
@@ -32,7 +32,7 @@ You have AgentC - superpowers methodology with cognitive-load-reducing interface
 | `/next` | Get next optimal task |
 | `/do` | Start task with TDD |
 | `/done` | Complete with verification |
-| `/status` | See all goals and progress |
+| `/status` | See all north stars and progress |
 | `/now` | Quick current task check |
 
 ## Skills Available
@@ -49,7 +49,7 @@ All superpowers skills are embedded:
 
 ## Getting Started
 
-If no goals exist: `/add-goal`
-If goals exist: `/next`
+If no north stars exist: `/add-north-star`
+If north stars exist: `/next`
 
 </AGENTC_METHODOLOGY>
