@@ -82,6 +82,74 @@ Run /do to complete tier requirements before /done.
 
 **Do NOT allow completion bypass. This is STRICT enforcement.**
 
+## STEP 2.6: RBS Type Gate (Ruby Only)
+
+**Only applies when `humanTask.languageMode = "ruby"`**
+
+**Strict enforcement - block completion if RBS types missing or invalid:**
+
+### 1. Check for RBS signatures
+
+For each modified `.rb` file, verify corresponding `.rbs` exists:
+
+```bash
+for rb_file in $(git diff --name-only HEAD~1 | grep '\.rb$'); do
+  rbs_file="sig/${rb_file%.rb}.rbs"
+  if [ ! -f "$rbs_file" ]; then
+    echo "MISSING: $rb_file has no RBS type signature at $rbs_file"
+  fi
+done
+```
+
+### 2. Validate RBS syntax
+
+```bash
+bundle exec rbs validate
+```
+
+### 3. Type check with Steep (if configured)
+
+```bash
+if [ -f "Steepfile" ]; then
+  bundle exec steep check
+fi
+```
+
+**Display RBS gate result:**
+```
+=== RBS Type Gate ===
+✓ All .rb files have .rbs signatures
+✓ RBS validation passed
+✓ Steep type check passed (if configured)
+
+RBS Requirements: PASSED
+```
+
+**If RBS requirements NOT met:**
+```
+BLOCKED: RBS type requirements not satisfied.
+
+Missing signatures:
+- app/models/user.rb → needs sig/app/models/user.rbs
+- app/services/order_processor.rb → needs sig/app/services/order_processor.rbs
+
+Validation errors:
+- [error details from rbs validate]
+
+Run /do to add missing RBS types before /done.
+```
+
+**Do NOT allow completion bypass. This is STRICT enforcement for Ruby projects.**
+
+Update `humanTask.qualityVerification.rbsTypesValid` in agentc.json:
+```json
+{
+  "qualityVerification": {
+    "rbsTypesValid": true
+  }
+}
+```
+
 ## STEP 3: Update Task Status in Plan
 
 1. Find the task in goal.plan.tasks matching humanTask.taskId

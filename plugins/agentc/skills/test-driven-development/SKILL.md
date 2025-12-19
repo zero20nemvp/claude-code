@@ -41,11 +41,20 @@ Write happy case test FIRST → watch it FAIL → minimal code to PASS
 - That's it
 - Use when: Exploratory code, low-risk features, time pressure
 
-**Example:**
+**JavaScript Example:**
 ```typescript
 test('validates email format', () => {
   expect(isValidEmail('user@example.com')).toBe(true);
 });
+```
+
+**Ruby/RSpec Example:**
+```ruby
+RSpec.describe EmailValidator do
+  it 'validates email format' do
+    expect(described_class.valid?('user@example.com')).to be true
+  end
+end
 ```
 
 ### SEMI-SKIMMED (Default)
@@ -57,7 +66,7 @@ Happy case test FIRST → essential sad cases → minimal extensible code
 - Essential sad cases (null, invalid input, auth failure)
 - Code is extensible but not overengineered
 
-**Example:**
+**JavaScript Example:**
 ```typescript
 // Happy case FIRST
 test('validates email format', () => {
@@ -74,6 +83,25 @@ test('rejects malformed email', () => {
 });
 ```
 
+**Ruby/RSpec Example:**
+```ruby
+RSpec.describe EmailValidator do
+  # Happy case FIRST
+  it 'validates email format' do
+    expect(described_class.valid?('user@example.com')).to be true
+  end
+
+  # Essential sad cases
+  it 'rejects empty email' do
+    expect(described_class.valid?('')).to be false
+  end
+
+  it 'rejects malformed email' do
+    expect(described_class.valid?('not-an-email')).to be false
+  end
+end
+```
+
 ### FULL PHAT (Production-Ready)
 ```
 Happy → essential sad → non-essential sad → mad cases → logging → monitoring
@@ -86,7 +114,7 @@ Happy → essential sad → non-essential sad → mad cases → logging → moni
 - Add logging to implementation
 - Add monitoring hooks
 
-**Example:**
+**JavaScript Example:**
 ```typescript
 // Happy case FIRST
 test('validates email format', () => { ... });
@@ -115,6 +143,55 @@ function isValidEmail(email: string): boolean {
   metrics.increment(result ? 'email_validation_success' : 'email_validation_failure');
   return result;
 }
+```
+
+**Ruby/RSpec Example:**
+```ruby
+RSpec.describe EmailValidator do
+  # Happy case FIRST
+  it 'validates email format' do
+    expect(described_class.valid?('user@example.com')).to be true
+  end
+
+  # Essential sad cases
+  it 'rejects empty email' do
+    expect(described_class.valid?('')).to be false
+  end
+
+  it 'rejects malformed email' do
+    expect(described_class.valid?('not-an-email')).to be false
+  end
+
+  # Non-essential sad cases
+  it 'rejects email with leading spaces' do
+    expect(described_class.valid?(' user@example.com')).to be false
+  end
+
+  it 'rejects email with unicode lookalikes' do
+    expect(described_class.valid?('user@exаmple.com')).to be false  # Cyrillic 'а'
+  end
+
+  # Mad cases
+  it 'handles concurrent validation calls', :aggregate_failures do
+    threads = 10.times.map { Thread.new { described_class.valid?('user@example.com') } }
+    expect(threads.map(&:value)).to all(be true)
+  end
+end
+```
+
+Implementation includes:
+```ruby
+class EmailValidator
+  def self.valid?(email)
+    Rails.logger.debug("Validating email: #{email.gsub(/.(?=.{4})/, '*')}")
+    StatsD.increment('email_validation_attempts')
+
+    result = email.match?(URI::MailTo::EMAIL_REGEXP)
+
+    StatsD.increment(result ? 'email_validation_success' : 'email_validation_failure')
+    result
+  end
+end
 ```
 
 ### Tier Selection
@@ -211,8 +288,14 @@ Vague name, tests mock not code
 
 **MANDATORY. Never skip.**
 
+**JavaScript:**
 ```bash
 npm test path/to/test.test.ts
+```
+
+**Ruby:**
+```bash
+bundle exec rspec spec/path/to/spec.rb
 ```
 
 Confirm:
@@ -266,8 +349,14 @@ Don't add features, refactor other code, or "improve" beyond the test.
 
 **MANDATORY.**
 
+**JavaScript:**
 ```bash
 npm test path/to/test.test.ts
+```
+
+**Ruby:**
+```bash
+bundle exec rspec spec/path/to/spec.rb
 ```
 
 Confirm:
@@ -388,6 +477,8 @@ Tests-first force edge case discovery before implementing. Tests-after verify yo
 
 **Bug:** Empty email accepted
 
+### JavaScript Example
+
 **RED**
 ```typescript
 test('rejects empty email', async () => {
@@ -416,6 +507,43 @@ function submitForm(data: FormData) {
 ```bash
 $ npm test
 PASS
+```
+
+### Ruby/RSpec Example
+
+**RED**
+```ruby
+# spec/requests/forms_spec.rb
+RSpec.describe 'Form submission', type: :request do
+  it 'rejects empty email' do
+    post '/forms', params: { form: { email: '' } }
+    expect(response.parsed_body['error']).to eq('Email required')
+  end
+end
+```
+
+**Verify RED**
+```bash
+$ bundle exec rspec spec/requests/forms_spec.rb
+FAIL: expected 'Email required', got nil
+```
+
+**GREEN**
+```ruby
+# app/controllers/forms_controller.rb
+def create
+  if params.dig(:form, :email).blank?
+    render json: { error: 'Email required' }, status: :unprocessable_entity
+    return
+  end
+  # ...
+end
+```
+
+**Verify GREEN**
+```bash
+$ bundle exec rspec spec/requests/forms_spec.rb
+1 example, 0 failures
 ```
 
 **REFACTOR**

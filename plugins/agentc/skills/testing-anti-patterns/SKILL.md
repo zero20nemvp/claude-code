@@ -23,6 +23,8 @@ Tests must verify real behavior, not mock behavior. Mocks are a means to isolate
 
 ## Anti-Pattern 1: Testing Mock Behavior
 
+### JavaScript Example
+
 **The violation:**
 ```typescript
 // ❌ BAD: Testing that the mock exists
@@ -32,13 +34,6 @@ test('renders sidebar', () => {
 });
 ```
 
-**Why this is wrong:**
-- You're verifying the mock works, not that the component works
-- Test passes when mock is present, fails when it's not
-- Tells you nothing about real behavior
-
-**your human partner's correction:** "Are we testing the behavior of a mock?"
-
 **The fix:**
 ```typescript
 // ✅ GOOD: Test real component or don't mock it
@@ -46,10 +41,41 @@ test('renders sidebar', () => {
   render(<Page />);  // Don't mock sidebar
   expect(screen.getByRole('navigation')).toBeInTheDocument();
 });
-
-// OR if sidebar must be mocked for isolation:
-// Don't assert on the mock - test Page's behavior with sidebar present
 ```
+
+### Ruby/RSpec Example
+
+**The violation:**
+```ruby
+# ❌ BAD: Testing that the double exists
+RSpec.describe Page do
+  it 'renders sidebar' do
+    sidebar = instance_double(Sidebar)
+    allow(Sidebar).to receive(:new).and_return(sidebar)
+
+    page = Page.new
+    expect(page.sidebar).to eq(sidebar)  # Testing mock, not behavior!
+  end
+end
+```
+
+**The fix:**
+```ruby
+# ✅ GOOD: Test real component or don't mock it
+RSpec.describe Page do
+  it 'renders sidebar with navigation' do
+    page = Page.new  # Use real Sidebar
+    expect(page.render).to include('<nav')
+  end
+end
+```
+
+**Why this is wrong:**
+- You're verifying the mock works, not that the component works
+- Test passes when mock is present, fails when it's not
+- Tells you nothing about real behavior
+
+**your human partner's correction:** "Are we testing the behavior of a mock?"
 
 ### Gate Function
 
@@ -65,6 +91,8 @@ BEFORE asserting on any mock element:
 
 ## Anti-Pattern 2: Test-Only Methods in Production
 
+### JavaScript Example
+
 **The violation:**
 ```typescript
 // ❌ BAD: destroy() only used in tests
@@ -78,12 +106,6 @@ class Session {
 // In tests
 afterEach(() => session.destroy());
 ```
-
-**Why this is wrong:**
-- Production class polluted with test-only code
-- Dangerous if accidentally called in production
-- Violates YAGNI and separation of concerns
-- Confuses object lifecycle with entity lifecycle
 
 **The fix:**
 ```typescript
@@ -101,6 +123,50 @@ export async function cleanupSession(session: Session) {
 // In tests
 afterEach(() => cleanupSession(session));
 ```
+
+### Ruby/RSpec Example
+
+**The violation:**
+```ruby
+# ❌ BAD: destroy_with_workspace! only used in tests
+class Session < ApplicationRecord
+  def destroy_with_workspace!  # Looks like production API!
+    workspace_manager.destroy_workspace(id)
+    destroy
+  end
+end
+
+# In specs
+after { session.destroy_with_workspace! }
+```
+
+**The fix:**
+```ruby
+# ✅ GOOD: Test utilities handle test cleanup
+# Session has no destroy_with_workspace! - it's clean
+
+# In spec/support/session_helpers.rb
+module SessionHelpers
+  def cleanup_session(session)
+    workspace = session.workspace_info
+    WorkspaceManager.destroy_workspace(workspace.id) if workspace
+    session.destroy
+  end
+end
+
+RSpec.configure do |config|
+  config.include SessionHelpers
+end
+
+# In specs
+after { cleanup_session(session) }
+```
+
+**Why this is wrong:**
+- Production class polluted with test-only code
+- Dangerous if accidentally called in production
+- Violates YAGNI and separation of concerns
+- Confuses object lifecycle with entity lifecycle
 
 ### Gate Function
 
@@ -120,6 +186,8 @@ BEFORE adding any method to production class:
 
 ## Anti-Pattern 3: Mocking Without Understanding
 
+### JavaScript Example
+
 **The violation:**
 ```typescript
 // ❌ BAD: Mock breaks test logic
@@ -134,11 +202,6 @@ test('detects duplicate server', () => {
 });
 ```
 
-**Why this is wrong:**
-- Mocked method had side effect test depended on (writing config)
-- Over-mocking to "be safe" breaks actual behavior
-- Test passes for wrong reason or fails mysteriously
-
 **The fix:**
 ```typescript
 // ✅ GOOD: Mock at correct level
@@ -150,6 +213,42 @@ test('detects duplicate server', () => {
   await addServer(config);  // Duplicate detected ✓
 });
 ```
+
+### Ruby/RSpec Example
+
+**The violation:**
+```ruby
+# ❌ BAD: Mock breaks test logic
+RSpec.describe ServerConfig do
+  it 'detects duplicate server' do
+    # Mock prevents config write that test depends on!
+    allow(ToolCatalog).to receive(:discover_and_cache_tools).and_return(nil)
+
+    add_server(config)
+    expect { add_server(config) }.to raise_error(DuplicateServerError)
+    # Won't raise - config never written!
+  end
+end
+```
+
+**The fix:**
+```ruby
+# ✅ GOOD: Mock at correct level
+RSpec.describe ServerConfig do
+  it 'detects duplicate server' do
+    # Mock the slow part, preserve behavior test needs
+    allow(MCPServerManager).to receive(:start)  # Just mock slow startup
+
+    add_server(config)  # Config written
+    expect { add_server(config) }.to raise_error(DuplicateServerError)  # Detected!
+  end
+end
+```
+
+**Why this is wrong:**
+- Mocked method had side effect test depended on (writing config)
+- Over-mocking to "be safe" breaks actual behavior
+- Test passes for wrong reason or fails mysteriously
 
 ### Gate Function
 

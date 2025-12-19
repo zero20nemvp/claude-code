@@ -19,9 +19,22 @@ Guide completion of development work by presenting clear options and handling ch
 
 **Before presenting options, verify tests pass:**
 
+**Auto-detect and run appropriate test command:**
 ```bash
-# Run project's test suite
-npm test / cargo test / pytest / go test ./...
+# Ruby/Rails
+if [ -f Gemfile ]; then bundle exec rspec; fi
+
+# Node.js
+if [ -f package.json ]; then npm test; fi
+
+# Rust
+if [ -f Cargo.toml ]; then cargo test; fi
+
+# Python
+if [ -f pytest.ini ] || [ -f pyproject.toml ]; then pytest; fi
+
+# Go
+if [ -f go.mod ]; then go test ./...; fi
 ```
 
 **If tests fail:**

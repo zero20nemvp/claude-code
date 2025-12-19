@@ -1,9 +1,36 @@
 {
-  "hooks": [
-    {
-      "event": "SessionStart",
-      "type": "prompt",
-      "prompt": "${CLAUDE_PLUGIN_ROOT}/hooks/session-start-prompt.md"
-    }
-  ]
+  "description": "AgentC hooks for session prompts, security reminders, and Ralph loop",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "${CLAUDE_PLUGIN_ROOT}/hooks/session-start-prompt.md"
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ${CLAUDE_PLUGIN_ROOT}/hooks/security_reminder_hook.py"
+          }
+        ],
+        "matcher": "Edit|Write|MultiEdit"
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/stop-hook.sh"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -175,13 +175,15 @@ Single file: `agentc/agentc.json`
     "humanTask": {
       "taskId": "t1",
       "description": "Task description",
+      "languageMode": "ruby|javascript",
       "milkQuality": "semi-skimmed",
       "qualityVerification": {
         "happyCaseTested": false,
         "sadCasesTested": false,
         "madCasesTested": false,
         "loggingAdded": false,
-        "monitoringAdded": false
+        "monitoringAdded": false,
+        "rbsTypesValid": false
       }
     },
     "aiTasks": [],
@@ -210,6 +212,7 @@ Single file: `agentc/agentc.json`
 
 ## Commands
 
+### Core Workflow
 | Command | Purpose |
 |---------|---------|
 | `/add-north-star` | Create north star with Socratic questioning |
@@ -223,12 +226,38 @@ Single file: `agentc/agentc.json`
 | `/journal <entry>` | Log observation |
 | `/timer [action]` | Control block timer |
 
+### Git Workflow
+| Command | Purpose |
+|---------|---------|
+| `/commit` | Auto-generate commit message and commit |
+| `/commit-push-pr` | Full workflow: commit → push → create PR |
+| `/clean-gone` | Remove stale local branches tracking deleted remotes |
+
+### PR Review
+| Command | Purpose |
+|---------|---------|
+| `/review-pr [aspects] [parallel]` | Comprehensive PR review with specialized agents |
+
+**Review Aspects:** `comments`, `tests`, `errors`, `types`, `code`, `simplify`, `all`
+
+### Autonomous Mode (Ralph Wiggum)
+| Command | Purpose |
+|---------|---------|
+| `/ralph-loop PROMPT [--max-iterations N] [--completion-promise TEXT]` | Start autonomous iteration loop |
+| `/cancel-ralph` | Cancel active Ralph loop |
+
+### Custom Safety Rules (Hookify)
+| Command | Purpose |
+|---------|---------|
+| `/hookify [behavior]` | Create hooks to prevent unwanted behaviors |
+| `/hookify-list` | List all configured hookify rules |
+
 ## Skills (Embedded)
 
-All 22 superpowers skills are embedded:
+All 27 superpowers skills are embedded:
 
 **Core Discipline:**
-- `test-driven-development` - RED-GREEN-REFACTOR
+- `test-driven-development` - RED-GREEN-REFACTOR (JS + Ruby/RSpec)
 - `systematic-debugging` - 4-phase root cause investigation
 - `verification-before-completion` - Evidence before claims
 
@@ -240,8 +269,16 @@ All 22 superpowers skills are embedded:
 **Quality:**
 - `requesting-code-review` - Dispatch code reviewer
 - `receiving-code-review` - Respond to feedback
-- `testing-anti-patterns` - Common testing mistakes
+- `testing-anti-patterns` - Common testing mistakes (JS + Ruby)
 - `defense-in-depth` - Multiple validation layers
+
+**Frontend (Auto-Activated):**
+- `frontend-design` - Distinctive UI, no AI slop, bold aesthetics
+
+**Ruby/Rails 8 (Auto-Activated):**
+- `rbs-types` - RBS type signatures, strict gate enforcement
+- `rails-hotwire` - Turbo Frames, Turbo Streams, Stimulus
+- `rails-solid-stack` - Solid Queue, Cache, Cable
 
 **Workflow:**
 - `using-git-worktrees` - Isolated workspaces
@@ -249,7 +286,53 @@ All 22 superpowers skills are embedded:
 - `subagent-driven-development` - Per-task subagents
 - `dispatching-parallel-agents` - Concurrent workflows
 
+**Hookify:**
+- `writing-rules` - Rule syntax for custom safety hooks
+
 **And more...**
+
+## Agents (Specialized)
+
+**PR Review Agents:**
+- `code-reviewer` - General code quality with confidence scoring (80+ threshold)
+- `comment-analyzer` - Comment accuracy and maintainability
+- `pr-test-analyzer` - Test coverage quality and completeness
+- `silent-failure-hunter` - Error handling and silent failure detection
+- `type-design-analyzer` - Type design with 1-10 ratings for encapsulation, invariants
+- `code-simplifier` - Code clarity and maintainability (post-review polish)
+
+**Automation Agents:**
+- `conversation-analyzer` - Analyze conversation for hookify rule generation
+
+## Hooks (Active)
+
+**Security Guidance (PreToolUse):**
+- Warns about security patterns: command injection, XSS, eval(), pickle, os.system
+- Detects GitHub Actions workflow vulnerabilities
+- Auto-fires once per file per session
+
+**Ralph Loop (Stop):**
+- Intercepts session exit when `/ralph-loop` is active
+- Feeds prompt back for autonomous iteration
+- Completion via `<promise>TEXT</promise>` tags
+
+## Language Detection
+
+AgentC auto-detects project language:
+
+| File Present | Language Mode |
+|--------------|---------------|
+| `Gemfile` | Ruby/Rails |
+| `package.json` | JavaScript/TypeScript |
+
+**Ruby mode enables:**
+- RSpec test commands (`bundle exec rspec`)
+- RBS strict gate (blocks `/done` if types missing)
+- Rails 8 skills (Hotwire, Solid Stack)
+
+**JavaScript mode enables:**
+- Jest/Vitest commands (`npm test`)
+- TypeScript examples
 
 ## Key Principles
 

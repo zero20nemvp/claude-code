@@ -103,6 +103,14 @@ cd "$path"
 Auto-detect and run appropriate setup:
 
 ```bash
+# Ruby/Rails
+if [ -f Gemfile ]; then
+  bundle install
+  if [ -f bin/rails ]; then
+    bin/rails db:prepare
+  fi
+fi
+
 # Node.js
 if [ -f package.json ]; then npm install; fi
 
@@ -122,10 +130,19 @@ if [ -f go.mod ]; then go mod download; fi
 Run tests to ensure worktree starts clean:
 
 ```bash
-# Examples - use project-appropriate command
+# Ruby/Rails
+bundle exec rspec
+
+# Node.js
 npm test
+
+# Rust
 cargo test
+
+# Python
 pytest
+
+# Go
 go test ./...
 ```
 

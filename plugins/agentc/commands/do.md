@@ -58,6 +58,79 @@ Display current tier:
 === Milk Quality: [TIER] ===
 ```
 
+## STEP 0.6: Language Detection
+
+Detect project language to apply appropriate tooling:
+
+```bash
+${CLAUDE_PLUGIN_ROOT}/scripts/detect-language.sh
+```
+
+**Set `$LANG_MODE` based on result:**
+- `ruby` - Use RSpec commands, Ruby examples, RBS type checking
+- `javascript` - Use Jest/Vitest commands, TypeScript examples
+- `unknown` - Ask user to specify
+
+**Update humanTask in agentc.json:**
+```json
+{
+  "languageMode": "ruby|javascript"
+}
+```
+
+**Display:**
+```
+=== Language Mode: [Ruby/Rails | JavaScript/TypeScript] ===
+```
+
+**Language-specific test commands:**
+
+| Language | Test Command |
+|----------|--------------|
+| Ruby | `bundle exec rspec spec/path/to/spec.rb` |
+| JavaScript | `npm test path/to/test.test.ts` |
+
+## STEP 0.75: Auto-Detect Task Type & Apply Skills
+
+**Analyze the task description to detect applicable skills:**
+
+### Frontend Detection
+
+Check if task involves ANY of:
+- React, Vue, Svelte, Angular components
+- HTML, CSS, SCSS, Tailwind
+- UI elements (buttons, forms, cards, modals, menus)
+- Pages (landing, dashboard, settings, profile)
+- Styling, theming, design systems
+- Animation, motion, transitions
+
+**If frontend detected:**
+```
+=== Frontend Design Skill Activated ===
+
+Detecting aesthetic requirements...
+```
+
+Apply the `frontend-design` skill:
+1. **Pause before coding** - Choose aesthetic direction
+2. **Document the design decision:**
+   ```
+   Aesthetic Direction: [chosen tone - e.g., "brutally minimal", "retro-futuristic"]
+   Memorable Element: [the ONE thing someone will remember]
+   Typography: [display font] / [body font]
+   Palette: [primary] / [accent] / [background]
+   ```
+3. **Execute with the chosen direction** - all frontend code follows this vision
+4. **Verify no AI slop** - no Inter/Roboto, no purple gradients on white
+
+**Frontend tasks must pass the Frontend Design Checklist before /done.**
+
+### Other Skill Detection
+
+Similarly detect and apply:
+- `systematic-debugging` - if task mentions bug, error, fix, investigate
+- `brainstorming` - if task requires design decisions or architecture
+
 ## STEP 1: Start Timer
 
 Run the timer script:
@@ -281,6 +354,42 @@ Tier Requirements: PASSED
 
 **If tier requirements NOT met:** Do NOT prompt for /done. Fix first. This is STRICT enforcement.
 
+## STEP 6.75: Frontend Design Gate (If Applicable)
+
+**Only for tasks where frontend-design skill was activated.**
+
+### Frontend Design Checklist
+
+- [ ] Aesthetic direction was chosen and documented
+- [ ] Typography is distinctive (NOT Inter, Roboto, Arial, system fonts)
+- [ ] Color palette is cohesive and intentional
+- [ ] At least one memorable visual element exists
+- [ ] Motion/animation adds polish (not required, but encouraged)
+- [ ] No generic "AI slop" patterns detected
+- [ ] Responsive behavior verified (if applicable)
+- [ ] Accessibility basics checked (if applicable)
+
+**Display frontend gate result:**
+```
+=== Frontend Design Gate ===
+Aesthetic: [chosen direction]
+Typography: ✓ Distinctive ([font names])
+Palette: ✓ Cohesive ([colors])
+Memorable: ✓ [the one thing]
+AI Slop Check: ✓ None detected
+
+Frontend Requirements: PASSED
+```
+
+**AI Slop Detection - FAIL if any found:**
+- Inter, Roboto, Arial as primary font
+- Purple/blue gradient on white background
+- Generic card layouts with no personality
+- No animation or visual interest
+- Cookie-cutter component styling
+
+**If frontend requirements NOT met:** Do NOT prompt for /done. Redesign first.
+
 ## STEP 7: Prompt for Completion
 
 Only after:
@@ -288,6 +397,7 @@ Only after:
 - Code review passed (critical/important fixed)
 - Verification passed
 - **Tier quality gate passed**
+- **Frontend design gate passed** (if frontend task)
 
 ```
 === Task Complete ===
@@ -298,6 +408,7 @@ TDD: RED → GREEN → REFACTOR
 Code Review: PASSED (X issues fixed)
 Verification: PASSED
 Tier Gate: PASSED
+Frontend Gate: PASSED (if applicable)
 
 Ready to record completion.
 Run /done to finish and get next task.
