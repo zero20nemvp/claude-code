@@ -273,7 +273,7 @@ All 27 superpowers skills are embedded:
 - `defense-in-depth` - Multiple validation layers
 
 **Frontend (Auto-Activated):**
-- `frontend-design` - Distinctive UI, no AI slop, bold aesthetics
+- `frontend-design` - Context-calibrated UI (high/balanced/restrained), font pairings, accessibility-first, anti-slop patterns
 
 **Ruby/Rails 8 (Auto-Activated):**
 - `rbs-types` - RBS type signatures, strict gate enforcement

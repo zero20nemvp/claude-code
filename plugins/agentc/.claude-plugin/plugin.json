@@ -1,9 +1,9 @@
 {
   "name": "agentc",
-  "version": "1.4.0",
-  "description": "Superpowers methodology delivered through cognitive-load-reducing interface. North Stars → Goals → /next → /do → /done. Includes PR review toolkit, autonomous loops, security guidance, and custom safety hooks.",
+  "version": "1.5.0",
+  "description": "Superpowers methodology delivered through cognitive-load-reducing interface. North Stars → Goals → /next → /do → /done. Includes PR review toolkit, autonomous loops, security guidance, custom safety hooks, and context-calibrated frontend design.",
   "author": {
     "name": "db"
   },
-  "keywords": ["workflow", "tdd", "productivity", "ai-orchestration", "north-star", "pr-review", "security", "autonomous"]
+  "keywords": ["workflow", "tdd", "productivity", "ai-orchestration", "north-star", "pr-review", "security", "autonomous", "frontend", "design"]
 }
