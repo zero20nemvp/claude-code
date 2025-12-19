@@ -13,14 +13,14 @@
     {
       "name": "agentc",
       "source": "./plugins/agentc",
-      "description": "Superpowers + AgentH combined: TDD, verification, code review delivered through zero-decision-fatigue workflow. /next → /do → /done",
-      "version": "1.0.0",
+      "description": "Superpowers methodology delivered through cognitive-load-reducing interface. North Stars → Goals → /next → /do → /done. Includes PR review toolkit, autonomous loops, security guidance, and custom safety hooks.",
+      "version": "1.4.0",
       "author": {
         "name": "Zero2One"
       },
       "license": "MIT",
       "category": "workflow",
-      "keywords": ["workflow", "tdd", "productivity", "ai-orchestration", "superpowers", "goals", "automation"],
+      "keywords": ["workflow", "tdd", "productivity", "ai-orchestration", "north-star", "pr-review", "security", "autonomous"],
       "strict": true
     }
   ]
