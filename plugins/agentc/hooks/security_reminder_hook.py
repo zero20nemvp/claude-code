@@ -274,9 +274,9 @@ def main():
             shown_warnings.add(warning_key)
             save_state(session_id, shown_warnings)
 
-            # Output the warning to stderr and block execution
+            # Output the warning to stderr (but allow execution to proceed)
             print(reminder, file=sys.stderr)
-            sys.exit(2)  # Block tool execution (exit code 2 for PreToolUse hooks)
+            sys.exit(0)  # Warn but allow tool execution
 
     # Allow tool to proceed
     sys.exit(0)
