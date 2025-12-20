@@ -81,7 +81,34 @@ Use AskUserQuestion:
 
     DO: /do
 
-## STEP 2.5: Milk Quality Tier Verification
+## STEP 2.5: Code Review Gate (Non-Blocking)
+
+**Check reviewPending status:**
+
+1. If current.reviewPending = true:
+   - Code review was dispatched but hasn't completed
+   - Check if review agent has finished
+
+2. If review completed with CRITICAL issues:
+
+       ⚠️ Code review found CRITICAL issue:
+       - [issue description]
+
+       Options:
+       1. Fix now (recommended)
+       2. Proceed anyway (--force)
+
+3. If user chooses --force or "proceed anyway":
+   - Log to reviewDebt array with taskId, severity, issue, skippedAt
+   - Continue to completion
+   - Warn: "Logged to review debt. Address before release."
+
+4. If review completed with no CRITICAL issues:
+   - Continue normally
+
+**This gate is NON-BLOCKING with --force.** Human maintains flow state.
+
+## STEP 2.7: Milk Quality Tier Verification
 
 **Strict enforcement - block completion if tier requirements not met:**
 
@@ -110,7 +137,7 @@ Run /do to complete tier requirements before /done.
 
 **Do NOT allow completion bypass. This is STRICT enforcement.**
 
-## STEP 2.6: RBS Type Gate (Ruby Only)
+## STEP 2.8: RBS Type Gate (Ruby Only)
 
 **Only applies when `humanTask.languageMode = "ruby"`**
 
@@ -240,14 +267,21 @@ While human was working, AI agents may have finished:
 3. Update those tasks in goal.plan.tasks
 4. Archive completed AI tasks
 
-## STEP 7: Immediate Analysis for Next Work
+## STEP 7: Queue Pop or Next Analysis
 
-**The system never idles after /done:**
+**Check humanTaskQueue first:**
 
-1. Analyze remaining tasks across active goals
-2. Classify: AI-executable vs Human-required
-3. Dispatch new AI agents if available (up to 5)
-4. Identify next human task
+1. If humanTaskQueue is NOT empty:
+   - Pop first task from queue
+   - Set as new humanTask with status = "assigned"
+   - Set loopState = "assigned"
+   - Skip to STEP 9 with queue-pop output format
+
+2. If humanTaskQueue IS empty:
+   - Analyze remaining tasks across active goals
+   - Classify: AI-executable vs Human-required
+   - Dispatch new AI agents if available (up to 5)
+   - Continue to STEP 8 (idle state)
 
 ## STEP 7.5: Track Manual Task Patterns
 
@@ -262,23 +296,56 @@ Track recurring patterns for future skill creation:
 
 ## STEP 8: Update State
 
-Update agentc.json:
-- Set current.loopState = "idle"
-- Set current.lastAction = { action: "done", timestamp: now, description: "Completed: [task]" }
-- Set current.humanTask = null
+**If queue was popped:**
+- Set current.loopState = "assigned"
+- Set current.lastAction = { action: "done", timestamp: now, description: "Completed: [task], auto-assigned from queue" }
+- Set current.humanTask = [popped task from queue]
+- Remove popped task from humanTaskQueue
+- Set current.reviewPending = false
 - Update current.aiTasks (remove completed, add new)
 - Update lastCheckIn timestamp
 
-## STEP 9: Output Summary (Minimal)
+**If queue empty (normal):**
+- Set current.loopState = "idle"
+- Set current.lastAction = { action: "done", timestamp: now, description: "Completed: [task]" }
+- Set current.humanTask = null
+- Set current.humanTaskQueue = []
+- Set current.reviewPending = false
+- Update current.aiTasks (remove completed, add new)
+- Update lastCheckIn timestamp
 
-Output:
+## STEP 9: Output Summary
+
+**If queue was popped (next task auto-assigned):**
+
+    DONE [X blocks]
+    [Completed task description]
+
+    NEXT FROM QUEUE [Y pts]
+    [Next task description]
+
+    QUEUE:
+      2. [remaining queued task]
+
+    DO: /do
+
+**If queue empty (normal idle state):**
 
     DONE [X blocks]
     [Task description]
 
     DO: /next
 
-That's it. No verbose stats. Human trusts the system recorded everything.
+**If review debt was logged:**
+
+    DONE [X blocks]
+    [Task description]
+
+    ⚠️ Review debt: 1 CRITICAL issue logged
+
+    DO: /next
+
+No verbose stats. Human trusts the system recorded everything.
 
 ## Key Principles
 

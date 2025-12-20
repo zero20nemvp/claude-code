@@ -22,6 +22,42 @@ Use `agentc/` as `$DIR`. Load `$DIR/agentc.json`.
 1. Check current.humanTask exists
 2. If no task assigned: "No task assigned. Run /next first."
 3. Load task details from humanTask
+4. Check current.batchMode - if true, use batch execution flow
+
+## STEP 0.1: Batch Mode Execution (If batchMode = true)
+
+When batchMode is active, multiple tasks execute as a checklist:
+
+1. Display batch header:
+       === BATCH MODE ===
+       Complete all items, code review runs once at end.
+
+       □ [Task 1]
+       □ [Task 2]
+       □ [Task 3]
+
+2. For each task in batch:
+   - Mark as current focus
+   - Execute (apply TDD if code task)
+   - Mark complete: ✓ [Task 1]
+   - Move to next
+
+3. After ALL items complete:
+   - Run code review ONCE (covers all changes)
+   - Display summary
+
+4. Output:
+       BATCH COMPLETE [X items]
+
+       ✓ [Task 1]
+       ✓ [Task 2]
+       ✓ [Task 3]
+
+       DO: /done
+
+**Batch mode skips per-item code review.** Review runs once at end.
+
+**If batchMode = false:** Continue to normal single-task execution.
 
 ## STEP 0.25: Stage-Aware Execution
 
@@ -328,55 +364,41 @@ Executing task...
 Deliverable: [what was produced]
 ```
 
-## STEP 4: Automatic Code Review
+## STEP 4: Dispatch Async Code Review
 
-**After completing work, dispatch code-reviewer agent:**
+**After completing work, dispatch code-reviewer agent asynchronously:**
 
-```
-Dispatching code review...
-```
+    Dispatching code review (async)...
 
-Use the Task tool to dispatch the code-reviewer agent:
+Use the Task tool to dispatch the code-reviewer agent with run_in_background = true.
 
-```
-Review the code changes just made for this task:
-- Task: [task description]
-- Files changed: [list]
-- Approach: [brief description]
+**Set reviewPending in state:**
+    current.reviewPending = true
 
-Check for:
-- Bugs or logic errors
-- Security vulnerabilities
-- Code quality issues
-- Test coverage gaps
-- Adherence to project conventions
+**Do NOT wait for review to complete.** Human can continue to verification.
 
-Report findings with severity: CRITICAL, IMPORTANT, or MINOR.
-```
+Review will be checked in /done (STEP 2.5 Code Review Gate).
 
-## STEP 5: Handle Review Findings
+## STEP 5: Handle Immediate Critical Issues (If Review Completes Fast)
 
-**CRITICAL issues:** Must fix before proceeding
-```
-CRITICAL: [issue]
-Fixing now...
-[Fix applied]
-Re-running tests...
-PASS
-```
+If review agent returns quickly with CRITICAL issues:
 
-**IMPORTANT issues:** Fix before /done
-```
-IMPORTANT: [issue]
-Fixing now...
-[Fix applied]
-```
+**CRITICAL issues:** Fix immediately
+    CRITICAL: [issue]
+    Fixing now...
+    [Fix applied]
+    Re-running tests...
+    PASS
 
-**MINOR issues:** Note for future
-```
-MINOR: [issue]
-Noted for future cleanup.
-```
+**IMPORTANT issues:** Note for /done gate
+    IMPORTANT: [issue]
+    Will address before /done.
+
+**MINOR issues:** Log for future
+    MINOR: [issue]
+    Noted for future cleanup.
+
+**If review still pending:** Continue to STEP 6. Review checked in /done.
 
 ## STEP 6: Verification Before Completion
 
@@ -516,10 +538,11 @@ That's it. No verbose summary. Human trusts the process passed all gates.
 - Full phat: Comprehensive, production-ready
 - Tier gate is STRICTLY enforced
 
-**Code review is automatic:**
-- Runs after every /do completion
-- Critical issues block completion
-- Important issues fixed before /done
+**Code review is async:**
+- Dispatched after work, doesn't block /do
+- Checked in /done gate
+- CRITICAL issues: warn, allow --force (logs to reviewDebt)
+- Human maintains flow state
 
 **Verification is required:**
 - Must see actual test output

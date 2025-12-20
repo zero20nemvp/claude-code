@@ -150,19 +150,24 @@ Full phat:
 
 Single file: agentc/agentc.json
 
-Schema version: 1.3
+Schema version: 1.4
 
     {
-      "version": "1.3",
+      "version": "1.4",
       "current": {
         "loopState": "idle | assigned | executing",
         "lastAction": {
-          "action": "next | do | done",
+          "action": "next | do | done | skip",
           "timestamp": "ISO timestamp",
           "description": "What happened"
         },
         "humanTask": { ... },
+        "humanTaskQueue": [],
         "aiTasks": [],
+        "batchMode": false,
+        "reviewDebt": [],
+        "reviewPending": false,
+        "prepWork": null,
         "lastCheckIn": null
       },
       "patterns": {
@@ -186,7 +191,7 @@ Schema version: 1.3
 Full schema:
 
     {
-      "version": "1.3",
+      "version": "1.4",
       "northStars": [{
         "id": "ns1",
     "name": "Secure Auth",
@@ -249,7 +254,32 @@ Full schema:
         "rbsTypesValid": false
       }
     },
+    "humanTaskQueue": [
+      {
+        "taskId": "t2",
+        "description": "Review email copy",
+        "independent": true,
+        "blockedBy": null,
+        "points": 2,
+        "requiredCapability": "subjective judgment"
+      }
+    ],
     "aiTasks": [],
+    "batchMode": false,
+    "reviewDebt": [
+      {
+        "taskId": "t0",
+        "severity": "CRITICAL",
+        "issue": "Missing null check",
+        "skippedAt": "2025-12-20T09:00:00Z"
+      }
+    ],
+    "reviewPending": false,
+    "prepWork": {
+      "failingTests": [],
+      "researchNotes": null,
+      "filesToModify": []
+    },
     "lastCheckIn": null
   },
   "patterns": {
@@ -282,16 +312,17 @@ Full schema:
 ### Core Workflow
 | Command | Purpose |
 |---------|---------|
-| `/add-north-star` | Create north star with Socratic questioning |
-| `/add-goal [north-star-id]` | Create goal with WOOP methodology |
-| `/next [in\|out]` | Get next optimal task |
-| `/do` | Execute with TDD + code review |
-| `/done [blocks]` | Complete with verification |
-| `/status` | Show all north stars and progress |
-| `/now` | Quick current task check (read-only) |
-| `/focus [north-star-id\|clear]` | Priority override |
-| `/journal <entry>` | Log observation |
-| `/timer [action]` | Control block timer |
+| /add-north-star | Create north star with Socratic questioning |
+| /add-goal [north-star-id] | Create goal with WOOP methodology |
+| /next [in or out] | Get next optimal task (+ queue 2-3 more) |
+| /do | Execute with TDD + code review |
+| /done [blocks] | Complete with verification (+ auto-pop queue) |
+| /skip | Skip to queued task if blocked on current |
+| /status | Show all north stars and progress |
+| /now | Quick current task check (read-only) |
+| /focus [north-star-id or clear] | Priority override |
+| /journal [entry] | Log observation |
+| /timer [action] | Control block timer |
 
 ### Git Workflow
 | Command | Purpose |
@@ -425,10 +456,16 @@ Example:
   ◦ Verify health → Claude after
 ```
 
-### One Task at a Time
-- Zero decision fatigue
-- Clear focus
-- No context switching
+### Task Queue + Skip
+- Primary task is active focus
+- Queue shows 2-3 independent tasks ahead
+- /skip to queued task if blocked on current
+- Zero decision fatigue - queue pre-analyzed
+
+### Batch Mode (Energy-Based)
+- Mechanical "out" tasks can batch together
+- Single /do-batch for multiple small tasks
+- Review runs once at batch end
 
 ### AI Orchestration
 - Claude handles everything within its capabilities

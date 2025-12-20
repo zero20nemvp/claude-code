@@ -14,13 +14,13 @@
       "name": "agentc",
       "source": "./plugins/agentc",
       "description": "Zero cognitive load from empty directory to shipped product. Self-bootstrapping /next → /do → /done loop. Just type /next and the system guides you through discovery, design, and implementation.",
-      "version": "1.8.3",
+      "version": "1.9.0",
       "author": {
         "name": "Zero2One"
       },
       "license": "MIT",
       "category": "workflow",
-      "keywords": ["workflow", "tdd", "productivity", "ai-orchestration", "north-star", "jtbd", "product-discovery", "self-bootstrapping", "zero-cognitive-load", "pr-review", "frontend", "design"],
+      "keywords": ["workflow", "tdd", "productivity", "ai-orchestration", "north-star", "jtbd", "product-discovery", "self-bootstrapping", "zero-cognitive-load", "pr-review", "frontend", "design", "parallelization", "task-queue"],
       "strict": true
     }
   ]

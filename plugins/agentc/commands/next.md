@@ -30,12 +30,17 @@ Use `agentc/` as `$DIR`. Load `$DIR/agentc.json`.
 - If intents[] exists: rename intents to goals
 - Update all goalId references to northStarId in goals array
 
-**If version < "1.3" or v1.3 fields missing:**
+**If version < "1.4" or v1.4 fields missing:**
 - Add current.loopState = "idle" if missing
 - Add current.lastAction = null if missing
+- Add current.humanTaskQueue = [] if missing
+- Add current.batchMode = false if missing
+- Add current.reviewDebt = [] if missing
+- Add current.reviewPending = false if missing
+- Add current.prepWork = null if missing
 - Add patterns = { manualTasks: [], lastPatternAnalysis: null } if missing
 - For each goal: add stage = "discovery" and stageProgress if missing
-- Set version = "1.3"
+- Set version = "1.4"
 - Save
 
 ## STEP 0.5: Bootstrap Detection (Self-Bootstrapping)
@@ -222,6 +227,28 @@ For each ready AI-executable task:
 
 **Note:** Actually execute these tasks - don't just log them.
 
+## STEP 4.5: Background Prep Work
+
+While analyzing human tasks, prepare for likely upcoming work:
+
+1. **Identify next 2-3 likely implementation tasks** (after current human task)
+2. **Write failing tests** for these tasks (TDD prep)
+3. **Research unknowns** needed for queued tasks
+4. **Pre-analyze files** that will need modification
+
+Store in current.prepWork:
+```json
+{
+  "prepWork": {
+    "failingTests": ["spec/models/user_spec.rb", "spec/requests/auth_spec.rb"],
+    "researchNotes": "JWT library comparison: ruby-jwt vs jose",
+    "filesToModify": ["app/models/user.rb", "app/controllers/sessions_controller.rb"]
+  }
+}
+```
+
+**Benefit:** When human completes task, next implementation is already prepped.
+
 ## STEP 5: Recursive Task Decomposition
 
 **Goal: Find the MINIMUM human action required.**
@@ -247,9 +274,25 @@ RECURSIVE DECOMPOSITION:
   ├── Write deployment script → Claude does now
   ├── Test script locally → Claude does now
   ├── Update config files → Claude does now
-  ├── Run `ssh prod && ./deploy.sh` → HUMAN (credential gap)
+  ├── Run [ssh prod && ./deploy.sh] → HUMAN (credential gap)
   └── Verify via health endpoint → Claude does after
 ```
+
+**Anti-pattern: Bundling verification with subjective judgment**
+
+"Run and verify" tasks often bundle mechanical checks with subjective judgment. Always decompose:
+
+```
+BAD: "Run bin/dev and verify it works" → assigned to human
+
+GOOD: Decompose verification
+  ├── Run bin/dev → AI
+  ├── Verify HTTP 200 → AI (curl check)
+  ├── Verify DB state → AI (rails runner query)
+  └── "Do the buttons feel intuitive?" → HUMAN (subjective UX judgment)
+```
+
+The human task should be ONLY the subjective judgment, not "run the server."
 
 **Human task = ONLY the atomic capability gap:**
 - NOT: "Deploy to production"
@@ -272,23 +315,79 @@ RECURSIVE DECOMPOSITION:
 - Assign points: 1, 2, 3, 5, 8 (Fibonacci) - for human portion only
 - Estimate blocks based on velocity history
 
-## STEP 6: Return Human Task (Minimal Output)
+## STEP 5.5: Queue Generation
 
-**Default format (minimal):**
+After selecting primary human task, continue analysis to find 2-3 MORE independent tasks:
+
+1. **Independence check:** Task must NOT depend on primary task completion
+2. **Capability check:** Must require human capability (not AI-executable)
+3. **Energy match:** Prefer tasks matching current energy level
+
+Add to humanTaskQueue:
+```json
+{
+  "humanTaskQueue": [
+    {
+      "taskId": "t2",
+      "description": "Review email copy for founder outreach",
+      "independent": true,
+      "blockedBy": null,
+      "points": 2,
+      "requiredCapability": "subjective judgment"
+    },
+    {
+      "taskId": "t3",
+      "description": "UX check: does onboarding feel intuitive?",
+      "independent": true,
+      "blockedBy": null,
+      "points": 3,
+      "requiredCapability": "subjective judgment"
+    }
+  ]
+}
+```
+
+**Queue enables /skip:** If human gets blocked on primary task (waiting for deploy, external response), they can /skip to a queued task.
+
+**Batch mode trigger:** If energy = "out" AND 3+ mechanical tasks identified, set batchMode = true.
+
+## STEP 6: Return Human Task (With Queue)
+
+**Default format (with queue):**
 
     TASK [X pts]
     [Atomic human action - one clear sentence]
 
+    QUEUE (independent - /skip if blocked):
+      2. [Next task description] [Y pts]
+      3. [Another task] [Z pts]
+
     DO: /do
 
-That's it. No reasoning, no "Claude already did", no extras.
-
-**Only add deadline warning if critical:**
+**If queue is empty:**
 
     TASK [X pts]
     [Atomic human action]
 
-    DEADLINE RISK: [goal-wish] due in X hours
+    DO: /do
+
+**Deadline warning (if critical):**
+
+    TASK [X pts]
+    [Atomic human action]
+
+    QUEUE: [as above]
+
+    ⚠️ DEADLINE RISK: [goal-wish] due in X hours
+
+    DO: /do
+
+**Batch mode format (energy = "out" with 3+ mechanical tasks):**
+
+    BATCH [X pts total]
+    □ [Task 1]
+    □ [Task 2]
+    □ [Task 3]
 
     DO: /do
 
@@ -296,7 +395,7 @@ The human trusts the system chose the right task. They just execute.
 
 ## STEP 7: Update State
 
-Update agentc.json with loopState and lastAction:
+Update agentc.json with loopState, queue, and prepWork:
 
     {
       "current": {
@@ -318,6 +417,22 @@ Update agentc.json with loopState and lastAction:
           ],
           "status": "assigned",
           "assignedAt": "[timestamp]"
+        },
+        "humanTaskQueue": [
+          {
+            "taskId": "t2",
+            "description": "[queued task]",
+            "independent": true,
+            "blockedBy": null,
+            "points": 2,
+            "requiredCapability": "[capability]"
+          }
+        ],
+        "batchMode": false,
+        "prepWork": {
+          "failingTests": ["spec/..."],
+          "researchNotes": "...",
+          "filesToModify": ["app/..."]
         },
         "aiTasks": [...]
       }
