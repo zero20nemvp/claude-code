@@ -1,9 +1,9 @@
 {
   "name": "agentc",
-  "version": "1.6.0",
-  "description": "Superpowers methodology delivered through cognitive-load-reducing interface. North Stars → Goals → /next → /do → /done. Includes JTBD product discovery chain, PR review toolkit, autonomous loops, security guidance, and context-calibrated frontend design.",
+  "version": "1.8.1",
+  "description": "Zero cognitive load from empty directory to shipped product. Self-bootstrapping /next → /do → /done loop. Just type /next and the system guides you through discovery, design, and implementation.",
   "author": {
     "name": "db"
   },
-  "keywords": ["workflow", "tdd", "productivity", "ai-orchestration", "north-star", "jtbd", "product-discovery", "bdd", "cucumber", "pr-review", "security", "autonomous", "frontend", "design"]
+  "keywords": ["workflow", "tdd", "productivity", "ai-orchestration", "north-star", "jtbd", "product-discovery", "self-bootstrapping", "zero-cognitive-load", "pr-review", "frontend", "design"]
 }
