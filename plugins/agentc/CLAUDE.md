@@ -391,6 +391,12 @@ AgentC auto-detects project language:
 |--------------|---------------|
 | `Gemfile` | Ruby/Rails |
 | `package.json` | JavaScript/TypeScript |
+| Neither (default) | Ruby/Rails |
+
+**Default Stack (when no stack.md exists):**
+- Ruby + RBS (strict type signatures)
+- Rails 8 with Hotwire (Turbo Frames, Turbo Streams, Stimulus)
+- Hotwire Native for iOS and Android
 
 **Ruby mode enables:**
 - RSpec test commands (`bundle exec rspec`)

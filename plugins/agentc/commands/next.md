@@ -142,6 +142,10 @@ Status: All systems working autonomously
 
 3. **Codebase Analysis (Reality Check):**
    - Check for `stack.md` in project root
+   - If no `stack.md` exists, assume default stack:
+     - Ruby + RBS (strict type signatures)
+     - Rails 8 with Hotwire (Turbo Frames, Turbo Streams, Stimulus)
+     - Hotwire Native for iOS and Android
    - Scan codebase for actual state
    - What's implemented? What's missing?
    - The codebase is REALITY - tasks must work with it
