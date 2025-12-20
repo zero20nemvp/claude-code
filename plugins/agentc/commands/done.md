@@ -25,6 +25,40 @@ Use `agentc/` as `$DIR`. Load `$DIR/agentc.json`.
 1. Check that /do was run (humanTask.status should be "in_progress")
 2. If status is still "assigned", warn: "Task not started. Run /do first."
 
+## STEP 0.5: Stage Task Completion
+
+Check humanTask.type for stage tasks. These skip TDD/verification gates:
+
+**type = "bootstrap" or "create-north-star":**
+- Verify North Star was created in agentc.json
+- Skip to STEP 8 (Update State)
+
+**type = "create-goal":**
+- Verify Goal was created in agentc.json
+- Skip to STEP 8 (Update State)
+
+**type = "jtbd":**
+- Verify stageProgress.jtbd.status = "done"
+- Verify JTBD file exists
+- Skip to STEP 8 (Update State)
+
+**type = "stories":**
+- Verify stageProgress.stories.status = "done"
+- Verify stories file exists
+- Skip to STEP 8 (Update State)
+
+**type = "features":**
+- Verify stageProgress.features.status = "done"
+- Verify feature files exist
+- Skip to STEP 8 (Update State)
+
+**type = "slices":**
+- Verify stageProgress.slices.status = "done"
+- Skip to STEP 8 (Update State)
+
+**type = null or "implementation":**
+- Continue to STEP 1 (normal verification flow)
+
 ## STEP 1: Get Blocks Used
 
 Try to stop timer by running the timer script with "stop".

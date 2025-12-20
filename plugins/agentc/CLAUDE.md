@@ -150,10 +150,10 @@ Full phat:
 
 Single file: agentc/agentc.json
 
-Schema version: 1.2
+Schema version: 1.3
 
     {
-      "version": "1.2",
+      "version": "1.3",
       "current": {
         "loopState": "idle | assigned | executing",
         "lastAction": {
@@ -181,10 +181,12 @@ Schema version: 1.2
 
 **Pattern Tracking** identifies recurring manual tasks for skill creation.
 
+**Stage Progress** tracks where each goal is in the journey (discovery to implementation).
+
 Full schema:
 
     {
-      "version": "1.2",
+      "version": "1.3",
       "northStars": [{
         "id": "ns1",
     "name": "Secure Auth",
@@ -205,6 +207,13 @@ Full schema:
     "outcome": ["Login works", "Tests pass"],
     "obstacles": ["Complex legacy code"],
     "ifThen": [{"if": "Stuck on legacy", "then": "Write integration tests first"}],
+    "stage": "discovery | design | implementation",
+    "stageProgress": {
+      "jtbd": { "status": "pending | done", "file": null },
+      "stories": { "status": "pending | done", "file": null },
+      "features": { "status": "pending | done", "path": null },
+      "slices": { "status": "pending | done", "branches": [] }
+    },
     "milestones": [
       {
         "id": "m1",

@@ -27,14 +27,67 @@ Use `agentc/` as `$DIR`. Load `$DIR/agentc.json`.
 - If intents[] exists: rename intents to goals
 - Update all goalId references to northStarId in goals array
 
-**If version < "1.2" or v1.2 fields missing:**
+**If version < "1.3" or v1.3 fields missing:**
 - Add current.loopState = "idle" if missing
 - Add current.lastAction = null if missing
 - Add patterns = { manualTasks: [], lastPatternAnalysis: null } if missing
-- Set version = "1.2"
-- Save and announce: "Migrated to schema v1.2"
+- For each goal: add stage = "discovery" and stageProgress if missing
+- Set version = "1.3"
+- Save
 
-If no north stars exist, prompt user to add north stars first using /add-north-star.
+## STEP 0.5: Bootstrap Detection (Self-Bootstrapping)
+
+The loop is self-bootstrapping. Detect project state and surface appropriate task:
+
+**1. No agentc.json exists:**
+
+Create initial agentc.json with empty structure, then surface bootstrap task:
+
+    TASK [3 pts]
+    Define what you're building and who it's for
+
+    DO: /do
+
+Set humanTask to bootstrap task with type = "bootstrap".
+
+**2. No North Stars exist:**
+
+Surface task to create first north star:
+
+    TASK [3 pts]
+    Define your guiding direction
+
+    DO: /do
+
+Set humanTask with type = "create-north-star".
+
+**3. No active Goals exist:**
+
+Surface task to create first goal:
+
+    TASK [3 pts]
+    What's your first concrete commitment?
+
+    DO: /do
+
+Set humanTask with type = "create-goal", northStarId = first north star.
+
+**4. Goal exists but in early stage:**
+
+Check goal.stageProgress (or detect from files if missing):
+- jtbd.status = pending: Surface JTBD discovery task (type = "jtbd")
+- stories.status = pending: Surface story mapping task (type = "stories")
+- features.status = pending: Surface feature writing task (type = "features")
+- slices.status = pending: Surface vertical slicing task (type = "slices")
+
+    TASK [5 pts]
+    Discover the jobs your users need done
+
+    DO: /do
+
+**5. All stages complete:**
+
+Continue to STEP 1 (normal task generation from milestones).
 
 ## STEP 1: Check Current Work Status
 

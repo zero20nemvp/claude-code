@@ -19,9 +19,74 @@ Use `agentc/` as `$DIR`. Load `$DIR/agentc.json`.
 
 ## STEP 0: Verify Active Task
 
-1. Check `current.humanTask` exists
+1. Check current.humanTask exists
 2. If no task assigned: "No task assigned. Run /next first."
 3. Load task details from humanTask
+
+## STEP 0.25: Stage-Aware Execution
+
+Check humanTask.type to determine execution path:
+
+**type = "bootstrap" or "create-north-star":**
+
+Run inline North Star creation:
+1. Use AskUserQuestion: "What problem are you solving?"
+2. Use AskUserQuestion: "Who has this problem most acutely?"
+3. Use AskUserQuestion: "What does success look like?"
+4. Create North Star from answers
+5. Save to agentc.json
+6. Output: "Created North Star: [name]" then DO: /done
+
+**type = "create-goal":**
+
+Run inline Goal creation:
+1. Use AskUserQuestion: "What specific outcome do you want to achieve?"
+2. Use AskUserQuestion: "How will you know it's done? (acceptance criteria)"
+3. Use AskUserQuestion: "What might block you?"
+4. Use AskUserQuestion: "When must this be complete?"
+5. Create Goal with stage = "discovery", stageProgress all pending
+6. Save to agentc.json
+7. Output: "Created Goal: [wish]" then DO: /done
+
+**type = "jtbd":**
+
+Run inline JTBD discovery:
+1. Load goal context
+2. Use AskUserQuestion: "When [situation], I want to [motivation], so I can [outcome]"
+3. Probe deeper with follow-up questions
+4. Save JTBD to docs/jtbd/YYYY-MM-DD-[goal-slug].md
+5. Update goal.stageProgress.jtbd = { status: "done", file: path }
+6. Output: "JTBD documented" then DO: /done
+
+**type = "stories":**
+
+Run inline story mapping:
+1. Load JTBD file from goal.stageProgress.jtbd.file
+2. Convert jobs to user stories via AskUserQuestion for validation
+3. Save to docs/stories/YYYY-MM-DD-[goal-slug].md
+4. Update goal.stageProgress.stories = { status: "done", file: path }
+5. Output: "Stories mapped" then DO: /done
+
+**type = "features":**
+
+Run inline feature writing:
+1. Load stories file
+2. Generate Gherkin feature files
+3. Save to features/[goal-slug]/
+4. Update goal.stageProgress.features = { status: "done", path: path }
+5. Output: "Features written" then DO: /done
+
+**type = "slices":**
+
+Run inline vertical slicing:
+1. Load feature files
+2. Plan thin vertical slices via AskUserQuestion
+3. Update goal.stageProgress.slices = { status: "done", branches: [...] }
+4. Output: "Slices planned" then DO: /done
+
+**type = null or "implementation":**
+
+Continue to STEP 0.5 (normal TDD execution).
 
 ## STEP 0.5: Set Milk Quality Tier
 
