@@ -207,14 +207,22 @@ If YES → Suggest the capability:
 
 Log suggestions to `agentc.json` under `suggestedCapabilities[]`
 
-## STEP 4: Dispatch AI Agents (up to 5 parallel)
+## STEP 4: Dispatch AI Agents in Background (TRUE PARALLELISM)
 
-For each ready AI-executable task:
-1. **Execute immediately** using appropriate tools
-2. **Log to current.aiTasks:**
+**AI and Human work simultaneously.** Dispatch AI tasks to run in background while human works.
+
+For each ready AI-executable task (up to 5):
+
+1. **Use Task tool with run_in_background=true:**
+   - Dispatch agent to work independently
+   - Agent runs while human works on their task
+   - Both are productive simultaneously
+
+2. **Log to current.aiTasks with taskId for tracking:**
    ```json
    {
      "id": "ai-001",
+     "taskId": "[returned task ID from Task tool]",
      "description": "Generate unit tests for auth module",
      "status": "running",
      "startedAt": "[timestamp]",
@@ -223,9 +231,23 @@ For each ready AI-executable task:
      "milestoneId": "m2"
    }
    ```
-3. Continue to next AI task (up to 5 total)
 
-**Note:** Actually execute these tasks - don't just log them.
+3. **Dispatch ALL independent AI tasks in single message:**
+   - Use multiple Task tool calls in ONE response
+   - All agents start simultaneously
+   - Maximum parallelism
+
+**Example dispatch:**
+```
+[Task tool call 1: run_in_background=true, "Write unit tests for User model"]
+[Task tool call 2: run_in_background=true, "Add RBS types for auth module"]
+[Task tool call 3: run_in_background=true, "Update API documentation"]
+```
+
+All three run in parallel. Human gets their task. Everyone works.
+
+**After dispatch, immediately continue to human task assignment.**
+Do NOT wait for AI tasks to complete.
 
 ## STEP 4.5: Background Prep Work
 

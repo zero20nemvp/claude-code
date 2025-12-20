@@ -264,7 +264,16 @@ Full schema:
         "requiredCapability": "subjective judgment"
       }
     ],
-    "aiTasks": [],
+    "aiTasks": [
+      {
+        "id": "ai-001",
+        "taskId": "background-task-id-from-Task-tool",
+        "description": "Write unit tests for auth",
+        "status": "running",
+        "startedAt": "2025-12-20T10:00:00Z",
+        "result": null
+      }
+    ],
     "batchMode": false,
     "reviewDebt": [
       {
@@ -467,10 +476,13 @@ Example:
 - Single /do-batch for multiple small tasks
 - Review runs once at batch end
 
-### AI Orchestration
-- Claude handles everything within its capabilities
-- Up to 5 AI tasks running simultaneously
-- Human handles capability gaps only
+### True Parallelism (AI + Human)
+- AI agents run in BACKGROUND (run_in_background=true)
+- Up to 5 AI agents work simultaneously
+- Human works on their task AT THE SAME TIME
+- Both are productive in parallel
+- /now shows what AI is doing while you work
+- /done checks AI completions and dispatches more
 
 ### Continuous Improvement
 - Suggest MCPs for external access

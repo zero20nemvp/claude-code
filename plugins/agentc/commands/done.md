@@ -253,19 +253,31 @@ Update velocity totals:
 - totalBlocks += actualBlocks
 - Recalculate currentVelocity (points/block)
 
-## STEP 6: Check AI Task Completions
+## STEP 6: Check AI Task Completions (Background Agents)
 
-While human was working, AI agents may have finished:
+While human was working, AI agents were running in parallel. Check their status:
 
-1. Check current.aiTasks for status "completed"
-2. If any completed:
-   ```
-   While you worked, AI completed:
-   ✓ [AI task 1]
-   ✓ [AI task 2]
-   ```
-3. Update those tasks in goal.plan.tasks
-4. Archive completed AI tasks
+1. **For each task in current.aiTasks with status "running":**
+   - Use TaskOutput tool with block=false to check status
+   - Pass the taskId stored when agent was dispatched
+
+2. **If agent completed:**
+   - Read the result from TaskOutput
+   - Update aiTask status to "completed"
+   - Store result summary in aiTask.result
+   - Display:
+         While you worked, AI completed:
+         ✓ [AI task description] - [brief result]
+
+3. **If agent still running:**
+   - Keep status as "running"
+   - Display:
+         AI still working:
+         ⋯ [AI task description] (running Xm)
+
+4. **Update goal.plan.tasks** with completed AI work
+
+5. **Dispatch NEW AI tasks** for any newly unblocked work (up to 5 total running)
 
 ## STEP 7: Queue Pop or Next Analysis
 
