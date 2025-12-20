@@ -23,12 +23,18 @@ Use `agentc/` as `$DIR`. Load `$DIR/agentc.json`.
 ## STEP 0: Auto-Migration
 
 **If old schema detected, migrate first:**
-- If `goals[]` exists but `northStars[]` doesn't: rename `goals` → `northStars`
-- If `intents[]` exists: rename `intents` → `goals`
-- Update all `goalId` references to `northStarId` in goals array
-- Save and announce: "Migrated data schema: goals → northStars, intents → goals"
+- If goals[] exists but northStars[] doesn't: rename goals to northStars
+- If intents[] exists: rename intents to goals
+- Update all goalId references to northStarId in goals array
 
-If no north stars exist, prompt user to add north stars first using `/add-north-star`.
+**If version < "1.2" or v1.2 fields missing:**
+- Add current.loopState = "idle" if missing
+- Add current.lastAction = null if missing
+- Add patterns = { manualTasks: [], lastPatternAnalysis: null } if missing
+- Set version = "1.2"
+- Save and announce: "Migrated to schema v1.2"
+
+If no north stars exist, prompt user to add north stars first using /add-north-star.
 
 ## STEP 1: Check Current Work Status
 
@@ -194,82 +200,59 @@ RECURSIVE DECOMPOSITION:
 - Assign points: 1, 2, 3, 5, 8 (Fibonacci) - for human portion only
 - Estimate blocks based on velocity history
 
-## STEP 6: Return Human Task
+## STEP 6: Return Human Task (Minimal Output)
 
-```
-TASK [X points | Est: Y blocks]
-[Atomic human action - as small as possible]
+**Default format (minimal):**
 
-Requires: [Which human capability - e.g., "production access", "UX judgment"]
+    TASK [X pts]
+    [Atomic human action - one clear sentence]
 
-Claude already did:
-  ✓ [subtask 1]
-  ✓ [subtask 2]
+    DO: /do
 
-Your action:
-  → [Exact atomic action needed]
+That's it. No reasoning, no "Claude already did", no extras.
 
-Claude will do after:
-  ◦ [subtask that waits on human]
-  ◦ [verification/next steps]
+**Only add deadline warning if critical:**
 
-Advances: [north-star-name] → [milestone-name]
+    TASK [X pts]
+    [Atomic human action]
 
-Ready? Run /do to start.
-```
+    DEADLINE RISK: [goal-wish] due in X hours
 
-**Multi-goal format (if applicable):**
-```
-Advances:
-- [north-star-1] → [milestone]
-- [north-star-2] → [milestone]
-```
+    DO: /do
 
-**Deadline warnings:**
-- "⚠️ DEADLINE RISK - [goal-wish] due in X hours"
-
-**Efficiency Suggestions (if any):**
-```
-💡 EFFICIENCY: [suggestion]
-   If you [action], Claude could handle this type of task.
-   Example: "Add Slack MCP server" or "Document the deployment process"
-```
+The human trusts the system chose the right task. They just execute.
 
 ## STEP 7: Update State
 
-Update agentc.json:
-```json
-{
-  "current": {
-    "humanTask": {
-      "taskId": "t[next]",
-      "description": "[task]",
-      "requiredCapability": "[which human capability]",
-      "points": 5,
-      "estimatedBlocks": 4,
-      "energyLevel": "out",
-      "targetMilestones": [
-        {"northStarId": "ns1", "goalId": "g1", "milestoneId": "m1"}
-      ],
-      "status": "assigned",
-      "assignedAt": "[timestamp]"
-    },
-    "taskReasoning": "[Why this task requires human capabilities]",
-    "aiTasks": [...]
-  },
-  "suggestedCapabilities": [
+Update agentc.json with loopState and lastAction:
+
     {
-      "type": "mcp|skill|automation|tool",
-      "description": "[what it would enable]",
-      "wouldAutomate": "[which human tasks]",
-      "suggestedAt": "[timestamp]"
+      "current": {
+        "loopState": "assigned",
+        "lastAction": {
+          "action": "next",
+          "timestamp": "[ISO timestamp]",
+          "description": "Assigned: [task description]"
+        },
+        "humanTask": {
+          "taskId": "t[next]",
+          "description": "[task]",
+          "requiredCapability": "[which human capability]",
+          "points": 5,
+          "estimatedBlocks": 4,
+          "energyLevel": "out",
+          "targetMilestones": [
+            {"northStarId": "ns1", "goalId": "g1", "milestoneId": "m1"}
+          ],
+          "status": "assigned",
+          "assignedAt": "[timestamp]"
+        },
+        "aiTasks": [...]
+      }
     }
-  ]
-}
-```
 
 **Do NOT start timer** - task is assigned but not started.
-Human uses `/do` when ready to begin.
+Human calls /do when ready to begin.
 
 ## Important Notes
 

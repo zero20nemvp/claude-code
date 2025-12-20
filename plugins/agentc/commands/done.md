@@ -27,31 +27,25 @@ Use `agentc/` as `$DIR`. Load `$DIR/agentc.json`.
 
 ## STEP 1: Get Blocks Used
 
-Try to stop timer:
-```bash
-${CLAUDE_PLUGIN_ROOT}/scripts/timer.sh stop
-```
+Try to stop timer by running the timer script with "stop".
 
 - If timer running: Parse "Blocks: N" from output
 - If timer not running and blocks argument provided: Use argument
-- If neither: Ask user for manual entry
-
-Display: "Timer stopped: N blocks used" or "Manual entry: N blocks"
+- If neither: Use AskUserQuestion with options: ["1 block", "2 blocks", "3 blocks", "5 blocks", "8 blocks"]
 
 ## STEP 2: Verification Evidence Check
 
 **Must have evidence from /do execution:**
 
-Ask: "Please confirm the verification results from /do:"
+Use AskUserQuestion:
+- Question: "All verification gates passed?"
+- Options: ["Yes, all passed", "No, back to /do"]
 
-1. **Tests passed?** (yes/no)
-2. **Code review passed?** (yes/no, issues fixed)
-3. **Changes committed?** (yes/no)
-4. **Tier gate passed?** (yes/no) - based on milkQuality tier
+**If "No, back to /do":**
 
-**If any NO:**
-- "Completion blocked. Run /do to complete task properly."
-- Do not record completion
+    BLOCKED: Verification incomplete.
+
+    DO: /do
 
 ## STEP 2.5: Milk Quality Tier Verification
 
@@ -221,33 +215,36 @@ While human was working, AI agents may have finished:
 3. Dispatch new AI agents if available (up to 5)
 4. Identify next human task
 
+## STEP 7.5: Track Manual Task Patterns
+
+Track recurring patterns for future skill creation:
+
+1. Normalize task description to a pattern (remove specifics like names, numbers)
+2. Check patterns.manualTasks for similar patterns
+3. If found: increment count, update lastSeen
+4. If not found: add new entry with count = 1
+5. If count >= 5 AND no skill suggested yet:
+   - Note: "SKILL OPPORTUNITY: You've done '[pattern]' 5+ times. Consider creating a skill."
+
 ## STEP 8: Update State
 
 Update agentc.json:
+- Set current.loopState = "idle"
+- Set current.lastAction = { action: "done", timestamp: now, description: "Completed: [task]" }
 - Set current.humanTask = null
 - Update current.aiTasks (remove completed, add new)
 - Update lastCheckIn timestamp
 
-## STEP 9: Output Summary
+## STEP 9: Output Summary (Minimal)
 
-```
-=== Task Complete ===
+Output:
 
-Task: [description]
-Milk Quality: [TIER] ✓
-Estimated: X blocks | Actual: Y blocks
+    DONE [X blocks]
+    [Task description]
 
-Goal progress: [goal-id] "[wish]"
-  [completed]/[total] tasks (X%)
+    DO: /next
 
-Velocity: Z points/block
-
-AI Status:
-  ✓ [completed AI tasks]
-  → [running AI tasks]
-
-Run /next for your next task.
-```
+That's it. No verbose stats. Human trusts the system recorded everything.
 
 ## Key Principles
 

@@ -66,10 +66,10 @@ Detect project language to apply appropriate tooling:
 ${CLAUDE_PLUGIN_ROOT}/scripts/detect-language.sh
 ```
 
-**Set `$LANG_MODE` based on result:**
-- `ruby` - Use RSpec commands, Ruby examples, RBS type checking
-- `javascript` - Use Jest/Vitest commands, TypeScript examples
-- `unknown` - Ask user to specify
+**Set LANG_MODE based on result:**
+- ruby - Use RSpec commands, Ruby examples, RBS type checking
+- javascript - Use Jest/Vitest commands, TypeScript examples
+- unknown - Use AskUserQuestion with options: ["Ruby/Rails", "JavaScript/TypeScript"]
 
 **Update humanTask in agentc.json:**
 ```json
@@ -131,14 +131,44 @@ Similarly detect and apply:
 - `systematic-debugging` - if task mentions bug, error, fix, investigate
 - `brainstorming` - if task requires design decisions or architecture
 
-## STEP 1: Start Timer
+## STEP 1: Start Timer and Update Loop State
 
-Run the timer script:
-```bash
-${CLAUDE_PLUGIN_ROOT}/scripts/timer.sh start
-```
+Run the timer script to start tracking time.
 
-Update humanTask.status to "in_progress" and set startedAt timestamp.
+Update agentc.json:
+- Set current.loopState = "executing"
+- Set current.lastAction = { action: "do", timestamp: now, description: "Started: [task]" }
+- Set humanTask.status = "in_progress"
+- Set humanTask.startedAt = now
+
+## STEP 1.5: AI Does Max, Human Does Minimum
+
+**Core principle: AI does everything it CAN. Human only does what ONLY human can do.**
+
+Before executing, decompose the task:
+
+1. Break task into subtasks
+2. For each subtask ask: "Can AI do this?"
+   - YES: AI executes immediately
+   - NO: Queue for human (requires human capability)
+3. Execute all AI subtasks first
+4. Surface ONLY atomic human actions via AskUserQuestion
+
+Human capabilities (only these require human):
+- External system access (production credentials)
+- Physical device testing
+- Real browser sessions with auth
+- Strategic authority / sign-off
+- External communication (send emails, calls)
+- Subjective UX judgment ("does this feel right?")
+- Domain expertise not in codebase
+
+Example:
+- Task: "Send outreach to 3 founders"
+- AI does: Draft messages, find contact info, format templates
+- Human does: "Send this exact message to sarah@startup.io" [text provided]
+
+The human receives the MINIMUM atomic action. AI handles everything else.
 
 ## STEP 2: Apply TDD Discipline (Tier-Based)
 
@@ -396,23 +426,17 @@ Only after:
 - TDD cycle complete (for code tasks)
 - Code review passed (critical/important fixed)
 - Verification passed
-- **Tier quality gate passed**
-- **Frontend design gate passed** (if frontend task)
+- Tier quality gate passed
+- Frontend design gate passed (if frontend task)
 
-```
-=== Task Complete ===
+Output (minimal):
 
-Task: [description]
-Milk Quality: [TIER]
-TDD: RED → GREEN → REFACTOR
-Code Review: PASSED (X issues fixed)
-Verification: PASSED
-Tier Gate: PASSED
-Frontend Gate: PASSED (if applicable)
+    COMPLETE
+    [Task description]
 
-Ready to record completion.
-Run /done to finish and get next task.
-```
+    DO: /done
+
+That's it. No verbose summary. Human trusts the process passed all gates.
 
 ## Key Principles
 

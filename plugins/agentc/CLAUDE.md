@@ -1,13 +1,29 @@
 # AgentC
 
-**Superpowers methodology delivered through cognitive-load-reducing interface.**
+**Zero cognitive load. Trust the process. Just execute.**
 
-AgentC combines the best coding discipline (from Superpowers) with the best workflow design (from AgentH) into a single, powerful system.
+## The Only Interface
+
+    /next -> /do -> /done -> /next -> /do -> /done ...
+
+Plus /now to check "where am I?" at any point.
+
+**Every command output ends with exactly one of:**
+
+    DO: /next   or   DO: /do   or   DO: /done
+
+You never think "what should I call?" - the system always tells you.
 
 ## Philosophy
 
-- **Superpowers** = the *what* (TDD, verification, brainstorming, code review)
-- **AgentH** = the *how* (one task at a time, AI orchestration, zero decision fatigue)
+The human is an **orchestrated agent** - like any other agent in the system, but with unique capabilities. The system:
+
+1. **Pulls toward outcomes** - Works backwards from goals to find the essential path
+2. **Optimizes across all goals** - Considers deadlines, velocity, cross-goal leverage
+3. **Does everything it can** - AI executes all subtasks within its capability
+4. **Surfaces only atomic human actions** - You only do what ONLY you can do
+
+Think of it like an Amazon warehouse: you put items on the tray, the system knows where everything goes. You don't think about organization - you trust the process and execute.
 
 ### Human as Agent
 
@@ -132,13 +148,45 @@ Full phat:
 
 ## Data Model
 
-Single file: `agentc/agentc.json`
+Single file: agentc/agentc.json
 
-```json
-{
-  "version": "1.1",
-  "northStars": [{
-    "id": "ns1",
+Schema version: 1.2
+
+    {
+      "version": "1.2",
+      "current": {
+        "loopState": "idle | assigned | executing",
+        "lastAction": {
+          "action": "next | do | done",
+          "timestamp": "ISO timestamp",
+          "description": "What happened"
+        },
+        "humanTask": { ... },
+        "aiTasks": [],
+        "lastCheckIn": null
+      },
+      "patterns": {
+        "manualTasks": [
+          { "pattern": "...", "count": 5, "firstSeen": "...", "lastSeen": "..." }
+        ],
+        "lastPatternAnalysis": null
+      },
+      ...
+    }
+
+**Loop State** determines what command to call next:
+- idle -> DO: /next
+- assigned -> DO: /do
+- executing -> DO: /done
+
+**Pattern Tracking** identifies recurring manual tasks for skill creation.
+
+Full schema:
+
+    {
+      "version": "1.2",
+      "northStars": [{
+        "id": "ns1",
     "name": "Secure Auth",
     "direction": "Secure user authentication",
     "why": "Users need to trust their data is safe",
@@ -172,6 +220,12 @@ Single file: `agentc/agentc.json`
     "created": "2025-12-12T10:30:00Z"
   }],
   "current": {
+    "loopState": "idle",
+    "lastAction": {
+      "action": "done",
+      "timestamp": "2025-12-20T10:00:00Z",
+      "description": "Completed: Send outreach to founders"
+    },
     "humanTask": {
       "taskId": "t1",
       "description": "Task description",
@@ -188,6 +242,10 @@ Single file: `agentc/agentc.json`
     },
     "aiTasks": [],
     "lastCheckIn": null
+  },
+  "patterns": {
+    "manualTasks": [],
+    "lastPatternAnalysis": null
   },
   "velocity": {
     "totalPoints": 0,
