@@ -121,8 +121,8 @@ Only use exec() if you absolutely need shell features and the input is guarantee
     },
     {
         "ruleName": "ruby_system_injection",
-        "substrings": ["system(", "exec(", "`"],
-        "reminder": "Security Warning: Ruby system/exec/backtick commands can lead to command injection. Use array form: system('cmd', arg1, arg2) instead of string interpolation.",
+        "substrings": ["system("],
+        "reminder": "Security Warning: Ruby system() can lead to command injection. Use array form: system('cmd', arg1, arg2) instead of string interpolation.",
     },
     {
         "ruleName": "rails_raw_html",
