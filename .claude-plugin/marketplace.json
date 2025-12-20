@@ -14,7 +14,7 @@
       "name": "agentc",
       "source": "./plugins/agentc",
       "description": "Zero cognitive load from empty directory to shipped product. Self-bootstrapping /next → /do → /done loop. Just type /next and the system guides you through discovery, design, and implementation.",
-      "version": "1.8.1",
+      "version": "1.8.2",
       "author": {
         "name": "Zero2One"
       },
