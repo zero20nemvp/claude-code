@@ -4,6 +4,9 @@ arguments:
   - name: energy
     description: "Energy level: 'in' for focused/complex, 'out' for mechanical/simple"
     required: false
+  - name: skip-discovery
+    description: "Skip discovery stages (jtbd, stories, features, slices) - go straight to implementation"
+    required: false
 allowed-tools:
   - Read
   - Write
@@ -37,7 +40,19 @@ Use `agentc/` as `$DIR`. Load `$DIR/agentc.json`.
 
 ## STEP 0.5: Bootstrap Detection (Self-Bootstrapping)
 
-The loop is self-bootstrapping. Detect project state and surface appropriate task:
+The loop is self-bootstrapping. Detect project state and surface appropriate task.
+
+**--skip-discovery flag:**
+
+If --skip-discovery is passed:
+- Mark all discovery stages as done for the active goal
+- Set stageProgress.jtbd.status = "done"
+- Set stageProgress.stories.status = "done"
+- Set stageProgress.features.status = "done"
+- Set stageProgress.slices.status = "done"
+- Skip to STEP 1 (normal implementation task generation)
+
+This is for when you already know what to build and want to code.
 
 **1. No agentc.json exists:**
 
