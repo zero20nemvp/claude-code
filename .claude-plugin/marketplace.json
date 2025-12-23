@@ -2,7 +2,7 @@
   "name": "zero2one-turg",
   "metadata": {
     "description": "Zero2One marketplace for Claude Code plugins",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "pluginRoot": "./plugins"
   },
   "owner": {
