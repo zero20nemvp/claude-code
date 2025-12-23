@@ -31,7 +31,7 @@ AI-powered development workflow with zero decision fatigue. One simple interface
 ### Add This Marketplace
 
 ```bash
-/plugin marketplace add https://git.laki.zero2one.ee/claude/turg.git
+/plugin marketplace add https://github.com/zero20nemvp/claude-code.git
 ```
 
 ### Install AgentC
@@ -43,7 +43,7 @@ AI-powered development workflow with zero decision fatigue. One simple interface
 ## Support
 
 - Email: delaney@zero2one.ee
-- Repository: https://git.laki.zero2one.ee/claude/turg
+- Repository: https://github.com/zero20nemvp/claude-code
 
 ## License
 

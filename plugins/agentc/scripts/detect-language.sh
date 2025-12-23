@@ -1,11 +1,1 @@
-#!/bin/bash
-# Detect project language based on manifest files
-# Returns: "ruby", "javascript", or "unknown"
-
-if [ -f "Gemfile" ]; then
-    echo "ruby"
-elif [ -f "package.json" ]; then
-    echo "javascript"
-else
-    echo "unknown"
-fi
+5535 82 1 2 2612 2 939 2 1628 2 2494 2 120 2 5740 2 1263 82 1 2 5741 2 5742 2 5743 2 43 2 5744 4 372 2 379 2 2793 2 5745 2 2870 2 2516 453 2801 2 5746 82 5443 2 379 2 2793 2 5747 2 2870 2 2516 453 2801 2 5748 82 2804 453 2801 2 5744 82 2806 82
