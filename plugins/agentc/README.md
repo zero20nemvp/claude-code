@@ -1,3 +1,5 @@
+**Note:** This plugin requires `lock.yml` to be present in context to function.
+
 # AgentC
 
 **Zero cognitive load. Trust the process. Just execute.**
