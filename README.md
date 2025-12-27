@@ -31,13 +31,13 @@ AI-powered development workflow with zero decision fatigue. One simple interface
 ### Add This Marketplace
 
 ```bash
-/plugin marketplace add https://github.com/zero2onemvp/claude-code.git
+/plugin marketplace add https://github.com/zero20nemvp/claude-code.git
 ```
 
 ### Install AgentC
 
 ```bash
-/plugin install agentc@zero2onemvp-claude-code
+/plugin install agentc@zero20nemvp-claude-code
 ```
 
 ### Get Your License Key
@@ -54,7 +54,7 @@ Place the key file at:
 ## Support
 
 - Email: delaney@zero2one.ee
-- Repository: https://github.com/zero2onemvp/claude-code
+- Repository: https://github.com/zero20nemvp/claude-code
 
 ## License
 
