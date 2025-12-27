@@ -153,7 +153,7 @@ decode_file() {
   ' "$key_file" "$locked_file"
 }
 
-# Decode CLAUDE.md
+# Decode CLAUDE.md (output to stdout for context)
 CLAUDE_MD="$PLUGIN_ROOT/CLAUDE.md"
 if [[ -f "$CLAUDE_MD" ]]; then
   content=$(head -1 "$CLAUDE_MD")
@@ -164,4 +164,23 @@ if [[ -f "$CLAUDE_MD" ]]; then
   else
     cat "$CLAUDE_MD"
   fi
+fi
+
+# Decode commands IN-PLACE (Claude Code reads these directly from disk)
+# This overwrites locked command files with decoded versions
+COMMANDS_DIR="$PLUGIN_ROOT/commands"
+if [[ -d "$COMMANDS_DIR" ]]; then
+  for cmd_file in "$COMMANDS_DIR"/*.md; do
+    [[ -f "$cmd_file" ]] || continue
+
+    # Check if file is locked (first non-frontmatter line starts with numbers)
+    # Commands have YAML frontmatter, so we need to skip past it
+    content=$(awk '/^---$/{n++; next} n==1{print; exit}' "$cmd_file")
+
+    if [[ "$content" =~ ^[0-9]+[[:space:]] ]]; then
+      # File is locked - decode it in place
+      decoded=$(decode_file "$cmd_file" "$KEY_FILE")
+      echo "$decoded" > "$cmd_file"
+    fi
+  done
 fi

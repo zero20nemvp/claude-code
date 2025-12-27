@@ -2,31 +2,4 @@
 allowed-tools: Bash(git add:*), Bash(git status:*), Bash(git commit:*)
 description: Create a git commit with auto-generated message based on changes
 ---
-
-## Context
-
-- Current git status: !`git status`
-- Current git diff (staged and unstaged changes): !`git diff HEAD`
-- Current branch: !`git branch --show-current`
-- Recent commits: !`git log --oneline -10`
-
-## Your task
-
-Based on the above changes, create a single git commit.
-
-1. Analyze the changes and recent commit style
-2. Stage all relevant files
-3. Create commit with descriptive message following repo conventions
-
-You have the capability to call multiple tools in a single response. Stage and create the commit using a single message.
-
-**Commit message format:**
-```
-<type>: <description>
-
-<body if needed>
-
-Co-Authored-By: Claude <noreply@anthropic.com>
-```
-
-Common types: feat, fix, refactor, docs, test, chore
+82 13 2 1806 4 51 2 1525 2 2640 2 2701 2 2702 2 1110 82 51 2 1525 2 2640 2 2703 2 2704 2 130 2 1131 2 2705 2 2702 2 2703 2 2706 82 51 2 1525 2 2667 2 2702 2 2641 2 2707 82 51 2 2755 2 2756 2 2702 2 2001 2 2757 2 2758 4 13 2 1119 2 263 4 2711 2 120 2 9 2 2712 2 2713 2 709 2 1080 2 1341 2 2640 2 2759 4 71 2 897 2 9 2 1132 2 130 2 1578 2 704 2 1153 82 83 2 2725 2 86 2 2726 2 1138 82 93 2 665 2 704 2 37 2 2719 2 705 2 2760 2 2761 2 1151 4 44 2 640 2 9 2 103 2 25 2 457 2 1031 2 2748 2 65 2 1080 2 1341 2 2749 2 2725 2 130 2 709 2 9 2 704 2 2762 2 1080 2 1341 2 2751 4 2763 2 705 2 2764 82 221 82 2765 2 2766 4 2767 2 372 2 2768 4 2744 2 140 2 2745 82 221 4 803 2 2769 2 2770 2 2771 2 2772 2 2773 2 2774 2 2775
