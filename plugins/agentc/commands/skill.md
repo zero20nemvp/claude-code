@@ -1,4 +1,5 @@
 ---
+name: skill
 description: "Create a skill or MCP to automate recurring human tasks - path to 100% automation"
 arguments:
   - name: pattern-id
