@@ -13,14 +13,7 @@ INTERPRETERS = {
 }.freeze
 
 def find_key_file(script_dir)
-  # Get plugin name from script_dir for centralized key lookup
-  plugin_name = File.basename(script_dir)
   candidates = [
-    # Centralized key location (preferred)
-    File.join(Dir.home, '.config', 'context-lock', 'keys', plugin_name, 'lock.yml'),
-    File.join(Dir.home, '.config', 'context-lock', plugin_name, 'lock.yml'),
-    File.join(Dir.home, '.config', 'context-lock', 'lock.yml'),
-    # Local fallbacks
     File.join(script_dir, 'lock.yml'),
     File.join(script_dir, '..', 'lock.yml')
   ]

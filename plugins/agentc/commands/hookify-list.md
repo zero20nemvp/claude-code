@@ -2,4 +2,79 @@
 description: List all configured hookify rules
 allowed-tools: ["Glob", "Read", "Skill"]
 ---
-82 1 2 762 2 1719 2 754 4 3737 2 3738 2 465 2 3134 2 25 2 1335 2 899 2 3739 4 683 2 86 2 763 2 764 2 765 2 65 2 9 2 3740 4 13 2 3741 4 71 2 1764 2 3742 2 1556 2 25 2 79 2 86 2 764 2 899 2 3743 1082 221 1082 3744 2 3745 1082 221 4 83 2 990 2 470 2 922 2 3646 1082 51 2 1764 2 1552 2 1556 2 25 2 2664 2 9 2 922 1082 51 2 1559 2 3746 2 3747 2 3748 2 3749 2 3750 2 1638 1082 51 2 1559 2 705 2 3751 2 3752 2 3753 2 3754 4 93 2 942 2 3755 2 65 2 1080 2 3756 4 221 82 13 2 3757 2 1719 2 754 4 143 2 3758 2 143 2 3759 2 143 2 3760 2 143 2 1623 2 143 2 941 2 143 82 3761 82 143 2 1743 2 143 2 3762 2 143 2 1745 2 143 2 1747 2 143 2 3763 2 143 82 143 2 1761 2 143 2 3762 2 143 2 922 2 143 2 1762 2 143 2 3764 2 143 82 143 2 3765 2 143 2 150 2 143 2 3419 2 143 2 3766 2 143 2 3767 2 143 4 3768 2 1729 2 765 2 3769 2 3749 2 3415 2 3770 82 221 4 104 2 990 2 470 2 3771 2 3772 2 1080 2 1244 2 3773 82 221 82 132 2 1743 82 3774 2 1745 82 1727 2 1665 82 3775 2 3776 2 1722 2 34 2 3777 2 2255 2 34 2 1484 2 3778 4 3779 2 2403 82 3780 2 3781 82 221 4 1351 2 1533 2 1343 2 3782 82 221 82 1752 4 2416 2 1545 2 1080 2 3783 2 3784 2 9 2 1833 2 922 2 3785 82 2416 2 3786 2 1080 2 3783 2 2902 2 3787 2 3719 2 65 2 3746 82 2416 2 3788 2 1080 2 3783 2 2902 2 3787 2 3718 2 65 2 3746 82 2416 2 2656 2 1080 2 3783 2 712 2 9 2 1833 2 922 82 2416 2 709 2 1080 2 3783 2 1764 2 3789 2 34 4 3790 2 3791 2 3792 2 3793 2 1073 2 51 2 352 2 3794 2 2066 82 221 4 13 2 192 2 150 2 754 2 1770 4 192 2 352 2 764 2 765 2 3795 4 221 82 13 2 150 2 1719 2 754 2 3757 4 44 2 3796 2 1612 2 31 2 764 2 765 2 3797 4 2416 2 1108 2 3798 82 71 2 1764 2 3789 2 25 2 1074 2 898 2 130 2 709 2 765 82 83 2 3799 2 3800 2 709 2 3801 2 1138 82 93 2 293 2 3802 2 207 2 1395 4 998 82 221 82 1828 2 2244 2 3803 2 658 2 49 2 1586 2 1759 82 221 82 221
+
+# List Hookify Rules
+
+**Load hookify:writing-rules skill first** to understand rule format.
+
+Show all configured hookify rules in the project.
+
+## Steps
+
+1. Use Glob tool to find all hookify rule files:
+   ```
+   pattern: ".claude/hookify.*.local.md"
+   ```
+
+2. For each file found:
+   - Use Read tool to read the file
+   - Extract frontmatter fields: name, enabled, event, pattern
+   - Extract message preview (first 100 chars)
+
+3. Present results in a table:
+
+```
+## Configured Hookify Rules
+
+| Name | Enabled | Event | Pattern | File |
+|------|---------|-------|---------|------|
+| warn-dangerous-rm | Yes | bash | rm\s+-rf | hookify.dangerous-rm.local.md |
+| warn-console-log | Yes | file | console\.log\( | hookify.console-log.local.md |
+| check-tests | No | stop | .* | hookify.require-tests.local.md |
+
+**Total**: 3 rules (2 enabled, 1 disabled)
+```
+
+4. For each rule, show a brief preview:
+```
+### warn-dangerous-rm
+**Event**: bash
+**Pattern**: `rm\s+-rf`
+**Message**: "**Dangerous rm command detected!** This command could delete..."
+
+**Status**: Active
+**File**: .claude/hookify.dangerous-rm.local.md
+```
+
+5. Add helpful footer:
+```
+---
+
+To modify a rule: Edit the .local.md file directly
+To disable a rule: Set `enabled: false` in frontmatter
+To enable a rule: Set `enabled: true` in frontmatter
+To delete a rule: Remove the .local.md file
+To create a rule: Use `/hookify` command
+
+**Remember**: Changes take effect immediately - no restart needed
+```
+
+## If No Rules Found
+
+If no hookify rules exist:
+
+```
+## No Hookify Rules Configured
+
+You haven't created any hookify rules yet.
+
+To get started:
+1. Use `/hookify` to analyze conversation and create rules
+2. Or manually create `.claude/hookify.my-rule.local.md` files
+3. See `/hookify:help` for documentation
+
+Example:
+```
+/hookify Warn me when I use console.log
+```
+```
