@@ -9,4 +9,367 @@ triggers:
   - SPA-like behavior
   - Hotwire
 ---
-82 1 2 958 2 959 2 2998 4 7313 2 658 2 263 2 2967 2 8353 2 7315 4 2255 2 465 2 5756 2 1765 2 790 2 115 2 958 2 8354 2 959 2 6771 2 207 2 8355 2 8356 2 7402 2 1735 2 8357 2 2957 2 1118 4 13 2 959 2 8358 4 143 2 8359 2 143 2 663 2 143 2 2093 2 25 2 1764 2 143 82 8360 82 143 2 8361 2 8362 2 143 2 8363 2 7879 2 143 2 4259 2 51 2 5495 2 143 82 143 2 8361 2 8364 2 143 2 8365 2 8366 2 4807 2 143 2 8367 2 8368 2 2983 2 2832 2 5159 2 143 82 143 2 8361 2 8369 2 143 2 8370 2 8371 2 143 2 8372 2 8368 2 8373 2 1132 2 143 82 143 2 8374 2 143 2 2957 2 8375 2 143 2 5271 2 8376 2 7947 2 8377 2 143 4 13 2 277 2 37 2 959 4 132 2 1158 2 831 2 8378 4 8379 82 1 2 8380 82 8381 2 8382 2 2094 2 8383 2 109 506 96 2 8384 2 1309 2 65 2 8385 2 8386 2 109 453 8387 2 1100 2 8388 453 8389 2 8390 2 8391 2 8392 2 8393 2 8394 17 7133 2 8395 17 8396 2 109 408 7140 2 8397 2 8394 453 1034 506 1034 4991 96 2 8398 2 1391 2 1735 2 2715 2 8366 2 8399 2 109 453 8387 2 1100 2 8388 453 7133 2 8395 17 8400 2 109 408 8401 2 8402 2 3863 2 8403 2 8404 408 8405 2 8406 453 1034 17 7140 2 8407 2 8394 453 8408 2 8409 2684 1 2 150 2 8410 506 1034 82 1034 82 221 4 132 2 1158 2 831 2 8411 4 8379 82 1 2 8412 82 8381 2 8382 2 2094 2 8413 2 109 506 96 2 8414 2 8385 2 8415 2 120 2 8416 2 109 453 8417 2 1100 2 8388 17 8387 2 8418 408 8419 2 407 2 8420 2 407 2 8392 2 8403 2 8404 2 450 2 428 408 8421 2 407 2 8422 2 6476 2 8423 2 450 17 8424 2 8425 453 8426 2 8427 453 8426 2 8428 453 8426 2 8429 506 1034 4991 96 2 8430 2 25 2 8431 2 109 453 8417 2 1100 2 8388 17 8432 2 407 408 8387 2 8418 412 8419 2 407 2 8420 2 407 2 8392 2 8403 2 8404 2 450 2 450 453 8433 2 8434 408 3054 2 8435 453 8436 506 1034 82 1034 82 221 4 132 2 1158 2 834 2 8437 4 8379 82 1 2 8438 82 8381 2 8439 2 8440 2 2094 2 8441 2 8442 2 218 2 109 506 96 2 8443 2 593 2 65 2 8444 2 109 453 7133 2 8445 17 8401 2 8446 2 3863 2 8447 453 8448 2684 1 2 8449 2 7474 17 7140 2 8450 2 8451 2 8452 2 8453 506 1034 4991 96 2 8454 2 8455 2 658 2 8456 2 109 453 7133 2 8445 17 8401 2 8446 2 3863 2 8457 453 8448 17 7140 2 8458 2 8459 2 8460 506 1034 82 1034 82 221 4 13 2 831 2 8461 2 1627 4 132 2 8462 2 8461 4 8463 82 8464 2 8465 2 8466 82 8467 2 8468 506 8469 2 8470 2 8471 2 8466 82 8472 4 8469 2 8473 2 8474 2 8475 2 8476 2 8477 2 8478 506 8479 2 407 2 8480 2 8481 2 450 2 8466 82 221 4 132 2 8482 2 8483 4 8463 82 8464 2 8484 2 4152 2 658 2 8485 2 8486 2 8487 2 8466 82 8467 2 8488 2 8489 2 8490 2 8491 2 8492 506 8493 2 8494 82 8472 82 221 4 132 2 8495 2 1623 4 8463 82 8464 2 8461 2 139 2 1001 2 6362 2 25 2 8496 2 8466 82 8467 2 8497 4 8469 2 8473 2 8498 2 8499 506 8479 2 407 2 8480 2 8500 2 450 2 8466 4 8464 2 6754 2 8501 2 8466 82 8467 2 8502 506 8503 2 8504 2 8505 453 8469 2 8506 2 8507 2 8508 2 8479 2 407 2 3054 2 8509 2 450 2 109 2 8510 2 8466 408 8469 2 8511 2 8512 2 8466 408 8469 2 8513 2 8514 2 8466 453 8515 2 1034 2 8466 506 8516 82 8472 82 221 4 132 2 8517 2 8518 4 8463 82 8467 2 8519 2 8520 2 8521 506 8522 453 8523 2 8524 2 8525 453 8469 2 8473 2 8498 2 8526 2 8466 506 8527 82 8472 4 8464 2 8501 2 8528 2 7947 2 65 2 6130 2 8485 2 2570 2 8466 82 8467 2 8519 2 8529 2 8521 506 8469 2 8506 2 8507 2 8530 2 109 2 8510 2 8466 453 8469 2 8511 2 8512 2 8466 453 8469 2 8513 2 8466 506 8515 2 1034 2 8466 82 8472 82 221 4 13 2 831 2 8411 2 1627 4 132 2 8531 2 77 2 400 4 8379 82 1 2 8532 82 8533 2 872 2 4168 2 8534 506 8535 2 8536 4991 8537 2 19 2 407 2 8538 2 8387 2 450 506 8539 2 19 2 407 2 8540 2 8387 2 450 506 8541 2 19 2 407 2 8542 2 8387 2 450 82 1034 82 221 4 132 2 8543 2 7994 4 8379 82 1 2 8544 82 5129 2 709 506 8545 2 1100 2 8546 4991 8547 2 109 2 8548 453 372 2 8549 408 8550 408 8551 2 407 2 8552 2 8530 2 450 453 2617 408 8551 2 407 2 8470 2 8553 2 2701 2 8554 2 450 453 1034 506 1034 82 1034 82 221 4 8463 82 8464 2 8555 2 8466 82 8469 2 8556 2 8557 2 8545 2 8466 82 8469 2 8558 2 8559 2 8560 2 8561 2 8562 2 407 2 8420 2 8563 2 450 2 8466 82 8469 2 8558 2 8564 2 8565 2 8566 2 8567 2 8466 82 221 4 132 2 8568 2 916 4 143 2 4785 2 143 2 663 2 143 82 8569 82 143 2 8570 2 143 2 1533 2 25 2 1034 2 115 2 3723 2 143 82 143 2 8571 2 143 2 1533 2 25 2 3050 2 115 2 3723 2 143 82 143 2 8572 2 143 2 8573 2 5634 2 3723 2 143 82 143 2 8574 2 143 2 8573 2 8575 2 5282 2 143 82 143 2 8576 2 143 2 712 2 3723 2 3310 2 143 82 143 2 8577 2 143 2 8578 2 312 2 3723 2 143 82 143 2 8579 2 143 2 8578 2 302 2 3723 2 143 4 13 2 834 2 1627 4 132 2 8462 2 8543 4 8580 82 3280 2 8581 82 1279 2 407 2 8543 2 450 2 77 2 8582 4 6611 2 1984 2 8533 2 8583 2 8543 2 407 506 5301 2 8584 2 1100 2 8585 4991 8586 2 407 453 8587 2 1100 2 8588 2 8589 506 450 82 450 82 221 4 8463 82 8590 2 8591 506 8592 2 8593 506 8594 2 8595 82 8596 82 221 4 132 2 8597 2 3534 2 8543 4 8580 82 3280 2 8598 82 1279 2 407 2 8543 2 450 2 77 2 8582 4 6611 2 1984 2 8533 2 8583 2 8543 2 407 506 5301 2 8584 2 1100 2 8599 2 8600 2 8601 4991 8602 2 407 453 6479 2 593 2 1100 2 8603 453 6479 2 5558 2 1100 2 8604 17 8605 2 1100 2 5558 2 8606 2 4664 2 4980 2 8607 2 8608 453 8609 2 1100 2 5558 453 8610 2 1100 2 8611 506 450 82 450 82 221 4 8463 82 8590 2 8612 506 8469 2 8613 2 8614 453 8479 2 407 408 8615 2 8616 408 3054 2 8617 453 450 2 8466 506 8594 2 8618 2 8619 506 8469 2 8513 2 8479 2 407 2 8615 2 8620 2 450 2 8466 82 8596 82 221 4 132 2 8621 2 8543 4 8580 82 3280 2 8622 82 1279 2 407 2 8543 2 450 2 77 2 8582 4 6611 2 1984 2 8533 2 8583 2 8543 2 407 506 5301 2 1985 2 1100 2 407 2 8623 2 407 2 2094 2 8624 2 8625 2 8626 2 450 2 450 4991 8627 2 407 453 8628 453 8629 2 1100 2 8630 2 6476 2 407 408 8631 453 428 2 8632 506 450 82 450 82 221 4 8463 82 8469 2 8506 2 8633 2 8634 2 8635 2 8636 2 8479 2 407 2 8637 2 8638 2 450 2 109 2 8510 2 8466 506 8469 2 8639 2 8640 2 8479 2 407 2 3054 2 8641 2 450 2 8466 82 8515 2 1034 2 8466 82 221 4 13 2 7821 4 143 2 7829 2 143 2 3234 2 143 82 8642 82 143 2 5214 2 8643 2 207 2 8644 2 8645 2 143 2 1764 2 834 2 143 82 143 2 390 2 8366 2 8646 2 207 2 6558 2 4807 2 143 2 1764 2 831 2 8378 2 143 82 143 2 6536 2 207 2 8647 2 4807 2 143 2 1764 2 831 2 8411 2 347 2 4785 2 839 2 143 82 143 2 8648 2 8649 2 143 2 3234 2 9 2 322 2 1809 2 143 82 143 2 8650 2 834 2 8651 2 143 2 8652 2 1340 2 1102 2 8651 2 143 82 143 2 8653 2 8385 2 8654 2 37 2 6130 2 2570 2 143 2 1764 2 68 2 5758 2 143 82 143 2 1183 2 8485 2 2022 2 143 2 4424 2 640 2 8655 2 2022 2 143 4 13 2 824 2 2176 2 207 2 959 4 8656 82 1 2 8657 82 8533 2 8658 2 4168 2 8659 506 5129 2 8660 2 6505 2 19 2 8661 506 5129 2 2552 2 6505 2 19 2 8661 506 5129 2 8662 2 6505 2 19 2 8661 506 5129 2 8663 2 6505 2 19 2 8661 4991 8664 506 5129 2 8665 2 6505 2 19 2 8666 506 5129 2 8667 2 6505 2 19 2 8661 82 1034 82 221 4 13 2 317 2 3039 4 3070 2 313 2 120 2 1080 2 959 2 3073 4 51 2 379 2 380 2 831 2 8378 2 640 2 68 2 5758 82 51 2 379 2 380 2 831 2 8411 2 1586 2 3985 2 3081 2 8668 2 8669 2 8670 2 8671 2 8672 82 51 2 379 2 380 2 834 2 8651 2 3107 2 1159 2 1151 2 8673 82 51 2 379 2 380 2 1068 2 6348 2 292 2 2957 2 1426 2 37 2 8674 2 3718 82 51 2 379 2 380 2 7235 2 6348 2 3137 2 8675 2 8676 82 51 2 379 2 380 2 8677 2 8377 2 1046 2 8678 2 8679 82 51 2 379 2 380 2 824 2 973 2 207 2 8651 82 51 2 379 2 380 2 150 2 8680 2 1892 2 65 2 159 4 13 2 803 2 876 2 8681 4 8379 82 1 2 8682 82 1281 2 8683 506 5129 2 8684 2 8685 453 8686 2 8685 506 1034 4991 5129 2 8687 453 8688 2 4999 2 8423 506 1034 4991 5129 2 8689 2 8690 453 8426 2 8691 453 8426 2 8692 506 1034 82 1034 4 8693 2 109 2 8694 506 8695 2 8696 2 2094 2 8383 506 8695 2 8696 2 2094 2 8413 82 1034 82 221
+
+# Rails Hotwire Skill
+
+**Auto-activates when task involves Hotwire/Turbo/Stimulus work.**
+
+This skill ensures proper implementation of Rails 8's Hotwire stack for modern, reactive UIs without heavy JavaScript frameworks.
+
+## Hotwire Components
+
+| Component | Purpose | When to Use |
+|-----------|---------|-------------|
+| **Turbo Drive** | SPA-like navigation | Default - automatic |
+| **Turbo Frames** | Partial page updates | Scoped updates, modals, inline editing |
+| **Turbo Streams** | Real-time broadcasts | Live updates, WebSocket-driven changes |
+| **Stimulus** | JavaScript sprinkles | DOM manipulation, form enhancement |
+
+## TDD with Hotwire
+
+### Testing Turbo Frames
+
+```ruby
+# spec/system/comments_spec.rb
+RSpec.describe 'Comments', type: :system do
+  it 'loads comments in turbo frame' do
+    post = create(:post)
+    create(:comment, post: post, body: 'Test comment')
+
+    visit post_path(post)
+
+    within_turbo_frame('comments') do
+      expect(page).to have_content('Test comment')
+    end
+  end
+
+  it 'adds comment without full page reload' do
+    post = create(:post)
+    visit post_path(post)
+
+    within_turbo_frame('new_comment') do
+      fill_in 'Body', with: 'New comment'
+      click_button 'Submit'
+    end
+
+    expect(page).to have_content('New comment')
+    expect(page).not_to have_current_path(comments_path)  # No redirect
+  end
+end
+```
+
+### Testing Turbo Streams
+
+```ruby
+# spec/requests/comments_spec.rb
+RSpec.describe 'Comments', type: :request do
+  it 'returns turbo stream on create' do
+    post_record = create(:post)
+
+    post post_comments_path(post_record),
+      params: { comment: { body: 'New comment' } },
+      headers: { 'Accept' => 'text/vnd.turbo-stream.html' }
+
+    expect(response.media_type).to eq('text/vnd.turbo-stream.html')
+    expect(response.body).to include('turbo-stream')
+    expect(response.body).to include('action="append"')
+    expect(response.body).to include('target="comments"')
+  end
+
+  it 'broadcasts to subscribers' do
+    post_record = create(:post)
+
+    expect {
+      post post_comments_path(post_record),
+        params: { comment: { body: 'New comment' } }
+    }.to have_broadcasted_to(post_record).with(a_hash_including(
+      action: 'append'
+    ))
+  end
+end
+```
+
+### Testing Stimulus Controllers
+
+```ruby
+# spec/system/form_validation_spec.rb
+RSpec.describe 'Form validation', type: :system, js: true do
+  it 'validates email in real-time' do
+    visit new_user_path
+
+    fill_in 'Email', with: 'invalid'
+    find('body').click  # Trigger blur
+
+    expect(page).to have_css('[data-validation-target="error"]', text: 'Invalid email')
+  end
+
+  it 'enables submit when valid' do
+    visit new_user_path
+
+    fill_in 'Email', with: 'valid@example.com'
+    find('body').click
+
+    expect(page).to have_button('Submit', disabled: false)
+  end
+end
+```
+
+## Turbo Frame Patterns
+
+### Basic Frame
+
+```erb
+<%# app/views/posts/show.html.erb %>
+<turbo-frame id="comments">
+  <%= render @comments %>
+</turbo-frame>
+
+<%= link_to 'Load More', post_comments_path(@post, page: 2),
+  data: { turbo_frame: 'comments' } %>
+```
+
+### Lazy Loading
+
+```erb
+<%# Loads content when frame enters viewport %>
+<turbo-frame id="stats" src="<%= stats_path %>" loading="lazy">
+  <p>Loading stats...</p>
+</turbo-frame>
+```
+
+### Modal Pattern
+
+```erb
+<%# Frame that breaks out to modal %>
+<turbo-frame id="modal"></turbo-frame>
+
+<%= link_to 'Edit', edit_post_path(@post),
+  data: { turbo_frame: 'modal' } %>
+
+<%# In edit.html.erb %>
+<turbo-frame id="modal">
+  <dialog open data-controller="modal">
+    <%= form_with model: @post, data: { action: 'turbo:submit-end->modal#close' } do |f| %>
+      <%= f.text_field :title %>
+      <%= f.submit 'Save' %>
+    <% end %>
+  </dialog>
+</turbo-frame>
+```
+
+### Inline Editing
+
+```erb
+<turbo-frame id="<%= dom_id(post) %>">
+  <article>
+    <h2><%= post.title %></h2>
+    <%= link_to 'Edit', edit_post_path(post) %>
+  </article>
+</turbo-frame>
+
+<%# edit.html.erb wraps form in same frame ID %>
+<turbo-frame id="<%= dom_id(@post) %>">
+  <%= form_with model: @post do |f| %>
+    <%= f.text_field :title %>
+    <%= f.submit %>
+  <% end %>
+</turbo-frame>
+```
+
+## Turbo Streams Patterns
+
+### Broadcast from Model
+
+```ruby
+# app/models/comment.rb
+class Comment < ApplicationRecord
+  belongs_to :post
+
+  after_create_commit -> { broadcast_append_to post }
+  after_update_commit -> { broadcast_replace_to post }
+  after_destroy_commit -> { broadcast_remove_to post }
+end
+```
+
+### Controller Response
+
+```ruby
+# app/controllers/comments_controller.rb
+def create
+  @comment = @post.comments.build(comment_params)
+
+  respond_to do |format|
+    if @comment.save
+      format.turbo_stream
+      format.html { redirect_to @post }
+    else
+      format.html { render :new, status: :unprocessable_entity }
+    end
+  end
+end
+```
+
+```erb
+<%# app/views/comments/create.turbo_stream.erb %>
+<%= turbo_stream.append 'comments', @comment %>
+<%= turbo_stream.update 'comment_form', partial: 'form', locals: { comment: Comment.new } %>
+<%= turbo_stream.update 'comment_count', html: "#{@post.comments.count} comments" %>
+```
+
+### Stream Actions
+
+| Action | Purpose |
+|--------|---------|
+| `append` | Add to end of target |
+| `prepend` | Add to start of target |
+| `replace` | Replace entire target |
+| `update` | Replace target's innerHTML |
+| `remove` | Remove target element |
+| `before` | Insert before target |
+| `after` | Insert after target |
+
+## Stimulus Patterns
+
+### Basic Controller
+
+```javascript
+// app/javascript/controllers/hello_controller.js
+import { Controller } from "@hotwired/stimulus"
+
+export default class extends Controller {
+  static targets = ["output"]
+
+  greet() {
+    this.outputTarget.textContent = "Hello, Stimulus!"
+  }
+}
+```
+
+```erb
+<div data-controller="hello">
+  <button data-action="click->hello#greet">Greet</button>
+  <span data-hello-target="output"></span>
+</div>
+```
+
+### Form Validation Controller
+
+```javascript
+// app/javascript/controllers/validation_controller.js
+import { Controller } from "@hotwired/stimulus"
+
+export default class extends Controller {
+  static targets = ["input", "error", "submit"]
+
+  validate() {
+    const email = this.inputTarget.value
+    const valid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
+
+    this.errorTarget.textContent = valid ? "" : "Invalid email"
+    this.errorTarget.hidden = valid
+    this.submitTarget.disabled = !valid
+  }
+}
+```
+
+```erb
+<div data-controller="validation">
+  <%= f.email_field :email,
+    data: {
+      validation_target: 'input',
+      action: 'blur->validation#validate'
+    } %>
+  <span data-validation-target="error" hidden></span>
+  <%= f.submit data: { validation_target: 'submit' } %>
+</div>
+```
+
+### Auto-submit Controller
+
+```javascript
+// app/javascript/controllers/auto_submit_controller.js
+import { Controller } from "@hotwired/stimulus"
+
+export default class extends Controller {
+  static values = { delay: { type: Number, default: 300 } }
+
+  submit() {
+    clearTimeout(this.timeout)
+    this.timeout = setTimeout(() => {
+      this.element.requestSubmit()
+    }, this.delayValue)
+  }
+}
+```
+
+```erb
+<%= form_with url: search_path, method: :get, data: { controller: 'auto-submit' } do |f| %>
+  <%= f.search_field :q, data: { action: 'input->auto-submit#submit' } %>
+<% end %>
+```
+
+## Anti-Patterns
+
+| Anti-Pattern | Fix |
+|--------------|-----|
+| Using React/Vue for simple interactions | Use Stimulus |
+| Full page reloads for partial updates | Use Turbo Frames |
+| Polling for real-time updates | Use Turbo Streams + Action Cable |
+| `data-turbo="false"` everywhere | Fix the actual problem |
+| Huge Stimulus controllers | Split into focused controllers |
+| Nested turbo frames with same ID | Use unique IDs |
+| Missing frame fallback | Always have non-JS fallback |
+
+## RBS Types for Hotwire
+
+```rbs
+# sig/app/controllers/comments_controller.rbs
+class CommentsController < ApplicationController
+  def index: () -> void
+  def create: () -> void
+  def update: () -> void
+  def destroy: () -> void
+
+  private
+  def comment_params: () -> ActionController::Parameters
+  def set_post: () -> void
+end
+```
+
+## Verification Checklist
+
+Before `/done` on a Hotwire task:
+
+- [ ] Turbo Frames have unique IDs
+- [ ] Turbo Streams use correct actions (append, prepend, replace, remove, update)
+- [ ] Stimulus controllers follow naming conventions (`name_controller.js`)
+- [ ] System specs test JavaScript behavior with `js: true`
+- [ ] Request specs verify turbo-stream responses
+- [ ] Progressive enhancement works (no-JS fallback)
+- [ ] RBS types for controllers
+- [ ] No console errors in browser
+
+## Common Test Helpers
+
+```ruby
+# spec/support/turbo_helpers.rb
+module TurboHelpers
+  def within_turbo_frame(id, &block)
+    within("turbo-frame##{id}", &block)
+  end
+
+  def turbo_stream_response?
+    response.media_type == 'text/vnd.turbo-stream.html'
+  end
+
+  def assert_turbo_stream(action:, target:)
+    expect(response.body).to include("action=\"#{action}\"")
+    expect(response.body).to include("target=\"#{target}\"")
+  end
+end
+
+RSpec.configure do |config|
+  config.include TurboHelpers, type: :system
+  config.include TurboHelpers, type: :request
+end
+```

@@ -2,4 +2,179 @@
 name: dispatching-parallel-agents
 description: Use when facing 3+ independent failures that can be investigated without shared state or dependencies - dispatches multiple Claude agents to investigate and fix independent problems concurrently
 ---
-82 1 2 3215 2 6827 2 861 4 13 2 6342 4 2093 2 112 2 640 2 1031 2 1962 2 1889 2 6828 2 292 2 6128 2 1137 2 6829 2 1137 2 6830 2 6831 2 2377 2 6832 2 6540 2 2459 2 1099 2 781 2 58 2 1019 2 130 2 113 2 1796 2 65 2 3589 4 771 2 6433 2 797 2 39 2 64 2 921 2 1019 2 1809 2 6833 2 6834 2 2377 2 1044 2 6835 4 13 2 2093 2 25 2 1764 4 6439 82 6440 2 6441 2 407 453 6836 2 6837 2 6445 453 6838 2 2086 2 6839 2 6445 453 6840 2 64 2 6841 2 6842 2 6451 453 6843 2 64 2 921 2 1809 2 6844 2 6451 453 3075 2 2086 2 1044 2 65 2 6845 2 6445 453 6846 2 6847 2 6451 453 6848 2 6849 2 6451 17 6836 2 6837 2 19 2 6838 2 2086 2 6839 2 6455 453 6838 2 2086 2 6839 2 19 2 6840 2 64 2 6841 2 6842 2 6850 2 51 2 6851 453 6838 2 2086 2 6839 2 19 2 3075 2 2086 2 1044 2 65 2 6845 2 6455 453 3075 2 2086 2 1044 2 65 2 6845 2 19 2 6848 2 6849 2 6455 453 3075 2 2086 2 1044 2 65 2 6845 2 19 2 6846 2 6847 2 6850 2 51 2 6852 2 6853 82 450 82 221 4 4344 2 6457 82 51 2 4510 2 292 2 1138 2 291 2 37 2 1137 2 779 2 6854 82 51 2 807 2 6855 2 2451 2 4346 82 51 2 1099 2 1809 2 113 2 1485 2 6856 2 1735 2 2856 2 77 2 6818 82 51 2 150 2 6852 2 2098 2 2102 2 6857 4 4857 2 1586 2 6457 82 51 2 2029 2 186 2 1306 2 6858 2 39 2 1988 2 1230 2 6859 82 51 2 6860 2 25 2 1335 2 2715 2 52 2 2098 82 51 2 861 2 1795 2 6861 2 37 2 470 2 63 4 13 2 14 2 1623 4 132 2 71 2 1162 2 6862 2 6863 4 1232 2 1889 2 188 2 2253 2 6864 82 51 2 941 2 6865 2 1865 2 1625 2 6866 2 237 82 51 2 941 2 6867 2 1865 2 792 2 309 2 1426 82 51 2 941 2 6868 2 1865 2 6869 2 1368 4 1099 2 2174 2 58 2 1019 2 51 2 1611 2 1556 2 6866 2 2395 2 6870 2 2423 2 6871 4 132 2 83 2 665 2 6872 2 135 2 2201 4 1099 2 64 2 6873 82 51 2 4791 2 6874 2 4588 2 292 2 922 2 43 2 6875 82 51 2 6876 2 1089 2 1347 2 3082 2 386 2 345 82 51 2 6877 2 1787 2 1264 2 63 2 287 82 51 2 6878 2 3252 2 1379 2 115 2 110 2 112 2 3457 2 130 2 311 4 132 2 93 2 797 2 65 2 6827 4 6470 82 3280 2 6754 2 140 2 299 2 2050 2 98 2 1683 82 6879 2 6880 2 6881 82 6879 2 6882 2 6881 82 6879 2 6883 2 6881 82 3280 2 387 2 335 2 1039 2 6884 82 221 4 132 2 104 2 300 2 130 2 6885 4 2093 2 724 2 6886 82 51 2 1552 2 470 2 2810 82 51 2 1013 2 4788 2 125 2 6887 82 51 2 1006 2 2715 2 292 2 6888 82 51 2 6885 2 86 2 1132 4 13 2 135 2 3349 2 6889 4 6890 2 64 2 3828 2 6891 82 71 2 6892 2 51 2 4588 2 1303 2 1809 2 2174 82 83 2 6893 2 51 2 387 2 2856 2 2066 2 25 2 1335 2 9 2 1809 82 93 2 4791 2 126 2 6894 2 51 2 1657 2 48 2 9 2 64 2 6895 4 3922 82 3234 2 9 2 1729 2 291 2 386 2 65 2 6896 4 71 2 6897 2 2423 2 1556 2 37 2 6558 2 35 2 6898 2 51 2 6899 2 6900 2 6901 2 65 2 705 82 83 2 6897 2 4591 2 6902 2 3454 2 130 2 6903 2 6904 2 51 2 6430 2 1556 2 6903 2 5224 2 115 2 3454 82 93 2 6897 2 1940 2 4082 2 6905 2 51 2 6899 2 1729 2 3755 2 67 2 4369 2 564 4 3390 2 186 2 6906 2 6435 2 1778 2 1119 2 3073 4 71 2 1552 2 9 2 292 2 922 2 130 2 1335 2 110 2 470 2 292 2 6907 82 83 2 1162 2 779 2 780 2 51 2 6428 2 307 2 43 2 322 2 2131 82 93 2 3234 2 1292 1082 51 2 6908 2 5246 2 6586 2 37 2 6909 2 6522 1082 51 2 3237 2 1163 2 65 2 2423 2 790 2 372 2 3457 1082 51 2 6910 2 292 2 6911 2 372 2 155 2 4732 2 1426 4 1544 2 1790 2 3168 2 6912 2 6586 2 51 2 79 2 9 2 1916 2 6913 4 6914 2 1379 2 115 2 110 2 112 2 3457 2 130 2 110 2 112 2 6915 82 221 4 13 2 803 2 6534 4 6535 2 6916 2 6917 2 6918 2 86 2 9 2 6919 2 51 2 64 2 4369 2 4852 82 6542 2 6920 2 6918 2 6921 2 51 2 1102 2 1505 4 6535 2 150 2 6922 2 6918 2 9 2 3126 2 6923 2 51 2 64 2 2395 2 2497 2 123 82 6542 2 6924 2 6925 2 9 2 1185 2 1553 2 130 2 292 2 1304 4 6535 2 150 2 6926 2 135 2 1988 2 6927 2 95 82 6542 2 6928 2 4439 2 1790 2 1264 2 151 2 1760 2 43 2 6918 2 386 2 6929 4 6535 2 6930 2 3252 2 6918 2 6931 2 51 2 112 2 125 2 2497 2 110 2 4732 82 6542 2 6920 2 6932 2 2810 2 115 2 779 2 780 2 130 2 6933 4 13 2 2093 2 1790 2 25 2 1764 4 6934 2 6935 2 3237 2 39 2 1988 2 1230 2 6818 2 51 2 3047 2 1029 2 2367 82 6936 2 2715 2 6922 2 6937 2 1076 2 6938 2 5634 2 52 82 6939 2 6940 2 44 2 125 2 2497 2 2253 2 2451 2 6941 82 6942 2 3220 2 861 2 1795 2 6861 2 1708 2 6130 2 6128 2 2762 2 6130 2 6943 4 13 2 158 2 4017 2 77 2 6791 4 6944 2 2005 2 292 2 1889 2 85 2 1729 2 1138 2 302 2 5251 2 1876 4 6945 82 51 2 6946 2 1729 2 1889 2 6947 2 6948 82 51 2 6949 2 1757 2 1889 2 6950 2 183 2 6951 82 51 2 6952 2 3415 2 883 2 6953 2 3652 2 1100 2 6954 4 6955 2 6862 2 6956 2 51 2 2423 2 1307 2 6957 2 77 2 1028 2 309 2 6957 2 77 2 3126 2 1449 4 6958 82 221 82 135 2 3415 2 193 2 3234 2 6880 82 135 2 1757 2 193 2 3234 2 6882 82 135 2 1729 2 193 2 3234 2 6883 82 221 4 6959 82 51 2 135 2 1721 2 6960 2 6586 2 37 2 6909 2 6522 82 51 2 135 2 1753 2 6574 2 1979 2 264 2 1209 2 6961 2 65 2 1952 2 6962 82 51 2 135 2 2261 2 1758 2 3223 2 207 2 6466 2 1556 2 793 2 25 2 1389 4 6963 2 387 2 4788 2 6964 2 352 2 6965 2 2715 2 6888 2 3181 4 6966 2 6967 2 1729 2 1176 2 6968 2 65 2 1053 2 2254 2 6832 4 13 2 983 2 6969 4 71 2 6970 2 51 2 807 2 6857 2 1796 2 1045 82 83 2 6971 2 51 2 1099 2 64 2 2242 2 6972 2 6973 2 6974 2 2856 2 25 2 4082 82 93 2 6975 2 51 2 861 2 125 2 6861 2 37 2 470 2 63 82 104 2 6976 2 51 2 1729 2 1176 2 6968 2 65 2 1067 2 115 2 3415 4 13 2 317 4 1071 2 724 2 6886 82 71 2 725 2 470 2 6977 2 51 2 2252 2 110 2 4732 82 83 2 2241 2 207 2 6978 2 51 2 6979 2 724 2 5422 2 6130 2 6980 82 93 2 3135 2 2715 2 6981 2 51 2 1013 2 86 2 4788 2 1044 2 1029 82 104 2 6982 2 6983 2 51 2 861 2 113 2 2134 2 6984 2 1892 4 13 2 6571 2 6572 4 2289 2 2064 2 923 2 6573 82 51 2 2005 2 1889 2 85 2 1729 2 1138 82 51 2 1729 2 724 2 3452 2 65 2 1053 82 51 2 387 2 6857 2 3454 2 6884 82 51 2 387 2 4788 2 6985 2 6986 82 51 2 1021 2 6987 2 2102 2 64 2 1132
+
+# Dispatching Parallel Agents
+
+## Overview
+
+When you have multiple unrelated failures (different test files, different subsystems, different bugs), investigating them sequentially wastes time. Each investigation is independent and can happen in parallel.
+
+**Core principle:** Dispatch one agent per independent problem domain. Let them work concurrently.
+
+## When to Use
+
+```dot
+digraph when_to_use {
+    "Multiple failures?" [shape=diamond];
+    "Are they independent?" [shape=diamond];
+    "Single agent investigates all" [shape=box];
+    "One agent per problem domain" [shape=box];
+    "Can they work in parallel?" [shape=diamond];
+    "Sequential agents" [shape=box];
+    "Parallel dispatch" [shape=box];
+
+    "Multiple failures?" -> "Are they independent?" [label="yes"];
+    "Are they independent?" -> "Single agent investigates all" [label="no - related"];
+    "Are they independent?" -> "Can they work in parallel?" [label="yes"];
+    "Can they work in parallel?" -> "Parallel dispatch" [label="yes"];
+    "Can they work in parallel?" -> "Sequential agents" [label="no - shared state"];
+}
+```
+
+**Use when:**
+- 3+ test files failing with different root causes
+- Multiple subsystems broken independently
+- Each problem can be understood without context from others
+- No shared state between investigations
+
+**Don't use when:**
+- Failures are related (fix one might fix others)
+- Need to understand full system state
+- Agents would interfere with each other
+
+## The Pattern
+
+### 1. Identify Independent Domains
+
+Group failures by what's broken:
+- File A tests: Tool approval flow
+- File B tests: Batch completion behavior
+- File C tests: Abort functionality
+
+Each domain is independent - fixing tool approval doesn't affect abort tests.
+
+### 2. Create Focused Agent Tasks
+
+Each agent gets:
+- **Specific scope:** One test file or subsystem
+- **Clear goal:** Make these tests pass
+- **Constraints:** Don't change other code
+- **Expected output:** Summary of what you found and fixed
+
+### 3. Dispatch in Parallel
+
+```typescript
+// In Claude Code / AI environment
+Task("Fix agent-tool-abort.test.ts failures")
+Task("Fix batch-completion-behavior.test.ts failures")
+Task("Fix tool-approval-race-conditions.test.ts failures")
+// All three run concurrently
+```
+
+### 4. Review and Integrate
+
+When agents return:
+- Read each summary
+- Verify fixes don't conflict
+- Run full test suite
+- Integrate all changes
+
+## Agent Prompt Structure
+
+Good agent prompts are:
+1. **Focused** - One clear problem domain
+2. **Self-contained** - All context needed to understand the problem
+3. **Specific about output** - What should the agent return?
+
+```markdown
+Fix the 3 failing tests in src/agents/agent-tool-abort.test.ts:
+
+1. "should abort tool with partial output capture" - expects 'interrupted at' in message
+2. "should handle mixed completed and aborted tools" - fast tool aborted instead of completed
+3. "should properly track pendingToolCount" - expects 3 results but gets 0
+
+These are timing/race condition issues. Your task:
+
+1. Read the test file and understand what each test verifies
+2. Identify root cause - timing issues or actual bugs?
+3. Fix by:
+   - Replacing arbitrary timeouts with event-based waiting
+   - Fixing bugs in abort implementation if found
+   - Adjusting test expectations if testing changed behavior
+
+Do NOT just increase timeouts - find the real issue.
+
+Return: Summary of what you found and what you fixed.
+```
+
+## Common Mistakes
+
+**❌ Too broad:** "Fix all the tests" - agent gets lost
+**✅ Specific:** "Fix agent-tool-abort.test.ts" - focused scope
+
+**❌ No context:** "Fix the race condition" - agent doesn't know where
+**✅ Context:** Paste the error messages and test names
+
+**❌ No constraints:** Agent might refactor everything
+**✅ Constraints:** "Do NOT change production code" or "Fix tests only"
+
+**❌ Vague output:** "Fix it" - you don't know what changed
+**✅ Specific:** "Return summary of root cause and changes"
+
+## When NOT to Use
+
+**Related failures:** Fixing one might fix others - investigate together first
+**Need full context:** Understanding requires seeing entire system
+**Exploratory debugging:** You don't know what's broken yet
+**Shared state:** Agents would interfere (editing same files, using same resources)
+
+## Real Example from Session
+
+**Scenario:** 6 test failures across 3 files after major refactoring
+
+**Failures:**
+- agent-tool-abort.test.ts: 3 failures (timing issues)
+- batch-completion-behavior.test.ts: 2 failures (tools not executing)
+- tool-approval-race-conditions.test.ts: 1 failure (execution count = 0)
+
+**Decision:** Independent domains - abort logic separate from batch completion separate from race conditions
+
+**Dispatch:**
+```
+Agent 1 → Fix agent-tool-abort.test.ts
+Agent 2 → Fix batch-completion-behavior.test.ts
+Agent 3 → Fix tool-approval-race-conditions.test.ts
+```
+
+**Results:**
+- Agent 1: Replaced timeouts with event-based waiting
+- Agent 2: Fixed event structure bug (threadId in wrong place)
+- Agent 3: Added wait for async tool execution to complete
+
+**Integration:** All fixes independent, no conflicts, full suite green
+
+**Time saved:** 3 problems solved in parallel vs sequentially
+
+## Key Benefits
+
+1. **Parallelization** - Multiple investigations happen simultaneously
+2. **Focus** - Each agent has narrow scope, less context to track
+3. **Independence** - Agents don't interfere with each other
+4. **Speed** - 3 problems solved in time of 1
+
+## Verification
+
+After agents return:
+1. **Review each summary** - Understand what changed
+2. **Check for conflicts** - Did agents edit same code?
+3. **Run full suite** - Verify all fixes work together
+4. **Spot check** - Agents can make systematic errors
+
+## Real-World Impact
+
+From debugging session (2025-10-03):
+- 6 failures across 3 files
+- 3 agents dispatched in parallel
+- All investigations completed concurrently
+- All fixes integrated successfully
+- Zero conflicts between agent changes

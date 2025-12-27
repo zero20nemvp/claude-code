@@ -2,4 +2,142 @@
 name: feature-writing
 description: Use after story mapping or when you have user stories to convert into executable Gherkin feature files. Sets up Cucumber if needed and writes scenarios with step definitions.
 ---
-82 1 2 7050 2 3144 4 13 2 6342 4 290 2 7051 2 2881 2 2879 2 1138 2 77 2 484 2 2873 2 37 2 1765 2 7052 2 7053 4 6994 2 30 2 6995 2 2258 2 2762 2 9 2 7054 2 465 2 25 2 7055 2 2881 2 2879 2 1138 2 77 2 9 2 484 2 7056 4 1552 2 2873 2 77 2 9 2 2873 2 6400 2 1974 2 7057 2 7058 2 2328 2 4161 2 7059 2 1138 2 37 2 7060 2 942 2 470 2 2879 2 207 2 808 2 312 2 7061 4 13 2 14 2 1359 4 7062 2 6922 82 51 2 1552 2 9 2 2873 2 6400 2 372 2 1075 2 7063 82 51 2 1111 2 372 2 7052 2 58 2 1813 2 4512 2 2489 2 65 2 9 2 939 82 51 2 1162 2 1921 2 7006 2 7064 2 25 2 7065 4 7066 2 4294 2 1541 2 183 2 7067 4 990 2 958 2 7068 82 71 2 1533 2 25 2 7069 2 7070 2 7071 2 7072 2 505 82 83 2 1533 2 25 2 7069 2 7070 2 7073 82 93 2 4797 2 3520 2 7074 82 104 2 4797 2 7075 2 4161 2 7076 82 1351 2 7077 2 7078 2 1837 2 1612 2 37 2 5631 2 1138 4 7079 2 5234 2 2265 2 30 2 1080 2 7080 82 51 2 4835 2 470 2 484 2 2869 82 51 2 290 2 9 2 7050 2 7081 2 7082 2 7083 2 7084 2 7085 82 51 2 290 2 7086 2 77 2 266 2 267 82 51 2 942 2 207 2 808 2 312 2 2603 82 51 2 4024 2 176 2 177 2 2879 2 2544 2 9 2 1426 2 7087 4 13 2 7050 2 941 2 1216 17 7088 2 7089 2 7090 408 4474 2 1080 2 7091 408 49 2 2270 2 7092 408 7093 2 139 2 7094 5007 7095 2 7096 2 81 2 3358 412 7097 2 7098 412 2093 2 698 412 4968 2 7099 2 7100 5007 7095 2 7101 2 342 2 3358 412 7097 2 7102 2 7103 412 2093 2 698 412 4968 2 7102 2 7100 4 13 2 7104 2 329 4 1272 2 7105 2 332 2 3370 2 25 2 7106 2 7107 4 7108 2 341 2 81 2 106 82 51 2 4588 2 7106 2 7109 2 9 2 2512 2 2455 2 81 82 51 2 350 2 67 2 7110 4 7111 2 4789 2 341 2 347 2 80 2 1859 2 349 82 51 2 341 2 81 2 7106 82 51 2 983 2 1185 2 349 2 7112 2 3116 2 183 2 3860 2 7113 82 51 2 7114 2 7086 2 3547 4 354 2 7115 2 722 2 877 82 51 2 341 2 81 2 7106 82 51 2 387 2 1859 2 349 82 51 2 880 2 7086 82 51 2 7116 2 1449 82 51 2 7117 2 7086 4 13 2 3812 2 7118 2 7119 4 7120 2 1921 2 7121 2 1111 2 7122 2 207 2 7123 2 2750 4 3133 2 656 2 7121 2 665 2 65 2 7124 4 3812 2 7125 2 1638 2 207 2 7126 17 7127 2 28 2 1997 2 65 2 134 2 7128 2 109 2 7129 408 1 2 3172 2 2762 2 7130 2 43 2 7131 453 1034 17 7132 2 7133 2 9 2 7134 2 7135 2 109 2 7136 408 7133 2 7137 453 1034 17 7138 2 48 2 321 2 7128 2 109 2 7139 408 7140 2 7141 453 1034 4 7142 2 4221 2 7143 82 51 2 7144 2 1066 2 7145 2 7146 2 7147 2 183 2 7148 82 51 2 7149 2 85 2 5234 82 51 2 1454 2 7150 2 183 2 1394 2 2111 4 13 2 1215 4 290 2 2879 2 1138 2 1002 2 7151 82 290 2 7006 2 7064 2 1002 2 7124 4 13 2 317 4 1071 2 4221 2 470 2 7152 82 71 2 4797 2 3520 2 970 2 7153 2 7151 2 7154 82 83 2 1013 2 856 2 58 2 5558 82 93 2 1162 2 31 2 1658 2 7006 2 7064 82 104 2 290 2 1658 2 2750 2 312 2 7155 2 120 4 13 2 1071 2 3144 4 2409 2 7156 2 25 2 7157 82 51 2 4024 2 6403 2 25 2 2741 2 2887 2 2891 2 130 2 709 2 7158 82 51 2 1764 2 7159 2 25 2 2741 2 790 4 2409 2 1659 2 7160 82 51 2 4799 2 2879 2 1138 2 25 2 2640 82 51 2 7161 2 113 2 1485 2 7162 2 2489 2 7163 2 37 2 7164 4 13 2 983 2 984 4 51 2 2378 2 2879 2 30 2 1080 2 2590 2 51 2 2238 2 312 2 7155 2 120 82 51 2 7165 2 7166 2 51 2 7167 2 3894 2 183 2 7168 82 51 2 7120 2 7169 2 51 2 1111 2 1921 2 2750 2 312 2 4221 2 656 2 7170 82 51 2 7171 2 7172 2 51 2 4005 2 7106 2 3652 2 25 2 332 2 373 82 51 2 7173 2 7174 2 51 2 3390 2 186 2 6755 2 2086 2 1269 2 1039 82 51 2 7175 2 7176 2 51 2 7177 2 48 2 1335 2 7086 4 13 2 4795 4 7178 2 7179 82 51 2 7180 2 2399 2 2869 2 7181 82 51 2 7182 2 7183 2 7184 4 7185 2 7186 82 51 2 7159 2 7007 2 790 2 7187 4 7188 82 51 2 7189 2 4378 2 278 2 207 2 7006 2 7190
+
+# Feature Writing
+
+## Overview
+
+Write executable Gherkin feature files from user stories with proper Cucumber setup.
+
+**Announce at start:** "I'm using the feature-writing skill to write Gherkin feature files from the user stories."
+
+Read stories from the stories document (or accept inline), then generate .feature files with scenarios. Present each feature for validation before writing.
+
+## The Process
+
+**Loading context:**
+- Read the stories document if available (docs/stories/*.md)
+- Check if Cucumber is already set up in the project
+- Identify existing step definitions to reuse
+
+**Cucumber setup (if not present):**
+
+For Rails projects:
+1. Add to Gemfile: gem 'cucumber-rails', require: false
+2. Add to Gemfile: gem 'database_cleaner-active_record'
+3. Run: bundle install
+4. Run: rails generate cucumber:install
+5. Verify: features/ directory created with support files
+
+**Writing features (one at a time):**
+- Take each user story
+- Write the Feature header (As a/I want/So that)
+- Write scenarios from acceptance criteria
+- Present for validation before saving
+- Ask: "Does this feature capture the behavior correctly?"
+
+## Feature File Format
+
+    Feature: [Story title]
+      As a [role]
+      I want [capability]
+      So that [benefit]
+
+      Scenario: [Happy path description]
+        Given [precondition]
+        When [action]
+        Then [expected outcome]
+
+      Scenario: [Edge case description]
+        Given [different precondition]
+        When [action]
+        Then [different outcome]
+
+## Three-Tier Quality
+
+Apply milk quality tiers to scenario coverage:
+
+**Skimmed:** Happy path only
+- One scenario covering the main success path
+- Minimal but functional
+
+**Semi-skimmed (default):** Happy + essential edge cases
+- Happy path scenario
+- Key error cases (invalid input, not found, unauthorized)
+- 3-5 scenarios total
+
+**Full phat:** Comprehensive coverage
+- Happy path scenario
+- All edge cases
+- Error scenarios
+- Boundary conditions
+- 6+ scenarios
+
+## Step Definition Strategy
+
+**Reuse existing steps:** Check features/step_definitions/ for reusable steps
+
+**Write new steps:** Create in features/step_definitions/[feature]_steps.rb
+
+Step definition pattern for Rails:
+
+    Given('I am logged in as {string}') do |role|
+      # Implementation using factory or fixture
+    end
+
+    When('I visit the {string} page') do |page_name|
+      visit path_for(page_name)
+    end
+
+    Then('I should see {string}') do |text|
+      expect(page).to have_content(text)
+    end
+
+**Step writing principles:**
+- Declarative over imperative (describe what, not how)
+- Reusable across features
+- Business language, not technical details
+
+## Output
+
+Write feature files to: features/[feature_name].feature
+Write step definitions to: features/step_definitions/[feature]_steps.rb
+
+## Verification
+
+After writing each feature:
+1. Run: bundle exec cucumber features/[feature_name].feature --dry-run
+2. Verify syntax is valid
+3. Identify any missing step definitions
+4. Write missing steps before moving on
+
+## After Writing
+
+**If continuing to slicing:**
+- Ask: "Ready to plan vertical slices and create worktrees?"
+- Use superpowers:vertical-slicing to plan implementation
+
+**If stopping here:**
+- Commit feature files to git
+- Features can be picked up later with /vertical-slicing
+
+## Key Principles
+
+- **One feature at a time** - Validate before moving on
+- **Declarative scenarios** - Describe behavior, not clicks
+- **Reuse steps** - Check existing steps before writing new ones
+- **Tier-appropriate coverage** - Match scenario count to quality tier
+- **Executable specs** - These are tests, they must run
+- **Business language** - Stakeholders should understand scenarios
+
+## Integration
+
+**Called by:**
+- superpowers:story-mapping (after story derivation)
+- superpowers:product-discovery (Phase 3)
+
+**Chains to:**
+- superpowers:vertical-slicing (plan implementation slices)
+
+**Uses:**
+- superpowers:test-driven-development (TDD discipline for step definitions)

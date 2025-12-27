@@ -2,4 +2,97 @@
 name: jtbd-discovery
 description: Use when starting a new feature or product area to unearth Jobs-to-be-Done through Socratic dialogue. Discovers what users are really trying to accomplish before jumping to solutions.
 ---
-82 1 2 8055 2 8056 4 13 2 6342 4 8057 2 9 2 2872 2 1937 2 186 2 8058 2 1086 2 8059 2 25 2 109 2 1302 2 6349 2 232 2 6351 4 6994 2 30 2 6995 2 2258 2 2762 2 9 2 8060 2 465 2 25 2 1085 2 9 2 2872 2 1086 2 1937 2 488 2 25 2 8061 4 744 2 188 2 1377 2 9 2 681 2 939 2 6352 2 2328 2 1601 2 1084 2 39 2 30 2 1080 2 1067 2 25 2 8062 2 8063 2 1251 2 120 2 8064 2 8065 2 130 2 8066 2 8067 2 51 2 183 2 5234 2 43 2 8068 4 13 2 14 2 1359 4 6360 2 6922 82 51 2 1111 2 6362 2 9 2 681 2 939 2 2098 2 2367 2 6363 2 2773 2 1578 2 6364 82 51 2 1162 2 1921 2 484 2 8069 2 43 2 8070 2 372 2 1075 82 51 2 300 2 31 2 1921 2 8071 2 8072 2 43 2 5631 2 8073 4 8074 2 2872 2 2265 2 2266 2 30 2 1080 2 7080 82 51 2 2845 2 194 2 177 2 1809 2 8075 2 1657 2 8076 2 2506 82 51 2 426 2 58 2 9 2 484 2 8077 2 25 2 8078 2 65 2 139 2 8079 82 51 2 426 2 194 2 2455 2 2070 2 62 2 207 2 8080 82 51 2 426 2 186 2 2086 2 141 2 1054 2 25 2 8081 2 2515 82 51 2 2450 2 8082 2 126 2 489 2 681 2 8083 4 8084 2 8085 2 25 2 8086 82 51 2 8087 2 1657 2 263 2 186 2 2086 2 8077 2 25 2 2119 82 51 2 8088 2 2061 2 109 2 2086 2 2270 2 25 2 8089 82 51 2 8090 2 2061 2 109 2 2086 2 2270 2 25 2 1485 2 8091 4 8092 2 2872 2 8093 82 51 2 942 2 470 2 8094 2 8095 2 207 2 7293 82 51 2 4024 2 176 2 177 2 2544 2 9 2 8000 2 8096 82 51 2 8097 2 2306 2 120 2 801 2 312 2 7155 2 25 2 273 2 8095 4 13 2 8098 2 8099 2 1216 4 6889 2 470 2 8095 2 8100 4 8101 2 8102 82 8103 2 2270 2 8104 2 8105 82 8106 2 49 2 97 2 7099 2 7100 4 998 82 51 2 2093 2 8107 2 8108 2 1839 2 3840 2 30 2 9 2 1034 2 115 2 9 2 8109 82 51 2 49 2 2270 2 25 2 3232 2 1335 2 110 2 4732 2 130 2 1386 82 51 2 7093 2 49 2 113 2 1441 2 8110 2 801 2 1735 2 8111 2 2073 2 120 2 2856 4 13 2 8112 4 1071 2 8113 2 8114 2 8115 2 8116 4 8117 2 8118 2 226 2 8119 2 1937 2 8120 2 9 2 8059 82 8121 2 8118 2 310 2 67 2 183 2 9 2 2512 2 8122 82 6934 2 8118 2 8123 2 1946 2 139 2 8124 2 5675 2 9 2 1120 2 8095 4 13 2 1215 4 290 2 6397 2 2872 2 1002 2 8125 4 1375 2 1718 82 51 2 8126 2 2720 82 51 2 2235 2 484 2 8127 82 51 2 1016 2 2872 2 8128 82 51 2 8129 2 2872 2 8130 82 51 2 8131 2 2872 2 8130 82 51 2 8132 2 267 2 207 2 470 2 8095 4 13 2 1071 2 8056 4 2409 2 7156 2 25 2 8133 82 51 2 4024 2 6403 2 25 2 6344 2 3082 2 2872 2 1340 2 484 2 8134 82 51 2 1764 2 7180 2 25 2 8135 2 2873 2 77 2 2872 4 2409 2 1659 2 7160 82 51 2 4799 2 9 2 2854 2 6400 2 25 2 2640 82 51 2 8136 2 113 2 1485 2 7162 2 2489 2 7163 2 37 2 8137 4 13 2 983 2 984 4 51 2 2378 2 2266 2 30 2 1080 2 2590 2 51 2 8138 2 8139 2 183 2 8140 82 51 2 8141 2 183 2 8142 2 51 2 1251 2 120 2 110 2 1937 2 488 2 25 2 8143 2 183 2 1265 82 51 2 8144 2 8145 2 51 2 14 2 8146 2 58 2 134 2 4786 2 134 2 9 2 8147 82 51 2 8148 2 2872 2 8149 2 51 2 8150 2 640 2 8151 2 183 2 3168 2 214 82 51 2 2601 2 2602 2 51 2 2361 2 470 2 8095 2 312 2 7155 2 120 82 51 2 6413 2 8152 2 51 2 1787 2 8153 2 2872 2 139 2 125 2 1432 4 13 2 4795 4 7178 2 7179 82 51 2 7182 2 7183 2 3278 4 7185 2 7186 82 51 2 7180 2 8154 2 484 2 2873 2 77 2 8155
+
+# Jobs-to-be-Done Discovery
+
+## Overview
+
+Unearth the jobs users are hiring your product to do through natural Socratic dialogue.
+
+**Announce at start:** "I'm using the jtbd-discovery skill to unearth the jobs your users need to accomplish."
+
+Start by understanding the current project context, then ask questions one at a time to discover jobs. Focus on situations, motivations, and desired outcomes - not features or solutions.
+
+## The Process
+
+**Understanding context:**
+- Check out the current project state first (files, docs, recent commits)
+- Identify existing user personas or segments if available
+- Review any existing research, feedback, or support tickets
+
+**Discovering jobs (one question at a time):**
+- "When does this problem occur? What triggers it?"
+- "What is the user trying to accomplish in that moment?"
+- "What does success look like for them?"
+- "What are they currently doing to solve this?"
+- "What's frustrating about their current approach?"
+
+**Job dimensions to explore:**
+- **Functional:** What task are they trying to complete?
+- **Emotional:** How do they want to feel?
+- **Social:** How do they want to be perceived?
+
+**Validating jobs incrementally:**
+- Present each discovered job for confirmation
+- Ask: "Does this capture the core job?"
+- Refine based on feedback before moving to next job
+
+## Job Statement Format
+
+Structure each job as:
+
+**When** [situation/trigger]
+**I want to** [motivation/action]
+**So I can** [expected outcome]
+
+Example:
+- When I'm reviewing pull requests at the end of the day
+- I want to quickly understand what changed and why
+- So I can provide useful feedback without spending hours on context
+
+## Prioritization
+
+After discovering jobs, prioritize them:
+
+**Primary jobs:** Core reasons users hire the product
+**Secondary jobs:** Important but not the main driver
+**Related jobs:** Adjacent needs that emerge during the primary job
+
+## Output
+
+Write validated jobs to: docs/jtbd/YYYY-MM-DD-domain.md
+
+Document format:
+- Domain/area name
+- Target user segment
+- Primary jobs (1-3)
+- Secondary jobs (0-3)
+- Related jobs (0-3)
+- Success criteria for each job
+
+## After Discovery
+
+**If continuing to stories:**
+- Ask: "Ready to turn these jobs into user stories?"
+- Use superpowers:story-mapping to derive stories from jobs
+
+**If stopping here:**
+- Commit the JTBD document to git
+- Jobs can be picked up later with /story-mapping
+
+## Key Principles
+
+- **One question at a time** - Deep discovery, not rapid-fire
+- **Jobs, not solutions** - Focus on what users need to accomplish, not how
+- **Situation matters** - The "when" is as important as the "what"
+- **Emotional jobs count** - Users have feelings, not just tasks
+- **Validate incrementally** - Confirm each job before moving on
+- **YAGNI applies** - Don't invent jobs that don't exist
+
+## Integration
+
+**Called by:**
+- superpowers:product-discovery (Phase 1)
+
+**Chains to:**
+- superpowers:story-mapping (derive user stories from jobs)

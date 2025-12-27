@@ -2,4 +2,621 @@
 name: writing-skills
 description: Use when creating new skills, editing existing skills, or verifying skills work before deployment - applies TDD to process documentation by testing with subagents before writing, iterating until bulletproof against rationalization
 ---
-82 1 2 3144 2 209 4 13 2 6342 4 7079 2 769 2 3394 2 10891 2 7016 2 7972 2 25 2 129 2 11496 4 12653 2 769 2 12654 2 65 2 12655 2 1734 2 12656 2 207 2 140 2 12657 2 12658 2 207 2 12659 12660 44 2 7055 2 292 2 349 2 9901 2 7086 2 37 2 12661 2 10818 2 2377 2 3140 2 9428 2 12662 2 7055 2 9 2 465 2 12663 2 10818 2 386 2 345 2 12664 2 11501 2 130 2 6927 2 12665 2 12666 4 771 2 6433 2 192 2 112 2 1600 2 10818 2 59 2 64 2 3140 2 1735 2 9 2 11506 2 112 2 125 2 2497 2 372 2 9 2 465 2 12667 2 9 2 2480 2 10896 4 7020 2 11507 2 44 2 4564 2 1335 2 7189 2 312 2 2762 2 177 2 10184 2 10692 2 465 2 11508 2 9 2 11509 2 774 2 11291 2 2255 2 465 2 12668 2 277 2 25 2 12669 4 12670 2 9999 2 990 2 12671 2 12672 2 465 2 12673 2 1366 2 12674 2 321 2 12675 2 2255 2 6400 2 9019 2 3822 2 820 2 130 2 1123 2 139 2 12676 2 9 2 12677 2 1398 2 65 2 177 2 10184 4 13 2 1657 2 58 2 1080 2 12678 4 6865 2 12679 2 58 2 1080 2 5876 2 8271 2 207 2 11876 2 11877 2 11878 2 43 2 12680 2 209 2 2004 2 316 2 140 2 12681 2 79 2 130 2 2929 2 11558 2 12682 4 11994 2 12683 2 7149 2 11877 2 11878 2 7398 2 5876 2 12684 4 11994 2 186 2 12685 2 12686 2 126 2 1265 2 112 2 6968 2 1080 2 1809 2 920 4 13 2 277 2 8278 2 207 2 209 4 143 2 277 2 12687 2 143 2 2998 2 230 2 143 82 12688 82 143 2 1909 2 12689 2 143 2 10281 2 7106 2 37 2 9418 2 143 82 143 2 9537 2 3165 2 143 2 2998 2 6400 2 12690 2 143 82 143 2 1909 2 7033 2 12691 2 143 2 135 2 12082 2 899 2 1735 2 465 2 11766 2 143 82 143 2 1909 2 383 2 12692 2 143 2 135 2 11769 2 37 2 465 2 3879 2 143 82 143 2 12693 2 143 2 11662 2 11503 2 1055 2 12694 2 4752 2 143 82 143 2 3133 2 292 2 3134 2 143 2 1006 2 9903 2 7106 2 6677 2 4221 2 465 2 143 82 143 2 10559 2 96 2 11475 2 143 2 1375 2 1260 2 10302 2 64 2 6443 2 143 82 143 2 11477 2 3165 2 143 2 290 2 465 2 11499 2 1472 2 137 2 1704 2 143 82 143 2 10559 2 96 2 11804 2 143 2 1013 2 64 2 2422 2 11769 2 143 82 143 2 12695 2 12696 2 143 2 994 2 656 2 10302 2 193 2 12697 2 193 2 12698 2 143 4 14 2 5634 2 465 2 4057 2 129 2 288 2 12699 4 13 2 2093 2 25 2 665 2 1080 2 2998 4 1088 2 6457 82 51 2 12700 2 12701 2 12702 2 1311 2 25 2 112 82 51 2 12703 2 5876 2 177 2 5567 2 85 2 8181 82 51 2 1623 2 3501 2 9855 2 1867 2 9856 82 51 2 12704 2 1795 2 9858 4 4857 2 709 2 12522 82 51 2 10497 2 1333 82 51 2 12705 2 1157 2 12706 2 10522 82 51 2 9864 2 1151 2 12707 2 65 2 1147 4 13 2 2998 2 2176 4 132 2 12700 82 1229 2 11367 2 37 2 2750 2 25 2 3107 2 12708 2 12709 4 132 2 1623 82 12710 2 115 2 11978 2 126 2 1176 2 12711 2 12712 4 132 2 3993 82 4367 2 2773 2 856 2 12713 2 1556 2 1395 2 12714 2 12715 4 13 2 2203 2 6889 5128 221 82 9887 506 12716 453 12717 12718 1 2 9880 2 5876 2 12719 453 12720 4975 1 2 15 2 372 2 2066 82 221 4 12721 2 12722 2 51 2 86 2 769 2 65 2 39 2 12723 2 12724 4 12725 2 1138 2 12522 82 71 2 12726 2 12727 2 12728 2 12729 2 51 2 4367 2 2773 2 4725 2 856 82 83 2 12730 2 12731 2 51 2 12732 2 2296 2 3097 4 9862 2 12733 82 51 2 984 2 130 2 12734 82 51 2 299 2 820 2 12735 2 12736 2 12729 82 51 2 4472 2 2617 4 13 2 12717 2 6889 4 12737 2 12738 82 51 2 15 2 7391 2 2103 2 12739 2 12740 2 130 2 12741 82 51 2 5580 2 12742 2 5654 2 3547 82 51 2 12743 2 1764 2 12744 2 10388 2 130 2 12745 2 106 2 8261 2 12746 2 6100 2 3754 82 51 2 12747 2 12748 2 12313 2 5723 2 110 2 96 2 194 2 3653 2 658 2 25 2 1586 2 96 506 51 2 744 2 37 2 6452 2 12749 2 25 2 1017 2 120 2 4037 2 1449 506 51 2 1783 2 137 2 12750 2 8064 2 130 2 6752 506 51 2 2460 2 4335 2 8728 2 5654 2 372 2 2495 4 3922 82 1752 82 3923 2 12751 82 3058 2 1764 2 658 2 1516 2 4037 2 1449 2 130 2 12752 2 51 2 3148 2 9 2 465 2 194 2 130 2 1265 2 96 2 12753 2 381 2 65 2 10759 2 12754 82 1752 4 1 2 2998 2 3758 4 13 2 6342 82 1657 2 58 2 2447 2 226 2 9518 2 65 2 7999 2 12755 4 13 2 2093 2 25 2 1764 82 12756 2 2832 2 12757 2 9236 2 1022 2 12758 4 12759 2 2654 2 37 2 12760 2 130 2 1586 2 349 82 2093 2 1790 2 25 2 1586 4 13 2 226 2 1623 2 3352 2 12761 82 12762 2 287 2 5649 4 13 2 686 2 3993 82 11687 2 43 2 7254 2 207 2 12763 2 6141 2 2041 4 13 2 3172 82 8517 2 287 2 207 2 8644 2 820 82 12764 2 25 2 922 2 207 2 8357 2 5876 2 43 2 7123 2 2748 4 13 2 803 2 6534 82 1657 2 12765 2 1952 2 347 2 4788 4 13 2 6571 2 6572 2 12766 82 1229 2 3755 82 221 5128 13 2 140 2 1483 2 12767 2 12768 4 1507 2 207 2 12769 2 2492 2 140 2 1946 2 25 2 12770 2 1086 2 465 4 132 2 71 2 12771 2 12772 2 12773 4 6731 2 140 2 11922 2 1223 2 25 2 1823 2 1831 2 769 2 25 2 217 2 207 2 1080 2 3815 2 4181 2 1347 2 96 2 12774 2 323 2 49 2 2664 2 177 2 465 2 2480 2 2481 4 12775 2 744 2 37 2 6452 2 12749 2 25 2 1017 2 120 2 4037 2 1170 2 2328 2 1950 2 110 2 96 2 194 4 12776 82 51 2 1764 2 1651 2 12777 2 12750 2 130 2 12778 2 139 2 2594 2 177 2 465 2 3501 82 51 2 7167 2 9 2 12779 2 10936 2 1170 2 7834 2 10256 2 183 2 12780 2 12781 2 12782 2 12783 82 51 2 2460 2 8076 2 12784 2 1355 2 9 2 465 2 5870 2 58 2 12785 82 51 2 192 2 465 2 58 2 12786 2 2134 2 139 2 1145 2 65 2 9 2 3906 82 51 2 290 2 65 2 10759 2 12787 2 12788 2 1340 2 52 2 12789 4 8722 82 1 2 6471 2 4426 2 6916 2 12790 2 12791 2 2395 2 2002 2 658 2 25 2 1586 82 3058 2 990 2 6466 2 155 4 1 2 6471 2 4426 2 2247 2 12787 82 3058 2 49 2 113 2 2004 2 112 2 37 2 6466 2 386 2 658 2 7498 2 6462 4 1 2 6471 2 4426 2 12792 2 12793 2 67 2 465 2 4313 2 137 2 25 2 96 82 3058 2 1764 2 658 2 386 2 1586 2 12794 2 130 2 186 2 6462 4 1 2 6482 2 4429 2 6020 2 37 2 6452 2 12795 2 11108 2 10599 2 2328 2 110 2 96 2 194 82 3058 2 1764 2 658 2 386 2 640 2 3126 2 1170 2 6428 2 10399 2 43 2 9997 2 12796 2 51 2 12797 2 5246 2 6586 2 37 2 6435 2 6501 2 207 2 12000 2 6466 2 386 4 1 2 6482 2 4429 2 12798 2 465 2 37 2 1145 2 3906 82 3058 2 1764 2 658 2 2762 2 7727 2 12799 2 130 2 881 2 11821 2 12800 2 51 2 9019 2 820 2 207 2 8157 2 12801 2 130 2 162 2 2098 2 12802 82 221 4 132 2 83 2 9051 2 1848 4 1764 2 6001 2 140 2 1795 2 12803 2 1581 82 51 2 880 2 12804 2 12805 2 6564 2 12806 2 12807 2 12808 2 6923 82 51 2 12809 2 12810 2 12811 2 12812 2 12813 82 51 2 12814 2 12815 2 12816 82 51 2 12817 2 1654 2 2936 2 1766 2 3643 2 922 2 973 4 132 2 93 2 12818 2 12819 4 4344 2 750 2 12820 2 12821 82 51 2 6482 2 12822 2 183 2 12823 82 51 2 6482 2 12824 2 183 2 12825 4 132 2 104 2 12826 2 198 2 12827 4 7282 2 12828 2 130 2 12829 2 769 2 217 2 1340 2 6711 2 12830 2 286 2 5070 2 12831 4 12832 2 2529 2 12833 82 51 2 12828 2 12834 2 12835 2 6001 2 470 82 51 2 12836 2 12837 2 12838 2 6001 2 3547 82 51 2 3041 2 12837 2 12839 2 6001 2 12840 2 1485 2 12841 4 12842 4 12843 2 2111 2 25 2 1556 2 12844 82 2639 82 1 2 6471 2 4426 2 1375 2 86 2 11773 2 65 2 12717 82 12845 2 12846 2 12847 2 12848 2 12849 2 12850 2 12851 2 12850 2 12852 2 2631 4 1 2 6482 2 4429 2 3993 2 6017 82 12845 2 12846 2 1031 2 10139 2 130 2 12853 2 1006 2 6017 2 207 2 8051 82 221 4 4344 2 12854 82 3922 82 1 2 6471 2 4426 2 1094 2 917 2 2111 82 2093 2 12855 2 3212 2 9418 2 37 2 12856 82 12857 2 5012 2 115 2 4099 2 12858 4 1 2 6482 2 4429 2 3993 2 63 2 465 82 4424 2 1586 2 849 2 12859 2 2856 2 12860 2 9966 2 1764 2 12861 2 207 2 7195 82 221 4 12862 2 1652 82 3922 82 1 2 6471 2 4426 2 12863 2 3905 2 12864 2 9234 82 1086 2 57 2 9245 2 2487 2 1597 2 5384 2 4591 2 11821 2 1892 2 65 2 7727 2 12799 2 12865 82 9451 2 10537 2 12803 2 10385 2 10145 2 207 2 7727 2 12799 2 11821 2 7939 82 9454 2 9418 2 37 2 12803 2 12866 2 12867 2 12799 2 11821 2 1185 2 881 2 12868 4 1 2 6482 2 4429 2 350 2 3905 2 12869 2 9234 82 12870 2 2487 2 1597 2 5384 2 4591 2 162 2 1892 2 65 2 7727 2 12871 82 9451 2 12872 82 9454 2 9418 2 193 2 12873 82 221 4 12874 2 12875 82 51 2 1787 2 11905 2 2253 2 65 2 12876 2 769 82 51 2 1787 2 1950 2 2253 2 1311 2 77 2 34 82 51 2 1787 2 2002 2 1031 2 982 2 115 2 6130 2 1638 4 12877 82 2639 82 9817 2 12878 2 12879 82 1 2 12828 2 12834 2 12880 2 207 2 12835 2 470 82 1 2 3041 2 12881 2 12880 2 207 2 12838 2 3547 82 221 4 12882 2 188 2 110 2 112 2 4618 2 43 2 8000 2 638 82 51 2 6482 2 12883 2 1471 2 12884 82 51 2 6482 2 12885 2 183 2 12886 82 51 2 6482 2 12887 2 1471 2 12888 82 51 2 6482 2 12889 2 1471 2 12890 4 12891 2 12892 2 1044 2 9544 2 207 2 12893 82 51 2 12894 2 12895 2 12896 82 51 2 12897 2 11108 2 9 2 996 2 1218 2 12898 4 132 2 104 2 12899 2 3041 2 209 4 1639 2 4221 2 1395 2 139 2 1491 2 63 2 2965 4 1764 2 465 2 2720 2 3373 2 37 2 1145 2 4568 2 12900 82 51 2 6482 2 12901 2 12902 2 7021 2 1764 2 12903 82 51 2 6482 2 12901 2 12902 2 11507 2 44 2 4564 2 1335 2 12904 82 51 2 6471 2 12905 2 12906 2 12907 2 12908 2 372 2 3287 82 51 2 6471 2 12905 2 12909 2 12910 2 12911 2 12912 4 1643 2 352 2 12388 2 12913 2 12914 2 856 2 12915 2 1138 2 4073 2 12291 2 12916 2 2856 2 312 2 112 2 488 2 11582 4 13 2 10306 2 1626 4 6439 82 6440 2 12917 2 407 453 11201 2 25 2 3772 2 12918 2 6445 453 12919 2 123 2 49 2 1988 2 3872 2 12920 2 6445 453 6452 2 12921 2 6451 453 12922 2 2832 2 12923 2 6451 17 11201 2 25 2 3772 2 12918 2 19 2 12919 2 123 2 49 2 1988 2 3872 2 12920 2 6455 453 12919 2 123 2 49 2 1988 2 3872 2 12920 2 19 2 12922 2 2832 2 12923 2 6455 453 12919 2 123 2 49 2 1988 2 3872 2 12920 2 19 2 6452 2 12921 2 6456 82 450 82 221 4 4344 2 12924 2 111 2 12522 82 51 2 1446 2 1022 2 2142 82 51 2 1359 2 12925 2 123 2 112 2 1988 2 3419 2 1337 2 4209 82 51 2 2845 2 25 2 1586 2 6865 2 2254 2 12926 2 846 4 3387 2 1586 2 12924 2 12522 82 51 2 3993 2 12927 2 193 2 12928 2 4582 82 51 2 299 2 982 2 193 2 12929 2 1109 82 51 2 12930 2 10165 2 193 2 12931 2 4582 82 51 2 12932 2 1735 2 7894 2 12933 2 12934 2 12935 4 293 2 12936 2 207 2 12937 2 1153 2 12938 4 13 2 299 2 1496 4 2378 2 12939 2 3905 2 12940 2 1338 2 12941 2 12942 4 3006 2 2502 2 2726 2 940 82 51 2 1158 2 12943 2 193 2 12944 82 51 2 1068 2 2064 2 193 2 12945 82 51 2 399 2 8712 2 193 2 4047 4 11592 2 9175 82 51 2 675 2 130 2 12946 82 51 2 12947 2 1469 2 6449 82 51 2 2289 2 1916 2 7106 82 51 2 10269 2 1638 2 2088 82 51 2 8293 2 25 2 8017 2 1867 2 3315 2 9148 4 12948 82 51 2 3366 2 65 2 3659 2 1117 82 51 2 665 2 12949 2 3097 82 51 2 290 2 12950 2 982 4 9879 2 9627 2 30 2 12951 2 51 2 39 2 12952 2 3905 2 58 2 12953 4 13 2 941 2 11721 4 132 2 12954 2 2998 82 221 82 12955 506 12717 271 1 2 4472 2 2832 82 221 82 12956 2 387 2 4152 2 12957 2 352 2 8357 2 5876 2 2066 4 132 2 2998 2 37 2 7149 2 1625 82 221 82 12958 506 12717 271 1 2 6342 2 347 2 820 506 12959 2684 1 2 9874 2 6530 2 25 2 8017 82 221 82 12956 2 1625 2 58 2 7123 2 7283 2 183 2 3168 2 12960 4 132 2 2998 2 37 2 12961 2 3993 82 221 82 12962 506 12717 5491 1 2 6342 2 347 2 852 506 12963 42 1 2 12964 2 5012 2 4367 2 5876 506 12965 5491 1 2 8728 2 5012 2 4678 2 264 506 12966 5491 1 2 12967 2 2748 82 221 82 12956 2 3993 2 12927 2 1337 2 7887 2 207 2 2832 4 13 2 14 2 10356 2 10357 2 11777 2 134 2 11778 4 221 82 4406 2 11950 2 5840 2 6865 2 10991 2 10992 2 382 82 221 4 2255 2 3501 2 25 2 3616 2 769 2 3653 2 12968 2 25 2 1921 2 11863 4 290 2 465 2 312 2 12969 2 2688 2 195 2 744 2 10993 82 3784 2 465 2 1735 2 12969 2 1618 2 12970 4 1963 2 10994 82 51 2 3201 2 207 2 12971 2 12972 82 51 2 3201 2 207 2 11223 2 2195 2 1080 2 12973 82 51 2 3201 2 207 2 12974 2 12975 82 51 2 1787 2 7241 2 12976 2 1132 2 134 2 10995 82 51 2 1787 2 10996 2 1055 2 3420 2 386 82 51 2 2688 2 5562 2 2656 4 7020 2 11507 2 14 2 7189 2 465 2 12977 2 1386 2 177 2 12978 2 1618 2 1878 2 2929 2 25 2 12669 4 13 2 1158 2 387 2 2998 2 2176 4 6721 2 465 2 973 2 488 2 1137 2 292 2 12979 4 132 2 12980 2 209 2 12981 4 12571 2 2777 2 12982 2 12983 4 1909 2 7310 82 51 2 10277 2 12984 2 1544 2 2086 2 1335 2 9 2 12985 82 51 2 10281 2 12986 2 1544 2 2086 2 12987 2 4335 2 12988 82 51 2 807 2 11551 2 12989 2 1067 2 347 2 10794 2 10795 2 347 2 11605 82 51 2 1162 2 10302 2 130 2 2417 2 1145 2 11536 4 12990 2 12991 2 135 2 288 2 899 2 4335 2 11725 2 4907 4 132 2 12700 2 209 2 12992 2 11527 4 12571 2 12993 2 12994 2 12995 4 1909 2 7310 82 51 2 8714 2 12986 2 2113 2 2086 2 2929 2 9 2 10450 2 12996 82 51 2 12997 2 12986 2 1544 2 2086 2 4591 2 1859 2 12998 82 51 2 1183 2 5451 2 1865 2 1544 2 10165 2 640 2 12999 4 12990 2 12991 2 135 2 6986 2 3501 2 10450 2 25 2 656 2 7106 4 132 2 1623 2 209 2 13000 2 13001 4 12571 2 13002 2 13003 2 12734 4 1909 2 7310 82 51 2 13004 2 12986 2 1544 2 2086 2 13005 2 658 2 1638 2 13006 82 51 2 8714 2 12986 2 2113 2 2086 2 1586 2 9 2 13007 2 13008 82 51 2 13009 2 1544 2 2086 2 2497 2 658 2 1790 2 25 2 13010 4 12990 2 12991 2 135 2 9919 2 201 2 13011 2 25 2 2929 2 1638 4 132 2 3993 2 209 2 13012 4 12571 2 4367 2 7400 2 34 2 13013 2 1766 2 12684 4 1909 2 7310 82 51 2 13014 2 12986 2 2113 2 2086 2 79 2 9 2 2480 2 13015 82 51 2 8714 2 12986 2 2113 2 2086 2 1586 2 110 2 2086 2 3457 2 12996 82 51 2 13016 2 13017 2 1873 2 6141 2 1586 2 349 2 9530 4 12990 2 12991 2 135 2 11696 2 130 2 9919 2 3501 2 5876 2 5451 4 13 2 803 2 10573 2 207 2 13018 2 1158 4 143 2 10574 2 143 2 10575 2 143 82 8569 82 143 2 11759 2 58 2 6733 2 13019 2 143 2 1222 2 25 2 112 2 7412 2 1303 2 25 2 63 2 4775 2 876 2 195 2 143 82 143 2 10538 2 3168 2 1080 2 11227 2 143 2 13020 2 113 2 640 2 13021 2 8348 2 13022 2 876 2 13023 2 143 82 143 2 6446 2 58 2 11985 2 143 2 1856 2 769 2 640 2 1778 2 13024 2 6575 2 6304 2 155 2 10591 2 10743 2 143 82 143 2 10324 2 292 2 372 2 1176 2 13025 2 143 2 13026 2 1100 2 724 2 5385 2 1586 2 10184 2 876 2 6677 2 13027 2 143 82 143 2 7996 2 13028 2 25 2 9846 2 143 2 1158 2 58 2 6974 2 13028 2 1324 2 2064 2 6781 2 465 2 65 2 13029 2 143 82 143 2 2258 2 13030 2 2055 2 9589 2 143 2 13031 2 2184 2 1778 2 876 2 11705 2 143 82 143 2 13032 2 674 2 58 2 10784 2 143 2 13033 2 7412 2 13034 2 876 2 9916 2 7060 2 143 82 143 2 2583 2 1067 2 25 2 9846 2 143 2 5841 2 12976 2 465 2 6540 2 1059 2 1067 2 1611 2 96 2 8275 2 143 4 10300 2 115 2 3082 2 10553 2 876 2 312 2 13027 2 150 2 13035 4 13 2 10243 2 209 2 10461 2 11686 4 209 2 139 2 13036 2 278 2 5167 2 11778 2 488 2 25 2 10194 2 10908 2 861 2 186 2 13037 2 130 2 1829 2 79 2 11503 2 658 2 4335 2 11640 4 13038 2 13039 2 6937 2 6449 2 13040 2 12943 2 1044 2 2446 2 112 2 2929 2 2377 2 13041 2 293 2 11636 2 207 2 11638 2 13042 2 13043 2 13044 2 13045 2 13046 2 13047 2 13048 2 120 2 4571 2 13049 2 11639 2 8288 2 13050 2 130 2 13051 2 13052 4 132 2 11662 2 286 2 13053 2 10037 4 1787 2 3168 2 2098 2 9 2 899 2 51 2 13054 2 137 2 13055 4 11039 82 3922 82 290 2 287 2 312 2 9710 2 2688 2 195 82 221 82 11049 4 11028 82 3922 82 290 2 287 2 312 2 9710 2 2688 2 195 2 744 2 10993 4 1963 2 10994 82 51 2 1787 2 7241 2 96 2 134 2 10995 82 51 2 1787 2 10996 2 96 2 1055 2 4221 2 386 82 51 2 1787 2 2070 2 30 2 96 82 51 2 2688 2 5562 2 2656 82 221 82 11038 4 132 2 3470 2 11753 2 2254 2 13056 2 13057 4 1533 2 11715 2 9518 2 13058 4 3922 82 10351 2 9 2 10352 2 115 2 9 2 765 2 58 2 10353 2 9 2 10354 2 115 2 9 2 10897 82 221 4 2255 2 13059 2 13060 2 5634 2 8533 2 115 2 2258 2 2760 2 9 2 11717 2 11806 4 132 2 5688 2 11686 2 11687 4 6769 2 10302 2 77 2 9903 2 155 2 10170 2 1158 2 4634 2 13061 2 286 2 7695 2 724 2 2134 2 12765 2 65 2 9 2 3756 4 3922 82 143 2 10574 2 143 2 10575 2 143 82 8569 82 143 2 7996 2 8644 2 25 2 9846 2 143 2 9298 2 287 2 11185 2 876 2 11186 2 5329 2 11187 2 143 82 143 2 10324 2 292 2 11188 2 143 2 338 2 4765 2 1073 2 9493 2 11189 2 143 82 143 2 518 2 302 2 11168 2 6130 2 2234 2 143 2 11171 2 1100 2 47 2 194 2 177 2 11172 2 11173 2 1100 2 47 2 48 2 177 2 11172 2 143 82 221 4 132 2 665 2 7299 2 7300 2 762 4 1347 2 96 2 10285 2 207 2 724 2 25 2 13062 2 658 2 13063 4 3922 82 13 2 7299 2 7300 2 51 2 9238 2 130 2 744 2 11220 4 51 2 299 2 312 2 292 82 51 2 1599 2 1813 2 3800 2 1854 2 6931 82 51 2 518 2 302 2 11168 2 9 2 6130 2 11225 82 51 2 10538 2 126 2 10354 2 183 2 11226 82 51 2 7227 2 58 2 1137 2 11232 4 10300 2 115 2 3082 2 10553 2 2688 2 4189 2 744 2 1066 2 37 2 11233 82 221 4 132 2 2226 2 13064 2 207 2 13065 2 13066 4 1533 2 25 2 3058 2 10193 2 115 2 658 2 1218 2 11691 2 25 2 11528 2 9 2 3783 4 8722 82 3058 2 1586 2 658 2 10089 2 31 2 2879 2 43 2 13067 2 312 2 4221 2 790 2 287 82 221 4 13 2 774 2 207 2 209 4 1275 2 9 2 277 2 11467 4 132 2 3143 2 290 2 3131 2 876 2 13068 4 1006 2 4907 2 7106 2 37 2 9418 2 5840 2 9 2 10184 2 1375 2 1260 2 13069 82 51 2 1657 2 7392 2 1597 2 2086 2 10477 82 51 2 1657 2 10302 2 1597 2 2086 2 1586 2 13070 82 51 2 2444 2 11551 2 13071 2 11560 4 2255 2 58 2 13072 2 9 2 292 2 13073 2 51 2 112 2 1269 2 321 2 110 2 724 2 10153 2 109 2 312 2 4221 2 9 2 10184 4 132 2 3169 2 290 2 350 2 2998 4 290 2 465 2 139 2 13074 2 1472 2 137 2 11806 2 1787 2 2417 2 11575 2 4152 2 207 2 10662 2 11216 4 1006 2 6130 2 7086 2 8189 2 10184 2 135 2 48 2 2422 2 11577 4 132 2 3185 2 11662 2 11663 4 135 2 3457 2 656 2 13075 2 1533 2 1145 2 13076 2 11811 2 1095 2 11805 4 7020 2 7021 2 1764 2 13077 2 207 2 9 2 1389 2 155 2 13078 82 51 2 2061 2 25 2 7055 2 4907 2 7086 82 51 2 10281 2 973 2 11519 2 10794 2 13079 2 4571 2 13080 82 51 2 11677 2 11534 2 13081 82 51 2 13082 2 12943 4 13 2 7821 4 132 2 6471 2 10213 2 4017 82 13083 2 923 2 13084 2 5384 2 3457 2 2396 2 6807 2 13085 82 1643 2 13086 2 6916 2 10483 2 183 2 7123 4 132 2 6471 2 13087 2 13088 82 13089 2 13090 2 13091 82 1643 2 13086 2 13092 2 9499 2 2194 2 13093 4 132 2 6471 2 299 2 65 2 13094 82 6439 82 13095 2 13096 2 13097 82 13098 2 13099 2 13100 82 221 82 1643 2 13086 2 146 2 13101 2 1334 2 25 2 2664 4 132 2 6471 2 3339 2 12932 82 13102 2 13103 2 13104 2 13105 82 1643 2 13086 2 12932 2 48 2 640 2 7894 2 12933 4 13 2 13106 2 3070 2 12212 2 25 2 3622 2 2998 4 3209 2 4221 2 2968 2 11506 2 112 2 4564 2 9238 2 130 2 1389 2 9 2 4409 2 13107 4 3222 2 12685 82 51 2 665 2 1031 2 769 2 65 2 1028 2 1735 2 155 2 470 82 51 2 2805 2 25 2 273 2 465 2 312 2 681 2 39 2 58 2 3320 82 51 2 679 2 155 2 3391 2 13108 2 58 2 1059 2 13109 4 4470 2 4409 2 10238 2 13110 2 58 2 11964 2 207 2 4404 2 11694 4 5841 2 12976 2 769 2 1100 2 8159 2 12976 2 4189 2 4035 2 1080 2 1210 2 115 2 332 2 13111 4 13 2 2998 2 230 2 3039 2 4378 2 13112 4 10658 2 1764 2 4081 2 25 2 709 2 11989 2 207 2 4404 2 10238 2 9214 2 13113 4 11763 2 3129 2 51 2 290 2 3131 2 13114 82 51 2 379 2 380 2 665 2 4907 2 7086 2 4101 2 11547 2 11551 2 207 2 278 2 13115 82 51 2 379 2 380 2 1006 2 7086 2 5840 2 465 2 51 2 6400 2 9903 2 1426 2 11532 82 51 2 379 2 380 2 1162 2 820 2 65 2 13116 4 11768 2 3129 2 51 2 290 2 350 2 13117 82 51 2 379 2 380 2 3758 2 6443 2 106 2 12744 2 10388 2 12745 2 8261 2 13118 2 3754 82 51 2 379 2 380 2 6097 2 3746 2 37 2 106 2 2720 2 130 2 1223 2 3886 2 12742 2 3754 82 51 2 379 2 380 2 12772 2 12061 2 37 2 6452 2 12749 2 130 2 12313 2 137 2 13119 82 51 2 379 2 380 2 12772 2 381 2 65 2 10759 2 12787 82 51 2 379 2 380 2 13120 2 8339 2 207 2 12803 2 13121 2 12750 2 13122 82 51 2 379 2 380 2 1222 2 1503 2 37 2 8000 2 9518 82 51 2 379 2 380 2 3470 2 137 2 9903 2 1889 2 6822 2 65 2 294 82 51 2 379 2 380 2 299 2 2832 2 11423 2 10308 2 25 2 6957 2 922 82 51 2 379 2 380 2 4588 2 12939 2 3905 2 1867 2 13123 82 51 2 379 2 380 2 1006 2 7086 2 8189 2 465 2 51 2 3137 2 724 2 2422 2 12987 4 11770 2 3129 2 51 2 11662 2 13124 82 51 2 379 2 380 2 1162 2 3616 2 10302 2 77 2 155 82 51 2 379 2 380 2 1533 2 1145 2 11536 2 1541 2 278 2 10242 82 51 2 379 2 380 2 5688 2 10195 2 11772 2 77 2 86 2 292 2 5573 82 51 2 379 2 380 2 665 2 11001 2 11773 2 2654 82 51 2 379 2 380 2 11811 2 1095 2 11698 4 1779 2 13125 82 51 2 379 2 380 2 13126 2 12757 2 106 2 372 2 1022 2 13127 82 51 2 379 2 380 2 686 2 5876 2 11772 82 51 2 379 2 380 2 803 2 804 2 4634 82 51 2 379 2 380 2 150 2 12960 2 13128 82 51 2 379 2 380 2 13129 2 1138 2 106 2 207 2 2748 2 43 2 8357 2 5876 4 13130 82 51 2 379 2 380 2 4799 2 465 2 25 2 2640 2 130 2 708 2 25 2 1086 2 9883 2 1541 2 3524 82 51 2 379 2 380 2 1460 2 13131 2 932 2 334 2 710 2 1541 2 9855 2 13132 4 13 2 8056 2 227 4 2061 2 316 2 140 2 11696 2 1086 2 3003 4 71 2 13133 2 13134 2 13135 2 186 2 13136 82 93 2 13137 2 13138 2 13139 2 13140 82 104 2 13141 2 13142 2 13143 2 177 2 13144 82 1351 2 13145 2 11554 2 13146 2 5876 2 13147 82 1374 2 13148 2 13149 2 2509 2 658 2 13150 4 13151 2 207 2 177 2 2596 2 51 2 118 2 12723 2 13152 2 4209 2 130 2 9421 4 13 2 14 2 9404 2 9405 4 13153 2 769 2 3394 2 277 2 207 2 129 2 11496 4 1618 2 10356 2 13154 2 150 2 465 2 1735 2 291 2 292 2 3266 82 1618 2 11467 2 294 2 11766 2 193 2 296 2 4290 2 10242 2 193 2 3175 2 12665 2 12666 82 1618 2 13155 2 13156 2 9499 2 13157 2 13158 2 11698 2 13159 4 192 2 112 2 3107 2 277 2 207 2 7283 2 3107 2 96 2 207 2 11863 2 4035 2 9 2 6130 2 278 2 7972 2 25 2 12669
+
+# Writing Skills
+
+## Overview
+
+**Writing skills IS Test-Driven Development applied to process documentation.**
+
+**Personal skills live in agent-specific directories (`~/.claude/skills` for Claude Code, `~/.codex/skills` for Codex)** 
+
+You write test cases (pressure scenarios with subagents), watch them fail (baseline behavior), write the skill (documentation), watch tests pass (agents comply), and refactor (close loopholes).
+
+**Core principle:** If you didn't watch an agent fail without the skill, you don't know if the skill teaches the right thing.
+
+**REQUIRED BACKGROUND:** You MUST understand superpowers:test-driven-development before using this skill. That skill defines the fundamental RED-GREEN-REFACTOR cycle. This skill adapts TDD to documentation.
+
+**Official guidance:** For Anthropic's official skill authoring best practices, see anthropic-best-practices.md. This document provides additional patterns and guidelines that complement the TDD-focused approach in this skill.
+
+## What is a Skill?
+
+A **skill** is a reference guide for proven techniques, patterns, or tools. Skills help future Claude instances find and apply effective approaches.
+
+**Skills are:** Reusable techniques, patterns, tools, reference guides
+
+**Skills are NOT:** Narratives about how you solved a problem once
+
+## TDD Mapping for Skills
+
+| TDD Concept | Skill Creation |
+|-------------|----------------|
+| **Test case** | Pressure scenario with subagent |
+| **Production code** | Skill document (SKILL.md) |
+| **Test fails (RED)** | Agent violates rule without skill (baseline) |
+| **Test passes (GREEN)** | Agent complies with skill present |
+| **Refactor** | Close loopholes while maintaining compliance |
+| **Write test first** | Run baseline scenario BEFORE writing skill |
+| **Watch it fail** | Document exact rationalizations agent uses |
+| **Minimal code** | Write skill addressing those specific violations |
+| **Watch it pass** | Verify agent now complies |
+| **Refactor cycle** | Find new rationalizations → plug → re-verify |
+
+The entire skill creation process follows RED-GREEN-REFACTOR.
+
+## When to Create a Skill
+
+**Create when:**
+- Technique wasn't intuitively obvious to you
+- You'd reference this again across projects
+- Pattern applies broadly (not project-specific)
+- Others would benefit
+
+**Don't create for:**
+- One-off solutions
+- Standard practices well-documented elsewhere
+- Project-specific conventions (put in CLAUDE.md)
+
+## Skill Types
+
+### Technique
+Concrete method with steps to follow (condition-based-waiting, root-cause-tracing)
+
+### Pattern
+Way of thinking about problems (flatten-with-flags, test-invariants)
+
+### Reference
+API docs, syntax guides, tool documentation (office docs)
+
+## Directory Structure
+
+
+```
+skills/
+  skill-name/
+    SKILL.md              # Main reference (required)
+    supporting-file.*     # Only if needed
+```
+
+**Flat namespace** - all skills in one searchable namespace
+
+**Separate files for:**
+1. **Heavy reference** (100+ lines) - API docs, comprehensive syntax
+2. **Reusable tools** - Scripts, utilities, templates
+
+**Keep inline:**
+- Principles and concepts
+- Code patterns (< 50 lines)
+- Everything else
+
+## SKILL.md Structure
+
+**Frontmatter (YAML):**
+- Only two fields supported: `name` and `description`
+- Max 1024 characters total
+- `name`: Use letters, numbers, and hyphens only (no parentheses, special chars)
+- `description`: Third-person, includes BOTH what it does AND when to use it
+  - Start with "Use when..." to focus on triggering conditions
+  - Include specific symptoms, situations, and contexts
+  - Keep under 500 characters if possible
+
+```markdown
+---
+name: Skill-Name-With-Hyphens
+description: Use when [specific triggering conditions and symptoms] - [what the skill does and how it helps, written in third person]
+---
+
+# Skill Name
+
+## Overview
+What is this? Core principle in 1-2 sentences.
+
+## When to Use
+[Small inline flowchart IF decision non-obvious]
+
+Bullet list with SYMPTOMS and use cases
+When NOT to use
+
+## Core Pattern (for techniques/patterns)
+Before/after code comparison
+
+## Quick Reference
+Table or bullets for scanning common operations
+
+## Implementation
+Inline code for simple patterns
+Link to file for heavy reference or reusable tools
+
+## Common Mistakes
+What goes wrong + fixes
+
+## Real-World Impact (optional)
+Concrete results
+```
+
+
+## Claude Search Optimization (CSO)
+
+**Critical for discovery:** Future Claude needs to FIND your skill
+
+### 1. Rich Description Field
+
+**Purpose:** Claude reads description to decide which skills to load for a given task. Make it answer: "Should I read this skill right now?"
+
+**Format:** Start with "Use when..." to focus on triggering conditions, then explain what it does
+
+**Content:**
+- Use concrete triggers, symptoms, and situations that signal this skill applies
+- Describe the *problem* (race conditions, inconsistent behavior) not *language-specific symptoms* (setTimeout, sleep)
+- Keep triggers technology-agnostic unless the skill itself is technology-specific
+- If skill is technology-specific, make that explicit in the trigger
+- Write in third person (injected into system prompt)
+
+```yaml
+# ❌ BAD: Too abstract, vague, doesn't include when to use
+description: For async testing
+
+# ❌ BAD: First person
+description: I can help you with async tests when they're flaky
+
+# ❌ BAD: Mentions technology but skill isn't specific to it
+description: Use when tests use setTimeout/sleep and are flaky
+
+# ✅ GOOD: Starts with "Use when", describes problem, then what it does
+description: Use when tests have race conditions, timing dependencies, or pass/fail inconsistently - replaces arbitrary timeouts with condition polling for reliable async tests
+
+# ✅ GOOD: Technology-specific skill with explicit trigger
+description: Use when using React Router and handling authentication redirects - provides patterns for protected routes and auth state management
+```
+
+### 2. Keyword Coverage
+
+Use words Claude would search for:
+- Error messages: "Hook timed out", "ENOTEMPTY", "race condition"
+- Symptoms: "flaky", "hanging", "zombie", "pollution"
+- Synonyms: "timeout/hang/freeze", "cleanup/teardown/afterEach"
+- Tools: Actual commands, library names, file types
+
+### 3. Descriptive Naming
+
+**Use active voice, verb-first:**
+- ✅ `creating-skills` not `skill-creation`
+- ✅ `testing-skills-with-subagents` not `subagent-skill-testing`
+
+### 4. Token Efficiency (Critical)
+
+**Problem:** getting-started and frequently-referenced skills load into EVERY conversation. Every token counts.
+
+**Target word counts:**
+- getting-started workflows: <150 words each
+- Frequently-loaded skills: <200 words total
+- Other skills: <500 words (still be concise)
+
+**Techniques:**
+
+**Move details to tool help:**
+```bash
+# ❌ BAD: Document all flags in SKILL.md
+search-conversations supports --text, --both, --after DATE, --before DATE, --limit N
+
+# ✅ GOOD: Reference --help
+search-conversations supports multiple modes and filters. Run --help for details.
+```
+
+**Use cross-references:**
+```markdown
+# ❌ BAD: Repeat workflow details
+When searching, dispatch subagent with template...
+[20 lines of repeated instructions]
+
+# ✅ GOOD: Reference other skill
+Always use subagents (50-100x context savings). REQUIRED: Use [other-skill-name] for workflow.
+```
+
+**Compress examples:**
+```markdown
+# ❌ BAD: Verbose example (42 words)
+your human partner: "How did we handle authentication errors in React Router before?"
+You: I'll search past conversations for React Router authentication patterns.
+[Dispatch subagent with search query: "React Router authentication error handling 401"]
+
+# ✅ GOOD: Minimal example (20 words)
+Partner: "How did we handle auth errors in React Router?"
+You: Searching...
+[Dispatch subagent → synthesis]
+```
+
+**Eliminate redundancy:**
+- Don't repeat what's in cross-referenced skills
+- Don't explain what's obvious from command
+- Don't include multiple examples of same pattern
+
+**Verification:**
+```bash
+wc -w skills/path/SKILL.md
+# getting-started workflows: aim for <150 each
+# Other frequently-loaded: aim for <200 total
+```
+
+**Name by what you DO or core insight:**
+- ✅ `condition-based-waiting` > `async-test-helpers`
+- ✅ `using-skills` not `skill-usage`
+- ✅ `flatten-with-flags` > `data-structure-refactoring`
+- ✅ `root-cause-tracing` > `debugging-techniques`
+
+**Gerunds (-ing) work well for processes:**
+- `creating-skills`, `testing-skills`, `debugging-with-logs`
+- Active, describes the action you're taking
+
+### 4. Cross-Referencing Other Skills
+
+**When writing documentation that references other skills:**
+
+Use skill name only, with explicit requirement markers:
+- ✅ Good: `**REQUIRED SUB-SKILL:** Use superpowers:test-driven-development`
+- ✅ Good: `**REQUIRED BACKGROUND:** You MUST understand superpowers:systematic-debugging`
+- ❌ Bad: `See skills/testing/test-driven-development` (unclear if required)
+- ❌ Bad: `@skills/testing/test-driven-development/SKILL.md` (force-loads, burns context)
+
+**Why no @ links:** `@` syntax force-loads files immediately, consuming 200k+ context before you need them.
+
+## Flowchart Usage
+
+```dot
+digraph when_flowchart {
+    "Need to show information?" [shape=diamond];
+    "Decision where I might go wrong?" [shape=diamond];
+    "Use markdown" [shape=box];
+    "Small inline flowchart" [shape=box];
+
+    "Need to show information?" -> "Decision where I might go wrong?" [label="yes"];
+    "Decision where I might go wrong?" -> "Small inline flowchart" [label="yes"];
+    "Decision where I might go wrong?" -> "Use markdown" [label="no"];
+}
+```
+
+**Use flowcharts ONLY for:**
+- Non-obvious decision points
+- Process loops where you might stop too early
+- "When to use A vs B" decisions
+
+**Never use flowcharts for:**
+- Reference material → Tables, lists
+- Code examples → Markdown blocks
+- Linear instructions → Numbered lists
+- Labels without semantic meaning (step1, helper2)
+
+See @graphviz-conventions.dot for graphviz style rules.
+
+## Code Examples
+
+**One excellent example beats many mediocre ones**
+
+Choose most relevant language:
+- Testing techniques → TypeScript/JavaScript
+- System debugging → Shell/Python
+- Data processing → Python
+
+**Good example:**
+- Complete and runnable
+- Well-commented explaining WHY
+- From real scenario
+- Shows pattern clearly
+- Ready to adapt (not generic template)
+
+**Don't:**
+- Implement in 5+ languages
+- Create fill-in-the-blank templates
+- Write contrived examples
+
+You're good at porting - one great example is enough.
+
+## File Organization
+
+### Self-Contained Skill
+```
+defense-in-depth/
+  SKILL.md    # Everything inline
+```
+When: All content fits, no heavy reference needed
+
+### Skill with Reusable Tool
+```
+condition-based-waiting/
+  SKILL.md    # Overview + patterns
+  example.ts  # Working helpers to adapt
+```
+When: Tool is reusable code, not just narrative
+
+### Skill with Heavy Reference
+```
+pptx/
+  SKILL.md       # Overview + workflows
+  pptxgenjs.md   # 600 lines API reference
+  ooxml.md       # 500 lines XML structure
+  scripts/       # Executable tools
+```
+When: Reference material too large for inline
+
+## The Iron Law (Same as TDD)
+
+```
+NO SKILL WITHOUT A FAILING TEST FIRST
+```
+
+This applies to NEW skills AND EDITS to existing skills.
+
+Write skill before testing? Delete it. Start over.
+Edit skill without testing? Same violation.
+
+**No exceptions:**
+- Not for "simple additions"
+- Not for "just adding a section"
+- Not for "documentation updates"
+- Don't keep untested changes as "reference"
+- Don't "adapt" while running tests
+- Delete means delete
+
+**REQUIRED BACKGROUND:** The superpowers:test-driven-development skill explains why this matters. Same principles apply to documentation.
+
+## Testing All Skill Types
+
+Different skill types need different test approaches:
+
+### Discipline-Enforcing Skills (rules/requirements)
+
+**Examples:** TDD, verification-before-completion, designing-before-coding
+
+**Test with:**
+- Academic questions: Do they understand the rules?
+- Pressure scenarios: Do they comply under stress?
+- Multiple pressures combined: time + sunk cost + exhaustion
+- Identify rationalizations and add explicit counters
+
+**Success criteria:** Agent follows rule under maximum pressure
+
+### Technique Skills (how-to guides)
+
+**Examples:** condition-based-waiting, root-cause-tracing, defensive-programming
+
+**Test with:**
+- Application scenarios: Can they apply the technique correctly?
+- Variation scenarios: Do they handle edge cases?
+- Missing information tests: Do instructions have gaps?
+
+**Success criteria:** Agent successfully applies technique to new scenario
+
+### Pattern Skills (mental models)
+
+**Examples:** reducing-complexity, information-hiding concepts
+
+**Test with:**
+- Recognition scenarios: Do they recognize when pattern applies?
+- Application scenarios: Can they use the mental model?
+- Counter-examples: Do they know when NOT to apply?
+
+**Success criteria:** Agent correctly identifies when/how to apply pattern
+
+### Reference Skills (documentation/APIs)
+
+**Examples:** API documentation, command references, library guides
+
+**Test with:**
+- Retrieval scenarios: Can they find the right information?
+- Application scenarios: Can they use what they found correctly?
+- Gap testing: Are common use cases covered?
+
+**Success criteria:** Agent finds and correctly applies reference information
+
+## Common Rationalizations for Skipping Testing
+
+| Excuse | Reality |
+|--------|---------|
+| "Skill is obviously clear" | Clear to you ≠ clear to other agents. Test it. |
+| "It's just a reference" | References can have gaps, unclear sections. Test retrieval. |
+| "Testing is overkill" | Untested skills have issues. Always. 15 min testing saves hours. |
+| "I'll test if problems emerge" | Problems = agents can't use skill. Test BEFORE deploying. |
+| "Too tedious to test" | Testing is less tedious than debugging bad skill in production. |
+| "I'm confident it's good" | Overconfidence guarantees issues. Test anyway. |
+| "Academic review is enough" | Reading ≠ using. Test application scenarios. |
+| "No time to test" | Deploying untested skill wastes more time fixing it later. |
+
+**All of these mean: Test before deploying. No exceptions.**
+
+## Bulletproofing Skills Against Rationalization
+
+Skills that enforce discipline (like TDD) need to resist rationalization. Agents are smart and will find loopholes when under pressure.
+
+**Psychology note:** Understanding WHY persuasion techniques work helps you apply them systematically. See persuasion-principles.md for research foundation (Cialdini, 2021; Meincke et al., 2025) on authority, commitment, scarcity, social proof, and unity principles.
+
+### Close Every Loophole Explicitly
+
+Don't just state the rule - forbid specific workarounds:
+
+<Bad>
+```markdown
+Write code before test? Delete it.
+```
+</Bad>
+
+<Good>
+```markdown
+Write code before test? Delete it. Start over.
+
+**No exceptions:**
+- Don't keep it as "reference"
+- Don't "adapt" it while writing tests
+- Don't look at it
+- Delete means delete
+```
+</Good>
+
+### Address "Spirit vs Letter" Arguments
+
+Add foundational principle early:
+
+```markdown
+**Violating the letter of the rules is violating the spirit of the rules.**
+```
+
+This cuts off entire class of "I'm following the spirit" rationalizations.
+
+### Build Rationalization Table
+
+Capture rationalizations from baseline testing (see Testing section below). Every excuse agents make goes in the table:
+
+```markdown
+| Excuse | Reality |
+|--------|---------|
+| "Too simple to test" | Simple code breaks. Test takes 30 seconds. |
+| "I'll test after" | Tests passing immediately prove nothing. |
+| "Tests after achieve same goals" | Tests-after = "what does this do?" Tests-first = "what should this do?" |
+```
+
+### Create Red Flags List
+
+Make it easy for agents to self-check when rationalizing:
+
+```markdown
+## Red Flags - STOP and Start Over
+
+- Code before test
+- "I already manually tested it"
+- "Tests after achieve the same purpose"
+- "It's about spirit not ritual"
+- "This is different because..."
+
+**All of these mean: Delete code. Start over with TDD.**
+```
+
+### Update CSO for Violation Symptoms
+
+Add to description: symptoms of when you're ABOUT to violate the rule:
+
+```yaml
+description: use when implementing any feature or bugfix, before writing implementation code
+```
+
+## RED-GREEN-REFACTOR for Skills
+
+Follow the TDD cycle:
+
+### RED: Write Failing Test (Baseline)
+
+Run pressure scenario with subagent WITHOUT the skill. Document exact behavior:
+- What choices did they make?
+- What rationalizations did they use (verbatim)?
+- Which pressures triggered violations?
+
+This is "watch the test fail" - you must see what agents naturally do before writing the skill.
+
+### GREEN: Write Minimal Skill
+
+Write skill that addresses those specific rationalizations. Don't add extra content for hypothetical cases.
+
+Run same scenarios WITH skill. Agent should now comply.
+
+### REFACTOR: Close Loopholes
+
+Agent found new rationalization? Add explicit counter. Re-test until bulletproof.
+
+**REQUIRED SUB-SKILL:** Use superpowers:testing-skills-with-subagents for the complete testing methodology:
+- How to write pressure scenarios
+- Pressure types (time, sunk cost, authority, exhaustion)
+- Plugging holes systematically
+- Meta-testing techniques
+
+## Anti-Patterns
+
+### ❌ Narrative Example
+"In session 2025-10-03, we found empty projectDir caused..."
+**Why bad:** Too specific, not reusable
+
+### ❌ Multi-Language Dilution
+example-js.js, example-py.py, example-go.go
+**Why bad:** Mediocre quality, maintenance burden
+
+### ❌ Code in Flowcharts
+```dot
+step1 [label="import fs"];
+step2 [label="read file"];
+```
+**Why bad:** Can't copy-paste, hard to read
+
+### ❌ Generic Labels
+helper1, helper2, step3, pattern4
+**Why bad:** Labels should have semantic meaning
+
+## STOP: Before Moving to Next Skill
+
+**After writing ANY skill, you MUST STOP and complete the deployment process.**
+
+**Do NOT:**
+- Create multiple skills in batch without testing each
+- Move to next skill before current one is verified
+- Skip testing because "batching is more efficient"
+
+**The deployment checklist below is MANDATORY for EACH skill.**
+
+Deploying untested skills = deploying untested code. It's a violation of quality standards.
+
+## Skill Creation Checklist (TDD Adapted)
+
+**IMPORTANT: Use TodoWrite to create todos for EACH checklist item below.**
+
+**RED Phase - Write Failing Test:**
+- [ ] Create pressure scenarios (3+ combined pressures for discipline skills)
+- [ ] Run scenarios WITHOUT skill - document baseline behavior verbatim
+- [ ] Identify patterns in rationalizations/failures
+
+**GREEN Phase - Write Minimal Skill:**
+- [ ] Name uses only letters, numbers, hyphens (no parentheses/special chars)
+- [ ] YAML frontmatter with only name and description (max 1024 chars)
+- [ ] Description starts with "Use when..." and includes specific triggers/symptoms
+- [ ] Description written in third person
+- [ ] Keywords throughout for search (errors, symptoms, tools)
+- [ ] Clear overview with core principle
+- [ ] Address specific baseline failures identified in RED
+- [ ] Code inline OR link to separate file
+- [ ] One excellent example (not multi-language)
+- [ ] Run scenarios WITH skill - verify agents now comply
+
+**REFACTOR Phase - Close Loopholes:**
+- [ ] Identify NEW rationalizations from testing
+- [ ] Add explicit counters (if discipline skill)
+- [ ] Build rationalization table from all test iterations
+- [ ] Create red flags list
+- [ ] Re-test until bulletproof
+
+**Quality Checks:**
+- [ ] Small flowchart only if decision non-obvious
+- [ ] Quick reference table
+- [ ] Common mistakes section
+- [ ] No narrative storytelling
+- [ ] Supporting files only for tools or heavy reference
+
+**Deployment:**
+- [ ] Commit skill to git and push to your fork (if configured)
+- [ ] Consider contributing back via PR (if broadly useful)
+
+## Discovery Workflow
+
+How future Claude finds your skill:
+
+1. **Encounters problem** ("tests are flaky")
+3. **Finds SKILL** (description matches)
+4. **Scans overview** (is this relevant?)
+5. **Reads patterns** (quick reference table)
+6. **Loads example** (only when implementing)
+
+**Optimize for this flow** - put searchable terms early and often.
+
+## The Bottom Line
+
+**Creating skills IS TDD for process documentation.**
+
+Same Iron Law: No skill without failing test first.
+Same cycle: RED (baseline) → GREEN (write skill) → REFACTOR (close loopholes).
+Same benefits: Better quality, fewer surprises, bulletproof results.
+
+If you follow TDD for code, follow it for skills. It's the same discipline applied to documentation.

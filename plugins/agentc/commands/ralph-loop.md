@@ -3,4 +3,45 @@ description: "Start Ralph Wiggum loop in current session"
 argument-hint: "PROMPT [--max-iterations N] [--completion-promise TEXT]"
 allowed-tools: ["Bash(${CLAUDE_PLUGIN_ROOT}/scripts/setup-ralph-loop.sh)"]
 ---
-82 1 2 751 2 925 2 662 4 276 2 9 2 4294 2 1004 2 25 2 4651 2 9 2 751 2 4652 4 2604 82 4653 2 3813 4 1 2 1559 2 130 2 4654 2 309 2 4655 2 372 2 4512 82 372 2 379 2 2606 2 2607 2 2681 2 2328 506 4656 2 4657 2 2607 2 143 2 2611 2 4658 2 4659 2 143 2 2611 2 4660 506 372 2 379 2 4661 2 4662 2 380 2 2676 2 379 2 4662 2 2677 2 4663 2 2681 2 2328 453 2614 2 4664 453 2614 2 4665 453 2614 2 4666 2 51 2 751 2 925 2 933 2 4667 453 2614 2 4665 453 2614 2 4664 453 2614 2 4668 2 1389 2 177 2 4669 2 35 2 177 2 4670 2 4671 453 2614 2 2683 2684 4672 453 2614 2 4664 453 2614 2 4673 2 4674 2 4675 2 1790 2 4676 453 2614 2 2683 2684 51 2 1764 2 4677 2 4678 2 935 2 4679 2 134 2 4680 2 4681 453 2614 2 2683 2684 51 2 14 2 4682 2 4564 2 1485 2 4683 2 130 2 4684 2 4685 453 2614 2 2683 2684 51 2 1544 2 1790 2 35 2 505 2 1318 2 25 2 928 2 9 2 4686 453 2614 2 2683 2684 51 2 1544 2 1790 2 4687 2 4688 2 372 2 112 2 46 2 112 2 48 2 4689 453 2614 2 4664 453 2614 2 4690 2 51 2 1544 2 183 2 4691 2 9 2 4692 453 2614 2 2683 2684 4693 2 372 2 112 2 4694 2 1218 2 4695 2 9 2 263 2 58 2 4696 453 2614 2 2683 2684 43 2 4697 2 1499 2 3420 2 1337 2 4698 2 51 2 112 2 4564 2 1790 2 35 2 4699 453 2614 2 2683 2684 505 2 4655 2 4700 2 14 2 747 2 58 2 4701 2 25 2 4702 453 2614 2 2683 2684 1095 2 9 2 4655 2 58 2 4703 2 4704 2 8 2 9 2 4705 453 2614 2 4664 453 2614 2 2683 2684 192 2 9 2 747 2 48 2 4706 2 9 2 4655 2 4682 2 1829 2 4707 453 2614 2 2683 2684 218 2 4708 2 1544 2 183 2 4709 2 96 2 188 2 4710 453 2614 2 4665 506 2619 82 2619 82 221 4 4031 2 1044 2 120 2 9 2 4181 2 2093 2 112 2 4036 2 25 2 4711 2 9 2 751 2 747 2 1829 2 4712 2 9 2 1049 2 739 2 932 2 25 2 112 2 207 2 9 2 273 2 4713 2 4714 2 321 2 1086 2 4715 2 1044 2 65 2 1138 2 130 2 2640 2 4716 2 3270 2 112 2 25 2 4717 2 130 2 4718 4 2049 2 4719 2 192 2 1080 2 309 2 4655 2 58 2 4720 2 112 2 1135 2 111 2 35 2 96 2 658 2 9 2 4682 2 58 2 4683 2 130 2 4684 2 4704 2 1544 2 183 2 35 2 505 2 4721 2 25 2 4050 2 9 2 4669 2 4688 2 372 2 112 2 46 2 1218 2 4722 2 43 2 48 2 928 2 207 2 63 2 4723 2 14 2 747 2 58 2 4701 2 25 2 2035 2 1095 2 1410 2 4724
+
+# Ralph Loop Command
+
+Execute the setup script to initialize the Ralph loop:
+
+```!
+"${CLAUDE_PLUGIN_ROOT}/scripts/setup-ralph-loop.sh" $ARGUMENTS
+
+# Extract and display completion promise if set
+if [ -f .claude/ralph-loop.local.md ]; then
+  PROMISE=$(grep '^completion_promise:' .claude/ralph-loop.local.md | sed 's/completion_promise: *//' | sed 's/^"\(.*\)"$/\1/')
+  if [ -n "$PROMISE" ] && [ "$PROMISE" != "null" ]; then
+    echo ""
+    echo "═══════════════════════════════════════════════════════════"
+    echo "CRITICAL - Ralph Loop Completion Promise"
+    echo "═══════════════════════════════════════════════════════════"
+    echo ""
+    echo "To complete this loop, output this EXACT text:"
+    echo "  <promise>$PROMISE</promise>"
+    echo ""
+    echo "STRICT REQUIREMENTS (DO NOT VIOLATE):"
+    echo "  - Use <promise> XML tags EXACTLY as shown above"
+    echo "  - The statement MUST be completely and unequivocally TRUE"
+    echo "  - Do NOT output false statements to exit the loop"
+    echo "  - Do NOT lie even if you think you should exit"
+    echo ""
+    echo "IMPORTANT - Do not circumvent the loop:"
+    echo "  Even if you believe you're stuck, the task is impossible,"
+    echo "  or you've been running too long - you MUST NOT output a"
+    echo "  false promise statement. The loop is designed to continue"
+    echo "  until the promise is GENUINELY TRUE. Trust the process."
+    echo ""
+    echo "  If the loop should stop, the promise statement will become"
+    echo "  true naturally. Do not force it by lying."
+    echo "═══════════════════════════════════════════════════════════"
+  fi
+fi
+```
+
+Please work on the task. When you try to exit, the Ralph loop will feed the SAME PROMPT back to you for the next iteration. You'll see your previous work in files and git history, allowing you to iterate and improve.
+
+CRITICAL RULE: If a completion promise is set, you may ONLY output it when the statement is completely and unequivocally TRUE. Do not output false promises to escape the loop, even if you think you're stuck or should exit for other reasons. The loop is designed to continue until genuine completion.

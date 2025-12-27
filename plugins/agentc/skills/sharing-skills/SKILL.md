@@ -2,4 +2,193 @@
 name: sharing-skills
 description: Use when you've developed a broadly useful skill and want to contribute it upstream via pull request - guides process of branching, committing, pushing, and creating PR to contribute skills back to upstream repository
 ---
-82 1 2 9849 2 209 4 13 2 6342 4 9850 2 769 2 77 2 1086 2 714 2 2641 2 932 2 25 2 9 2 9851 2 2635 4 840 2 7192 2 193 2 9852 2 465 2 193 2 4799 2 193 2 4806 2 193 2 710 4 13 2 2093 2 25 2 9853 4 9854 2 6457 82 51 2 2998 2 3501 2 9855 2 1867 2 9856 82 51 2 9857 2 6818 2 1795 2 9858 2 77 82 51 2 9859 2 130 2 1423 82 51 2 9860 2 9861 2 1123 4 9862 2 9863 2 6457 82 51 2 9864 2 43 2 9865 82 51 2 9866 2 43 2 9867 82 51 2 8242 2 9868 2 5451 82 51 2 6916 2 9869 2 207 2 9870 2 1586 4 13 2 9871 4 51 2 9872 2 9602 2 4957 2 130 2 9873 82 51 2 9874 2 1837 2 58 2 9875 2 9876 2 714 2 9877 82 51 2 9878 2 2998 2 2242 2 1499 2 1854 2 2762 2 9861 2 277 2 129 4 13 2 9849 2 227 4 132 2 71 2 1367 2 9879 2 120 2 9880 2 130 2 9881 4 2639 82 5805 2 9882 82 2640 2 2721 2 2512 82 2640 2 1839 2 9851 2 2512 82 2640 2 708 2 2730 2 2512 2684 1 2 4806 2 25 2 1086 2 9883 82 221 4 132 2 83 2 665 2 7050 2 7192 4 2639 82 1 2 7192 2 3923 2 9884 82 9885 82 2640 2 2721 2 2722 2 9886 82 221 4 132 2 93 2 665 2 43 2 3784 2 2998 4 2639 82 1 2 4231 2 120 2 1086 2 465 2 65 2 9887 82 1 2 665 2 656 2 465 2 43 2 5422 2 1921 2 39 82 1 2 2998 2 48 2 1485 2 65 2 9888 82 221 4 132 2 104 2 4799 2 3791 4 2639 82 1 2 1533 2 130 2 704 82 2640 2 2417 2 9889 82 2640 2 704 2 5915 2 4364 2 9890 2 465 4 9891 2 2738 82 1502 2 1223 2 115 2 110 2 177 2 465 2 194 2 130 2 1386 2 2055 2 9892 4 9893 2 3863 2 9894 2 155 2 9895 82 2746 82 2747 82 221 4 132 2 1351 2 4806 2 25 2 1119 2 9896 4 2639 82 2640 2 708 2 2729 2 2730 2 9886 82 221 4 132 2 1374 2 665 2 7234 2 7235 4 2639 82 1 2 665 2 710 2 25 2 9851 2 2762 2 2732 2 9602 82 2732 2 2733 2 709 2 5700 506 9897 2 9898 2 5700 506 2734 2 4364 2 9890 2 9899 2 5700 506 2736 2 2737 2 2738 82 13 2 1379 82 1502 2 1223 2 115 2 9 2 465 2 130 2 110 2 1809 2 96 2 9900 4 13 2 1158 82 7167 2 1265 2 112 2 1854 2 177 2 465 2 9901 2 9902 2 9903 2 6755 2 9904 4 13 2 1806 82 1382 2 3822 2 2856 2 126 2 1386 2 177 2 465 2 58 2 2066 2 130 2 1265 2 96 2 48 2 1485 2 9905 82 2746 82 2747 82 221 4 13 2 675 2 4017 4 2525 2 1080 2 1389 2 3905 2 115 2 9906 2 1080 2 465 2 9671 2 9907 4 2639 82 1 2 71 2 9908 2 37 2 9851 82 5805 2 9882 82 2640 2 2721 2 2512 82 2640 2 1839 2 9851 2 2512 82 2640 2 708 2 2730 2 2512 4 1 2 83 2 665 2 2641 82 2640 2 2721 2 2722 2 9909 4 1 2 93 2 9910 2 9 2 465 82 1 2 9911 2 120 2 9912 4 1 2 104 2 4799 82 2640 2 2417 2 9913 82 2640 2 704 2 5915 2 4364 2 9914 2 465 4 1627 2 207 2 881 2 9915 2 2041 2 65 2 386 2 130 2 9916 2 4189 4 9893 2 3863 2 807 2 4907 2 7086 2 155 2 64 2 9917 4 1 2 1351 2 4806 82 2640 2 708 2 2729 2 2730 2 9909 4 1 2 1374 2 665 2 710 82 2732 2 2733 2 709 2 5700 506 9897 2 9898 2 5700 506 2734 2 4364 2 9914 2 9899 2 5700 506 2736 2 9918 2 1379 82 1627 2 207 2 881 2 9915 2 2041 2 9919 2 65 2 386 2 130 2 9916 2 4189 4 13 2 1158 82 9893 2 37 2 1031 2 9916 2 7060 2 861 2 6986 2 2929 2 820 2 25 2 656 2 4189 4 13 2 1806 82 9920 2 6141 2 6466 2 9921 2 62 2 3126 2 1170 2 9922 2 1185 2 6393 2 130 2 6428 2 9923 82 221 4 13 2 1071 2 710 2 58 2 9924 4 6354 2 1086 2 710 2 58 2 9925 4 71 2 9908 2 1086 2 714 2 2512 2 2667 82 2639 82 5805 2 9882 82 2640 2 2721 2 2512 82 2640 2 1839 2 9851 2 2512 82 2640 2 708 2 2730 2 2512 82 221 4 83 2 2688 2 9 2 2879 2 2667 82 2639 82 2640 2 2641 2 5793 2 9886 82 2640 2 708 2 2730 2 9926 2 9886 82 221 4 13 2 4056 4 9927 2 34 2 183 2 9928 82 51 2 9929 2 915 2 9930 2 9931 82 51 2 9932 2 9933 2 162 2 9934 4 9935 2 9936 2 9937 82 51 2 1111 2 9938 2 9939 2 9933 2 162 2 1110 82 51 2 2902 2 2489 2 9940 2 9941 4 9942 2 1813 2 9943 82 51 2 9879 2 1777 2 1080 2 1354 2 4135 82 51 2 1460 2 1137 2 465 2 2720 2 43 2 9944 2 37 2 9 2 9945 2 1480 4 863 2 1236 2 6978 82 51 2 9946 2 120 2 7248 2 9947 2 1133 2 9005 2 9851 2 2676 2 2640 2 9948 2 9949 82 51 2 9950 2 6987 82 51 2 9951 2 9952 2 1133 2 708 2 2606 2 2730 2 9953 4 13 2 9954 2 9955 4 3222 2 1790 2 1028 2 1031 2 769 2 65 2 39 2 9956 4 1099 2 465 2 9957 82 51 2 9958 2 102 2 8031 2 2879 2 2641 82 51 2 9958 2 102 2 8031 2 710 82 51 2 1246 2 4346 2 9959 4 9960 2 9961 2 769 2 113 2 1485 2 9962 2 9963 2 130 2 7250 2 9964 4 13 2 8131 2 209 4 51 2 9965 2 51 2 9966 2 2061 2 25 2 709 2 1915 2 769 2 312 2 9906
+
+# Sharing Skills
+
+## Overview
+
+Contribute skills from your local branch back to the upstream repository.
+
+**Workflow:** Branch → Edit/Create skill → Commit → Push → PR
+
+## When to Share
+
+**Share when:**
+- Skill applies broadly (not project-specific)
+- Pattern/technique others would benefit from
+- Well-tested and documented
+- Follows writing-skills guidelines
+
+**Keep personal when:**
+- Project-specific or organization-specific
+- Experimental or unstable
+- Contains sensitive information
+- Too narrow/niche for general use
+
+## Prerequisites
+
+- `gh` CLI installed and authenticated
+- Working directory is `~/.config/superpowers/skills/` (your local clone)
+- **REQUIRED:** Skill has been tested using writing-skills TDD process
+
+## Sharing Workflow
+
+### 1. Ensure You're on Main and Synced
+
+```bash
+cd ~/.config/superpowers/skills/
+git checkout main
+git pull upstream main
+git push origin main  # Push to your fork
+```
+
+### 2. Create Feature Branch
+
+```bash
+# Branch name: add-skillname-skill
+skill_name="your-skill-name"
+git checkout -b "add-${skill_name}-skill"
+```
+
+### 3. Create or Edit Skill
+
+```bash
+# Work on your skill in skills/
+# Create new skill or edit existing one
+# Skill should be in skills/category/skill-name/SKILL.md
+```
+
+### 4. Commit Changes
+
+```bash
+# Add and commit
+git add skills/your-skill-name/
+git commit -m "Add ${skill_name} skill
+
+$(cat <<'EOF'
+Brief description of what this skill does and why it's useful.
+
+Tested with: [describe testing approach]
+EOF
+)"
+```
+
+### 5. Push to Your Fork
+
+```bash
+git push -u origin "add-${skill_name}-skill"
+```
+
+### 6. Create Pull Request
+
+```bash
+# Create PR to upstream using gh CLI
+gh pr create \
+  --repo upstream-org/upstream-repo \
+  --title "Add ${skill_name} skill" \
+  --body "$(cat <<'EOF'
+## Summary
+Brief description of the skill and what problem it solves.
+
+## Testing
+Describe how you tested this skill (pressure scenarios, baseline tests, etc.).
+
+## Context
+Any additional context about why this skill is needed and how it should be used.
+EOF
+)"
+```
+
+## Complete Example
+
+Here's a complete example of sharing a skill called "async-patterns":
+
+```bash
+# 1. Sync with upstream
+cd ~/.config/superpowers/skills/
+git checkout main
+git pull upstream main
+git push origin main
+
+# 2. Create branch
+git checkout -b "add-async-patterns-skill"
+
+# 3. Create/edit the skill
+# (Work on skills/async-patterns/SKILL.md)
+
+# 4. Commit
+git add skills/async-patterns/
+git commit -m "Add async-patterns skill
+
+Patterns for handling asynchronous operations in tests and application code.
+
+Tested with: Multiple pressure scenarios testing agent compliance."
+
+# 5. Push
+git push -u origin "add-async-patterns-skill"
+
+# 6. Create PR
+gh pr create \
+  --repo upstream-org/upstream-repo \
+  --title "Add async-patterns skill" \
+  --body "## Summary
+Patterns for handling asynchronous operations correctly in tests and application code.
+
+## Testing
+Tested with multiple application scenarios. Agents successfully apply patterns to new code.
+
+## Context
+Addresses common async pitfalls like race conditions, improper error handling, and timing issues."
+```
+
+## After PR is Merged
+
+Once your PR is merged:
+
+1. Sync your local main branch:
+```bash
+cd ~/.config/superpowers/skills/
+git checkout main
+git pull upstream main
+git push origin main
+```
+
+2. Delete the feature branch:
+```bash
+git branch -d "add-${skill_name}-skill"
+git push origin --delete "add-${skill_name}-skill"
+```
+
+## Troubleshooting
+
+**"gh: command not found"**
+- Install GitHub CLI: https://cli.github.com/
+- Authenticate: `gh auth login`
+
+**"Permission denied (publickey)"**
+- Check SSH keys: `gh auth status`
+- Set up SSH: https://docs.github.com/en/authentication
+
+**"Skill already exists"**
+- You're creating a modified version
+- Consider different skill name or coordinate with the skill's maintainer
+
+**PR merge conflicts**
+- Rebase on latest upstream: `git fetch upstream && git rebase upstream/main`
+- Resolve conflicts
+- Force push: `git push -f origin your-branch`
+
+## Multi-Skill Contributions
+
+**Do NOT batch multiple skills in one PR.**
+
+Each skill should:
+- Have its own feature branch
+- Have its own PR
+- Be independently reviewable
+
+**Why?** Individual skills can be reviewed, iterated, and merged independently.
+
+## Related Skills
+
+- **writing-skills** - REQUIRED: How to create well-tested skills before sharing

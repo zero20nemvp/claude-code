@@ -2,4 +2,173 @@
 name: root-cause-tracing
 description: Use when errors occur deep in execution and you need to trace back to find the original trigger - systematically traces bugs backward through call stack, adding instrumentation when needed, to identify source of invalid data or incorrect behavior
 ---
-82 1 2 9630 2 9631 2 9632 4 13 2 6342 4 9633 2 1322 2 5713 2 1393 2 65 2 9 2 457 2 6771 2 9634 2 6757 2 65 2 1952 2 3971 2 922 2 1612 2 65 2 1952 2 1992 2 9595 2 9635 2 37 2 1952 2 9636 2 1119 2 9637 2 58 2 25 2 1230 2 123 2 9 2 1185 2 9638 2 67 2 9639 2 9640 2 1080 2 9641 4 771 2 6433 2 9642 2 9386 2 1302 2 9 2 457 2 9643 2 1095 2 112 2 79 2 9 2 1266 2 9644 2 2328 2 1230 2 30 2 9 2 9645 4 13 2 2093 2 25 2 1764 4 6439 82 6440 2 6441 2 407 453 9646 2 4403 2 1393 2 65 2 9647 2 6445 453 3075 2 6811 2 9648 2 6445 453 6918 2 30 2 9649 2 9650 2 6451 453 9651 2 25 2 1266 2 9652 2 6451 453 9653 2 9654 2 2417 2 9655 2 6451 17 9646 2 4403 2 1393 2 65 2 9647 2 19 2 3075 2 6811 2 9648 2 6455 453 3075 2 6811 2 9648 2 19 2 9651 2 25 2 1266 2 9652 2 6455 453 3075 2 6811 2 9648 2 19 2 6918 2 30 2 9649 2 9650 2 6850 2 51 2 9656 2 9657 453 9651 2 25 2 1266 2 9652 2 19 2 9653 2 9654 2 2417 2 9658 82 450 82 221 4 4344 2 6457 82 51 2 880 2 2504 2 1393 2 65 2 793 2 1867 2 30 2 3651 2 9659 82 51 2 951 2 6811 2 1018 2 4698 2 457 2 9643 82 51 2 9235 2 123 2 2145 2 490 2 9660 82 51 2 6860 2 25 2 79 2 1831 2 9661 2 8076 2 9 2 1809 4 13 2 14 2 9632 2 1359 4 132 2 71 2 9662 2 9 2 9663 82 221 82 5621 2 2640 2 6757 2 3260 2 65 2 9664 82 221 4 132 2 83 2 994 2 3228 2 9631 82 1636 2 287 2 3785 2 6854 2 9665 82 6470 82 6474 2 9666 2 9667 2 407 2 6775 2 6807 2 6634 82 221 4 132 2 93 2 4024 2 1657 2 4627 2 9668 82 6470 82 9669 2 9670 506 193 2 9671 2 188 2 9672 506 193 2 9671 2 188 2 9673 506 193 2 9671 2 188 2 292 2 30 2 9674 82 221 4 132 2 104 2 2460 2 9632 2 1042 82 1636 2 1411 2 1606 2 9675 82 51 2 9676 2 1100 2 9677 2 9678 2 9679 82 51 2 2031 2 5311 2 134 2 9680 2 9681 2 25 2 6800 82 51 2 223 2 9 2 2429 2 287 2 9682 4 132 2 1351 2 994 2 9683 2 8449 82 9684 2 1597 2 2396 2 5311 2 9685 2 9686 82 6470 82 6479 2 2856 2 1100 2 9687 2 3280 2 9688 2 407 2 9689 2 5901 2 450 82 9690 2 9691 2 3280 2 9692 2 312 2 9693 82 221 4 13 2 9694 2 951 2 9695 4 2093 2 112 2 5385 2 6811 2 9696 2 2417 2 9697 4 6470 82 3280 2 3070 2 9 2 1547 2 3896 82 6466 2 1154 2 6753 2 6736 2 407 506 6479 2 6771 2 1100 2 656 2 6772 506 9698 2 2640 2 9699 2 407 453 3971 453 6775 2 6776 453 9700 2 9701 453 6777 506 6634 4991 6474 2 9666 2 9667 2 407 2 6775 2 1837 2 6634 82 450 82 221 4 9702 2 1764 2 9703 2 65 2 386 2 1867 2 9704 2 51 2 1135 2 183 2 9705 4 3135 2 130 2 9706 82 2639 82 7204 2 292 2 6199 2 143 2 2657 2 9707 2 2640 2 9708 82 221 4 2962 2 6771 2 9709 82 51 2 1580 2 207 2 292 2 922 2 1304 82 51 2 994 2 9 2 1225 2 1226 2 4037 2 9 2 457 82 51 2 1162 2 9 2 1638 2 3858 2 9710 2 6130 2 9711 4 13 2 9712 2 2444 2 876 2 9713 2 9714 4 192 2 3842 2 4403 2 5675 2 386 2 67 2 112 2 125 2 2497 2 1831 2 1885 4 1764 2 9 2 9715 2 4141 2 9716 4 2639 82 9717 2 5848 2 9718 82 221 4 4126 2 386 2 9719 2 9720 2 30 2 2367 2 9721 2 293 2 1004 2 207 2 9722 4 13 2 158 2 998 2 2031 2 6807 4 9723 2 9724 2 1612 2 65 2 9725 2 9726 2 2476 4 6780 2 9727 82 71 2 1133 2 6794 2 1033 2 65 2 6800 2 8205 2 2396 2 9728 2 9729 82 83 2 9730 2 9671 2 37 2 2396 2 6807 82 93 2 9673 2 3354 2 2396 2 5311 82 104 2 876 2 9731 2 9732 2 312 2 9733 82 1351 2 9734 2 3231 2 9735 2 9689 2 5901 2 9736 2 9737 4 9738 2 9739 2 9740 2 9741 2 9742 2 9743 2 2396 2 1411 4 7284 2 9744 2 9745 2 1080 2 6550 2 139 2 9746 2 372 2 9731 2 312 2 9733 4 9747 2 397 2 9748 82 51 2 6729 2 1721 2 9674 2 6804 2 1837 82 51 2 6729 2 1753 2 9749 2 6804 2 183 2 2396 82 51 2 6729 2 2261 2 9750 2 9751 2 6809 2 2640 2 6757 2 6758 2 6810 82 51 2 6729 2 2283 2 951 2 6811 2 1156 2 312 2 2640 2 6757 4 13 2 983 2 4644 4 6439 82 6440 2 9518 2 407 453 9752 2 9753 2 9754 2 9755 453 3075 2 6811 2 39 2 4493 2 9756 2 6445 453 9651 2 9757 2 6451 453 9758 2 177 2 9 2 9759 2 6445 453 6918 2 30 2 9760 2 6451 453 4364 2 808 2 30 2 470 2 9761 2 6451 453 9646 2 6720 2 9762 453 9763 2 1230 2 3168 2 9 2 9764 2 9765 2 9766 2 9767 2 9768 17 9752 2 9753 2 9754 2 19 2 3075 2 6811 2 39 2 4493 2 9769 453 3075 2 6811 2 39 2 4493 2 9756 2 19 2 9651 2 9757 2 6455 453 3075 2 6811 2 39 2 4493 2 9756 2 19 2 9763 2 1230 2 3168 2 9 2 9764 2 6456 453 9651 2 9757 2 19 2 9758 2 177 2 9 2 9770 453 9758 2 177 2 9 2 9759 2 19 2 9651 2 9757 2 6850 2 51 2 9771 2 9772 453 9758 2 177 2 9 2 9759 2 19 2 6918 2 30 2 9760 2 6455 453 6918 2 30 2 9760 2 19 2 4364 2 808 2 30 2 470 2 9773 453 4364 2 808 2 30 2 470 2 9761 2 19 2 9646 2 9774 82 450 82 221 4 9775 2 1230 2 3168 2 123 2 9 2 1185 2 9776 2 9642 2 932 2 25 2 79 2 9 2 1266 2 9777 4 13 2 951 2 9642 2 4004 4 9778 2 9779 2 1764 2 9703 2 183 2 9704 2 51 2 9704 2 1135 2 1485 2 9780 82 2248 2 9781 2 695 2 312 2 9 2 1666 2 9782 2 183 2 302 2 96 2 7033 82 9783 2 6922 2 9784 2 9785 2 1683 2 9786 2 9787 82 9788 2 9789 2 9790 2 9791 2 1018 2 1389 2 457 2 9643 4 13 2 6571 2 6572 4 2289 2 2064 2 923 2 6573 82 51 2 1770 2 779 2 780 2 1302 2 9792 2 6811 82 51 2 6574 2 30 2 2429 2 9793 2 9629 82 51 2 1758 2 4981 2 809 2 115 2 9794 82 51 2 6813 2 386 2 3259 2 1934 2 9795
+
+# Root Cause Tracing
+
+## Overview
+
+Bugs often manifest deep in the call stack (git init in wrong directory, file created in wrong location, database opened with wrong path). Your instinct is to fix where the error appears, but that's treating a symptom.
+
+**Core principle:** Trace backward through the call chain until you find the original trigger, then fix at the source.
+
+## When to Use
+
+```dot
+digraph when_to_use {
+    "Bug appears deep in stack?" [shape=diamond];
+    "Can trace backwards?" [shape=diamond];
+    "Fix at symptom point" [shape=box];
+    "Trace to original trigger" [shape=box];
+    "BETTER: Also add defense-in-depth" [shape=box];
+
+    "Bug appears deep in stack?" -> "Can trace backwards?" [label="yes"];
+    "Can trace backwards?" -> "Trace to original trigger" [label="yes"];
+    "Can trace backwards?" -> "Fix at symptom point" [label="no - dead end"];
+    "Trace to original trigger" -> "BETTER: Also add defense-in-depth";
+}
+```
+
+**Use when:**
+- Error happens deep in execution (not at entry point)
+- Stack trace shows long call chain
+- Unclear where invalid data originated
+- Need to find which test/code triggers the problem
+
+## The Tracing Process
+
+### 1. Observe the Symptom
+```
+Error: git init failed in /Users/jesse/project/packages/core
+```
+
+### 2. Find Immediate Cause
+**What code directly causes this?**
+```typescript
+await execFileAsync('git', ['init'], { cwd: projectDir });
+```
+
+### 3. Ask: What Called This?
+```typescript
+WorktreeManager.createSessionWorktree(projectDir, sessionId)
+  → called by Session.initializeWorkspace()
+  → called by Session.create()
+  → called by test at Project.create()
+```
+
+### 4. Keep Tracing Up
+**What value was passed?**
+- `projectDir = ''` (empty string!)
+- Empty string as `cwd` resolves to `process.cwd()`
+- That's the source code directory!
+
+### 5. Find Original Trigger
+**Where did empty string come from?**
+```typescript
+const context = setupCoreTest(); // Returns { tempDir: '' }
+Project.create('name', context.tempDir); // Accessed before beforeEach!
+```
+
+## Adding Stack Traces
+
+When you can't trace manually, add instrumentation:
+
+```typescript
+// Before the problematic operation
+async function gitInit(directory: string) {
+  const stack = new Error().stack;
+  console.error('DEBUG git init:', {
+    directory,
+    cwd: process.cwd(),
+    nodeEnv: process.env.NODE_ENV,
+    stack,
+  });
+
+  await execFileAsync('git', ['init'], { cwd: directory });
+}
+```
+
+**Critical:** Use `console.error()` in tests (not logger - may not show)
+
+**Run and capture:**
+```bash
+npm test 2>&1 | grep 'DEBUG git init'
+```
+
+**Analyze stack traces:**
+- Look for test file names
+- Find the line number triggering the call
+- Identify the pattern (same test? same parameter?)
+
+## Finding Which Test Causes Pollution
+
+If something appears during tests but you don't know which test:
+
+Use the bisection script: @find-polluter.sh
+
+```bash
+./find-polluter.sh '.git' 'src/**/*.test.ts'
+```
+
+Runs tests one-by-one, stops at first polluter. See script for usage.
+
+## Real Example: Empty projectDir
+
+**Symptom:** `.git` created in `packages/core/` (source code)
+
+**Trace chain:**
+1. `git init` runs in `process.cwd()` ← empty cwd parameter
+2. WorktreeManager called with empty projectDir
+3. Session.create() passed empty string
+4. Test accessed `context.tempDir` before beforeEach
+5. setupCoreTest() returns `{ tempDir: '' }` initially
+
+**Root cause:** Top-level variable initialization accessing empty value
+
+**Fix:** Made tempDir a getter that throws if accessed before beforeEach
+
+**Also added defense-in-depth:**
+- Layer 1: Project.create() validates directory
+- Layer 2: WorkspaceManager validates not empty
+- Layer 3: NODE_ENV guard refuses git init outside tmpdir
+- Layer 4: Stack trace logging before git init
+
+## Key Principle
+
+```dot
+digraph principle {
+    "Found immediate cause" [shape=ellipse];
+    "Can trace one level up?" [shape=diamond];
+    "Trace backwards" [shape=box];
+    "Is this the source?" [shape=diamond];
+    "Fix at source" [shape=box];
+    "Add validation at each layer" [shape=box];
+    "Bug impossible" [shape=doublecircle];
+    "NEVER fix just the symptom" [shape=octagon, style=filled, fillcolor=red, fontcolor=white];
+
+    "Found immediate cause" -> "Can trace one level up?";
+    "Can trace one level up?" -> "Trace backwards" [label="yes"];
+    "Can trace one level up?" -> "NEVER fix just the symptom" [label="no"];
+    "Trace backwards" -> "Is this the source?";
+    "Is this the source?" -> "Trace backwards" [label="no - keeps going"];
+    "Is this the source?" -> "Fix at source" [label="yes"];
+    "Fix at source" -> "Add validation at each layer";
+    "Add validation at each layer" -> "Bug impossible";
+}
+```
+
+**NEVER fix just where the error appears.** Trace back to find the original trigger.
+
+## Stack Trace Tips
+
+**In tests:** Use `console.error()` not logger - logger may be suppressed
+**Before operation:** Log before the dangerous operation, not after it fails
+**Include context:** Directory, cwd, environment variables, timestamps
+**Capture stack:** `new Error().stack` shows complete call chain
+
+## Real-World Impact
+
+From debugging session (2025-10-03):
+- Found root cause through 5-level trace
+- Fixed at source (getter validation)
+- Added 4 layers of defense
+- 1847 tests passed, zero pollution

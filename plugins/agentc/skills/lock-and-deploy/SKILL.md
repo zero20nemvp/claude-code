@@ -2,4 +2,123 @@
 name: lock-and-deploy
 description: Lock the agentc plugin IP and deploy to BOTH marketplaces (claude-code and promptlock). Preserves skill/agent/command metadata for discoverability while protecting methodology content.
 ---
-82 1 2 4120 2 130 2 4121 2 2998 4 1764 2 177 2 465 2 25 2 8156 2 1080 2 8157 2 4135 2 115 2 9 2 4122 2 3957 2 25 2 7485 2 8158 4 13 2 390 2 5951 2 3741 4 2093 2 8159 2 9 2 8160 2 3107 2 3082 2 2750 2 65 2 8161 4 2639 82 1 2 71 2 701 2 8162 2 8163 2 130 2 8164 2 1086 2 1132 82 2640 2 5798 2 8165 2 2417 2 5636 82 2640 2 5798 2 8165 2 704 2 5915 2 8166 2 704 2 5609 82 2640 2 5798 2 8165 2 8164 2 8167 2 8168 2 5915 2 8169 2 8170 4 1 2 83 2 5688 2 130 2 7074 2 5808 2 7070 2 3876 2 5909 82 8171 2 8172 2 2676 2 7070 2 4188 2 8173 2 2676 2 8174 82 7070 2 7074 2 8175 4 1 2 93 2 1006 2 4140 2 8176 2 5762 2 130 2 5808 2 5732 82 4142 2 8177 2 115 2 6933 4 1 2 104 2 4806 2 5740 2 2761 2 8178 2 37 2 5764 2 8179 82 2640 2 5798 2 8165 2 708 2 2730 2 2512 2 8180 4 1 2 1351 2 2226 2 9 2 3957 2 65 2 63 2 8181 82 8182 2 8183 2 3649 2 4122 82 221 4 13 2 1657 2 2255 2 2000 4 71 2 8184 2 9 2 3957 2 2762 2 5808 2 6332 2 6097 2 8185 2 8186 2 5468 82 83 2 8187 2 25 2 5762 2 8188 2 51 2 5840 2 4149 82 93 2 8187 2 25 2 5808 2 8188 2 51 2 8189 2 4149 82 104 2 8190 2 4136 2 37 2 656 2 4135 82 1351 2 8191 2 130 2 8192 2 7485 2 5791 82 1374 2 8190 2 5926 2 2761 2 5764 2 1491 82 2067 2 8193 2 3957 2 65 2 63 2 8194 2 51 2 1039 2 8195 2 8183 2 3649 2 8196 2 25 2 1839 2 7248 4 13 2 8197 2 8198 4 1051 2 5724 2 186 2 2640 2 5791 2 101 2 9 2 5740 2 8199 4 221 82 8200 82 4408 2 8201 82 4408 2 8202 82 8203 42 4408 2 8204 3283 8205 2 5764 2 8206 82 8203 42 4414 2 8207 4975 8205 2 5764 2 8208 82 4414 2 8209 453 4414 2 4812 5492 8205 2 2429 2 3957 82 221 4 143 2 5761 2 143 2 5746 2 8210 2 143 2 7192 2 143 2 4149 2 143 2 663 2 143 82 8211 82 143 2 5762 2 143 2 8212 2 143 2 2512 2 143 2 4406 2 143 2 8213 2 8214 2 143 82 143 2 5808 2 143 2 8215 2 143 2 5924 2 143 2 4327 2 143 2 8216 2 4495 2 37 2 4153 2 143 4 13 2 227 4 221 82 8217 2 8218 412 8203 412 8219 2 5808 2 5809 412 8203 82 8220 2 8221 2 347 2 4133 412 8203 412 8222 2 8223 2 8224 2 51 2 352 2 4133 412 8203 6691 4414 2 2640 2 708 2 2730 2 2512 412 8203 412 8225 2 8220 2 8226 2 51 2 37 2 4133 412 8203 6691 4414 2 2640 2 708 2 2730 2 5924 412 8203 412 8225 2 5740 2 8199 2 3649 2 5764 2 1491 82 221 4 13 2 686 2 269 4 192 2 5808 2 7070 2 58 2 1813 2 8227 4 2639 82 8228 2 8177 2 115 2 6933 82 221 4 13 2 1071 2 269 4 1051 2 5791 2 186 2 8229 2 130 2 8230 4 71 2 8231 2 8232 2 8233 1082 51 2 8150 2 113 2 7074 2 9 2 3957 1082 51 2 209 2 186 2 8234 2 8235 2 8236 1082 51 2 8237 2 58 2 4130 2 8238 2 3644 1082 51 2 150 2 4149 2 1100 2 6133 2 4157 4 83 2 8239 2 8240 2 8241 1082 51 2 8242 2 4149 2 4153 1082 51 2 2113 2 1485 2 1797 2 25 2 4157 2 372 2 2066 1082 51 2 8243 2 134 2 8244 4 13 2 310 2 4039 4 51 2 8245 2 8246 2 51 2 5893 2 4135 2 8247 2 654 2 8248 2 193 2 8249 82 51 2 8250 2 5791 2 8251 2 51 2 1341 2 34 2 4807 2 7485 2 5724 82 51 2 8252 2 8253 2 51 2 106 2 2217 2 65 2 5808 2 8254 2 183 2 65 2 8255 2 5762 82 51 2 8256 2 2761 2 8257 2 51 2 5764 2 1491 2 8258 2 302 2 4124 4 13 2 317 4 1071 2 8259 2 8260 4 2639 82 1 2 1111 2 5762 2 2242 2 4130 2 4152 2 8261 2 4133 82 4064 2 8262 2684 1 2 1239 2 3140 4 1 2 1111 2 5808 2 2242 2 4149 82 4064 2 8263 2684 1 2 1239 2 1432 4 1 2 1111 2 3746 2 58 2 8264 82 5889 2 8265 2 8266 82 221
+
+# Lock and Deploy Skill
+
+Use this skill to publish a protected version of the agentc plugin to both marketplaces.
+
+## Full Deployment Steps
+
+When deploying the plugin, follow these steps in order:
+
+```bash
+# 1. Git add, commit, and tag your changes
+git -C /Users/db/Desktop/turg add .
+git -C /Users/db/Desktop/turg commit -m "Your commit message"
+git -C /Users/db/Desktop/turg tag -a vX.Y.Z -m "Version description"
+
+# 2. Build and install context-lock gem (from submodule)
+pushd /Users/db/Desktop/turg/marketplaces/context-lock && gem build context_lock.gemspec && popd
+gem install /Users/db/Desktop/turg/marketplaces/context-lock/context_lock-*.gem
+
+# 3. Run lock-and-deploy (pushes claude-code and context-lock submodules)
+/Users/db/Desktop/turg/plugins/agentc/scripts/lock-and-deploy.sh "Description of changes"
+
+# 4. Push turg repo (parent with submodule references)
+git -C /Users/db/Desktop/turg push origin main --tags
+
+# 5. Update the plugin in other projects
+claude /plugins update agentc
+```
+
+## What This Does
+
+1. **Locks** the plugin using context-lock (preserves YAML frontmatter, encodes content)
+2. **Deploys to claude-code submodule** - WITHOUT lock.yml
+3. **Deploys to context-lock submodule** - WITH lock.yml
+4. **Updates** marketplace.json with new version
+5. **Commits and pushes** both submodules
+6. **Updates** parent repo submodule references
+7. **Updates plugin in other projects** - run `claude /plugins update agentc` to pull latest
+
+## Architecture (Submodules)
+
+Both marketplaces are git submodules within the turg repo:
+
+```
+/Users/db/Desktop/turg/
+├── .gitmodules
+├── marketplaces/
+│   ├── claude-code/      ← submodule (github.com:zero20nemvp/claude-code.git)
+│   └── context-lock/     ← submodule (github.com:zero20nemvp/context-lock.git)
+└── plugins/
+    └── agentc/           ← source plugin
+```
+
+| Marketplace | Submodule Path | Branch | lock.yml | Purpose |
+|-------------|----------------|--------|----------|---------|
+| claude-code | `marketplaces/claude-code` | main | NO | Public distribution |
+| context-lock | `marketplaces/context-lock` | master | YES | Master copy with key |
+
+## Workflow
+
+```
+turg/plugins/agentc (SOURCE)
+        │
+        ▼ context-lock lock
+        │
+marketplaces/context-lock/plugins/locked/agentc (LOCKED + lock.yml)
+        │
+        ├──► marketplaces/claude-code/plugins/agentc (PUBLIC - no lock.yml)
+        │         └── git push origin main
+        │
+        └──► marketplaces/context-lock/plugins/locked/agentc (MASTER - with lock.yml)
+        │         └── git push origin master
+        │
+        └──► turg repo: update submodule references
+```
+
+## Quick Execution
+
+If context-lock gem is already installed:
+
+```bash
+/lock-and-deploy "Description of changes"
+```
+
+## After Execution
+
+Both submodules are updated and pushed:
+
+1. **claude-code** (public marketplace)
+   - Users can install the plugin
+   - Skills are discoverable (frontmatter visible)
+   - Content is locked (encoded numbers)
+   - No lock.yml = cannot unlock
+
+2. **context-lock** (master copy)
+   - Contains lock.yml key
+   - Can be used to unlock if needed
+   - Serves as backup/master
+
+## Important Notes
+
+- **Version auto-increments** - patch version bumps automatically (1.0.1 → 1.0.2)
+- **Both submodules pushed** - single command updates both marketplaces
+- **lock.yml protected** - only exists in context-lock repo, not in public claude-code
+- **Parent repo updated** - submodule references committed after deploy
+
+## Verification
+
+After deployment, verify:
+
+```bash
+# Check claude-code has locked content (no lock.yml)
+ls /Users/db/Desktop/turg/marketplaces/claude-code/plugins/agentc/lock.yml  # Should fail
+
+# Check context-lock has lock.yml
+ls /Users/db/Desktop/turg/marketplaces/context-lock/plugins/locked/agentc/lock.yml  # Should exist
+
+# Check frontmatter is visible
+head -5 /Users/db/Desktop/turg/marketplaces/claude-code/plugins/agentc/skills/test-driven-development/SKILL.md
+```

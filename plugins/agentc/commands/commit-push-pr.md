@@ -2,4 +2,43 @@
 allowed-tools: Bash(git checkout:*), Bash(git add:*), Bash(git status:*), Bash(git push:*), Bash(git commit:*), Bash(gh pr create:*)
 description: Full workflow - commit changes, push branch, and create pull request
 ---
-82 13 2 1806 4 51 2 1525 2 2640 2 2701 2 2702 2 1110 82 51 2 1525 2 2640 2 2703 2 2704 2 130 2 1131 2 2705 2 2702 2 2703 2 2706 82 51 2 1525 2 2667 2 2702 2 2641 2 2707 82 51 2 2708 2 2709 2 2702 2 2634 2 2710 4 13 2 1119 2 263 4 2711 2 120 2 9 2 2712 2 2713 2 2714 2 9 2 2715 2 2716 2 707 4 71 2 1088 2 2717 2 1541 2 120 2 2718 1082 51 2 1832 2 2719 2 2641 2 2720 2 77 2 1132 1082 51 2 1133 2 2721 2 2722 2 2723 4 83 2 1088 2 2724 1082 51 2 2725 2 86 2 2726 2 1132 1082 51 2 290 2 2719 2 704 2 705 4 93 2 2727 2 25 2 2728 1082 51 2 1133 2 708 2 2729 2 2730 2 2723 4 104 2 1088 2 1839 2 2731 1082 2639 1082 2732 2 2733 2 709 2 2734 2 2735 2 2736 2 2737 2 2738 1082 13 2 1379 1082 2739 2 115 2 2740 2643 13 2 876 2 2741 1082 51 2 379 2 380 2 2742 2 2743 2643 2744 2 140 2 2745 1082 2746 1082 2747 1082 221 4 44 2 640 2 9 2 103 2 25 2 457 2 1031 2 2748 2 65 2 1080 2 1341 2 2749 2 276 2 86 2 2750 2 65 2 1080 2 1341 2 2751 4 2752 2 9 2 710 2 2753 2 658 2 2754
+
+## Context
+
+- Current git status: !`git status`
+- Current git diff (staged and unstaged changes): !`git diff HEAD`
+- Current branch: !`git branch --show-current`
+- Remote tracking: !`git remote -v`
+
+## Your task
+
+Based on the above changes, execute the full commit-to-PR workflow:
+
+1. **Create branch** (if on main/master):
+   - Generate descriptive branch name from changes
+   - `git checkout -b <branch-name>`
+
+2. **Create commit**:
+   - Stage all relevant changes
+   - Write descriptive commit message
+
+3. **Push to remote**:
+   - `git push -u origin <branch-name>`
+
+4. **Create pull request**:
+   ```bash
+   gh pr create --title "<title>" --body "$(cat <<'EOF'
+   ## Summary
+   <description of changes>
+
+   ## Test plan
+   - [ ] <test steps>
+
+   Co-Authored-By: Claude <noreply@anthropic.com>
+   EOF
+   )"
+   ```
+
+You have the capability to call multiple tools in a single response. Execute all steps in a single message.
+
+**Output the PR URL when complete.**

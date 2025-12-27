@@ -3,4 +3,365 @@ name: Writing Hookify Rules
 description: This skill should be used when the user asks to "create a hookify rule", "write a hook rule", "configure hookify", "add a hookify rule", or needs guidance on hookify rule syntax and patterns.
 version: 0.1.0
 ---
-82 1 2 3144 2 1719 2 754 4 13 2 6342 4 1719 2 765 2 186 2 5526 2 1138 2 37 2 6097 2 3746 2 139 2 2374 2 820 2 25 2 10818 2 207 2 130 2 1553 2 25 2 3772 2 658 2 1472 2 820 2 12404 2 754 2 186 2 3596 2 65 2 3911 2 12405 4 13 2 855 2 941 2 1216 4 132 2 8462 2 6889 4 3922 82 1752 82 3923 2 12406 82 3925 2 218 82 3926 2 12407 82 3744 2 12408 82 1752 4 12409 2 25 2 3772 2 140 2 658 2 177 2 899 2 12410 82 2113 2 2002 2 5526 2 12411 2 12412 2 12413 2 172 82 221 4 132 2 12414 2 3481 4 12415 2 12416 2 12417 2 12418 2 207 2 9 2 899 82 51 2 1764 2 12419 2 12420 2 12421 82 51 2 1246 2 2719 2 130 2 12422 82 51 2 744 2 37 2 3919 2 3380 2 3921 2 3920 2 12423 2 26 4 12424 2 12416 2 12425 2 25 2 12426 82 51 2 12427 2 855 2 58 2 750 82 51 2 12428 2 855 2 58 2 12429 2 12430 2 12431 82 51 2 2113 2 12432 2 1735 2 11230 2 899 4 12433 2 12416 2 2444 2 1567 2 1979 2 25 2 3906 2 120 82 51 2 12434 2 1726 2 1556 2 659 82 51 2 12435 2 1633 2 1634 2 1635 2 2748 82 51 2 12436 2 2093 2 64 2 2546 2 25 2 3419 82 51 2 12437 2 2093 2 484 2 4001 2 1080 2 931 82 51 2 12438 2 387 2 4003 4 12439 2 12440 2 1657 2 25 2 109 2 658 2 899 2 5389 82 51 2 3935 2 683 2 705 2 67 2 3381 2 3896 2 949 82 51 2 3936 2 3937 2 3896 2 12441 2 43 2 3419 2 923 2 12442 2 12443 82 51 2 192 2 12444 2 4605 2 25 2 4053 4 12445 2 10370 2 12446 2 1660 2 1638 2 25 2 1422 82 51 2 1731 2 207 2 8644 2 12447 2 765 82 51 2 3995 2 1122 2 34 2 12448 2 43 2 3947 2 12449 82 51 2 4047 2 1562 2 856 4 4407 82 8722 82 3926 2 1745 82 3744 2 1747 82 221 4 132 2 12450 2 1216 2 12451 2 12452 4 990 2 3938 2 765 2 37 2 1031 2 3941 4 3922 82 1752 82 3923 2 12453 82 3925 2 218 82 3926 2 922 82 3941 506 51 2 3942 2 3943 453 3944 2 3945 453 3744 2 3946 506 51 2 3942 2 3947 453 3944 2 3948 453 3744 2 3949 82 1752 4 9879 2 2195 2 59 2 4367 2 4153 2 25 2 1080 2 3984 2 5160 2 1367 2 177 2 922 2 58 2 65 2 12454 82 221 4 12455 2 12456 82 51 2 12457 2 2444 2 5557 2 25 2 26 506 51 2 990 2 12458 2 12459 506 51 2 990 2 402 2 12460 2 12461 2 12462 2 12463 82 51 2 12464 2 2061 2 25 2 1422 506 51 2 12465 2 1660 2 1638 2 3541 506 51 2 12466 2 12467 2 26 506 51 2 12468 2 12214 2 1422 506 51 2 12469 2 12467 2 1269 2 1790 2 1485 2 3879 506 51 2 12470 2 12471 2 26 506 51 2 12472 2 12473 2 26 82 51 2 12474 2 1623 2 43 2 5311 2 25 2 1422 4 10300 2 1449 2 1269 2 1422 2 207 2 899 2 25 2 12475 4 13 2 12409 2 12476 4 14 2 5526 2 4152 2 302 2 3746 2 58 2 4680 2 25 2 140 2 658 2 9 2 899 2 12410 4 11592 2 12477 82 51 2 1784 2 110 2 1606 2 3318 82 51 2 1784 2 1386 2 2055 2 1547 82 51 2 1060 2 8701 2 43 2 1366 2 1157 82 51 2 1764 2 12478 2 207 2 892 2 12479 2 12480 2 1977 4 4407 82 3922 82 12481 2 3777 4 9879 2 2195 2 1759 2 25 2 151 2 4189 4 1643 2 177 2 12482 82 51 2 5125 2 10684 2 1803 2 11841 2 25 2 151 82 51 2 1754 2 113 2 2177 2 9868 2 490 82 51 2 12483 2 159 2 1175 4 12484 82 51 2 1764 2 1080 2 1765 2 1156 2 1766 82 51 2 712 2 312 2 12035 82 51 2 1764 2 12485 2 1349 2 12486 82 221 4 13 2 3760 2 886 2 7193 4 132 2 1745 2 12487 4 4005 2 1726 2 34 2 908 4 3922 82 1752 82 3926 2 1745 82 3744 2 12488 82 1752 4 1692 2 34 2 12489 82 221 4 12490 2 1664 82 51 2 1692 2 4006 2 12491 2 12492 2 12493 82 51 2 12494 2 12495 2 12496 2 12497 82 51 2 12498 2 1181 2 12499 2 12500 4 132 2 922 2 12487 4 4005 2 12501 2 12502 4 3922 82 1752 82 3926 2 922 82 3744 2 12503 82 1752 4 11832 2 1547 2 287 2 1638 2 12489 82 221 4 8045 2 120 2 1137 2 12456 82 3922 82 1752 82 3926 2 922 82 3941 506 51 2 3942 2 3943 453 3944 2 3945 453 3744 2 12504 506 51 2 3942 2 3947 453 3944 2 3945 453 3744 2 1762 82 1752 4 1754 2 65 2 981 2 12505 82 221 4 12490 2 1664 82 51 2 5125 2 1419 2 12506 2 12507 2 12508 82 51 2 1173 2 5162 2 12509 2 12510 2 12511 82 51 2 12512 2 3743 2 12513 2 12514 2 12515 82 51 2 10904 2 3743 2 12516 2 12517 2 12518 4 132 2 3419 2 12487 4 4005 2 658 2 64 2 2546 2 25 2 3419 2 12519 2 12520 4 3922 82 1752 82 3926 2 3419 82 3744 2 3766 82 1752 4 3070 2 12521 2 8260 82 51 2 379 2 380 2 338 2 2542 2 1039 82 51 2 379 2 380 2 5688 2 5617 82 51 2 379 2 380 2 4288 2 8229 82 221 4 4344 2 12522 82 51 2 12523 2 126 2 4156 2 2750 82 51 2 933 2 12524 82 51 2 1359 2 829 4 132 2 931 2 12487 4 4005 2 484 2 931 2 4152 2 12525 4 3922 82 1752 82 3926 2 931 82 3941 506 51 2 3942 2 12526 453 3944 2 3948 453 3744 2 4124 2 25 2 151 82 1752 4 10657 2 4409 2 2790 82 51 2 379 2 380 2 338 2 9532 82 51 2 379 2 380 2 12527 2 188 2 12528 82 51 2 379 2 380 2 395 2 12529 82 221 4 13 2 1623 2 3144 2 4004 4 132 2 1660 2 9020 4 12530 2 12531 2 10983 2 5654 2 1422 2 12532 82 51 2 12533 2 5389 2 12534 82 51 2 12535 2 5389 2 12536 4 12537 2 5654 2 488 2 12538 82 51 2 12539 2 12540 2 12541 2 193 2 12542 2 12543 2 12544 82 51 2 12545 2 12546 2 193 2 12547 2 12548 2 12543 2 12549 82 51 2 12550 2 12551 2 193 2 12552 2 12553 2 12543 2 12554 4 12490 2 12555 82 51 2 12556 2 51 2 5031 2 12557 2 12558 2 12559 82 51 2 12560 2 51 2 12561 2 12562 82 51 2 12563 2 51 2 2529 2 7420 2 12564 2 12565 2 12566 2 12567 82 51 2 12539 2 51 2 31 2 7420 82 51 2 12568 2 51 2 39 2 43 2 1059 82 51 2 12569 2 51 2 1934 2 43 2 1059 82 51 2 9172 2 51 2 1934 2 43 2 39 82 51 2 12570 2 51 2 11423 4 12571 82 221 82 1747 6691 12572 2 1722 2 1694 2 1722 2684 1732 82 1762 42 12572 2 12573 82 12574 271 12572 2 12575 2 43 2 12576 82 12577 3283 12572 2 1695 2 12578 2 1695 2684 12579 82 12580 3283 12572 2 12581 2 3949 2 1100 82 221 4 132 2 1158 2 1627 4 876 2 1562 2 820 2 312 2 12582 4 2639 82 5112 2 4067 2 4068 2 4069 2 12583 2 4071 2 12584 82 221 4 3799 2 1586 2 12585 2 1562 2 12586 2 12587 2 37 2 4047 2 12588 4 132 2 803 2 12589 4 12283 2 6917 82 8722 82 3744 2 2001 271 1 2 3995 2 12590 2 12591 2 12592 2 12593 82 221 82 12594 2 12595 4 12283 2 12596 82 8722 82 3744 2 1722 2 1732 2 1733 2684 1 2 15 2 5389 2 1260 2 81 82 221 82 12594 2 1665 4 12597 2 1617 82 51 2 6097 2 5044 2 12598 2 12599 2 1076 2 11310 2 12600 2 12601 82 51 2 6097 2 12602 2 12603 2 12604 2 1046 2 5078 82 51 2 2065 2 1764 2 12605 2 820 2 65 2 6097 4 13 2 941 2 11721 4 12606 2 387 2 765 2 65 2 3955 2 1837 82 12607 2 12608 82 12609 2 1533 2 12610 2 25 2 12611 4 11592 2 12612 82 51 2 12613 82 51 2 12614 82 51 2 12615 82 51 2 12616 4 11587 2 12612 82 51 2 12617 2 1867 2 12618 82 51 2 12619 2 7028 2 12620 82 51 2 12621 2 7028 2 764 2 12622 4 13 2 227 4 132 2 9179 2 1080 2 855 4 71 2 1162 2 759 2 1426 82 83 2 4731 2 1831 2 1556 2 58 2 3866 2 3862 2 1633 2 1977 82 93 2 3006 2 1979 2 825 2 12623 2 3506 2 4706 2 1977 82 104 2 290 2 1562 2 1638 82 1351 2 665 2 3966 2 922 2 65 2 939 2 779 82 1374 2 876 2 1073 2 51 2 765 2 186 2 2664 2 645 2 120 2 273 2 1556 2 1586 4 132 2 12624 2 1080 2 855 4 71 2 3784 2 9 2 12625 2 922 82 83 2 12626 2 1638 2 43 2 705 82 93 2 876 2 1073 2 51 2 1132 2 3792 2 3793 2 120 2 273 2 1556 2 1586 4 132 2 12627 2 1080 2 855 4 12628 2 2902 2 3787 2 3719 2 65 2 3746 82 12629 2 2688 2 9 2 12625 2 922 4 13 2 686 2 3993 4 12630 2 12631 2 9277 82 3922 82 1752 82 3923 2 12632 82 3925 2 218 82 3926 2 1745 82 3744 2 12633 82 1752 4 12634 2 705 2 10826 82 221 4 3912 2 37 2 12635 82 3922 82 1752 82 3923 2 12632 82 3925 2 218 82 3926 2 922 82 3941 506 51 2 3942 2 3943 453 3944 2 3945 453 3744 2 12636 506 51 2 3942 2 3947 453 3944 2 3948 453 3744 2 31 82 1752 4 12634 2 705 82 221 4 12637 2 12638 82 51 2 12639 2 51 2 1726 2 659 82 51 2 12640 2 51 2 941 2 5116 82 51 2 12641 2 51 2 933 2 1056 82 51 2 12642 2 51 2 1570 2 5166 82 51 2 733 2 51 2 387 2 4003 4 12643 2 12397 82 51 2 1653 2 12459 82 51 2 5553 2 12460 2 12461 2 12462 2 12463 82 51 2 12644 2 12645 4 12646 82 51 2 12647 2 12648 2 12649 2 12650 2 12651 2 12652
+
+# Writing Hookify Rules
+
+## Overview
+
+Hookify rules are markdown files with YAML frontmatter that define patterns to watch for and messages to show when those patterns match. Rules are stored in `.claude/hookify.{rule-name}.local.md` files.
+
+## Rule File Format
+
+### Basic Structure
+
+```markdown
+---
+name: rule-identifier
+enabled: true
+event: bash|file|stop|prompt|all
+pattern: regex-pattern-here
+---
+
+Message to show Claude when this rule triggers.
+Can include markdown formatting, warnings, suggestions, etc.
+```
+
+### Frontmatter Fields
+
+**name** (required): Unique identifier for the rule
+- Use kebab-case: `warn-dangerous-rm`, `block-console-log`
+- Be descriptive and action-oriented
+- Start with verb: warn, prevent, block, require, check
+
+**enabled** (required): Boolean to activate/deactivate
+- `true`: Rule is active
+- `false`: Rule is disabled (won't trigger)
+- Can toggle without deleting rule
+
+**event** (required): Which hook event to trigger on
+- `bash`: Bash tool commands
+- `file`: Edit, Write, MultiEdit tools
+- `stop`: When agent wants to stop
+- `prompt`: When user submits a prompt
+- `all`: All events
+
+**action** (optional): What to do when rule matches
+- `warn`: Show message but allow operation (default)
+- `block`: Prevent operation (PreToolUse) or stop session (Stop events)
+- If omitted, defaults to `warn`
+
+**pattern** (simple format): Regex pattern to match
+- Used for simple single-condition rules
+- Matches against command (bash) or new_text (file)
+- Python regex syntax
+
+**Example:**
+```yaml
+event: bash
+pattern: rm\s+-rf
+```
+
+### Advanced Format (Multiple Conditions)
+
+For complex rules with multiple conditions:
+
+```markdown
+---
+name: warn-env-file-edits
+enabled: true
+event: file
+conditions:
+  - field: file_path
+    operator: regex_match
+    pattern: \.env$
+  - field: new_text
+    operator: contains
+    pattern: API_KEY
+---
+
+You're adding an API key to a .env file. Ensure this file is in .gitignore!
+```
+
+**Condition fields:**
+- `field`: Which field to check
+  - For bash: `command`
+  - For file: `file_path`, `new_text`, `old_text`, `content`
+- `operator`: How to match
+  - `regex_match`: Regex pattern matching
+  - `contains`: Substring check
+  - `equals`: Exact match
+  - `not_contains`: Substring must NOT be present
+  - `starts_with`: Prefix check
+  - `ends_with`: Suffix check
+- `pattern`: Pattern or string to match
+
+**All conditions must match for rule to trigger.**
+
+## Message Body
+
+The markdown content after frontmatter is shown to Claude when the rule triggers.
+
+**Good messages:**
+- Explain what was detected
+- Explain why it's problematic
+- Suggest alternatives or best practices
+- Use formatting for clarity (bold, lists, etc.)
+
+**Example:**
+```markdown
+**Console.log detected!**
+
+You're adding console.log to production code.
+
+**Why this matters:**
+- Debug logs shouldn't ship to production
+- Console.log can expose sensitive data
+- Impacts browser performance
+
+**Alternatives:**
+- Use a proper logging library
+- Remove before committing
+- Use conditional debug builds
+```
+
+## Event Type Guide
+
+### bash Events
+
+Match Bash command patterns:
+
+```markdown
+---
+event: bash
+pattern: sudo\s+|rm\s+-rf|chmod\s+777
+---
+
+Dangerous command detected!
+```
+
+**Common patterns:**
+- Dangerous commands: `rm\s+-rf`, `dd\s+if=`, `mkfs`
+- Privilege escalation: `sudo\s+`, `su\s+`
+- Permission issues: `chmod\s+777`, `chown\s+root`
+
+### file Events
+
+Match Edit/Write/MultiEdit operations:
+
+```markdown
+---
+event: file
+pattern: console\.log\(|eval\(|innerHTML\s*=
+---
+
+Potentially problematic code pattern detected!
+```
+
+**Match on different fields:**
+```markdown
+---
+event: file
+conditions:
+  - field: file_path
+    operator: regex_match
+    pattern: \.tsx?$
+  - field: new_text
+    operator: regex_match
+    pattern: console\.log\(
+---
+
+Console.log in TypeScript file!
+```
+
+**Common patterns:**
+- Debug code: `console\.log\(`, `debugger`, `print\(`
+- Security risks: `eval\(`, `innerHTML\s*=`, `dangerouslySetInnerHTML`
+- Sensitive files: `\.env$`, `credentials`, `\.pem$`
+- Generated files: `node_modules/`, `dist/`, `build/`
+
+### stop Events
+
+Match when agent wants to stop (completion checks):
+
+```markdown
+---
+event: stop
+pattern: .*
+---
+
+Before stopping, verify:
+- [ ] Tests were run
+- [ ] Build succeeded
+- [ ] Documentation updated
+```
+
+**Use for:**
+- Reminders about required steps
+- Completion checklists
+- Process enforcement
+
+### prompt Events
+
+Match user prompt content (advanced):
+
+```markdown
+---
+event: prompt
+conditions:
+  - field: user_prompt
+    operator: contains
+    pattern: deploy to production
+---
+
+Production deployment checklist:
+- [ ] Tests passing?
+- [ ] Reviewed by team?
+- [ ] Monitoring ready?
+```
+
+## Pattern Writing Tips
+
+### Regex Basics
+
+**Literal characters:** Most characters match themselves
+- `rm` matches "rm"
+- `console.log` matches "console.log"
+
+**Special characters need escaping:**
+- `.` (any char) → `\.` (literal dot)
+- `(` `)` → `\(` `\)` (literal parens)
+- `[` `]` → `\[` `\]` (literal brackets)
+
+**Common metacharacters:**
+- `\s` - whitespace (space, tab, newline)
+- `\d` - digit (0-9)
+- `\w` - word character (a-z, A-Z, 0-9, _)
+- `.` - any character
+- `+` - one or more
+- `*` - zero or more
+- `?` - zero or one
+- `|` - OR
+
+**Examples:**
+```
+rm\s+-rf         Matches: rm -rf, rm  -rf
+console\.log\(   Matches: console.log(
+(eval|exec)\(    Matches: eval( or exec(
+chmod\s+777      Matches: chmod 777, chmod  777
+API_KEY\s*=      Matches: API_KEY=, API_KEY =
+```
+
+### Testing Patterns
+
+Test regex patterns before using:
+
+```bash
+python3 -c "import re; print(re.search(r'your_pattern', 'test text'))"
+```
+
+Or use online regex testers (regex101.com with Python flavor).
+
+### Common Pitfalls
+
+**Too broad:**
+```yaml
+pattern: log    # Matches "log", "login", "dialog", "catalog"
+```
+Better: `console\.log\(|logger\.`
+
+**Too specific:**
+```yaml
+pattern: rm -rf /tmp  # Only matches exact path
+```
+Better: `rm\s+-rf`
+
+**Escaping issues:**
+- YAML quoted strings: `"pattern"` requires double backslashes `\\s`
+- YAML unquoted: `pattern: \s` works as-is
+- **Recommendation**: Use unquoted patterns in YAML
+
+## File Organization
+
+**Location:** All rules in `.claude/` directory
+**Naming:** `.claude/hookify.{descriptive-name}.local.md`
+**Gitignore:** Add `.claude/*.local.md` to `.gitignore`
+
+**Good names:**
+- `hookify.dangerous-rm.local.md`
+- `hookify.console-log.local.md`
+- `hookify.require-tests.local.md`
+- `hookify.sensitive-files.local.md`
+
+**Bad names:**
+- `hookify.rule1.local.md` (not descriptive)
+- `hookify.md` (missing .local)
+- `danger.local.md` (missing hookify prefix)
+
+## Workflow
+
+### Creating a Rule
+
+1. Identify unwanted behavior
+2. Determine which tool is involved (Bash, Edit, etc.)
+3. Choose event type (bash, file, stop, etc.)
+4. Write regex pattern
+5. Create `.claude/hookify.{name}.local.md` file in project root
+6. Test immediately - rules are read dynamically on next tool use
+
+### Refining a Rule
+
+1. Edit the `.local.md` file
+2. Adjust pattern or message
+3. Test immediately - changes take effect on next tool use
+
+### Disabling a Rule
+
+**Temporary:** Set `enabled: false` in frontmatter
+**Permanent:** Delete the `.local.md` file
+
+## Quick Reference
+
+**Minimum viable rule:**
+```markdown
+---
+name: my-rule
+enabled: true
+event: bash
+pattern: dangerous_command
+---
+
+Warning message here
+```
+
+**Rule with conditions:**
+```markdown
+---
+name: my-rule
+enabled: true
+event: file
+conditions:
+  - field: file_path
+    operator: regex_match
+    pattern: \.ts$
+  - field: new_text
+    operator: contains
+    pattern: any
+---
+
+Warning message
+```
+
+**Event types:**
+- `bash` - Bash commands
+- `file` - File edits
+- `stop` - Completion checks
+- `prompt` - User input
+- `all` - All events
+
+**Field options:**
+- Bash: `command`
+- File: `file_path`, `new_text`, `old_text`, `content`
+- Prompt: `user_prompt`
+
+**Operators:**
+- `regex_match`, `contains`, `equals`, `not_contains`, `starts_with`, `ends_with`

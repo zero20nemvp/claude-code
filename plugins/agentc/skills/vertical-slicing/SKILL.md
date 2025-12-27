@@ -2,4 +2,129 @@
 name: vertical-slicing
 description: Use after feature writing or when you have feature files ready for implementation. Plans thin vertical slices touching all layers and creates worktrees for each slice.
 ---
-82 1 2 8279 2 8280 4 13 2 6342 4 2889 2 2890 2 2887 2 2891 2 77 2 2879 2 1138 2 130 2 709 2 6406 2 2651 2 207 2 9244 4 6994 2 30 2 6995 2 2258 2 2762 2 9 2 12225 2 465 2 25 2 2741 2 2887 2 2891 2 130 2 709 2 12226 4 1552 2 2879 2 6128 2 2291 2 9 2 8308 2 2495 2 2891 2 139 2 12227 2 86 2 10295 2 2328 2 709 2 1080 2 2653 2 130 2 790 2 2741 2 207 2 470 2 12228 4 13 2 14 2 1359 4 7062 2 6922 82 51 2 1552 2 2879 2 1138 2 77 2 8304 82 51 2 1162 2 7086 2 130 2 489 2 4318 82 51 2 300 2 1921 2 12229 2 12230 2 12231 2 207 2 530 2 2142 4 12232 2 12233 82 51 2 1099 2 8310 2 48 2 12234 2 400 2 193 2 8543 2 193 2 6045 2 193 2 876 82 51 2 2914 2 3415 2 484 2 2869 2 1100 2 3415 2 2887 2 8310 82 51 2 8652 2 12235 2 2873 2 1340 2 1031 2 2891 2 372 2 2066 82 51 2 1099 2 8310 2 48 2 1485 2 4346 2 12236 4 12237 2 12238 2 207 2 12239 17 12240 2 551 2 113 2 12241 2 37 2 8608 17 6715 2 12242 453 51 2 12243 2 1570 2 12244 2 12245 453 51 2 12246 2 12247 453 51 2 12248 2 12249 453 51 2 12250 2 12251 2 12252 2 11096 2 12253 2 12254 453 51 2 7088 2 12255 2 11843 2 10058 453 51 2 12256 2 12257 2 12258 4 6385 2 12233 82 51 2 942 2 470 2 8310 2 37 2 809 2 96 2 12259 82 51 2 4024 2 176 2 177 2 8310 2 2070 2 12260 2 6916 2 12261 2 6916 2 12262 82 51 2 8097 2 2306 2 120 2 801 2 312 2 1777 2 2653 4 13 2 7260 2 230 4 990 2 470 2 10866 2 12263 4 71 2 1088 2 12264 2 334 2 6405 1082 51 2 7192 2 3923 2 12265 1082 51 2 12266 2 12267 2 43 2 134 2 763 4 83 2 1088 2 790 2 12268 2 334 2 6408 1082 51 2 789 2 214 2 12269 2 6304 2 12270 1082 51 2 3200 2 292 2 8316 2 2328 2 790 1082 51 2 12271 2 86 2 809 2 65 2 9 2 8310 4 93 2 12272 2 25 2 12273 1082 51 2 4024 2 6403 2 25 2 3050 2 10089 2 177 2 12274 1082 51 2 192 2 12275 2 9643 2 25 2 793 2 465 1082 51 2 192 2 12276 2 8317 2 25 2 273 2 8310 4 13 2 12277 2 12278 4 11592 2 8310 2 12279 2 12280 82 51 2 401 2 7106 2 43 2 10078 2 1306 2 7086 82 51 2 4588 2 557 2 1264 2 347 2 39 2 12281 2 996 2 347 2 39 2 4733 82 51 2 2113 2 1485 2 3454 2 130 2 7250 2 65 2 39 2 923 82 51 2 5231 2 12282 2 1411 4 12283 2 12284 2 12285 2 12286 82 51 2 807 2 1962 2 7086 82 51 2 3791 2 25 2 4510 2 2175 82 51 2 807 2 12281 2 3081 2 37 2 1137 2 12287 82 51 2 1869 2 3792 2 1031 2 160 4 12283 2 1032 2 12288 2 12286 82 51 2 15 2 12259 2 39 2 6033 82 51 2 150 2 12282 2 1411 2 120 2 102 2 8031 82 51 2 12289 2 12290 2 37 2 352 2 12291 2 287 4 13 2 1215 4 990 2 470 2 12263 82 51 2 7260 2 30 2 763 2 3986 82 51 2 3172 2 2741 2 30 2 12292 82 51 2 12293 2 12265 4 13 2 12277 2 12294 4 942 2 2891 2 65 2 1685 2 8161 82 71 2 12295 2 2891 2 2367 2 12296 2 8000 2 9302 82 83 2 7050 2 2891 2 273 2 12297 2 12298 82 93 2 12299 2 2891 2 4642 2 3122 2 11178 2 12300 4 4024 2 12301 2 8310 2 1795 2 112 2 62 2 25 2 3050 2 12302 4 13 2 1071 2 8280 4 2409 2 7156 2 25 2 12303 82 51 2 2805 2 25 2 2367 2 2653 82 51 2 1764 2 8314 2 43 2 8315 82 51 2 1275 2 277 2 278 4 2409 2 1659 2 7160 82 51 2 11996 2 186 2 4342 2 207 2 7163 82 51 2 6988 2 186 2 8258 82 51 2 2113 2 3726 2 3863 2 5805 2 12304 2 130 2 2035 4 13 2 983 2 984 4 51 2 12305 2 12306 2 51 2 12307 2 86 2 809 2 67 2 10613 82 51 2 12308 2 51 2 1099 2 8310 2 113 2 1485 2 7250 2 12309 82 51 2 12310 2 51 2 1099 2 8310 2 12311 2 484 2 1411 82 51 2 3362 2 12312 2 51 2 2889 2 12313 2 12314 2 2750 82 51 2 2378 2 30 2 1080 2 2590 2 51 2 675 2 39 2 8310 2 312 2 7003 2 273 82 51 2 12315 2 183 2 12316 2 51 2 1069 2 12317 2 86 2 2175 2 4021 4 13 2 4795 4 7178 2 7179 82 51 2 8301 2 2399 2 5234 2 12318 82 51 2 7182 2 7183 2 3887 4 7185 2 7186 82 51 2 6405 2 2394 2 6406 2 12319 82 51 2 6408 2 2394 2 790 2 12320 82 51 2 8314 2 12321 2 9 2 12322 82 51 2 7022 2 12323 2 3454 2 12322
+
+# Vertical Slicing
+
+## Overview
+
+Plan thin vertical slices from feature files and create isolated worktrees for implementation.
+
+**Announce at start:** "I'm using the vertical-slicing skill to plan vertical slices and create worktrees."
+
+Read feature files, identify the thinnest possible slices that touch all layers, then create a worktree and implementation plan for each slice.
+
+## The Process
+
+**Loading context:**
+- Read feature files from features/*.feature
+- Identify scenarios and their dependencies
+- Review existing models, controllers, views for integration points
+
+**Identifying slices:**
+- Each slice should touch: Model → Controller → View → Test
+- Default: 1 user story = 1 vertical slice
+- Split L-size stories into multiple slices if needed
+- Each slice should be independently deployable
+
+**Slice anatomy for Rails:**
+
+    Slice: "User can register with email"
+
+    Layers touched:
+    - Model: User (email, password_digest)
+    - Controller: RegistrationsController#create
+    - View: registrations/new.html.erb
+    - Routes: resources :registrations, only: [:new, :create]
+    - Feature: features/user_registration.feature (1-2 scenarios)
+    - Specs: spec/models/user_spec.rb, spec/requests/registrations_spec.rb
+
+**Presenting slices:**
+- Present each slice with layers it touches
+- Ask: "Does this slice look right? Too big? Too small?"
+- Refine based on feedback before creating worktree
+
+## Worktree Creation
+
+For each approved slice:
+
+1. **Create worktree** via superpowers:using-git-worktrees
+   - Branch name: feature/[slice-name]
+   - Directory: worktrees/[slice-name] or as configured
+
+2. **Create implementation plan** via superpowers:writing-plans
+   - Bite-sized tasks (2-5 min each)
+   - TDD: test first, then implementation
+   - Cover all layers in the slice
+
+3. **Offer to begin:**
+   - Ask: "Ready to start implementing this slice?"
+   - If yes, chain to execution skill
+   - If no, move to next slice
+
+## Slice Sizing
+
+**Good slice (do this):**
+- Single scenario or tightly related scenarios
+- One model change + one controller action + one view
+- Can be completed and merged in one session
+- Provides user-visible value
+
+**Too big (split it):**
+- Multiple unrelated scenarios
+- Changes to 3+ models
+- Multiple controller actions with different purposes
+- Would take multiple sessions
+
+**Too small (combine it):**
+- Only touches one layer
+- No user-visible value on its own
+- Database migration with no consuming code
+
+## Output
+
+For each slice:
+- Worktree at configured location
+- Implementation plan at docs/plans/YYYY-MM-DD-[slice-name].md
+- Branch: feature/[slice-name]
+
+## Slice Ordering
+
+Present slices in dependency order:
+1. Foundation slices first (models, core logic)
+2. Feature slices next (controllers, views)
+3. Polish slices last (edge cases, refinements)
+
+Ask: "Which slice would you like to start with?"
+
+## After Slicing
+
+**If continuing to implementation:**
+- Move to first worktree
+- Use superpowers:executing-plans or superpowers:subagent-driven-development
+- Follow TDD discipline
+
+**If stopping here:**
+- Worktrees are ready for later
+- Plans are committed
+- Can resume with: cd [worktree-path] and continue
+
+## Key Principles
+
+- **Thin slices** - Touch all layers but minimally
+- **Independent** - Each slice can be merged alone
+- **Valuable** - Each slice delivers user value
+- **TDD ready** - Plan includes test-first steps
+- **One at a time** - Complete one slice before starting next
+- **Vertical, not horizontal** - Never "do all models first"
+
+## Integration
+
+**Called by:**
+- superpowers:feature-writing (after features written)
+- superpowers:product-discovery (Phase 4)
+
+**Chains to:**
+- superpowers:using-git-worktrees (create isolated workspace)
+- superpowers:writing-plans (create implementation plan)
+- superpowers:executing-plans (implement the slice)
+- superpowers:finishing-a-development-branch (merge completed slice)
