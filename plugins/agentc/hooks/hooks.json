@@ -1,1 +1,36 @@
-407 506 425 2 4923 2 396 2 207 2 923 2 4924 2 907 2 4925 2 130 2 751 2 4926 506 4927 2 407 453 4928 2 379 408 407 412 4927 2 379 417 407 4550 628 2 4929 4550 3837 2 4930 417 450 412 380 408 450 453 451 453 4931 2 379 408 407 412 4927 2 379 417 407 4550 628 2 4932 4550 4933 2 4934 2 4935 417 450 412 451 412 4936 2 4937 408 450 453 451 453 4938 2 379 408 407 412 4927 2 379 417 407 4550 628 2 4932 4550 4933 2 4939 417 450 412 380 408 450 453 380 506 450 82 450 82
+{
+  "description": "AgentC hooks for session prompts, security reminders, and Ralph loop",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/decode-session.sh"
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ${CLAUDE_PLUGIN_ROOT}/hooks/security_reminder_hook.py"
+          }
+        ],
+        "matcher": "Edit|Write|MultiEdit"
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/stop-hook.sh"
+          }
+        ]
+      }
+    ]
+  }
+}

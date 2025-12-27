@@ -2,7 +2,7 @@
   "name": "zero2onemvp-claude-code",
   "metadata": {
     "description": "Zero2One marketplace for Claude Code plugins",
-    "version": "1.0.12",
+    "version": "1.0.13",
     "pluginRoot": "./plugins"
   },
   "owner": {
@@ -21,7 +21,11 @@
       "license": "MIT",
       "category": "workflow",
       "keywords": ["workflow", "tdd", "productivity", "ai-orchestration", "north-star", "jtbd", "product-discovery", "self-bootstrapping", "zero-cognitive-load", "pr-review", "frontend", "design", "parallelization", "task-queue"],
-      "strict": true
+      "strict": true,
+      "locked": {
+        "format": "context-lock",
+        "keyPath": "~/.config/context-lock/keys/agentc/lock.yml"
+      }
     }
   ]
 }
