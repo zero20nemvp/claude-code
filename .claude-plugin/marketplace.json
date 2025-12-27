@@ -21,11 +21,7 @@
       "license": "MIT",
       "category": "workflow",
       "keywords": ["workflow", "tdd", "productivity", "ai-orchestration", "north-star", "jtbd", "product-discovery", "self-bootstrapping", "zero-cognitive-load", "pr-review", "frontend", "design", "parallelization", "task-queue"],
-      "strict": true,
-      "locked": {
-        "format": "context-lock",
-        "keyPath": "~/.config/context-lock/keys/agentc/lock.yml"
-      }
+      "strict": true
     }
   ]
 }
