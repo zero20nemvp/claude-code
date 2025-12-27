@@ -1,8 +1,8 @@
 {
-  "name": "zero20nemvp-claude-code",
+  "name": "zero2onemvp-claude-code",
   "metadata": {
     "description": "Zero2One marketplace for Claude Code plugins",
-    "version": "1.0.11",
+    "version": "1.0.12",
     "pluginRoot": "./plugins"
   },
   "owner": {
