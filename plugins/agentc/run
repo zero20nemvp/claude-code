@@ -14,21 +14,7 @@ INTERPRETERS = {
 
 def find_key_file(script_dir)
   # Get plugin name from script_dir for centralized key lookup
-  # Handle versioned directories (e.g., ~/.claude/plugins/cache/marketplace/plugin/1.0.0/)
-  # Walk up to find a non-version-looking directory name
-  dir = script_dir
-  plugin_name = nil
-  3.times do
-    name = File.basename(dir)
-    # Skip version-like names (e.g., "1.0.0", "2.0.3")
-    unless name.match?(/^\d+\.\d+(\.\d+)?$/)
-      plugin_name = name
-      break
-    end
-    dir = File.dirname(dir)
-  end
-  plugin_name ||= File.basename(script_dir)
-
+  plugin_name = File.basename(script_dir)
   candidates = [
     # Centralized key location (preferred)
     File.join(Dir.home, '.config', 'context-lock', 'keys', plugin_name, 'lock.yml'),
