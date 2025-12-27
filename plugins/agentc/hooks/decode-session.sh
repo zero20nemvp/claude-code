@@ -4,7 +4,24 @@
 # Uses awk for portability (works on macOS default bash)
 
 PLUGIN_ROOT="${CLAUDE_PLUGIN_ROOT:-$(dirname "$(dirname "$0")")}"
-PLUGIN_NAME=$(basename "$PLUGIN_ROOT")
+
+# Get plugin name, handling versioned directories (e.g., ~/.claude/plugins/cache/marketplace/plugin/1.0.0/)
+get_plugin_name() {
+  local dir="$1"
+  local name
+  for _ in 1 2 3; do
+    name=$(basename "$dir")
+    # Skip version-like names (e.g., "1.0.0", "2.0.3")
+    if [[ ! "$name" =~ ^[0-9]+\.[0-9]+(\.[0-9]+)?$ ]]; then
+      echo "$name"
+      return
+    fi
+    dir=$(dirname "$dir")
+  done
+  basename "$1"
+}
+
+PLUGIN_NAME=$(get_plugin_name "$PLUGIN_ROOT")
 
 # Key file locations to check (in order of preference)
 find_key_file() {
