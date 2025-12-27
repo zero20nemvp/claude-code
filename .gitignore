@@ -1,3 +1,7 @@
+# Context Lock keys - NEVER commit these
+lock.yml
+lock.key*.yml
+
 # macOS
 .DS_Store
 
