@@ -1,4 +1,5 @@
 ---
+name: timer
 description: "Check or control the block timer"
 arguments:
   - name: action

@@ -1,4 +1,5 @@
 ---
+name: next
 description: "Get your next optimal task - dynamically generated across all north stars/goals"
 arguments:
   - name: energy

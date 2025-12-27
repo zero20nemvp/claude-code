@@ -1,4 +1,5 @@
 ---
+name: focus
 description: "Set priority override - front-of-mind north star"
 arguments:
   - name: north-star-id

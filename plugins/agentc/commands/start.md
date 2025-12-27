@@ -1,4 +1,5 @@
 ---
+name: start
 description: "Start autonomous execution - Claude drives, human executes assigned tasks"
 arguments:
   - name: goal

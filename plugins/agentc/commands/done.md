@@ -1,4 +1,5 @@
 ---
+name: done
 description: "Record task completion with verification evidence"
 arguments:
   - name: blocks

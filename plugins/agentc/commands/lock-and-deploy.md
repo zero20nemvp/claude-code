@@ -1,4 +1,5 @@
 ---
+name: lock-and-deploy
 description: "Lock the agentc plugin and deploy to the zero2one-turg marketplace"
 arguments:
   - name: message

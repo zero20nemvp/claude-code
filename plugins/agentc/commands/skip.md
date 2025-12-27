@@ -1,4 +1,5 @@
 ---
+name: skip
 description: "Skip current task to work on a queued task instead"
 arguments: []
 allowed-tools:

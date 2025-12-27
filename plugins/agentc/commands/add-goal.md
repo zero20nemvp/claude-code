@@ -1,4 +1,5 @@
 ---
+name: add-goal
 description: "Add a new goal (WOOP commitment) with milestones toward a North Star"
 arguments:
   - name: north-star-id

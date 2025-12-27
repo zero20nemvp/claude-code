@@ -1,4 +1,5 @@
 ---
+name: journal
 description: "Log observations for pattern detection"
 arguments:
   - name: entry

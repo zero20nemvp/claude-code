@@ -1,4 +1,5 @@
 ---
+name: assess
 description: "Assess goal quality and autonomy readiness before autonomous execution"
 arguments:
   - name: goal-id

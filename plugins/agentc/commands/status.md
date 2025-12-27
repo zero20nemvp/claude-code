@@ -1,4 +1,5 @@
 ---
+name: status
 description: "Show all north stars with progress, deadlines, and velocity"
 allowed-tools:
   - Read

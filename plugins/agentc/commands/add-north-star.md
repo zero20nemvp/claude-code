@@ -1,4 +1,5 @@
 ---
+name: add-north-star
 description: "Add a new North Star with Socratic questioning - unearth your guiding direction"
 allowed-tools:
   - Read
