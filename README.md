@@ -37,8 +37,19 @@ AI-powered development workflow with zero decision fatigue. One simple interface
 ### Install AgentC
 
 ```bash
-/plugin install agentc@zero2one-turg
+/plugin install agentc@zero2onemvp-claude-code
 ```
+
+### Get Your License Key
+
+AgentC requires a license key (`lock.yml`) to run. Sign up at **https://agentc.zero2one.ee** to download your key.
+
+Place the key file at:
+```
+~/.config/context-lock/keys/agentc/lock.yml
+```
+
+**Important:** When the plugin is updated, download the latest `lock.yml` from your account. The key must match the plugin version.
 
 ## Support
 
