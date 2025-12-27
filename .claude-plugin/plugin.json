@@ -1,43 +1,107 @@
 {
-  "name": "agenth",
-  "version": "1.2.2",
-  "description": "AgentH - Autonomous goal tracking and task management with enforced workflow",
-  "author": "AgentH Team",
-  "homepage": "https://github.com/agenth/agenth",
+  "name": "agentc",
+  "version": "2.0.5",
+  "description": "AgentC - Zero cognitive load from empty directory to shipped product. Self-bootstrapping /next → /do → /done loop.",
+  "author": "Zero2One",
+  "homepage": "https://github.com/zero2onemvp/agentc",
   "commands": [
     {
+      "name": "start",
+      "description": "Start autonomous execution - Claude drives, human executes assigned tasks"
+    },
+    {
+      "name": "assess",
+      "description": "Assess goal quality for autonomous execution readiness"
+    },
+    {
+      "name": "skill",
+      "description": "Create a new skill from recurring patterns"
+    },
+    {
       "name": "next",
-      "description": "Shows the next task from active goals (does not start timer)"
+      "description": "Get next optimal task from active goals"
     },
     {
       "name": "do",
-      "description": "Starts the timer for the current task"
+      "description": "Execute current task with TDD discipline"
     },
     {
       "name": "done",
-      "description": "Completes current task: stops timer, commits to git, tags milestones"
+      "description": "Complete current task with verification"
     },
     {
-      "name": "add-goal",
-      "description": "Creates a new goal with milestones (required for all planning)"
+      "name": "skip",
+      "description": "Skip to queued task if blocked on current"
     },
     {
-      "name": "journal",
-      "description": "Add a journal entry with auto-commit"
+      "name": "now",
+      "description": "Quick current task check (read-only)"
     },
     {
       "name": "status",
-      "description": "Show current timer status, active task, and progress"
+      "description": "Show all north stars, goals, and progress"
     },
     {
-      "name": "track",
-      "description": "Start lightweight block tracking for ad-hoc work (no goal needed)"
+      "name": "add-north-star",
+      "description": "Create north star with Socratic questioning"
+    },
+    {
+      "name": "add-goal",
+      "description": "Create goal with WOOP methodology"
+    },
+    {
+      "name": "focus",
+      "description": "Priority override for north star focus"
+    },
+    {
+      "name": "journal",
+      "description": "Log observation with auto-commit"
+    },
+    {
+      "name": "timer",
+      "description": "Control block timer (8-min focused work)"
+    },
+    {
+      "name": "commit",
+      "description": "Auto-generate commit message and commit"
+    },
+    {
+      "name": "commit-push-pr",
+      "description": "Full workflow: commit → push → create PR"
+    },
+    {
+      "name": "clean-gone",
+      "description": "Remove stale local branches tracking deleted remotes"
+    },
+    {
+      "name": "review-pr",
+      "description": "Comprehensive PR review with specialized agents"
+    },
+    {
+      "name": "ralph-loop",
+      "description": "Start autonomous iteration loop"
+    },
+    {
+      "name": "cancel-ralph",
+      "description": "Cancel active Ralph loop"
+    },
+    {
+      "name": "hookify",
+      "description": "Create hooks to prevent unwanted behaviors"
+    },
+    {
+      "name": "hookify-list",
+      "description": "List all configured hookify rules"
+    },
+    {
+      "name": "lock-and-deploy",
+      "description": "Lock plugin IP and deploy to marketplace"
     }
   ],
   "enforcementRules": {
     "blockExitPlanMode": true,
     "requireGoalsForPlanning": true,
     "mandatoryWorkflow": ["/next", "/do", "/done"],
-    "statusBarIndicator": "AgentH Active"
+    "statusBarIndicator": "AgentC Active"
   }
 }
