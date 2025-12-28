@@ -3,4 +3,24 @@ name: cancel-ralph
 description: "Cancel active Ralph Wiggum loop"
 allowed-tools: ["Bash"]
 ---
-82 1 2 749 2 751 4 2604 82 372 2 2605 2 2606 2 2607 2 2608 2 2328 506 2609 2 2610 2 2607 2 143 2 2611 2 2612 2 2613 506 2614 2 2615 506 2614 2 2616 82 2617 506 2614 2 2618 82 2619 82 221 4 1111 2 9 2 35 2 2620 4 71 2 2409 2 2621 1082 51 2 2622 2 2583 2 750 2 751 2 747 2 2623 4 83 2 2409 2 2624 1082 51 2 1764 2 1653 2 2625 2 2626 1082 51 2 2627 2 2628 2 751 2 747 2 2629 2 30 2 746 2 2630 2 123 2 2631 2 58 2 9 2 2632 2 1411 2 77 2 1827
+
+# Cancel Ralph
+
+```!
+if [[ -f .claude/ralph-loop.local.md ]]; then
+  ITERATION=$(grep '^iteration:' .claude/ralph-loop.local.md | sed 's/iteration: *//')
+  echo "FOUND_LOOP=true"
+  echo "ITERATION=$ITERATION"
+else
+  echo "FOUND_LOOP=false"
+fi
+```
+
+Check the output above:
+
+1. **If FOUND_LOOP=false**:
+   - Say "No active Ralph loop found."
+
+2. **If FOUND_LOOP=true**:
+   - Use Bash: `rm .claude/ralph-loop.local.md`
+   - Report: "Cancelled Ralph loop (was at iteration N)" where N is the ITERATION value from above.

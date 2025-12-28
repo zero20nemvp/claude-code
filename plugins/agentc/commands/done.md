@@ -12,4 +12,448 @@ allowed-tools:
   - Bash
   - AskUserQuestion
 ---
-82 44 2 186 2 3396 2 263 2 309 2 65 2 9 2 3 2 52 2 37 2 281 2 3397 4 13 2 2203 2 937 4 1764 2 2204 2 134 2 2205 2 2206 2 2207 4 13 2 2208 2 2209 2 3398 2 317 4 2248 2 3396 2 3399 2 3137 2 1044 2 1606 2 420 2 3400 4 71 2 1111 2 139 2 20 2 1606 2 1039 2 3401 2 48 2 1485 2 3402 82 83 2 192 2 2693 2 58 2 3250 2 3403 2 3404 2 578 2 183 2 3405 2 1006 2 20 2 2420 4 13 2 2208 2 2901 2 2725 2 268 2 933 4 1111 2 2826 2 207 2 2847 2 643 2 3390 2 3388 2 3406 2 3407 4 2829 2 1100 2 2830 2 43 2 2831 82 51 2 1013 2 228 2 229 2 1606 2 1612 2 65 2 2239 82 51 2 679 2 25 2 2208 2 822 2 3408 2 3409 4 2829 2 1100 2 2841 82 51 2 1013 2 248 2 1606 2 1612 2 65 2 2239 82 51 2 679 2 25 2 2208 2 822 2 3408 2 3409 4 2829 2 1100 2 2853 82 51 2 1013 2 3410 2 1100 2 3411 82 51 2 1013 2 2854 2 922 2 2217 82 51 2 679 2 25 2 2208 2 822 2 3408 2 3409 4 2829 2 1100 2 2868 82 51 2 1013 2 3412 2 1100 2 3411 82 51 2 1013 2 2873 2 922 2 2217 82 51 2 679 2 25 2 2208 2 822 2 3408 2 3409 4 2829 2 1100 2 2878 82 51 2 1013 2 3413 2 1100 2 3411 82 51 2 1013 2 2879 2 1138 2 1432 82 51 2 679 2 25 2 2208 2 822 2 3408 2 3409 4 2829 2 1100 2 2886 82 51 2 1013 2 3414 2 1100 2 3411 82 51 2 679 2 25 2 2208 2 822 2 3408 2 3409 4 2829 2 1100 2 440 2 43 2 2897 82 51 2 2820 2 25 2 2208 2 3415 2 2899 2 281 2 3416 4 13 2 2208 2 1721 2 272 2 3417 2 1731 4 3418 2 25 2 3419 2 700 2 188 2 3420 2 9 2 700 2 1004 2 37 2 3421 4 51 2 192 2 700 2 3422 2 2903 2 3423 2 3424 2 77 2 35 82 51 2 192 2 700 2 183 2 3420 2 130 2 1109 2 2905 2 2237 2 1764 2 2905 82 51 2 192 2 3425 2 1764 2 2264 2 37 2 2941 2 3426 2 3427 2 3428 2 3429 2 3430 2 3429 2 3431 2 3429 2 3432 2 3433 4 13 2 2208 2 1753 2 317 2 326 2 1111 4 3434 2 640 2 3435 2 77 2 20 2 3436 4 1764 2 2834 82 51 2 3437 2 3438 2 281 2 3439 2 3440 82 51 2 2907 2 3441 2 86 2 3442 2 3443 2 932 2 25 2 3444 4 2409 2 3443 2 932 2 25 2 3445 17 3446 2 317 2 3447 17 41 2 20 4 13 2 2208 2 3448 2 299 2 300 2 3268 2 3449 4 2241 2 3219 2 3450 4 71 2 192 2 3221 2 1100 2 3451 1082 51 2 299 2 674 2 1606 2 3452 2 67 2 3453 2 3454 1082 51 2 1111 2 372 2 674 2 64 2 2242 2 3455 4 83 2 192 2 674 2 3454 2 37 2 2049 2 1181 2797 3456 2 299 2 674 2 3457 2 2049 2 2046 2682 51 2 3458 2 3358 2797 2907 2682 71 2 3234 2 2422 2 3459 2682 83 2 2425 2 3460 2 3461 4 93 2 192 2 484 2 3462 2 2687 2 43 2 3463 2 3464 1082 51 2 695 2 25 2 3465 2 2229 2 37 2 3466 2 1821 2 1628 2 3467 1082 51 2 2820 2 25 2 309 1082 51 2 3468 2 3469 2 25 2 674 2 1403 2 3470 2 312 2 3471 4 104 2 192 2 674 2 3454 2 37 2 352 2 2049 2 1181 1082 51 2 2820 2 3472 4 3473 2 828 2 58 2 3474 2 37 2 3475 2 133 2 3384 2 237 2 3476 4 13 2 2208 2 3477 2 328 2 329 2 337 2 317 4 3478 2 829 2 51 2 308 2 309 2 372 2 373 2 374 2 183 2 3290 4 1552 2 2922 2 130 2 3479 2 77 2 3480 4 143 2 337 2 143 2 318 2 3481 2 143 82 3482 82 143 2 3483 2 143 2 3484 2 1100 2 218 2 143 82 143 2 2915 2 143 2 3484 2 1100 2 596 2 3485 2 1100 2 218 2 143 82 143 2 3282 2 143 2 387 2 2103 2 1100 2 218 2 3486 2 3487 2 3488 2 3489 2 3490 2 143 4 221 82 2407 2 328 2 329 2 3263 2 2927 2 2407 82 221 4 2409 2 374 2 1790 2 3290 82 221 82 3446 2 328 2 329 2 373 2 374 2 183 2 3491 4 3492 2 2927 82 3493 82 51 2 379 2 380 2 3494 2 183 2 3495 4 1006 2 20 2 25 2 1389 2 373 2 374 2 312 2 3245 82 221 4 3222 2 1790 2 3381 2 309 2 3496 2 2255 2 58 2 3291 2 3497 4 13 2 2208 2 3498 2 824 2 886 2 3268 2 3499 2 3500 4 1211 2 3501 2 658 2 3502 2 1100 2 3503 4 3478 2 829 2 51 2 308 2 309 2 372 2 824 2 973 2 1658 2 43 2 3504 4 132 2 71 2 1111 2 207 2 824 2 1421 4 990 2 470 2 1354 2 3505 2 3506 2 3137 2 3507 2 3508 2 2224 4 2639 82 207 2 3509 2 65 2 3510 2 2703 2 3511 2 3512 2 143 2 2657 2 3513 2 109 506 3514 506 372 2 379 2 2673 2 2606 2 3515 2 2681 2 2328 453 2614 2 3516 2 3517 2 2242 2 352 2 824 2 825 2 3518 2 30 2 3519 506 2619 82 420 82 221 4 132 2 83 2 2238 2 824 2 856 4 2639 82 3520 2 970 2 3521 2 3522 82 221 4 132 2 93 2 886 2 26 2 37 2 3523 2 1541 2 3524 4 2639 82 372 2 379 2 2606 2 3525 2 2681 2 2328 506 3520 2 970 2 3526 2 26 82 2619 82 221 4 3284 2 824 2 828 2 2934 82 221 82 2407 2 824 2 886 2 3268 2 2407 82 1003 2 387 2 3527 2 1138 2 640 2 3528 2 1421 82 1003 2 824 2 808 2 3354 82 1003 2 3523 2 825 2 26 2 3354 2 1541 2 3524 4 824 2 3289 2 3264 82 221 4 2409 2 824 2 374 2 1790 2 3290 82 221 82 3446 2 824 2 825 2 374 2 183 2 3491 4 1183 2 3529 82 51 2 3530 2 193 2 1946 2 3531 82 51 2 3532 2 193 2 1946 2 3533 4 3534 2 2030 82 51 2 3535 2 2111 2 77 2 3521 2 3536 4 1006 2 20 2 25 2 2417 2 1658 2 824 2 973 2 312 2 3245 82 221 4 3222 2 1790 2 3381 2 309 2 3496 2 2255 2 58 2 3291 2 829 2 207 2 955 2 3537 4 2226 2 3538 2 65 2 2923 82 2294 82 407 506 584 2 407 453 590 2 218 506 450 82 450 82 221 4 13 2 2208 2 2261 2 2226 2 268 2 3539 2 65 2 2889 4 71 2 994 2 9 2 263 2 65 2 3540 2 3541 2 3542 82 83 2 2902 2 3543 2 1100 2 3544 82 93 2 1111 2 372 2 86 2 214 2 65 2 2741 2 186 2 1389 4 13 2 2208 2 2283 2 248 2 3545 2 1111 4 3546 2 471 2 305 82 51 2 2405 2 3454 2 214 2 2254 2 3547 2 214 82 51 2 192 2 86 2 214 2 2804 2 2902 2 3548 2 1100 2 3544 4 221 82 248 2 3549 2 3550 2 214 2 3551 82 221 4 192 2 471 2 2804 82 221 82 2196 2 3552 2 2364 82 387 2 266 2 267 2 3553 4 228 2 229 2 3554 2 3555 82 1006 2 250 2 251 2 25 2 709 2 273 2 3556 82 221 4 13 2 2208 2 2311 2 3557 2 3558 4 1533 2 25 2 3559 82 2294 82 407 506 576 2 3560 506 3561 2 3562 2 3563 506 510 2 2313 2 667 2 3564 506 3565 2 3566 2 3564 506 598 2 3567 506 3568 2 3569 506 3570 2 3571 506 582 2 3572 506 3573 2 2357 2 2358 506 3574 2 218 82 450 82 221 4 2226 2 3575 2 3576 82 51 2 3577 2 3578 2 2142 82 51 2 3579 2 3578 2 3580 82 51 2 3581 2 3582 2 3583 4 13 2 2208 2 2343 2 1111 2 98 2 268 2 3584 2 3585 2 3586 4 3587 2 57 2 1606 2 3588 2 98 2 724 2 2542 2 3420 2 65 2 3589 2 1111 2 489 2 2701 4 71 2 3105 2 470 2 263 2 65 2 3590 2 37 2 2693 2 3591 1082 51 2 1764 2 3592 2 1556 2 37 2 3593 2 25 2 26 2 2693 1082 51 2 3594 2 9 2 3595 2 3596 2 658 2 64 2 1606 2 3452 4 83 2 2409 2 64 2 3597 1082 51 2 1552 2 9 2 3598 2 77 2 3592 1082 51 2 2226 2 3599 2 2693 2 25 2 3544 1082 51 2 3600 2 3598 2 2810 2 65 2 3601 1082 51 2 2413 3602 3587 2 112 2 3603 2 98 2 3604 3602 1003 2 3605 2 263 2 3358 2 51 2 3606 2 3607 4 93 2 2409 2 64 2 3250 2 3608 1082 51 2 2460 2 2693 2 134 2 3609 1082 51 2 2413 3602 98 2 3250 2 3610 3602 3611 2 3605 2 263 2 3358 2 3612 2 3613 4 104 2 2944 2 3614 2 37 2 3454 2 98 2 1044 4 1351 2 3615 2 3616 2 98 2 2376 2 207 2 31 2 3617 2 3618 2 1044 2 3619 2 25 2 1043 2 3547 2 3620 4 13 2 2208 2 2360 2 1015 2 3621 2 43 2 3622 2 1414 4 2241 2 3623 2 3624 4 71 2 192 2 3623 2 58 2 1790 2 3625 1082 51 2 3621 2 2367 2 263 2 77 2 671 1082 51 2 2902 2 134 2 656 2 2783 2 37 2 2693 2 1100 2 3626 1082 51 2 2902 2 3627 2 1100 2 3626 1082 51 2 679 2 25 2 2208 2 3628 2 37 2 3629 2 35 2 1826 4 83 2 192 2 3623 2 3394 2 3625 1082 51 2 897 2 3630 2 214 2 85 2 750 2 78 1082 51 2 3631 2 3632 2 2254 2 3633 1082 51 2 797 2 656 2 98 2 724 2 372 2 1075 2 3619 2 25 2 3634 1082 51 2 2820 2 25 2 2208 2 822 2 3635 2 3636 4 13 2 2208 2 3637 2 3638 2 3639 2 268 2 1627 4 3638 2 463 2 820 2 207 2 316 2 465 2 2833 4 71 2 3640 2 263 2 1223 2 25 2 1080 2 1638 2 3641 2 3642 2 62 2 3643 2 3644 82 83 2 1111 2 3645 2 207 2 1624 2 820 82 93 2 192 2 3646 2 3647 2 3648 2 3649 2 3650 82 104 2 192 2 183 2 3646 2 2417 2 656 2 3651 2 37 2 3652 2 1100 2 3415 82 1351 2 192 2 3652 2 2411 2 1043 2 3653 2 352 2 465 2 1884 2 3654 1082 51 2 2644 2 3655 2 3656 2 3657 2 420 2 3658 2 3659 2 3660 2 1460 2 1777 2 1080 2 3661 4 13 2 2208 2 3662 2 2226 2 3049 4 2241 2 372 2 65 2 745 2 966 2 3624 4 192 2 14882 2 4999 2 3730 82 51 2 2255 2 58 2 745 2 966 2 51 2 3906 2 747 2 14883 2 302 2 10763 2 2098 4 2409 2 671 2 1606 2 3663 82 51 2 2902 2 3051 2 1100 2 3626 2 1974 2 14884 2 372 2 65 2 745 2 14885 82 51 2 2902 2 3053 2 1100 2 407 2 3054 2 570 2 3056 2 3057 2 3058 2 572 2 3664 2 3665 2 77 2 3666 2 450 82 51 2 2902 2 2780 2 1100 2 3667 2 263 2 77 2 3668 82 51 2 712 2 3669 2 263 2 77 2 3623 82 51 2 2902 2 3221 2 1100 2 505 82 51 2 2226 2 3590 2 3641 2 3670 2 2417 2 3671 82 51 2 2226 2 3672 2 3673 4 2409 2 671 2 2396 2 3674 82 51 2 2902 2 3051 2 1100 2 3675 2 1974 2 14884 2 372 2 65 2 745 2 14885 82 51 2 2902 2 3053 2 1100 2 407 2 3054 2 570 2 3056 2 3057 2 3058 2 572 2 3060 2 450 82 51 2 2902 2 2780 2 1100 2 440 82 51 2 2902 2 3676 2 1100 2 546 82 51 2 2902 2 3221 2 1100 2 505 82 51 2 2226 2 3590 2 3641 2 3670 2 2417 2 3671 82 51 2 2226 2 3672 2 3673 4 13 2 2208 2 14886 2 734 2 735 2 14887 4 2409 2 14882 2 4999 2 14888 4 2255 2 263 2 309 2 1135 2 14889 2 63 2 1103 2 8449 2 747 2 14890 4 71 2 1111 2 1831 2 214 2 2542 2 371 2 120 2 177 2 57 2 3073 1082 51 2 1580 2 30 2 4232 2 207 2 14891 2 14892 1082 51 2 1111 2 14893 2 5557 2 3541 2 3454 2 263 4 83 2 14894 2 14895 2 3197 1082 51 2 2902 2 489 2 2693 2 25 2 14896 2 14897 2 25 2 14898 1082 51 2 1926 2 1831 2 214 2 186 2 2422 2 3618 4 93 2 14899 2 745 2 4652 1082 51 2 14900 2 9 2 14901 2 465 1082 51 2 2255 2 1829 2 3212 2 3617 2 3618 2 214 1082 51 2 1832 2 1059 2 57 2 214 2 372 2 1075 1082 51 2 2820 2 14902 4 104 2 2226 2 14903 1082 51 2 5892 2 14904 1082 51 2 2226 2 14905 4 3284 2 3618 2 14906 82 221 82 14907 506 140 2 2422 2 14908 2 10114 2 115 2 3618 2 4836 82 221 4 13 2 2208 2 3677 2 1215 2 1379 4 2409 2 65 2 745 2 966 2 37 2 1059 2 14906 17 3680 2 2813 2 3681 453 3682 2 263 2 3358 17 14907 408 140 2 2422 2 14908 2 10114 2 115 2 3618 2 4836 17 11953 2 3683 2 4195 2 14909 2 14910 408 3688 2 263 2 3358 17 14911 2 14912 408 3611 2 3605 2 263 2 2321 2 14913 408 3611 2 3605 2 263 2 2322 2 14913 408 1003 2 3605 2 263 2 2800 2 14914 17 3689 408 83 2 3690 2 680 2 3691 17 41 2 18 4 2409 2 65 2 745 2 14915 2 471 2 4229 17 3680 2 2813 2 3681 453 3682 2 263 2 3358 17 14916 5354 2196 2 14917 453 14916 17 14918 2 3358 17 14919 2 14920 408 10671 2 4880 2 2073 408 98 2 214 2 3604 2 4882 408 133 2 214 2 3604 2 14921 408 4330 2 14922 2 14923 17 1006 2 14657 2 25 2 14924 2 273 2 471 4 2409 2 671 2 1606 2 3669 2 3678 2 263 2 3679 17 3680 2 2813 2 3681 453 3682 2 263 2 3358 17 3683 2 3684 2 3685 2 3686 2 3687 453 3688 2 263 2 3358 17 3689 408 83 2 3690 2 680 2 3691 17 41 2 20 4 2409 2 671 2 2396 2 2899 2 459 2 3692 17 3680 2 2813 2 3681 453 2799 2 3358 17 41 2 18 4 2409 2 674 2 3693 2 1606 2 3694 17 3680 2 2813 2 3681 453 2799 2 3358 17 3456 2 300 2 3695 2 3415 2 2049 2 1192 2 1997 17 41 2 18 4 150 2 3359 2 3696 2 133 2 3360 2 9 2 52 2 3697 2 3698 4 13 2 983 2 984 4 3385 2 58 2 3699 82 51 2 320 2 1241 2 386 2 3354 82 51 2 320 2 1241 2 287 2 674 2 3354 82 51 2 323 2 1485 2 3700 2 58 2 183 2 325 4 3369 2 329 2 828 2 58 2 3701 82 51 2 1097 2 309 2 372 2 373 2 374 2 183 2 3269 82 51 2 150 2 3702 2 3703 82 51 2 337 2 58 2 3697 2 65 2 3575 2 3704 4 3705 2 45 2 3706 82 51 2 1071 2 3707 2 1073 2 1074 2 207 2 656 2 1044 82 51 2 797 2 98 2 724 2 372 2 214 2 1075 82 51 2 1015 2 273 2 57 2 263 4 3708 2 3709 82 51 2 280 2 322 2 1109 2 1797 82 51 2 3638 2 3710 2 873 82 51 2 3638 2 332 2 373 2 921 2 263 82 51 2 3711 2 77 2 3575 2 3704
+
+You are recording task completion in the AgentC system with verification requirements.
+
+## Directory Detection
+
+Use `agentc/` as `$DIR`. Load `$DIR/agentc.json`.
+
+## STEP 0: Pre-Completion Verification
+
+**Before recording completion, verify work was done properly:**
+
+1. Check that /do was run (humanTask.status should be "in_progress")
+2. If status is still "assigned", warn: "Task not started. Run /do first."
+
+## STEP 0.5: Stage Task Completion
+
+Check humanTask.type for stage tasks. These skip TDD/verification gates:
+
+**type = "bootstrap" or "create-north-star":**
+- Verify North Star was created in agentc.json
+- Skip to STEP 8 (Update State)
+
+**type = "create-goal":**
+- Verify Goal was created in agentc.json
+- Skip to STEP 8 (Update State)
+
+**type = "jtbd":**
+- Verify stageProgress.jtbd.status = "done"
+- Verify JTBD file exists
+- Skip to STEP 8 (Update State)
+
+**type = "stories":**
+- Verify stageProgress.stories.status = "done"
+- Verify stories file exists
+- Skip to STEP 8 (Update State)
+
+**type = "features":**
+- Verify stageProgress.features.status = "done"
+- Verify feature files exist
+- Skip to STEP 8 (Update State)
+
+**type = "slices":**
+- Verify stageProgress.slices.status = "done"
+- Skip to STEP 8 (Update State)
+
+**type = null or "implementation":**
+- Continue to STEP 1 (normal verification flow)
+
+## STEP 1: Get Blocks Used
+
+Try to stop timer by running the timer script with "stop".
+
+- If timer running: Parse "Blocks: N" from output
+- If timer not running and blocks argument provided: Use argument
+- If neither: Use AskUserQuestion with options: ["1 block", "2 blocks", "3 blocks", "5 blocks", "8 blocks"]
+
+## STEP 2: Verification Evidence Check
+
+**Must have evidence from /do execution:**
+
+Use AskUserQuestion:
+- Question: "All verification gates passed?"
+- Options: ["Yes, all passed", "No, back to /do"]
+
+**If "No, back to /do":**
+
+    BLOCKED: Verification incomplete.
+
+    DO: /do
+
+## STEP 2.5: Code Review Gate (Non-Blocking)
+
+**Check reviewPending status:**
+
+1. If current.reviewPending = true:
+   - Code review was dispatched but hasn't completed
+   - Check if review agent has finished
+
+2. If review completed with CRITICAL issues:
+
+       ⚠️ Code review found CRITICAL issue:
+       - [issue description]
+
+       Options:
+       1. Fix now (recommended)
+       2. Proceed anyway (--force)
+
+3. If user chooses --force or "proceed anyway":
+   - Log to reviewDebt array with taskId, severity, issue, skippedAt
+   - Continue to completion
+   - Warn: "Logged to review debt. Address before release."
+
+4. If review completed with no CRITICAL issues:
+   - Continue normally
+
+**This gate is NON-BLOCKING with --force.** Human maintains flow state.
+
+## STEP 2.7: Milk Quality Tier Verification
+
+**Strict enforcement - block completion if tier requirements not met:**
+
+Read `humanTask.milkQuality` and `humanTask.qualityVerification` from agentc.json.
+
+| Tier | Required Fields |
+|------|-----------------|
+| skimmed | happyCaseTested = true |
+| semi-skimmed | happyCaseTested = true, sadCasesTested = true |
+| full-phat | All fields = true (happy, sad, mad, logging, monitoring) |
+
+```
+=== Milk Quality Verification: [TIER] ===
+```
+
+**If requirements NOT met:**
+```
+BLOCKED: Milk Quality tier requirements not satisfied.
+
+Tier: [TIER]
+Missing:
+- [ ] [requirement not met]
+
+Run /do to complete tier requirements before /done.
+```
+
+**Do NOT allow completion bypass. This is STRICT enforcement.**
+
+## STEP 2.8: RBS Type Gate (Ruby Only)
+
+**Only applies when `humanTask.languageMode = "ruby"`**
+
+**Strict enforcement - block completion if RBS types missing or invalid:**
+
+### 1. Check for RBS signatures
+
+For each modified `.rb` file, verify corresponding `.rbs` exists:
+
+```bash
+for rb_file in $(git diff --name-only HEAD~1 | grep '\.rb$'); do
+  rbs_file="sig/${rb_file%.rb}.rbs"
+  if [ ! -f "$rbs_file" ]; then
+    echo "MISSING: $rb_file has no RBS type signature at $rbs_file"
+  fi
+done
+```
+
+### 2. Validate RBS syntax
+
+```bash
+bundle exec rbs validate
+```
+
+### 3. Type check with Steep (if configured)
+
+```bash
+if [ -f "Steepfile" ]; then
+  bundle exec steep check
+fi
+```
+
+**Display RBS gate result:**
+```
+=== RBS Type Gate ===
+✓ All .rb files have .rbs signatures
+✓ RBS validation passed
+✓ Steep type check passed (if configured)
+
+RBS Requirements: PASSED
+```
+
+**If RBS requirements NOT met:**
+```
+BLOCKED: RBS type requirements not satisfied.
+
+Missing signatures:
+- app/models/user.rb → needs sig/app/models/user.rbs
+- app/services/order_processor.rb → needs sig/app/services/order_processor.rbs
+
+Validation errors:
+- [error details from rbs validate]
+
+Run /do to add missing RBS types before /done.
+```
+
+**Do NOT allow completion bypass. This is STRICT enforcement for Ruby projects.**
+
+Update `humanTask.qualityVerification.rbsTypesValid` in agentc.json:
+```json
+{
+  "qualityVerification": {
+    "rbsTypesValid": true
+  }
+}
+```
+
+## STEP 3: Update Task Status in Plan
+
+1. Find the task in goal.plan.tasks matching humanTask.taskId
+2. Set task.status = "completed"
+3. Check if all tasks in plan are complete
+
+## STEP 4: Goal Progress Check
+
+Calculate goal completion:
+- Count completed tasks vs total tasks
+- If all tasks complete: Set goal.status = "completed"
+
+```
+Goal progress: [completed]/[total] tasks (X%)
+```
+
+If goal complete:
+```
+GOAL COMPLETE: "[wish]"
+All acceptance criteria met!
+
+North Star "[north-star-name]" continues.
+Run /add-goal [north-star-id] to create next commitment.
+```
+
+## STEP 5: Velocity Tracking
+
+Add to velocity.history:
+```json
+{
+  "taskId": "[humanTask.taskId]",
+  "task": "[task description]",
+  "northStarId": "[north star id]",
+  "goalId": "[goal id]",
+  "points": [points],
+  "estimatedBlocks": [estimate],
+  "actualBlocks": [actual],
+  "milkQuality": "[tier]",
+  "completedAt": "[ISO timestamp]",
+  "verified": true
+}
+```
+
+Update velocity totals:
+- totalPoints += points
+- totalBlocks += actualBlocks
+- Recalculate currentVelocity (points/block)
+
+## STEP 6: Check AI Task Completions (Background Agents)
+
+While human was working, AI agents were running in parallel. Check their status:
+
+1. **For each task in current.aiTasks with status "running":**
+   - Use TaskOutput tool with block=false to check status
+   - Pass the taskId stored when agent was dispatched
+
+2. **If agent completed:**
+   - Read the result from TaskOutput
+   - Update aiTask status to "completed"
+   - Store result summary in aiTask.result
+   - Display:
+         While you worked, AI completed:
+         ✓ [AI task description] - [brief result]
+
+3. **If agent still running:**
+   - Keep status as "running"
+   - Display:
+         AI still working:
+         ⋯ [AI task description] (running Xm)
+
+4. **Update goal.plan.tasks** with completed AI work
+
+5. **Dispatch NEW AI tasks** for any newly unblocked work (up to 5 total running)
+
+## STEP 7: Queue Pop or Next Analysis
+
+**Check humanTaskQueue first:**
+
+1. If humanTaskQueue is NOT empty:
+   - Pop first task from queue
+   - Set as new humanTask with status = "assigned"
+   - Set loopState = "assigned"
+   - Skip to STEP 9 with queue-pop output format
+
+2. If humanTaskQueue IS empty:
+   - Analyze remaining tasks across active goals
+   - Classify: AI-executable vs Human-required
+   - Dispatch new AI agents if available (up to 5)
+   - Continue to STEP 8 (idle state)
+
+## STEP 7.5: Track Manual Task Patterns
+
+Track recurring patterns for future skill creation:
+
+1. Normalize task description to a pattern (remove specifics like names, numbers)
+2. Check patterns.manualTasks for similar patterns
+3. If found: increment count, update lastSeen
+4. If not found: add new entry with count = 1
+5. If count >= 5 AND no skill suggested yet:
+   - Note: "SKILL OPPORTUNITY: You've done '[pattern]' 5+ times. Consider creating a skill."
+
+## STEP 8: Update State
+
+**Check if in autonomous mode first:**
+
+If `current.autonomousSession.active == true`:
+- This is autonomous mode - trigger loop continuation after updating state
+
+**If queue was popped:**
+- Set current.loopState = "assigned" (or "autonomous" if in autonomous mode)
+- Set current.lastAction = { action: "done", timestamp: now, description: "Completed: [task], auto-assigned from queue" }
+- Set current.humanTask = [popped task from queue]
+- Remove popped task from humanTaskQueue
+- Set current.reviewPending = false
+- Update current.aiTasks (remove completed, add new)
+- Update lastCheckIn timestamp
+
+**If queue empty (normal):**
+- Set current.loopState = "idle" (or "autonomous" if in autonomous mode)
+- Set current.lastAction = { action: "done", timestamp: now, description: "Completed: [task]" }
+- Set current.humanTask = null
+- Set current.humanTaskQueue = []
+- Set current.reviewPending = false
+- Update current.aiTasks (remove completed, add new)
+- Update lastCheckIn timestamp
+
+## STEP 8.5: Autonomous Mode Continuation
+
+**If `current.autonomousSession.active == true`:**
+
+This task completion may unblock other work. Trigger loop continuation:
+
+1. Check which tasks were blocked on this human task:
+   - Look at `current.aiTasks` for `status: "blocked_on_human"`
+   - Check `blockedBy` field matching completed task
+
+2. Unblock dependent tasks:
+   - Set their status to "pending" (ready to dispatch)
+   - Note which tasks are now unblocked
+
+3. Re-enter autonomous loop:
+   - Invoke the `autonomous-loop` skill
+   - This will dispatch newly unblocked tasks
+   - Generate more human tasks if available
+   - Continue orchestration
+
+4. Update metrics:
+   - Increment `metrics.sessions[current].humanTasksCompleted`
+   - Update `metrics.automationProgress`
+
+**Display unblocked work:**
+```
+UNBLOCKED:
+  Claude now starting: [list of unblocked tasks]
+```
+
+## STEP 9: Output Summary
+
+**If in autonomous mode with more work:**
+
+    DONE [X blocks]
+    [Completed task description]
+
+    UNBLOCKED:
+      Claude now starting: [list of unblocked tasks]
+
+    YOUR NEXT TASK ([Y] pts):
+      [Next task description]
+
+    CLAUDE IS:
+      ⋯ [AI task 1] (running)
+      ⋯ [AI task 2] (running)
+      ✓ [AI task 3] (complete)
+
+    QUEUE:
+      2. [remaining queued task]
+
+    DO: /next
+
+**If in autonomous mode, goal complete:**
+
+    DONE [X blocks]
+    [Completed task description]
+
+    ═══════════════════════════════════════════════════════════════
+                        GOAL COMPLETE!
+    ═══════════════════════════════════════════════════════════════
+
+    [Goal description]
+
+    SESSION STATS:
+      Duration: [X] hours
+      AI tasks completed: [N]
+      Human tasks completed: [M]
+      Automation ratio: [%]
+
+    Run /start to begin next goal
+
+**If queue was popped (next task auto-assigned):**
+
+    DONE [X blocks]
+    [Completed task description]
+
+    NEXT FROM QUEUE [Y pts]
+    [Next task description]
+
+    QUEUE:
+      2. [remaining queued task]
+
+    DO: /do
+
+**If queue empty (normal idle state):**
+
+    DONE [X blocks]
+    [Task description]
+
+    DO: /next
+
+**If review debt was logged:**
+
+    DONE [X blocks]
+    [Task description]
+
+    ⚠️ Review debt: 1 CRITICAL issue logged
+
+    DO: /next
+
+No verbose stats. Human trusts the system recorded everything.
+
+## Key Principles
+
+**Verification is mandatory:**
+- Must confirm tests passed
+- Must confirm code review passed
+- "Should be done" is not acceptable
+
+**Milk Quality gate is STRICT:**
+- Block completion if tier requirements not met
+- No bypass allowed
+- Tier is recorded in velocity history
+
+**System never idles:**
+- After /done, immediately analyze for new work
+- Dispatch AI agents if tasks available
+- Queue next human task
+
+**Honest tracking:**
+- Record actual blocks used
+- Track estimation accuracy
+- Track quality tier per task
+- Learn from velocity history
