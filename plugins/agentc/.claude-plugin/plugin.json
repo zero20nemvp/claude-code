@@ -1,34 +1,12 @@
 {
   "name": "agentc",
-  "version": "2.0.31",
+  "version": "2.0.32",
   "description": "Zero cognitive load from empty directory to shipped product. Self-bootstrapping /next → /do → /done loop. Just type /next and the system guides you through discovery, design, and implementation.",
   "author": {
     "name": "db"
   },
   "keywords": ["workflow", "tdd", "productivity", "ai-orchestration", "north-star", "jtbd", "product-discovery", "self-bootstrapping", "zero-cognitive-load", "pr-review", "frontend", "design"],
-  "commands": [
-    { "name": "add-goal", "description": "Create goal with WOOP methodology" },
-    { "name": "add-north-star", "description": "Create north star with Socratic questioning" },
-    { "name": "assess", "description": "Check goal quality / autonomy readiness" },
-    { "name": "cancel-ralph", "description": "Cancel active Ralph loop" },
-    { "name": "clean-gone", "description": "Remove stale local branches tracking deleted remotes" },
-    { "name": "commit", "description": "Auto-generate commit message and commit" },
-    { "name": "commit-push-pr", "description": "Full workflow: commit, push, create PR" },
-    { "name": "do", "description": "Execute current task with TDD discipline" },
-    { "name": "done", "description": "Complete task with verification" },
-    { "name": "focus", "description": "Priority override for north star" },
-    { "name": "hookify", "description": "Create hooks to prevent unwanted behaviors" },
-    { "name": "hookify-list", "description": "List all configured hookify rules" },
-    { "name": "journal", "description": "Add a journal entry" },
-    { "name": "lock-and-deploy", "description": "Lock and deploy plugin to marketplace" },
-    { "name": "next", "description": "Get your next optimal task" },
-    { "name": "now", "description": "Quick current task check" },
-    { "name": "ralph-loop", "description": "Start autonomous iteration loop" },
-    { "name": "review-pr", "description": "Comprehensive PR review with specialized agents" },
-    { "name": "skill", "description": "Create a new skill from recurring patterns" },
-    { "name": "skip", "description": "Skip to queued task if blocked" },
-    { "name": "start", "description": "Kick off autonomous mode" },
-    { "name": "status", "description": "Show all north stars and progress" },
-    { "name": "timer", "description": "Control block timer" }
-  ]
+  "commands": "./commands/",
+  "agents": "./agents/",
+  "skills": "./skills/"
 }
