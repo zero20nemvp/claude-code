@@ -1,9 +1,109 @@
 {
   "name": "agentc",
-  "version": "2.0.27",
+  "version": "2.0.28",
   "description": "Zero cognitive load from empty directory to shipped product. Self-bootstrapping /next → /do → /done loop. Just type /next and the system guides you through discovery, design, and implementation.",
   "author": {
     "name": "db"
   },
-  "keywords": ["workflow", "tdd", "productivity", "ai-orchestration", "north-star", "jtbd", "product-discovery", "self-bootstrapping", "zero-cognitive-load", "pr-review", "frontend", "design"]
+  "keywords": ["workflow", "tdd", "productivity", "ai-orchestration", "north-star", "jtbd", "product-discovery", "self-bootstrapping", "zero-cognitive-load", "pr-review", "frontend", "design"],
+  "commands": [
+    {
+      "name": "start",
+      "description": "Start autonomous execution - Claude drives, human executes assigned tasks"
+    },
+    {
+      "name": "assess",
+      "description": "Assess goal quality for autonomous execution readiness"
+    },
+    {
+      "name": "skill",
+      "description": "Create a new skill from recurring patterns"
+    },
+    {
+      "name": "next",
+      "description": "Get next optimal task from active goals"
+    },
+    {
+      "name": "do",
+      "description": "Execute current task with TDD discipline"
+    },
+    {
+      "name": "done",
+      "description": "Complete current task with verification"
+    },
+    {
+      "name": "skip",
+      "description": "Skip to queued task if blocked on current"
+    },
+    {
+      "name": "now",
+      "description": "Quick current task check (read-only)"
+    },
+    {
+      "name": "status",
+      "description": "Show all north stars, goals, and progress"
+    },
+    {
+      "name": "add-north-star",
+      "description": "Create north star with Socratic questioning"
+    },
+    {
+      "name": "add-goal",
+      "description": "Create goal with WOOP methodology"
+    },
+    {
+      "name": "focus",
+      "description": "Priority override for north star focus"
+    },
+    {
+      "name": "journal",
+      "description": "Log observation with auto-commit"
+    },
+    {
+      "name": "timer",
+      "description": "Control block timer (8-min focused work)"
+    },
+    {
+      "name": "commit",
+      "description": "Auto-generate commit message and commit"
+    },
+    {
+      "name": "commit-push-pr",
+      "description": "Full workflow: commit → push → create PR"
+    },
+    {
+      "name": "clean-gone",
+      "description": "Remove stale local branches tracking deleted remotes"
+    },
+    {
+      "name": "review-pr",
+      "description": "Comprehensive PR review with specialized agents"
+    },
+    {
+      "name": "ralph-loop",
+      "description": "Start autonomous iteration loop"
+    },
+    {
+      "name": "cancel-ralph",
+      "description": "Cancel active Ralph loop"
+    },
+    {
+      "name": "hookify",
+      "description": "Create hooks to prevent unwanted behaviors"
+    },
+    {
+      "name": "hookify-list",
+      "description": "List all configured hookify rules"
+    },
+    {
+      "name": "lock-and-deploy",
+      "description": "Lock plugin IP and deploy to marketplace"
+    }
+  ],
+  "enforcementRules": {
+    "blockExitPlanMode": true,
+    "requireGoalsForPlanning": true,
+    "mandatoryWorkflow": ["/next", "/do", "/done"],
+    "statusBarIndicator": "AgentC Active"
+  }
 }
