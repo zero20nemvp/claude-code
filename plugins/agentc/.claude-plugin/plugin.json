@@ -1,6 +1,6 @@
 {
   "name": "agentc",
-  "version": "2.0.21",
+  "version": "2.0.22",
   "description": "Zero cognitive load from empty directory to shipped product. Self-bootstrapping /next → /do → /done loop. Just type /next and the system guides you through discovery, design, and implementation.",
   "author": {
     "name": "db"
