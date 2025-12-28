@@ -1,6 +1,6 @@
 {
   "name": "agentc",
-  "version": "2.0.5",
+  "version": "2.0.28",
   "description": "AgentC - Zero cognitive load from empty directory to shipped product. Self-bootstrapping /next → /do → /done loop.",
   "author": "Zero2One",
   "homepage": "https://github.com/zero2onemvp/agentc",
