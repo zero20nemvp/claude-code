@@ -1,3 +1,5 @@
+**Note:** This plugin requires `lock.yml` to be present in context to function.
+
 # AgentC
 
 **AI-powered development workflow with zero decision fatigue.**
@@ -24,16 +26,6 @@ That's it. The system handles everything else.
 - **TDD**: Test first → See RED → Implement → See GREEN
 - **Code Review**: Runs after every `/do`
 - **Verification**: Must see actual test output before `/done`
-
-## Installation
-
-```bash
-# Add the zero2onemvp-claude-code marketplace
-/plugin marketplace add https://github.com/zero20nemvp/claude-code.git
-
-# Install AgentC
-/plugin install agentc@zero2onemvp-claude-code
-```
 
 ## Commands
 

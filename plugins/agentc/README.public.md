@@ -1,3 +1,5 @@
+**Note:** This plugin requires `lock.yml` to be present in context to function.
+
 # AgentC
 
 **AI-powered development workflow with zero decision fatigue.**
