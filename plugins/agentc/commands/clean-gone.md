@@ -1,1 +1,5 @@
-1577 82 3470 2 5563 82 2443 2 2000 2 1590 2 880 2 881 2 882 2 2068 2 134 2 2005 2 5564 2 120 2 2002 2 67 2 2654 2 1491 2 5565 4 2565 2 2164 2 186 2 65 2 4432 2 51 2 488 2 5546 2 5547 2 5548 82
+---
+name: clean-gone
+description: Clean up stale local branches marked as [gone] (deleted on remote but still exist locally)
+
+Implementation details are in CLAUDE.md - see "Command Implementations" section.

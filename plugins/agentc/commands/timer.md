@@ -1,1 +1,11 @@
-1577 82 3470 2 861 82 2443 2 5655 2 43 2 5656 2 9 2 476 2 5657 82 5540 387 51 2 3470 2 284 616 2443 2 5658 2 4382 2 5659 2 5660 2 43 2 1779 616 5543 2 678 82 5544 387 51 2 3528 4 2565 2 2164 2 186 2 65 2 4432 2 51 2 488 2 5546 2 5547 2 5548 82
+---
+name: timer
+description: "Check or control the block timer"
+arguments:
+  - name: action
+    description: "start, stop, pause, resume, or status"
+    required: false
+allowed-tools:
+  - Bash
+
+Implementation details are in CLAUDE.md - see "Command Implementations" section.

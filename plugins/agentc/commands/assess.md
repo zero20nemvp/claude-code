@@ -1,1 +1,13 @@
-1577 82 3470 2 5551 82 2443 2 5552 2 317 2 318 2 130 2 866 2 867 2 274 2 312 2 5553 82 5540 387 51 2 3470 2 1736 616 2443 2 5554 2 317 2 1681 2 25 2 5551 2 2503 2 5555 2 192 2 5556 2 5557 2 86 2 5558 616 5543 2 678 82 5544 387 51 2 2898 387 51 2 461 387 51 2 1346 4 2565 2 2164 2 186 2 65 2 4432 2 51 2 488 2 5546 2 5547 2 5548 82
+---
+name: assess
+description: "Assess goal quality and autonomy readiness before autonomous execution"
+arguments:
+  - name: goal-id
+    description: "Specific goal ID to assess (e.g., g1). If omitted, assesses all goals."
+    required: false
+allowed-tools:
+  - Read
+  - Write
+  - AskUserQuestion
+
+Implementation details are in CLAUDE.md - see "Command Implementations" section.

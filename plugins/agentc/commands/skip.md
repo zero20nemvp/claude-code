@@ -1,1 +1,10 @@
-1577 82 3470 2 2801 82 2443 2 5626 2 844 2 435 2 25 2 328 2 120 2 1233 2 843 2 435 2 5648 82 5540 2 718 82 5544 387 51 2 2898 387 51 2 461 387 51 2 3297 4 2565 2 2164 2 186 2 65 2 4432 2 51 2 488 2 5546 2 5547 2 5548 82
+---
+name: skip
+description: "Skip current task to work on a queued task instead"
+arguments: []
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+
+Implementation details are in CLAUDE.md - see "Command Implementations" section.

@@ -1,1 +1,7 @@
-1577 82 3470 2 5635 82 2443 2 5636 2 915 2 5561 2 911 2 65 2 844 2 5637 82 5602 2 5638 2 905 2 906 2 907 2 5639 82 5544 2 5640 4 2565 2 2164 2 186 2 65 2 4432 2 51 2 488 2 5546 2 5547 2 5548 82
+---
+name: ralph-loop
+description: "Start Ralph Wiggum loop in current session"
+argument-hint: "PROMPT [--max-iterations N] [--completion-promise TEXT]"
+allowed-tools: ["Bash(${CLAUDE_PLUGIN_ROOT}/scripts/setup-ralph-loop.sh)"]
+
+Implementation details are in CLAUDE.md - see "Command Implementations" section.

@@ -1,1 +1,8 @@
-1577 82 3470 2 1517 82 2443 2 5632 2 2062 2 26 2 51 2 5633 2 25 2 620 2 1188 2 5634 82 5544 387 51 2 2898 387 51 2 3016 4 2565 2 2164 2 186 2 65 2 4432 2 51 2 488 2 5546 2 5547 2 5548 82
+---
+name: now
+description: "Read-only status check - safe to call multiple times"
+allowed-tools:
+  - Read
+  - TaskOutput
+
+Implementation details are in CLAUDE.md - see "Command Implementations" section.

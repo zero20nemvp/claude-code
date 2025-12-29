@@ -1,1 +1,6 @@
-1577 82 3470 2 872 82 5544 2 5567 2 5569 2 5567 2 5570 2 5567 2 5576 82 2443 2 321 2 1233 2 2008 2 872 2 37 2 5577 2 873 2 1397 2 120 2 1601 4 2565 2 2164 2 186 2 65 2 4432 2 51 2 488 2 5546 2 5547 2 5548 82
+---
+name: commit
+allowed-tools: Bash(git add:*), Bash(git status:*), Bash(git commit:*)
+description: Create a git commit with auto-generated message based on changes
+
+Implementation details are in CLAUDE.md - see "Command Implementations" section.

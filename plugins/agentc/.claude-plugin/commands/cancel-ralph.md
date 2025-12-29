@@ -1,1 +1,6 @@
-1577 82 3470 2 5559 82 2443 2 5560 2 914 2 915 2 5561 2 4362 82 5544 2 5562 4 2565 2 2164 2 186 2 65 2 4432 2 51 2 488 2 5546 2 5547 2 5548 82
+---
+name: cancel-ralph
+description: "Cancel active Ralph Wiggum loop"
+allowed-tools: ["Bash"]
+
+Implementation details are in CLAUDE.md - see "Command Implementations" section.

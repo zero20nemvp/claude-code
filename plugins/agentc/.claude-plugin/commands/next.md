@@ -1,1 +1,20 @@
-1577 82 3470 2 444 82 2443 2 5617 2 228 2 444 2 445 2 435 2 51 2 816 2 1270 2 85 2 86 2 830 2 5618 82 5540 387 51 2 3470 2 4167 616 2443 2 5619 2 5620 2 5621 2 207 2 5622 2 5623 2 207 2 5624 616 5543 2 678 387 51 2 3470 2 5625 616 2443 2 5626 2 3866 2 3867 2 5627 2 5628 2 4866 2 5629 2 51 2 3413 2 5630 2 25 2 5631 616 5543 2 678 82 5544 387 51 2 2898 387 51 2 461 387 51 2 3297 387 51 2 3243 387 51 2 5545 387 51 2 3528 387 51 2 440 4 2565 2 2164 2 186 2 65 2 4432 2 51 2 488 2 5546 2 5547 2 5548 82
+---
+name: next
+description: "Get your next optimal task - dynamically generated across all north stars/goals"
+arguments:
+  - name: energy
+    description: "Energy level: 'in' for focused/complex, 'out' for mechanical/simple"
+    required: false
+  - name: skip-discovery
+    description: "Skip discovery stages (jtbd, stories, features, slices) - go straight to implementation"
+    required: false
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Glob
+  - Grep
+  - Bash
+  - Task
+
+Implementation details are in CLAUDE.md - see "Command Implementations" section.

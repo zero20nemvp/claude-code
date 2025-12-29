@@ -1,1 +1,6 @@
-1577 82 3470 2 5597 82 2443 2 926 2 86 2 927 2 928 2 929 82 5544 2 5598 2 5599 2 5600 4 2565 2 2164 2 186 2 65 2 4432 2 51 2 488 2 5546 2 5547 2 5548 82
+---
+name: hookify-list
+description: List all configured hookify rules
+allowed-tools: ["Glob", "Read", "Skill"]
+
+Implementation details are in CLAUDE.md - see "Command Implementations" section.

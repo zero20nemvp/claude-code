@@ -1,1 +1,12 @@
-1577 82 3470 2 3648 82 2443 2 5609 2 3682 2 207 2 3065 2 5610 82 5540 387 51 2 3470 2 3076 616 2443 2 5541 2 857 2 25 2 5611 616 5543 2 218 82 5544 387 51 2 2898 387 51 2 461 4 2565 2 2164 2 186 2 65 2 4432 2 51 2 488 2 5546 2 5547 2 5548 82
+---
+name: journal
+description: "Log observations for pattern detection"
+arguments:
+  - name: entry
+    description: "The observation to log"
+    required: true
+allowed-tools:
+  - Read
+  - Write
+
+Implementation details are in CLAUDE.md - see "Command Implementations" section.

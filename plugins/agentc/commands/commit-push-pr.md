@@ -1,1 +1,6 @@
-1577 82 3470 2 5566 82 5544 2 5567 2 5568 2 5567 2 5569 2 5567 2 5570 2 5567 2 5571 2 5567 2 5572 2 5573 2 2109 2 5574 82 2443 2 553 2 1079 2 51 2 872 2 2087 2 876 2 5575 2 130 2 301 2 2106 2 4404 4 2565 2 2164 2 186 2 65 2 4432 2 51 2 488 2 5546 2 5547 2 5548 82
+---
+name: commit-push-pr
+allowed-tools: Bash(git checkout:*), Bash(git add:*), Bash(git status:*), Bash(git push:*), Bash(git commit:*), Bash(gh pr create:*)
+description: Full workflow - commit changes, push branch, and create pull request
+
+Implementation details are in CLAUDE.md - see "Command Implementations" section.

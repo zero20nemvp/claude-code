@@ -1,1 +1,7 @@
-1577 82 3470 2 2062 82 2443 2 5653 2 86 2 830 2 846 2 37 2 1700 2 89 2 130 2 5654 82 5544 387 51 2 2898 4 2565 2 2164 2 186 2 65 2 4432 2 51 2 488 2 5546 2 5547 2 5548 82
+---
+name: status
+description: "Show all north stars with progress, deadlines, and velocity"
+allowed-tools:
+  - Read
+
+Implementation details are in CLAUDE.md - see "Command Implementations" section.

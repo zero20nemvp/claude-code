@@ -1,1 +1,7 @@
-1577 82 3470 2 928 82 2443 2 321 2 559 2 25 2 922 2 923 2 924 2 77 2 1060 2 3971 2 43 2 1695 2 5601 82 5602 2 5380 2 137 2 2730 2 25 2 2648 82 5544 2 5603 2 5604 2 5605 2 5606 2 5607 2 5608 2 5600 4 2565 2 2164 2 186 2 65 2 4432 2 51 2 488 2 5546 2 5547 2 5548 82
+---
+name: hookify
+description: Create hooks to prevent unwanted behaviors from conversation analysis or explicit instructions
+argument-hint: Optional specific behavior to address
+allowed-tools: ["Read", "Write", "AskUserQuestion", "Task", "Grep", "TodoWrite", "Skill"]
+
+Implementation details are in CLAUDE.md - see "Command Implementations" section.

@@ -1,1 +1,15 @@
-1577 82 3470 2 583 82 2443 2 5585 2 435 2 477 2 37 2 452 2 5586 82 5540 387 51 2 3470 2 1258 616 2443 2 5587 2 115 2 5588 2 1258 2 3205 2 5589 2 536 2 861 2 5590 616 5543 2 678 82 5544 387 51 2 2898 387 51 2 461 387 51 2 3297 387 51 2 3528 387 51 2 1346 4 2565 2 2164 2 186 2 65 2 4432 2 51 2 488 2 5546 2 5547 2 5548 82
+---
+name: done
+description: "Record task completion with verification evidence"
+arguments:
+  - name: blocks
+    description: "Number of 8-minute blocks used (optional if timer running)"
+    required: false
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - AskUserQuestion
+
+Implementation details are in CLAUDE.md - see "Command Implementations" section.

@@ -1,1 +1,14 @@
-1577 82 3470 2 109 82 2443 2 5578 2 844 2 435 2 37 2 448 2 5579 2 5580 2 5581 2 130 2 2160 2 5582 2 20 2 5583 2 5584 82 5544 387 51 2 2898 387 51 2 461 387 51 2 3297 387 51 2 3243 387 51 2 5545 387 51 2 3528 387 51 2 440 387 51 2 1346 4 2565 2 2164 2 186 2 65 2 4432 2 51 2 488 2 5546 2 5547 2 5548 82
+---
+name: do
+description: "Execute current task with TDD discipline, tier-based quality, and verification. Usage: /do [--tier skimmed|semi|full]"
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Glob
+  - Grep
+  - Bash
+  - Task
+  - AskUserQuestion
+
+Implementation details are in CLAUDE.md - see "Command Implementations" section.

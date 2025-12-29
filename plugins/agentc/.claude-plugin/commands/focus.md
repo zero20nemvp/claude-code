@@ -1,1 +1,12 @@
-1577 82 3470 2 1175 82 2443 2 5591 2 3209 2 853 2 51 2 4744 2 830 2 5592 82 5540 387 51 2 3470 2 1310 616 2443 2 5593 2 402 2 1681 2 25 2 1175 2 5594 2 43 2 5595 2 25 2 2038 2 5596 616 5543 2 218 82 5544 387 51 2 2898 387 51 2 461 4 2565 2 2164 2 186 2 65 2 4432 2 51 2 488 2 5546 2 5547 2 5548 82
+---
+name: focus
+description: "Set priority override - front-of-mind north star"
+arguments:
+  - name: north-star-id
+    description: "North Star ID to focus on, or 'clear' to remove focus"
+    required: true
+allowed-tools:
+  - Read
+  - Write
+
+Implementation details are in CLAUDE.md - see "Command Implementations" section.

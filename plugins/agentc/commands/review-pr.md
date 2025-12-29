@@ -1,1 +1,7 @@
-1577 82 3470 2 5641 82 2443 2 5642 2 877 2 837 2 2143 2 890 2 4457 2 5582 2 4402 2 887 2 5643 82 5602 2 5644 2 5643 82 5544 2 5645 2 5646 2 5607 2 5599 2 5647 4 2565 2 2164 2 186 2 65 2 4432 2 51 2 488 2 5546 2 5547 2 5548 82
+---
+name: review-pr
+description: "Comprehensive PR review using specialized agents. Usage: /review-pr [aspects] [parallel]"
+argument-hint: "[comments|tests|errors|types|code|simplify|all] [parallel]"
+allowed-tools: ["Bash", "Glob", "Grep", "Read", "Task"]
+
+Implementation details are in CLAUDE.md - see "Command Implementations" section.

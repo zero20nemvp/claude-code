@@ -1,1 +1,18 @@
-1577 82 3470 2 2435 82 2443 2 5636 2 312 2 319 2 51 2 140 2 5649 2 57 2 99 2 187 2 5650 82 5540 387 51 2 3470 2 317 616 2443 2 5593 2 402 2 5651 2 332 2 5651 2 43 2 317 2 2348 2 25 2 1175 2 5652 616 5543 2 678 82 5544 387 51 2 2898 387 51 2 461 387 51 2 3297 387 51 2 3243 387 51 2 5545 387 51 2 3528 387 51 2 440 387 51 2 1346 4 2565 2 2164 2 186 2 65 2 4432 2 51 2 488 2 5546 2 5547 2 5548 82
+---
+name: start
+description: "Start autonomous execution - Claude drives, human executes assigned tasks"
+arguments:
+  - name: goal
+    description: "North Star ID, Goal ID, or goal description to focus on"
+    required: false
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Glob
+  - Grep
+  - Bash
+  - Task
+  - AskUserQuestion
+
+Implementation details are in CLAUDE.md - see "Command Implementations" section.
