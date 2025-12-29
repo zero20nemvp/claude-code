@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/decode-session.sh"
+            "command": "${CLAUDE_PLUGIN_ROOT}/run hooks/decode-session.sh.locked"
           }
         ]
       }
@@ -16,7 +16,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 ${CLAUDE_PLUGIN_ROOT}/hooks/security_reminder_hook.py"
+            "command": "${CLAUDE_PLUGIN_ROOT}/run hooks/security_reminder_hook.py.locked"
           }
         ],
         "matcher": "Edit|Write|MultiEdit"
@@ -27,7 +27,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/stop-hook.sh"
+            "command": "${CLAUDE_PLUGIN_ROOT}/run hooks/stop-hook.sh.locked"
           }
         ]
       }
