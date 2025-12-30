@@ -28,27 +28,66 @@ That's it. The system handles everything else.
 ## Installation
 
 ```bash
-# Add the zero2onemvp-claude-code marketplace
-/plugin marketplace add https://github.com/zero20nemvp/claude-code.git
+# Add the Zero2One marketplace
+/plugin marketplace add https://git.laki.zero2one.ee/claude/turg.git
 
 # Install AgentC
-/plugin install agentc@zero2onemvp-claude-code
+/plugin install agentc@zero2one-turg
 ```
 
 ## Commands
 
+### Core Workflow
 | Command | Purpose |
 |---------|---------|
-| `/add-north-star` | Create north star with Socratic questioning |
-| `/add-goal` | Create goal with WOOP methodology |
-| `/next` | Get next optimal task |
-| `/do` | Execute with TDD + code review |
-| `/done` | Complete with verification |
-| `/status` | Show all north stars and progress |
-| `/now` | Quick current task check |
-| `/focus` | Priority override |
-| `/journal` | Log observation |
-| `/timer` | Control 8-minute block timer |
+| `/add-north-star` | Add a new North Star with Socratic questioning |
+| `/add-goal [north-star-id]` | Add a new goal (WOOP commitment) with milestones |
+| `/next [in\|out]` | Get your next optimal task (+ queue 2-3 more) |
+| `/do [--tier skimmed\|semi\|full]` | Execute with TDD discipline and tier-based quality |
+| `/done [blocks]` | Record task completion with verification evidence |
+| `/skip` | Skip current task to work on a queued task instead |
+| `/status` | Show all north stars with progress, deadlines, and velocity |
+| `/now` | Read-only status check - safe to call multiple times |
+| `/focus [north-star-id\|clear]` | Set priority override - front-of-mind north star |
+| `/journal [entry]` | Log observations for pattern detection |
+| `/timer [action]` | Control 8-minute block timer (start\|stop\|pause\|resume\|status) |
+
+### Autonomous Mode
+| Command | Purpose |
+|---------|---------|
+| `/start [goal]` | Start autonomous execution - Claude drives, you execute tasks |
+| `/assess [goal-id]` | Assess goal quality and autonomy readiness |
+
+### Git Workflow
+| Command | Purpose |
+|---------|---------|
+| `/commit` | Create a git commit with auto-generated message |
+| `/commit-push-pr` | Full workflow: commit, push, and create pull request |
+| `/clean-gone` | Clean up stale local branches marked as [gone] |
+
+### PR Review
+| Command | Purpose |
+|---------|---------|
+| `/review-pr [aspects] [parallel]` | Comprehensive PR review with specialized agents |
+
+**Review Aspects:** `comments`, `tests`, `errors`, `types`, `code`, `simplify`, `all`
+
+### Autonomous Loop (Ralph Wiggum)
+| Command | Purpose |
+|---------|---------|
+| `/ralph-loop PROMPT [--max-iterations N]` | Start autonomous iteration loop |
+| `/cancel-ralph` | Cancel active Ralph loop |
+
+### Custom Safety Rules (Hookify)
+| Command | Purpose |
+|---------|---------|
+| `/hookify [behavior]` | Create hooks to prevent unwanted behaviors |
+| `/hookify-list` | List all configured hookify rules |
+
+### Plugin Tools
+| Command | Purpose |
+|---------|---------|
+| `/lock-and-deploy [message]` | Lock plugin IP and deploy to both marketplaces |
 
 ## Philosophy
 
