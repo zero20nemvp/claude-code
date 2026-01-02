@@ -25,6 +25,28 @@ That's it. The system handles everything else.
 - **Code Review**: Runs after every `/do`
 - **Verification**: Must see actual test output before `/done`
 
+## ILX: Semantic Maps (Ruby/Rails Only)
+
+**300-500:1 compression** of Ruby/Rails codebases into semantic graphs.
+
+- **ILX-First**: Always reads `.agentc/ilx/` before source code
+- **Auto-generated**: Hooks generate ILX on every `.rb` and `.erb` file save (ON by default)
+- **Domain format**: Entities, features, relationships, constraints, triggers, edge cases
+- **View format**: Layout, bindings, actions, Tailwind classes
+- **Token efficiency**: Fit 100+ files in conversation vs 10
+
+**Benefits:**
+- Instant understanding of entities, features, constraints
+- See edge cases explicitly (not hidden in code)
+- 95% token reduction vs reading full source
+- Type-aware with RBS integration
+
+**Disable**: `export DISABLE_ILX_EMITTER=1`
+
+**Batch convert**: `cd plugins/agentc/scripts && ruby ilx_batch_convert.rb /path/to/project`
+
+**Dependencies**: `gem install prism rbs nokogiri`
+
 ## Installation
 
 ```bash
