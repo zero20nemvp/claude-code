@@ -1,5 +1,5 @@
 {
-  "description": "AgentC hooks for session prompts, security reminders, and Ralph loop",
+  "description": "AgentC hooks for session prompts, security reminders, ILX generation, and Ralph loop",
   "hooks": {
     "SessionStart": [
       {
@@ -17,6 +17,15 @@
           {
             "type": "command",
             "command": "${CLAUDE_PLUGIN_ROOT}/hooks/security_reminder_hook.py"
+          }
+        ],
+        "matcher": "Edit|Write|MultiEdit"
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/ilx_emitter_hook.rb"
           }
         ],
         "matcher": "Edit|Write|MultiEdit"
