@@ -1,6 +1,6 @@
-# Context Lock keys - NEVER commit these
-lock.yml
-lock.key*.yml
+# Context Lock keys at root level only (plugins bundle their own for version stability)
+/lock.yml
+/lock.key*.yml
 
 # macOS
 .DS_Store
