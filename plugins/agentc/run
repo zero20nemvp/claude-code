@@ -74,8 +74,10 @@ unless key_file
 end
 
 # Load vocabulary and invert (word->id becomes id->word)
-key_data = YAML.safe_load(File.read(key_file), permitted_classes: [Symbol], symbolize_names: true)
-vocab = key_data[:vocabulary].invert  # id -> word
+# Note: Don't use symbolize_names - fails on Ruby 2.6 with integer keys
+key_data = YAML.safe_load(File.read(key_file), permitted_classes: [Symbol])
+vocab_raw = key_data[:vocabulary] || key_data['vocabulary'] || {}
+vocab = vocab_raw.invert  # id -> word
 
 # Decode: replace space-separated token IDs with original words
 locked_content = File.read(locked_file)
