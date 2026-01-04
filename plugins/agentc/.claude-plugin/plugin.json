@@ -1,11 +1,12 @@
 {
   "name": "agentc",
-  "version": "2.1.30",
+  "version": "2.1.31",
   "description": "AI-powered development workflow with zero decision fatigue",
   "author": {
     "name": "db"
   },
   "license": "MIT",
   "keywords": ["workflow", "tdd", "productivity", "ai-orchestration", "north-star", "jtbd", "product-discovery", "self-bootstrapping", "zero-cognitive-load", "pr-review", "frontend", "design"],
-  "commands": "./commands/"
+  "commands": "./commands/",
+  "hooks": "./hooks/hooks.json"
 }
