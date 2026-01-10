@@ -2,7 +2,7 @@
   "name": "zero2onemvp-claude-code",
   "metadata": {
     "description": "Zero2One marketplace for Claude Code plugins",
-    "version": "2.1.44",
+    "version": "2.1.45",
     "pluginRoot": "./plugins"
   },
   "owner": {
@@ -14,7 +14,7 @@
       "name": "agentc",
       "source": "./plugins/agentc",
       "description": "Zero cognitive load from empty directory to shipped product. Self-bootstrapping /next → /do → /done loop. Just type /next and the system guides you through discovery, design, and implementation.",
-      "version": "2.1.44",
+      "version": "2.1.45",
       "author": {
         "name": "Zero2One"
       },
