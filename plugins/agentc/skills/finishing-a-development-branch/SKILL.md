@@ -2,4 +2,212 @@
 name: finishing-a-development-branch
 description: Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup
 ---
-82 1 2 9399 2 1006 2 9233 2 9400 4 13 2 8597 4 9401 2 477 2 115 2 1368 2 328 2 188 2 9402 2 1550 2 7222 2 130 2 1144 2 3473 2 9403 4 1037 2 8681 2 1269 2 550 2 193 2 1204 2 7222 2 193 2 447 2 8619 2 193 2 3083 2 9404 4 9215 2 30 2 9216 2 2486 2 1021 2 9 2 9235 2 732 2 25 2 725 2 177 2 9236 4 13 2 14 2 1606 4 132 2 4353 2 1956 2 1269 2 503 4 2477 2 9402 2 9240 2 355 2 550 2 9405 4 9406 2 130 2 289 2 2228 2 463 2 9407 82 649 82 1 2 594 82 536 2 543 2 3055 2 5920 2 3131 2 2556 2 4006 2 1230 2 9408 2 3068 4 1 2 9409 82 536 2 543 2 3055 2 9410 2 3131 2 2556 2 9411 2 9412 2 3068 4 1 2 9413 82 536 2 543 2 3055 2 9414 2 3131 2 2556 2 9415 2 9412 2 3068 4 1 2 4580 82 536 2 543 2 3055 2 9416 2 544 2 5365 2 543 2 3055 2 9417 2 3131 2 2556 2 9418 2 3068 4 1 2 8672 82 536 2 543 2 3055 2 9419 2 3131 2 2556 2 4412 2 463 2 9420 2 3068 82 223 4 2637 2 550 2 9421 82 223 82 503 2 462 2 9422 2 9423 2 487 2 1478 2 274 2 9424 4 9425 2 9426 4 9427 2 644 2 37 2 9428 2 1349 2 550 2 9429 82 223 4 9430 2 2019 2 644 2 25 2 4353 2 83 4 2637 2 550 2 9405 2 3270 2 25 2 4353 2 83 4 132 2 4353 2 1986 2 2966 2 9431 2 9400 4 649 82 1 2 3907 2 7660 2 4498 2 2092 82 3091 2 9432 2 7956 2 2735 2 5364 2 5365 2 3091 2 9432 2 7956 2 7965 2 5364 82 223 4 4340 2 2223 2 9433 2 3092 2 9434 2 77 2 2735 2 51 2 58 2 139 2 9435 4 132 2 4353 2 2489 2 1204 2 9436 4 1204 2 38 2 3523 2 2851 2 3384 4 223 82 3667 2 1350 2 1892 2 2027 2 112 2 62 2 25 2 9437 4 71 2 9438 2 591 2 25 2 9439 2 1261 82 83 2 5435 2 130 2 301 2 1006 2 9440 2 9441 82 93 2 2685 2 9 2 3092 2 5851 2 9442 2 5227 2 96 2 9443 82 104 2 9444 2 177 2 328 4 2669 2 9445 82 223 4 5480 2 2644 2 9446 2 51 2 8422 2 7222 2 9447 4 132 2 4353 2 2511 2 447 2 9448 4 9449 2 9450 2 1956 2 9438 2 9451 4 649 82 1 2 9452 2 25 2 4498 2 3092 82 3091 2 3170 2 9439 4 1 2 9440 2 9453 82 3091 2 2071 4 1 2 9438 2 3325 2 3092 82 3091 2 1484 2 9454 4 1 2 1269 2 550 2 120 2 9455 2 4082 82 3192 2 9456 4 1 2 192 2 550 2 510 82 3091 2 3092 2 7748 2 9454 82 223 4 8803 2 9457 2 3104 2 9254 2 4118 4 9449 2 9450 2 1986 2 5435 2 130 2 321 2 3203 4 649 82 1 2 5435 2 3092 82 3091 2 3178 2 3179 2 3180 2 9454 4 1 2 321 2 3203 82 3182 2 3183 2 301 2 3184 2 3185 2 3186 2 3187 2 3188 82 13 2 1624 82 9458 2 9459 2 115 2 110 2 9460 4 13 2 1139 2 3335 82 51 2 543 2 544 2 9461 2 3193 82 3196 82 3197 82 223 4 8803 2 9457 2 3104 2 9254 2 4118 4 9449 2 9450 2 2489 2 2685 2 9462 4 3077 2 9463 2 3092 2 9464 2 9465 2 9466 2 30 2 9467 4 5480 2 3148 2 9468 4 9449 2 9450 2 2511 2 9444 4 9469 2 4108 82 223 82 2483 2 2061 2 9470 2 9471 82 51 2 9400 2 9472 82 51 2 287 2 3207 2 9473 82 51 2 9465 2 30 2 9474 4 1149 2 9475 2 25 2 2772 82 223 4 4817 2 207 2 293 2 9476 4 192 2 9477 82 649 82 3091 2 3170 2 9439 82 3091 2 3092 2 3138 2 9454 82 223 4 8803 2 9457 2 3104 2 9254 2 4118 4 132 2 4353 2 2539 2 9457 2 9465 4 3601 2 9436 2 5117 2 864 2 9478 4 316 2 536 2 65 2 3133 82 649 82 3091 2 3104 2 3105 2 143 2 3108 2 3996 2 3092 2 9479 82 223 4 192 2 8527 82 649 82 3091 2 3104 2 3119 2 9480 82 223 4 3601 2 9450 2 2640 2 2685 2 9481 4 13 2 6442 2 4530 4 143 2 9450 2 143 2 9438 2 143 2 5435 2 143 2 2685 2 9465 2 143 2 9457 2 9400 2 143 82 9482 82 143 2 71 2 9438 2 1261 2 143 2 1259 2 143 2 51 2 143 2 51 2 143 2 1259 2 143 82 143 2 83 2 321 2 3203 2 143 2 51 2 143 2 1259 2 143 2 1259 2 143 2 51 2 143 82 143 2 93 2 2685 2 5851 2 143 2 51 2 143 2 51 2 143 2 1259 2 143 2 51 2 143 82 143 2 104 2 9444 2 143 2 51 2 143 2 51 2 143 2 51 2 143 2 1259 2 9483 2 143 4 13 2 1068 2 8775 4 9484 2 463 2 9485 82 51 2 9486 2 9438 2 2676 2 9487 2 301 2 462 2 3203 82 51 2 9488 2 3046 2 355 2 550 2 274 2 9489 2 7222 4 9490 2 9491 82 51 2 9486 2 682 2 48 2 49 2 109 2 9492 2 193 2 9493 82 51 2 9488 2 1204 2 38 2 2851 2 1803 2 7222 4 9494 2 3104 2 9495 82 51 2 9486 2 1590 2 3104 2 920 2 2218 2 754 2 96 2 9496 2 864 2 9393 82 51 2 9488 2 15 2 3148 2 207 2 9436 2 942 2 130 2 2851 4 2193 2 364 2 207 2 9497 82 51 2 9486 2 9498 2 3107 2 328 82 51 2 9488 2 9499 2 9500 2 9501 2 364 4 13 2 9502 2 9503 4 9504 82 51 2 367 2 37 2 462 2 550 82 51 2 9438 2 966 2 9505 2 550 2 120 2 4082 82 51 2 3136 2 328 2 966 2 364 82 51 2 9506 2 966 2 1396 2 2072 4 9507 82 51 2 1269 2 550 2 274 2 9489 2 7222 82 51 2 1204 2 38 2 2851 2 7222 82 51 2 443 2 9500 2 364 2 207 2 9450 2 2851 82 51 2 3083 2 2713 2 3104 2 207 2 9436 2 942 2 1050 2 2851 2 106 4 13 2 5423 4 9387 2 9388 82 51 2 9508 2 9254 2 9509 2 51 2 1326 2 86 2 214 2 725 82 51 2 9510 2 9254 2 4118 2 51 2 1326 2 86 2 9511 2 725 4 9512 2 9513 82 51 2 9514 2 51 2 9515 2 2713 2 3104 2 1847 2 188 2 139 2 732
+
+# Finishing a Development Branch
+
+## Overview
+
+Guide completion of development work by presenting clear options and handling chosen workflow.
+
+**Core principle:** Verify tests → Present options → Execute choice → Clean up.
+
+**Announce at start:** "I'm using the finishing-a-development-branch skill to complete this work."
+
+## The Process
+
+### Step 1: Verify Tests
+
+**Before presenting options, verify tests pass:**
+
+**Auto-detect and run appropriate test command:**
+```bash
+# Ruby/Rails
+if [ -f Gemfile ]; then bundle exec rspec; fi
+
+# Node.js
+if [ -f package.json ]; then npm test; fi
+
+# Rust
+if [ -f Cargo.toml ]; then cargo test; fi
+
+# Python
+if [ -f pytest.ini ] || [ -f pyproject.toml ]; then pytest; fi
+
+# Go
+if [ -f go.mod ]; then go test ./...; fi
+```
+
+**If tests fail:**
+```
+Tests failing (<N> failures). Must fix before completing:
+
+[Show failures]
+
+Cannot proceed with merge/PR until tests pass.
+```
+
+Stop. Don't proceed to Step 2.
+
+**If tests pass:** Continue to Step 2.
+
+### Step 2: Determine Base Branch
+
+```bash
+# Try common base branches
+git merge-base HEAD main 2>/dev/null || git merge-base HEAD master 2>/dev/null
+```
+
+Or ask: "This branch split from main - is that correct?"
+
+### Step 3: Present Options
+
+Present exactly these 4 options:
+
+```
+Implementation complete. What would you like to do?
+
+1. Merge back to <base-branch> locally
+2. Push and create a Pull Request
+3. Keep the branch as-is (I'll handle it later)
+4. Discard this work
+
+Which option?
+```
+
+**Don't add explanation** - keep options concise.
+
+### Step 4: Execute Choice
+
+#### Option 1: Merge Locally
+
+```bash
+# Switch to base branch
+git checkout <base-branch>
+
+# Pull latest
+git pull
+
+# Merge feature branch
+git merge <feature-branch>
+
+# Verify tests on merged result
+<test command>
+
+# If tests pass
+git branch -d <feature-branch>
+```
+
+Then: Cleanup worktree (Step 5)
+
+#### Option 2: Push and Create PR
+
+```bash
+# Push branch
+git push -u origin <feature-branch>
+
+# Create PR
+gh pr create --title "<title>" --body "$(cat <<'EOF'
+## Summary
+<2-3 bullets of what changed>
+
+## Test Plan
+- [ ] <verification steps>
+EOF
+)"
+```
+
+Then: Cleanup worktree (Step 5)
+
+#### Option 3: Keep As-Is
+
+Report: "Keeping branch <name>. Worktree preserved at <path>."
+
+**Don't cleanup worktree.**
+
+#### Option 4: Discard
+
+**Confirm first:**
+```
+This will permanently delete:
+- Branch <name>
+- All commits: <commit-list>
+- Worktree at <path>
+
+Type 'discard' to confirm.
+```
+
+Wait for exact confirmation.
+
+If confirmed:
+```bash
+git checkout <base-branch>
+git branch -D <feature-branch>
+```
+
+Then: Cleanup worktree (Step 5)
+
+### Step 5: Cleanup Worktree
+
+**For Options 1, 2, 4:**
+
+Check if in worktree:
+```bash
+git worktree list | grep $(git branch --show-current)
+```
+
+If yes:
+```bash
+git worktree remove <worktree-path>
+```
+
+**For Option 3:** Keep worktree.
+
+## Quick Reference
+
+| Option | Merge | Push | Keep Worktree | Cleanup Branch |
+|--------|-------|------|---------------|----------------|
+| 1. Merge locally | ✓ | - | - | ✓ |
+| 2. Create PR | - | ✓ | ✓ | - |
+| 3. Keep as-is | - | - | ✓ | - |
+| 4. Discard | - | - | - | ✓ (force) |
+
+## Common Mistakes
+
+**Skipping test verification**
+- **Problem:** Merge broken code, create failing PR
+- **Fix:** Always verify tests before offering options
+
+**Open-ended questions**
+- **Problem:** "What should I do next?" → ambiguous
+- **Fix:** Present exactly 4 structured options
+
+**Automatic worktree cleanup**
+- **Problem:** Remove worktree when might need it (Option 2, 3)
+- **Fix:** Only cleanup for Options 1 and 4
+
+**No confirmation for discard**
+- **Problem:** Accidentally delete work
+- **Fix:** Require typed "discard" confirmation
+
+## Red Flags
+
+**Never:**
+- Proceed with failing tests
+- Merge without verifying tests on result
+- Delete work without confirmation
+- Force-push without explicit request
+
+**Always:**
+- Verify tests before offering options
+- Present exactly 4 options
+- Get typed confirmation for Option 4
+- Clean up worktree for Options 1 & 4 only
+
+## Integration
+
+**Called by:**
+- **subagent-driven-development** (Step 7) - After all tasks complete
+- **executing-plans** (Step 5) - After all batches complete
+
+**Pairs with:**
+- **using-git-worktrees** - Cleans up worktree created by that skill

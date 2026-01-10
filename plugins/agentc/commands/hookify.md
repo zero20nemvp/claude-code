@@ -1,7 +1,267 @@
 ---
 name: hookify
-description: Create hooks to prevent unwanted behaviors from conversation analysis or explicit instructions
-argument-hint: Optional specific behavior to address
-allowed-tools: ["Read", "Write", "AskUserQuestion", "Task", "Grep", "TodoWrite", "Skill"]
+description: "Create hooks to prevent unwanted behaviors. Use --list to show existing rules"
+argument-hint: "Optional: specific behavior to address, or --list to show rules"
+allowed-tools: ["Read", "Write", "AskUserQuestion", "Task", "Grep", "TodoWrite", "Skill", "Glob"]
 ---
-3667 2 2339 2 186 2 65 2 1452 2 51 2 488 2  2  2 17540 6086 1 2 1954 2 51 2 321 2 1164 2 77 2 4345 2 4346 4 4347 2 2433 2 9 2 4282 2 4348 2 1021 2 9 2 3441 2 1794 2 25 2 1582 2 1162 2 1008 2 2058 2 130 2 4349 4 321 2 1804 2 1397 2 25 2 2146 2 1786 2 1515 2 188 2 2313 2 9 2 640 2 43 2 77 2 1396 2 750 2 1031 4 13 2 1371 2 440 4 44 2 2061 2 2234 2 9 2 750 2 301 2 1161 2 1397 2 25 2 2146 2 4350 2 4351 2 1522 2 3523 2 4352 4 132 2 4353 2 1956 2 2490 2 4274 2 2491 4 2637 2 4354 2 58 2 4355 82 51 2 1807 2 2471 2 4356 2 137 2 4357 2 4358 82 51 2 4359 2 1329 2 1814 2 640 2 4360 2 4361 2 750 2 4362 2 207 2 4363 2 3302 82 51 2 1816 2 207 2 1242 2 115 2 9 2 1670 2 4364 4 2637 2 4354 2 58 2 4365 82 51 2 4366 2 9 2 4367 2 64 2 25 2 79 2 1786 2 1515 82 51 2 135 2 2061 2 4368 2 750 2 4369 2 207 2 1792 2 1793 82 51 2 135 2 2061 2 1531 2 1803 2 1746 4 4370 2 1329 2 4371 82 1996 2 9 2 440 2 1794 2 25 2 4372 2 4367 2 4373 82 223 82 663 387 4374 2 4375 387 681 2 4376 2 640 2 207 2 4350 2 4377 387 4378 2 2642 2 186 2 2313 2 1006 2 140 2 468 2 640 2 25 2 79 2 1515 2 9 2 750 2 2769 2 25 2 4379 4 587 2 750 2 1791 2 65 2 9 2 1280 2 640 2 130 2 4380 82 71 2 1530 2 4381 2 25 2 4382 2 4383 2 4384 2 109 2 4385 2 4386 2 1311 2 4387 82 83 2 4388 2 43 2 4389 2 4390 2 1846 2 327 2 4391 82 93 2 4392 2 4393 2 4394 2 1832 2 112 2 109 2 4395 2 4396 2 1835 2 1836 2 207 2 4397 82 104 2 4398 2 475 2 4399 2 2041 2 1290 2 4400 4 1249 2 737 2 1444 2 4401 2 2842 82 51 2 1892 2 1794 2 1841 2 2029 2 4402 2 1868 2 1869 2 2207 82 51 2 347 2 1873 2 43 2 34 82 51 2 145 2 96 2 1841 2 1786 82 51 2 1880 2 1881 2 1882 4 1951 2 1746 2 134 2 1006 2 1803 2 3105 2 4403 82 51 2 4404 2 1149 2 115 2 1444 82 51 2 4405 2 2669 2 1794 2 1841 2 4406 82 51 2 4289 2 1895 2 43 2 4407 2 1873 2 25 2 1666 82 51 2 1687 2 1892 2 4408 82 51 2 1481 2 4409 4 1499 2 120 2 9 2 2725 2 1814 2 475 2 4360 2 4410 2 4411 2 2019 2 4412 2 591 2 4413 2 1602 2 634 2 4414 82 706 82 223 4 132 2 4353 2 1986 2 1204 2 4415 2 25 2 1807 4 1326 2 2478 2 1515 2 3582 2 4416 2 43 2 4417 2 4418 2 25 2 750 2 1021 2 3281 4 4419 2 1956 2 2669 2 1515 2 25 2 4420 82 51 2 4421 2 4422 2 4423 82 51 2 4424 2 218 82 51 2 3352 2 3141 2 737 2 3813 2 1670 2 4425 2 4426 387 51 2 4427 2 4428 2 1473 2 1009 2 4429 2 1957 2 4430 387 51 2 4431 2 145 2 2286 2 1786 4 4419 2 1986 2 1249 2 737 2 4432 2 4433 2 1836 2 126 2 4434 82 51 2 490 2 177 2 476 2 9 2 4435 2 43 2 3663 2 4436 82 51 2 3352 387 51 2 4437 2 4438 2 4439 2 4440 2 51 2 1275 2 2242 2 67 2 4441 387 51 2 4429 2 4442 2 4439 2 476 2 51 2 2302 2 4443 4 4419 2 2489 2 2062 2 207 2 4444 2 1899 82 51 2 682 2 324 2 48 2 4148 2 177 2 4445 82 51 2 2467 2 3813 2 324 82 51 2 4446 2 750 2 25 2 1599 2 43 2 2644 2 1316 4 132 2 4353 2 2489 2 2064 2 1118 2 4447 4 1249 2 737 2 4448 2 4433 2 301 2 1006 2 4449 2 658 4 4450 2 1411 2 4451 82 51 2 1996 2 4452 82 51 2 1494 2 4453 2 4454 2 4455 2 4456 82 51 2 1358 2 37 2 284 2 4457 2 4458 2 3872 2 4459 2 166 4 1916 2 3214 82 4460 82 1985 82 4461 2 4462 82 4463 2 218 82 4464 2 4465 82 4289 2 4466 2 4467 82 3497 2 4468 82 1985 4 4469 2 25 2 4315 2 140 2 920 2 1162 2 4470 82 223 4 4471 2 4472 82 51 2 4473 2 2467 2 2242 2 67 2 363 2 4435 2 1210 82 51 2 4474 2 4475 2 4435 2 43 2 3908 2 1185 4 3601 2 1316 2 4476 2 1397 2 4477 2 4478 82 4460 82 1985 82 4461 2 4462 82 4463 2 218 82 4464 2 1008 82 4479 387 51 2 4480 2 4481 709 4482 2 4483 709 4289 2 4484 387 51 2 4480 2 4485 709 4482 2 1015 709 4289 2 4486 82 1985 4 4487 2 4488 82 223 4 132 2 4353 2 2511 2 321 2 4447 2 130 2 2590 4 4489 2 1118 2 586 2 1516 2 344 2 1847 2 65 2 9 2 1280 2 4490 2 4491 2 4492 2 4493 2 2022 2 9 2 4494 2 4495 4 1996 2 9 2 1280 2 4490 2 2069 2 4496 2 140 2 468 2 1841 2 4497 2 134 2 9 2 4498 2 4499 4 71 2 316 2 536 2 4492 2 2069 2 588 2 65 2 1280 2 4490 2 2069 1337 51 2 192 2 2619 2 301 2 96 2 2596 2 4403 2 4500 2 4501 2 4502 4 83 2 1996 2 461 2 1794 2 25 2 301 2 737 2 4503 2 1008 1337 51 2 1996 2 4504 2 81 2 77 2 1280 2 4490 2 4505 2 4503 1337 51 2 14 2 81 2 48 2 4506 2 25 2 9 2 4507 2 2068 2 4508 2 183 2 9 2 4509 4 93 2 2467 2 750 2 110 2 1841 2 4510 1337 223 1337 4511 2 271 2 1161 2 4512 1337 51 2 4324 1337 51 2 4513 1337 51 2 4514 3094 3881 2 1397 2 2061 2 4148 2 2535 1337 51 2 4515 2 1961 2 921 2 4027 2 4516 2 4517 1337 51 2 4518 2 4519 2 2422 2 1991 2 1565 1337 51 2 4520 2 4519 2 25 2 4521 2 43 2 152 2 586 1337 223 4 104 2 1269 2 586 2 2765 2 1847 2 65 2 9 2 4522 2 4523 2 188 2 1468 2 2606 4 1022 2 4524 2 4525 2 4526 2 186 2 1192 2 1328 2 51 2 516 2 4335 2 4527 3094 14 2 1161 2 559 2 186 2 2045 2 4528 2 130 2 2061 2 567 2 228 2 727 2 1397 2 120 2 9 2 444 2 1794 2 4529 4 13 2 4304 2 2403 2 4530 4 51 2 4531 2 4532 2 1961 2 1794 2 921 82 51 2 4533 2 4532 2 1868 2 1869 2 1870 2 3198 82 51 2 4534 2 4532 2 920 2 64 2 2769 2 25 2 3908 2 4535 2 207 2 477 2 4536 82 51 2 4537 2 4532 2 920 2 750 2 4538 2 4369 82 51 2 4539 2 4532 2 86 2 4540 4 13 2 1858 2 3639 2 4541 4 1898 2 1899 82 51 2 4542 2 1901 2 4543 2 4544 82 51 2 4542 2 137 2 4545 2 4546 4 1916 2 1899 82 51 2 4542 2 458 2 1171 2 4547 82 51 2 4542 2 1008 2 4548 2 4549 4 4550 2 1899 82 51 2 316 2 207 2 1893 2 4352 2 4551 2 4552 2 43 2 477 2 2946 4 13 2 2856 2 400 4 1969 2 4553 2 4554 2 2019 2 929 2 1957 2 1966 2 966 2 2926 2 4344 2 4555 4 1789 2 4556 82 71 2 4557 2 1807 2 2769 2 25 2 2146 2 1957 2 1966 2 921 82 83 2 3037 2 490 2 49 2 476 2 177 2 34 2 43 2 3663 2 4440 2 2722 82 93 2 1807 2 4558 2 4437 2 4438 82 104 2 321 2 4559 1337 4460 1337 1985 1337 4461 2 1976 1337 4463 2 218 1337 4464 2 1978 1337 4289 2 1980 1337 1985 3094 4560 2 1957 2 34 2 4561 3094 44 2 2254 2 25 2 344 2 4562 2 274 2 1021 2 1957 2 4563 1337 4564 2 355 2 9 2 81 2 58 2 4565 1337 223 82 1022 2 4566 2 3286 2 1161 2 4567 2 4568 2 1192 2 1328 2 51 2 4569 2 4570 2 4571 4 13 2 478 2 4572 4 51 2 2193 2 4335 2 4573 2 4281 2 4333 2 4334 2 1328 2 120 2 9 2 444 2 1794 2 929 82 51 2 1916 2 4574 2 321 2 586 2 65 2 4507 2 4492 2 2069 2 4575 2 4490 2 4576 2 2022 2 9 2 4509 2 4577 82 51 2 4578 2 4579 2 1996 2 4580 2 1799 2 1119 2 4581 2 4582 2 516 2 754 2 25 2 4583 2 65 2 4584 82 51 2 4471 2 4585 2 4281 2 113 2 4586 2 1210 2 43 2 4587 2 2272 82 51 2 4588 2 1139 2 1397 2 1328 2 471 2 2009 2 2606 4 13 2 4589 4 2637 2 1162 2 1008 2 4590 2 3761 82 71 2 316 2 1280 2 4490 2 2069 2 37 2 4591 82 83 2 1614 2 4492 2 2069 2 588 2 2623 2 37 2 4592 2 536 2 4593 82 93 2 1996 2 4594 2 81 2 536 2 4595 2 4596 82 104 2 1269 2 1008 2 1841 2 1847 2 37 2 4287 2 43 2 3552 4 2637 2 1162 2 2624 2 4148 2 471 2 4597 82 71 2 1269 2 1008 2 58 2 65 2 1202 2 4492 2 183 2 4494 2 4492 82 83 2 316 2 1008 2 37 2 587 2 1794 2 25 2 1632 2 1873 2 58 2 4522 82 93 2 1139 2 1873 2 4403 2 4598 2 4599 2 4600 2 4601 2 4602 2 4603 2 4604 82 104 2 1269 2 4329 2 4262 2 65 2 989 82 1022 2 2301 2 4281 2 328 2 4605 2 516 2 4335 2 2296 4 2637 2 2730 2 4606 2 1584 2 4607 82 71 2 4608 2 4609 2 4610 2 25 2 4609 2 4611 2 65 2 9 2 1162 2 1008 82 83 2 4340 2 4612 2 9 2 1873 2 25 2 344 2 1316 2 137 82 93 2 4332 2 4333 2 4334 2 120 2 444 2 1794 2 929 4 1996 2 4613 2 25 2 4614 2 228 2 371 2 1549 2 9 2 4615
+
+# Hookify - Create Hooks from Unwanted Behaviors
+
+**FIRST: Load the hookify:writing-rules skill** using the Skill tool to understand rule file format and syntax.
+
+## Route by Argument
+
+**--list:** Show all configured hookify rules
+**[behavior]:** Create rule for specific behavior
+**[no args]:** Analyze conversation for behaviors to hookify
+
+---
+
+## --list: Show Existing Rules
+
+1. Use Glob to find all `.claude/hookify.*.local.md` files
+2. Read each file and extract: name, enabled, event, pattern
+3. Present as table:
+
+```
+## Configured Hookify Rules
+
+| Name | Enabled | Event | Pattern |
+|------|---------|-------|---------|
+| warn-dangerous-rm | Yes | bash | rm\s+-rf |
+
+**Total**: X rules (Y enabled)
+```
+
+4. Add footer:
+```
+To modify: Edit .local.md file directly
+To disable: Set `enabled: false`
+To create: Use `/hookify [behavior]`
+```
+
+5. If no rules: Show how to create first rule
+
+---
+
+## CREATE RULES (default behavior)
+
+## Your Task
+
+You will help the user create hookify rules to prevent unwanted behaviors. Follow these steps:
+
+### Step 1: Gather Behavior Information
+
+**If $ARGUMENTS is provided:**
+- User has given specific instructions: `$ARGUMENTS`
+- Still analyze recent conversation (last 10-15 user messages) for additional context
+- Look for examples of the behavior happening
+
+**If $ARGUMENTS is empty:**
+- Launch the conversation-analyzer agent to find problematic behaviors
+- Agent will scan user prompts for frustration signals
+- Agent will return structured findings
+
+**To analyze conversation:**
+Use the Task tool to launch conversation-analyzer agent:
+```
+{
+  "subagent_type": "general-purpose",
+  "description": "Analyze conversation for unwanted behaviors",
+  "prompt": "You are analyzing a Claude Code conversation to find behaviors the user wants to prevent.
+
+Read user messages in the current conversation and identify:
+1. Explicit requests to avoid something (\"don't do X\", \"stop doing Y\")
+2. Corrections or reversions (user fixing Claude's actions)
+3. Frustrated reactions (\"why did you do X?\", \"I didn't ask for that\")
+4. Repeated issues (same problem multiple times)
+
+For each issue found, extract:
+- What tool was used (Bash, Edit, Write, etc.)
+- Specific pattern or command
+- Why it was problematic
+- User's stated reason
+
+Return findings as a structured list with:
+- category: Type of issue
+- tool: Which tool was involved
+- pattern: Regex or literal pattern to match
+- context: What happened
+- severity: high/medium/low
+
+Focus on the most recent issues (last 20-30 messages). Don't go back further unless explicitly asked."
+}
+```
+
+### Step 2: Present Findings to User
+
+After gathering behaviors (from arguments or agent), present to user using AskUserQuestion:
+
+**Question 1: Which behaviors to hookify?**
+- Header: "Create Rules"
+- multiSelect: true
+- Options: List each detected behavior (max 4)
+  - Label: Short description (e.g., "Block rm -rf")
+  - Description: Why it's problematic
+
+**Question 2: For each selected behavior, ask about action:**
+- "Should this block the operation or just warn?"
+- Options:
+  - "Just warn" (action: warn - shows message but allows)
+  - "Block operation" (action: block - prevents execution)
+
+**Question 3: Ask for example patterns:**
+- "What patterns should trigger this rule?"
+- Show detected patterns
+- Allow user to refine or add more
+
+### Step 3: Generate Rule Files
+
+For each confirmed behavior, create a `.claude/hookify.{rule-name}.local.md` file:
+
+**Rule naming convention:**
+- Use kebab-case
+- Be descriptive: `block-dangerous-rm`, `warn-console-log`, `require-tests-before-stop`
+- Start with action verb: block, warn, prevent, require
+
+**File format:**
+```markdown
+---
+name: {rule-name}
+enabled: true
+event: {bash|file|stop|prompt|all}
+pattern: {regex pattern}
+action: {warn|block}
+---
+
+{Message to show Claude when rule triggers}
+```
+
+**Action values:**
+- `warn`: Show message but allow operation (default)
+- `block`: Prevent operation or stop session
+
+**For more complex rules (multiple conditions):**
+```markdown
+---
+name: {rule-name}
+enabled: true
+event: file
+conditions:
+  - field: file_path
+    operator: regex_match
+    pattern: \.env$
+  - field: new_text
+    operator: contains
+    pattern: API_KEY
+---
+
+{Warning message}
+```
+
+### Step 4: Create Files and Confirm
+
+**IMPORTANT**: Rule files must be created in the current working directory's `.claude/` folder, NOT the plugin directory.
+
+Use the current working directory (where Claude Code was started) as the base path.
+
+1. Check if `.claude/` directory exists in current working directory
+   - If not, create it first with: `mkdir -p .claude`
+
+2. Use Write tool to create each `.claude/hookify.{name}.local.md` file
+   - Use relative path from current working directory: `.claude/hookify.{name}.local.md`
+   - The path should resolve to the project's .claude directory, not the plugin's
+
+3. Show user what was created:
+   ```
+   Created 3 hookify rules:
+   - .claude/hookify.dangerous-rm.local.md
+   - .claude/hookify.console-log.local.md
+   - .claude/hookify.sensitive-files.local.md
+
+   These rules will trigger on:
+   - dangerous-rm: Bash commands matching "rm -rf"
+   - console-log: Edits adding console.log statements
+   - sensitive-files: Edits to .env or credentials files
+   ```
+
+4. Verify files were created in the correct location by listing them
+
+5. Inform user: **"Rules are active immediately - no restart needed!"**
+
+   The hookify hooks are already loaded and will read your new rules on the next tool use.
+
+## Event Types Reference
+
+- **bash**: Matches Bash tool commands
+- **file**: Matches Edit, Write, MultiEdit tools
+- **stop**: Matches when agent wants to stop (use for completion checks)
+- **prompt**: Matches when user submits prompts
+- **all**: Matches all events
+
+## Pattern Writing Tips
+
+**Bash patterns:**
+- Match dangerous commands: `rm\s+-rf|chmod\s+777|dd\s+if=`
+- Match specific tools: `npm\s+install\s+|pip\s+install`
+
+**File patterns:**
+- Match code patterns: `console\.log\(|eval\(|innerHTML\s*=`
+- Match file paths: `\.env$|\.git/|node_modules/`
+
+**Stop patterns:**
+- Check for missing steps: (check transcript or completion criteria)
+
+## Example Workflow
+
+**User says**: "/hookify Don't use rm -rf without asking me first"
+
+**Your response**:
+1. Analyze: User wants to prevent rm -rf commands
+2. Ask: "Should I block this command or just warn you?"
+3. User selects: "Just warn"
+4. Create `.claude/hookify.dangerous-rm.local.md`:
+   ```markdown
+   ---
+   name: warn-dangerous-rm
+   enabled: true
+   event: bash
+   pattern: rm\s+-rf
+   ---
+
+   **Dangerous rm command detected**
+
+   You requested to be warned before using rm -rf.
+   Please verify the path is correct.
+   ```
+5. Confirm: "Created hookify rule. It's active immediately - try triggering it!"
+
+## Important Notes
+
+- **No restart needed**: Rules take effect immediately on the next tool use
+- **File location**: Create files in project's `.claude/` directory (current working directory), NOT the plugin's .claude/
+- **Regex syntax**: Use Python regex syntax (raw strings, no need to escape in YAML)
+- **Action types**: Rules can `warn` (default) or `block` operations
+- **Testing**: Test rules immediately after creating them
+
+## Troubleshooting
+
+**If rule file creation fails:**
+1. Check current working directory with pwd
+2. Ensure `.claude/` directory exists (create with mkdir if needed)
+3. Use absolute path if needed: `{cwd}/.claude/hookify.{name}.local.md`
+4. Verify file was created with Glob or ls
+
+**If rule doesn't trigger after creation:**
+1. Verify file is in project `.claude/` not plugin `.claude/`
+2. Check file with Read tool to ensure pattern is correct
+3. Test pattern with: `python3 -c "import re; print(re.search(r'pattern', 'test text'))"`
+4. Verify `enabled: true` in frontmatter
+5. Remember: Rules work immediately, no restart needed
+
+**If blocking seems too strict:**
+1. Change `action: block` to `action: warn` in the rule file
+2. Or adjust the pattern to be more specific
+3. Changes take effect on next tool use
+
+Use TodoWrite to track your progress through the steps.

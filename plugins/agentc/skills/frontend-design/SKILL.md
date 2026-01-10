@@ -11,4 +11,335 @@ triggers:
   - Forms and inputs
   - Styling tasks
 ---
-82 1 2 3409 2 3440 2 3441 4 9516 2 920 2 435 2 3410 2 9517 2 9518 4 321 2 9519 2 9520 2 3438 2 9521 2 139 2 4382 2 3810 2 3811 2 3812 2 9522 2 9523 2 2147 2 4490 2 458 2 37 2 9524 2 1458 2 25 2 3444 2 2339 2 130 2 9525 2 9526 2 25 2 9527 4 13 2 1200 2 3569 4 2483 2 732 2 9528 2 368 2 920 2 9 2 435 2 9529 82 51 2 9530 2 3417 82 51 2 9531 2 9532 2 43 2 3835 82 51 2 1079 2 3422 2 3423 2 3424 2 3425 2 9533 82 51 2 9534 2 9532 2 43 2 9535 2 9536 82 51 2 9537 2 43 2 9538 2 9539 82 51 2 3433 2 3434 2 43 2 799 2 9540 82 51 2 9541 2 43 2 9542 2 799 4 13 2 335 2 44 2 3440 4 132 2 71 2 2481 2 9 2 2038 4 51 2 9543 2 1892 2 2041 2 194 2 177 2 9544 2 9545 2 8689 2 9546 82 51 2 9547 2 1892 2 9548 2 48 2 96 2 9549 2 9550 2 9551 2 9552 2 9553 2 9554 82 51 2 9555 2 9556 2 1427 2 9557 2 9558 2 538 82 51 2 9559 2 1627 2 2152 2 9560 2 9561 2 43 2 416 2 9562 4 132 2 83 2 9563 2 9564 4 3696 2 279 2 2345 2 2176 2 25 2 344 2 9565 2 4542 2 9566 2 5133 2 25 2 1687 4 143 2 2968 2 143 2 1005 2 143 2 9567 2 9568 2 4784 2 143 82 9569 82 143 2 9570 2 143 2 9571 2 9572 2 9573 2 9525 2 9574 2 9575 2 9576 2 4372 2 9577 2 143 2 9578 2 9579 2 9580 2 9581 2 9582 2 9583 2 9584 2 3422 2 143 82 143 2 9585 2 143 2 9586 2 9587 2 9588 2 999 2 9589 2 9590 2 9591 2 143 2 5225 2 43 2 9592 2 3793 2 9593 2 9594 2 329 2 9595 2 1617 2 9596 2 143 82 143 2 9597 2 143 2 9598 2 9599 2 9600 2 8482 2 9601 2 9602 2 143 2 9603 2 9604 2 9605 2 9606 2 9607 2 9608 2 9609 2 295 2 9610 2 143 4 9611 2 9612 2 9613 2 9091 2 9614 2 37 2 9615 2 6391 2 9616 2 39 2 9617 2 9618 2 130 2 9619 2 2328 2 2471 2 1316 2 8090 2 1571 2 1006 2 9620 2 39 2 37 2 3480 2 9621 4 132 2 93 2 5428 2 25 2 1006 2 9622 4 9623 2 59 2 3444 2 9624 2 130 2 3163 2 37 2 9625 4 143 2 9622 2 143 2 9567 2 143 82 9626 82 143 2 9627 2 283 2 143 2 9628 2 9629 2 516 2 9630 2 143 82 143 2 9631 2 9632 2 143 2 9633 2 9634 2 9635 2 9636 2 143 82 143 2 9637 2 143 2 9638 2 9639 2 1490 2 1366 2 143 82 143 2 9640 2 143 2 9641 2 9642 2 9643 2 9644 2 9645 2 143 82 143 2 9646 2 143 2 9647 2 9648 2 9649 2 9605 2 1610 2 143 82 143 2 9650 2 143 2 9651 2 9652 2 9653 2 143 82 143 2 9654 2 143 2 9655 2 9608 2 9656 2 143 82 143 2 9657 2 143 2 9658 2 622 2 9659 2 6211 2 5132 2 143 82 143 2 9660 2 9661 2 143 2 9662 2 9663 2 9664 2 9665 2 9666 2 143 82 143 2 9667 2 143 2 9668 2 9669 2 1803 2 143 82 143 2 9670 2 143 2 9671 2 1549 2 9672 2 130 2 9673 2 143 82 143 2 9674 2 143 2 9675 2 9676 2 143 4 5110 2 9677 2 2497 2 58 2 9678 2 9679 2 139 2 2733 2 62 2 9680 2 9578 2 9681 2 130 2 9682 2 9683 2 4679 2 9684 2 947 2 58 2 9685 4 13 2 3440 2 264 4 132 2 3792 4 3449 2 9686 2 37 2 9687 2 9688 2 1006 2 3793 2 5284 2 1081 2 37 2 1006 2 1617 2 998 2 9689 4 9690 2 3794 2 3795 2 3796 2 9691 2 9692 2 9693 2 9694 2 3882 2 9695 2 9696 2 67 2 3882 2 2316 2 2817 2 9697 2 1282 2 1841 2 9698 4 9699 2 2615 2 188 2 9700 4 143 2 9701 2 143 2 9702 2 143 82 9703 82 143 2 9704 2 143 2 9705 2 3241 2 329 2 9706 2 9707 2 329 2 9708 2 9709 2 9710 2 3241 2 329 2 4724 2 9711 2 271 2 143 82 143 2 9712 2 143 2 9713 2 329 2 9714 2 9715 2 9716 2 329 2 9717 2 9715 2 9718 2 329 2 9719 2 143 82 143 2 9720 2 143 2 9721 2 9722 2 329 2 9723 2 9709 2 9724 2 9725 2 9722 2 329 2 9724 2 9725 2 9715 2 9726 2 468 2 329 2 9726 2 9711 2 143 82 143 2 9727 2 143 2 9728 2 9729 2 329 2 9730 2 9731 2 9732 2 329 2 4890 2 9715 2 9733 2 9734 2 329 2 9735 2 143 82 143 2 9736 2 143 2 9737 2 9738 2 329 2 9739 2 9740 2 9741 2 9742 2 329 2 9743 2 9740 2 9744 2 329 2 9745 2 9746 2 143 4 9747 2 9748 2 9749 2 9750 2 9751 2 9752 2 9753 82 9754 2 2716 2 9750 2 9755 2 9756 2 9757 4 9758 82 9759 2 9760 2 51 2 3818 2 9761 2 8848 82 9762 2 9763 2 9764 2 9765 82 9766 2 9767 2 9711 2 9768 2 9769 4 9759 2 9770 2 51 2 3833 2 98 2 3444 2 8848 82 9771 2 3794 2 9772 2 9769 82 223 4 132 2 3798 2 1050 2 9773 4 5428 2 25 2 1006 2 3800 2 9774 2 1996 2 9775 2 1675 2 207 2 9776 4 9777 82 51 2 9778 2 9779 2 329 2 9780 2 9606 2 9781 2 9782 2 9783 2 9784 82 51 2 9785 2 4633 2 754 2 1971 2 9786 2 9616 2 183 2 3663 2 9787 2 9788 82 51 2 1704 2 9789 2 9790 2 9791 2 292 2 9792 2 9793 2 292 2 9794 2 9795 2 292 2 1354 4 9796 82 51 2 9797 2 3480 2 120 2 3481 2 7892 2 3811 2 9798 2 9799 82 51 2 9800 2 9606 2 9788 2 37 2 516 2 7332 82 51 2 9801 2 9802 2 9803 2 120 2 9804 2 3481 2 9805 2 966 2 9806 4 9807 82 51 2 9808 2 37 2 1006 2 9779 2 9809 2 9810 2 9811 2 9812 82 51 2 9813 2 9814 2 130 2 9815 2 9816 2 9817 82 51 2 9818 2 9606 2 9593 2 9819 2 9820 2 9821 2 9822 2 9823 82 51 2 9824 2 37 2 39 2 9825 2 4787 4 9758 82 9759 2 9760 2 51 2 7969 2 3799 2 8848 82 9826 2 663 387 9827 2 9828 387 9829 2 9830 387 9831 2 9832 387 9833 2 9834 82 706 4 9759 2 9770 2 51 2 3833 2 3831 2 8848 82 9835 2 9836 2 9837 2 9838 2 9839 2 9840 82 223 4 132 2 9841 2 9842 4 1246 2 9843 2 324 2 37 2 9844 4 143 2 3833 2 143 2 3818 2 8433 2 143 82 9845 82 143 2 9846 2 9847 2 37 2 9848 2 9849 2 143 2 9850 2 3425 2 9851 2 9852 2 9853 2 3834 2 9854 2 143 82 143 2 9855 2 9856 2 329 2 9857 2 9858 2 143 2 9859 2 9579 2 9860 2 9861 2 9862 2 2094 2 9863 2 143 82 143 2 9864 2 9865 2 7607 2 143 2 9866 2 329 2 9867 2 9868 2 9869 2 9870 2 9871 2 410 2 143 82 143 2 5112 2 6553 2 65 2 9872 2 143 2 1724 2 9873 2 9874 2 9875 2 25 2 9876 2 9877 2 1607 2 143 4 9878 2 9879 2 9818 2 3835 2 1516 2 3744 2 904 2 9880 2 1670 2 130 2 9881 2 629 2 9882 2 9883 2 4967 2 59 2 9884 2 207 2 2676 2 9885 4 132 2 9886 2 1050 2 9541 4 1592 2 9887 2 9888 2 1321 2 9889 2 9890 4 9891 2 3837 2 9892 82 51 2 9893 2 9894 2 9895 2 9896 2 37 2 9897 2 301 2 9898 2 9899 82 51 2 9900 2 1724 2 9901 2 1587 2 5363 2 134 2 750 2 9902 82 51 2 9903 2 9904 2 9905 2 9779 2 9906 2 9907 2 999 82 51 2 2840 2 5388 2 9908 2 2328 2 2330 2 1079 2 2212 4 9909 2 9910 82 51 2 9911 2 207 2 6211 2 4535 2 9912 2 9913 2 9914 82 51 2 9915 2 9886 2 207 2 9916 2 920 2 1330 82 51 2 9917 2 207 2 4476 2 9918 2 9919 82 51 2 3046 2 9920 2 9921 4 9758 82 9759 2 9895 2 9922 2 8848 82 9923 2 663 387 9924 2 9925 2 9926 2 9927 2 9928 387 9929 2 9930 82 706 82 9931 2 663 2 9932 2 9933 2 706 82 9934 2 663 2 9932 2 9935 2 706 82 9936 2 663 2 9932 2 9937 2 706 4 9938 2 9925 2 663 387 77 2 663 2 9929 2 9930 2 9939 2 9940 2 706 387 25 2 663 2 9929 2 5839 2 9939 2 9941 2 706 82 706 4 9759 2 9942 2 750 2 9943 2 8848 82 9944 2 9945 2 9946 2 663 387 6579 2 9947 2 9948 2 663 709 9949 2 9950 2 9951 709 9952 2 9950 2 9951 387 706 82 706 82 223 4 132 2 9953 2 1050 2 9954 4 1100 2 9779 2 9955 2 186 2 9956 2 9957 2 321 2 9958 4 51 2 9959 2 9960 2 9961 2 3480 2 37 2 9962 2 9779 2 2328 82 51 2 9963 2 9964 2 9965 2 139 2 1653 2 9966 2 9967 2 1496 2 43 2 9968 82 51 2 9969 2 9970 2 9971 2 9972 2 9973 2 9974 2 134 2 3832 2 3422 82 51 2 9975 2 9976 2 9850 2 9977 2 3422 82 51 2 9978 2 9979 2 9980 2 9981 2 207 2 9982 2 130 2 9983 4 9758 82 9759 2 9984 2 9965 2 9985 2 8848 82 9986 2 663 387 9987 2 9988 82 706 82 9989 2 663 387 6348 2 9990 387 9987 2 9991 387 9992 2 9930 387 9993 2 9994 2 9995 2 829 2 9996 2 9997 2 9998 2 9999 2 10000 2 10001 2 10002 2 10003 2 10004 2 10005 2 10006 387 9929 2 10007 387 10008 2 10009 82 706 82 223 4 13 2 10010 2 10011 2 10012 4 3881 2 2817 2 10013 2 43 2 9697 2 10014 2 10015 2 10016 4 143 2 10017 2 143 2 10018 2 143 82 3396 82 143 2 10019 2 143 2 10020 2 134 2 1372 2 10021 2 3810 2 1081 2 10022 2 10023 2 10024 2 10025 2 143 82 143 2 10026 2 143 2 10027 2 10028 2 6080 2 9606 2 10029 2 9804 2 9802 2 120 2 9804 2 10030 2 9 2 10031 2 10032 2 3799 2 143 82 143 2 10033 2 143 2 10034 2 3834 2 9973 2 10035 2 10036 2 10037 2 10038 2 3835 2 966 2 10039 2 143 82 143 2 10040 2 143 2 10041 2 10042 2 37 2 10043 2 10044 2 7892 2 10045 2 10046 2 10047 2 3810 2 9856 2 324 2 143 82 143 2 10048 2 143 2 10049 2 10050 2 10051 2 10052 2 6913 2 10053 2 10054 2 1630 2 10055 2 3810 2 10056 2 143 82 143 2 10057 2 143 2 10058 2 10059 2 9919 2 120 2 10037 2 10060 2 207 2 516 2 1882 2 143 4 13 2 1438 2 2226 2 10061 4 10062 2 799 2 130 2 9558 2 10063 2 457 2 1202 2 10064 4 51 2 543 2 544 2 1573 2 9881 2 6221 2 1812 2 10065 2 115 2 3804 2 7607 82 51 2 543 2 544 2 1614 2 10066 2 10067 2 1303 2 5313 82 51 2 543 2 544 2 10068 2 10069 2 10070 2 9786 2 10071 2 10072 2 998 2 10073 2 10074 2 10075 2 10076 82 51 2 543 2 544 2 1802 2 1274 2 10077 2 10078 2 2606 2 10079 2 67 2 2316 2 1516 2 10080 82 51 2 543 2 544 2 9942 2 9921 2 130 2 10081 82 51 2 543 2 544 2 1996 2 569 2 6211 2 3422 2 10082 2 10083 2 10084 2 2207 4 192 2 1006 2 799 2 8619 2 1257 2 10085 2 79 2 1006 2 9525 2 10086 2 139 2 5475 2 10087 2 10088 2 10089 2 113 2 10090 2 1006 2 10091 2 5486 2 10092 2 3835 2 113 2 3744 2 904 2 10093 2 10094 2 9882 4 13 2 2322 2 10095 4 132 2 10096 2 9531 82 5009 2 9525 2 10097 2 1996 2 1366 2 9775 2 10098 2 1120 2 10099 2 10100 2 10101 2 10102 2 65 2 1588 2 1008 2 920 2 10103 4 132 2 9916 82 51 2 1996 2 9915 2 9886 2 207 2 3837 2 920 2 1330 82 51 2 9775 2 10104 2 43 2 10105 2 207 2 10106 2 10107 82 51 2 2410 2 9775 2 1675 2 1321 2 10108 2 10109 2 920 2 2718 4 132 2 3421 82 10110 2 5241 2 186 2 9 2 10111 2 177 2 732 2 10112 2 1005 2 1021 2 10113 82 51 2 10114 2 9 2 10115 2 37 2 1120 2 10029 2 10116 2 9849 82 51 2 1996 2 6197 2 2215 2 10117 2 207 2 3793 2 9593 82 51 2 2019 2 2409 2 120 2 2214 2 9779 2 3799 2 43 2 2214 2 10044 82 51 2 1704 2 10118 2 10119 2 25 2 301 2 3793 2 3840 2 3564 4 132 2 10120 82 1853 2 2108 2 10121 2 1996 2 10122 2 3837 2 9599 2 10106 2 10123 2 130 2 3840 2 10124 4 13 2 5423 2 37 2 448 4 3409 2 214 2 3744 2 3603 2 448 2 920 2 10125 4 71 2 10126 2 3747 2 51 2 10127 2 550 2 207 2 3840 2 10128 82 83 2 10129 2 3747 2 51 2 10130 2 10131 2 10132 2 10133 82 93 2 10134 2 3747 2 51 2 10135 2 10136 2 10066 2 10067 4 8716 82 3776 2 1025 2 1410 2 1006 2 10137 2 10138 82 10139 2 37 2 4522 2 10140 2 8748 2 5958 2 663 387 10141 2 10142 2 10143 387 8723 2 10138 2 292 2 10144 387 10145 82 8872 4 10146 2 3837 2 120 2 10147 2 8712 2 8748 2 5958 2 663 387 10148 2 10143 387 8719 2 10149 387 3776 2 10150 2 3837 2 2327 82 8872 4 10151 2 10152 2 9542 2 10153 2 8748 2 5958 2 663 387 3776 2 10154 2 10155 387 10141 2 10156 2 10143 387 3776 2 10150 2 516 2 3837 2 3564 2 10157 82 8872 82 223 4 13 2 10158 2 1467 4 1005 2 716 2 1006 2 3438 2 3515 4 223 82 373 2 3409 2 10159 2 3250 2 10160 2 373 4 8824 2 10161 2 329 2 10162 82 10163 2 10164 2 143 2 10165 2 143 2 10166 82 3452 2 2800 2 3453 2 10167 82 3459 2 3460 2 3461 2 39 2 3824 4 3464 387 2641 2 10168 2 8619 2 329 2 10169 387 10170 2 10168 2 10171 4 3468 387 8001 2 10172 387 10173 2 10172 387 10174 2 10172 4 10175 82 223 4 13 2 10176 2 25 2 10177 4 143 2 10177 2 143 2 10178 2 3361 2 143 82 10179 82 143 2 10180 2 10181 2 2281 2 1584 2 10182 2 143 2 1414 2 10183 2 3422 2 25 2 3119 2 1312 2 3675 2 10184 2 1341 2 10185 2 125 2 10186 2 143 82 143 2 10180 2 10187 2 2281 2 10188 2 143 2 10189 2 2474 2 3805 2 10190 2 2081 2 1571 2 2422 2 9621 2 143 82 143 2 10191 2 416 2 10192 2 143 2 8629 2 1276 2 6196 2 10089 2 37 2 10193 2 10194 2 2016 2 9 2 10195 2 143 82 143 2 10196 2 62 2 10197 2 143 2 10198 2 9 2 10199 2 2887 2 102 2 2108 2 635 2 10200 2 10201 2 25 2 9527 2 143 82 143 2 10202 2 9 2 10203 2 1511 2 9 2 10204 2 143 2 1509 2 622 2 10205 2 10206 2 329 2 9779 2 329 2 9965 2 9054 2 143 4 13 2 484 2 3482 4 335 2 480 2 120 2 1006 2 3438 2 3515 4 51 2 543 2 544 2 2038 2 337 2 130 2 10207 2 498 82 51 2 543 2 544 2 3452 2 416 2 3473 2 130 2 1667 82 51 2 543 2 544 2 3792 2 58 2 3793 2 635 2 10208 82 51 2 543 2 544 2 3798 2 3799 2 58 2 3800 2 130 2 3801 82 51 2 543 2 544 2 3802 2 1720 2 39 2 3803 2 3804 2 3805 82 51 2 543 2 544 2 3806 2 1653 2 3807 2 10209 2 10210 82 51 2 543 2 544 2 150 2 3810 2 3811 2 3812 2 324 82 51 2 543 2 544 2 1438 2 538 2 3765 82 51 2 543 2 544 2 3814 2 1670 2 2085 82 51 2 543 2 544 2 503 2 510 2 1781 2 3815 4 13 2 9260 4 140 2 58 2 10211 2 115 2 10212 2 9525 2 1355 2 14 2 317 2 4967 2 10213 2 207 2 102 2 5487 2 10214 2 10215 2 9521 2 139 2 178 2 10216 2 183 2 10217 2 457 2 8619 2 48 2 344 2 10218 2 279 2 10219 2 10220 4 2193 2 9592 2 2315 2 48 2 2300 2 9 2 10221 2 10222 2 10223 2 10116 2 9522 2 10224 2 10225 2 120 2 7660 2 9593 2 85 2 10226 4 10227 2 1542 2 25 2 10228 2 9631 2 2315 2 754 2 10229 2 458 2 37 2 2309 2 9919 2 130 2 10230 2 10231 2 2315 2 754 2 10232 2 9609 2 130 2 1971 2 1458 2 25 2 9849 2 130 2 9605 2 10233 2 10234 2 10235 2 77 2 716 2 9 2 3475 2 10236
+
+# Frontend Design Skill
+
+**Auto-activates when task involves frontend/UI work.**
+
+Create distinctive, production-grade frontend interfaces that avoid generic "AI slop" aesthetics. Deliver real working code with exceptional attention to aesthetic details and creative choices—calibrated to context.
+
+## Detection Triggers
+
+This skill activates automatically when the task involves:
+- React/Vue/Svelte components
+- HTML/CSS pages or layouts
+- UI elements (buttons, forms, cards, modals)
+- Landing pages or marketing sites
+- Dashboards or admin panels
+- Styling, theming, or design schemes
+- Animation or motion design
+
+## Before You Design
+
+### 1. Understand the Context
+
+- **Purpose**: What problem does this solve? Who uses it?
+- **Tone**: What emotion should it evoke? (trust, delight, urgency, calm, edge)
+- **Constraints**: Framework, performance budget, accessibility requirements
+- **References**: Any existing brand, inspiration, or direction provided?
+
+### 2. Calibrate Intensity
+
+Not every interface needs to be "memorable." Match expression level to context:
+
+| Level | When | Character Lives In |
+|-------|------|---------------------|
+| **High** | Marketing sites, portfolios, creative brands, landing pages, launch announcements | Bold typography, dramatic layouts, rich animation, experimental elements |
+| **Balanced** | Consumer apps, e-commerce, content platforms, SaaS products | One or two distinctive choices (typography + color), refined micro-interactions |
+| **Restrained** | Enterprise tools, dashboards, documentation, data-heavy UIs | Perfect spacing, subtle accent color, typographic precision, zero excess |
+
+Restrained ≠ boring. A dashboard with perfect information hierarchy, one well-chosen accent, and buttery-smooth transitions has more character than a cluttered one with gradients everywhere.
+
+### 3. Commit to a Direction
+
+Pick an aesthetic stance and execute with conviction:
+
+| Direction | Character |
+|-----------|-----------|
+| Brutally minimal | Stark, functional, no decoration |
+| Maximalist chaos | Dense, layered, overwhelming (intentionally) |
+| Retro-futuristic | 80s/90s tech meets modern |
+| Organic/natural | Soft curves, earthy tones, flowing |
+| Luxury/refined | Premium materials feel, subtle elegance |
+| Playful/toy-like | Bouncy, colorful, delightful |
+| Editorial/magazine | Grid-based, typographic hierarchy |
+| Brutalist/raw | Exposed structure, raw HTML energy |
+| Art deco/geometric | Sharp angles, gold accents, symmetry |
+| Swiss/grid-locked | Precision, mathematical, structured |
+| Glassmorphic/layered | Depth through transparency and blur |
+| Industrial/utilitarian | Function-first, tool-like |
+
+**The worst outcome is uncommitted middle-ground that feels like nothing.** Bold maximalism and restrained minimalism both work—the key is intentionality.
+
+## Design Principles
+
+### Typography
+
+Choose fonts with character. Pair a distinctive display font with a refined body font.
+
+**Avoid**: Inter, Roboto, Arial, system-ui defaults, Open Sans—not because they're bad, but because they signal "no decision was made."
+
+**Font directions by tone:**
+
+| Tone | Pairings |
+|------|----------|
+| Editorial/Refined | Freight Display + Söhne, Canela + Founders Grotesk, Playfair Display + Source Sans 3 |
+| Playful/Friendly | Fraunces + DM Sans, Recoleta + Nunito Sans, Lobster + Lato |
+| Technical/Modern | JetBrains Mono + Space Grotesk, IBM Plex Mono + IBM Plex Sans, Fira Code + Fira Sans |
+| Luxury/Minimal | Cormorant Garamond + Karla, Bodoni Moda + Work Sans, Libre Baskerville + Raleway |
+| Brutalist/Raw | Monument Extended + Input Mono, Bebas Neue + Roboto Mono, Oswald + Anonymous Pro |
+
+**Free sources**: Google Fonts, Fontshare, Font Squirrel
+**Paid/experimental**: Future Fonts, Pangram Pangram, Colophon
+
+```css
+/* GOOD - Distinctive pairing */
+--font-display: 'Playfair Display', serif;
+--font-body: 'Source Sans 3', sans-serif;
+
+/* BAD - Generic AI aesthetic */
+font-family: Inter, system-ui, sans-serif;
+```
+
+### Color & Theme
+
+Commit to a cohesive palette. Use CSS variables for consistency.
+
+**Principles:**
+- Dominant color + sharp accent outperforms timid, evenly-distributed palettes
+- Dark themes need careful contrast hierarchy, not just inverted colors
+- Consider emotional weight: saturated = energetic, muted = sophisticated, monochrome = focused
+
+**Avoid:**
+- Purple-to-blue gradients on white (the "AI startup" look)
+- Random accent colors with no relationship
+- Pure black (#000) on pure white (#fff) without relief
+
+**Instead:**
+- Near-black with a color cast (`#0a0a0f`, `#1a1a2e`, `#0f1419`)
+- Warm whites and creams (`#faf9f7`, `#f5f5f0`)
+- Unexpected accent choices (rust, chartreuse, electric cyan, terracotta)
+- Monochromatic with one deliberate pop
+
+```css
+/* GOOD - Committed palette */
+:root {
+  --color-ink: #1a1a2e;
+  --color-paper: #f5f0e8;
+  --color-accent: #e94560;
+  --color-muted: #6b7280;
+}
+
+/* BAD - Generic gradient */
+background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+```
+
+### Spatial Composition
+
+Break predictable patterns with intention:
+
+| Generic | Distinctive Alternative |
+|---------|------------------------|
+| Card grid with equal spacing | Overlapping cards, asymmetric masonry, varied card sizes |
+| Centered hero + stock photo | Full-bleed typography, illustrated elements, editorial negative space |
+| Symmetric two-column layout | 2/3 + 1/3 split, offset grid, diagonal flow |
+| Everything contained in boxes | Elements breaking containers, bleeding to edges, overlapping sections |
+
+**But remember**: Unexpected layouts must still have responsive behavior and logical reading order. Creativity isn't an excuse for broken UX.
+
+### Motion & Animation
+
+Prioritize high-impact moments over scattered micro-interactions.
+
+**High-value animation opportunities:**
+- Page load: Staggered reveals with `animation-delay` create orchestrated entrances
+- Scroll-triggered: Elements animating into view as user scrolls
+- Hover states: Transforms, color shifts, revealed content
+- State changes: Smooth transitions between UI states
+
+**Technical approach:**
+- CSS-only for HTML (use `@keyframes`, `transition`, `animation`)
+- Motion/Framer Motion for React when available
+- GSAP for complex sequenced animations
+- Always respect `prefers-reduced-motion`
+
+```css
+/* Staggered reveal */
+.card {
+  animation: fadeUp 0.5s ease-out forwards;
+  opacity: 0;
+}
+.card:nth-child(1) { animation-delay: 0.1s; }
+.card:nth-child(2) { animation-delay: 0.2s; }
+.card:nth-child(3) { animation-delay: 0.3s; }
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Respect user preferences */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+```
+
+### Texture & Atmosphere
+
+Solid color backgrounds are missed opportunities. Create depth:
+
+- **Gradient meshes**: Multi-point gradients with organic color transitions
+- **Noise/grain**: Subtle texture that adds warmth (SVG filter or CSS)
+- **Geometric patterns**: Repeating shapes, grids, dots as background elements
+- **Layered transparencies**: Overlapping semi-transparent elements
+- **Dramatic shadows**: `box-shadow` stacks for elevation and depth
+
+```css
+/* Noise texture overlay */
+.textured {
+  position: relative;
+}
+.textured::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  opacity: 0.03;
+  pointer-events: none;
+}
+```
+
+## Anti-Patterns (NEVER DO)
+
+These signal "AI-generated" or "no designer touched this":
+
+| Category | Anti-Pattern |
+|----------|--------------|
+| **Typography** | Inter/Roboto/Arial as primary font, generic font stacks, inconsistent sizing scale |
+| **Color** | Purple-blue gradients, random accent colors, pure black on pure white, the "Stripe purple" palette |
+| **Layout** | Identical card grids, perfectly centered everything, symmetric layouts without tension |
+| **Components** | Rounded-corner cards with drop shadows (the "Tailwind default" look), generic hero patterns |
+| **Content** | Stock photography (especially diverse-team-at-computer), placeholder Lorem Ipsum left in, generic icons |
+| **Effects** | Gratuitous blur/glassmorphism, animations on everything, parallax for no reason |
+
+## Accessibility Is Non-Negotiable
+
+Creative design and accessibility coexist. Every project must:
+
+- [ ] Maintain logical DOM order regardless of visual layout
+- [ ] Ensure keyboard navigation works completely
+- [ ] Meet WCAG AA contrast ratios (4.5:1 body text, 3:1 large text)
+- [ ] Provide focus indicators (style them creatively, but they must exist)
+- [ ] Respect `prefers-reduced-motion` and `prefers-color-scheme`
+- [ ] Use semantic HTML elements (`<nav>`, `<main>`, `<article>`, etc.)
+
+If a design choice breaks accessibility, find a creative solution that preserves both. Low-contrast aesthetics can offer a high-contrast mode. Wild layouts can still have sensible tab order.
+
+## Framework Considerations
+
+### Vanilla HTML/CSS
+Maximum creative freedom. Use modern CSS (grid, custom properties, `@layer`, `@container`). Self-contained in single file when possible.
+
+### React
+- Use Motion/Framer Motion for animation when available
+- CSS Modules or styled-components for scoped styles
+- Prefer CSS variables over JS-based theming when possible
+
+### Tailwind
+Tailwind's defaults are the anti-patterns this skill avoids. When using Tailwind:
+- Extend the theme with custom colors, fonts, spacing
+- Use arbitrary values (`text-[#1a1a2e]`) for distinctive choices
+- Don't rely on default color palette or default shadows
+- Consider `@apply` sparingly to create distinctive component classes
+
+### Vue/Svelte/Others
+Same principles apply. Use framework-native animation tools, scoped styles, and component patterns.
+
+## Integration with TDD
+
+Frontend tasks still follow TDD when applicable:
+
+1. **Visual tests** - Snapshot tests for component rendering
+2. **Interaction tests** - Click handlers, form submissions
+3. **Accessibility tests** - ARIA labels, keyboard navigation
+
+```typescript
+// Example: Testing a styled button
+test('renders with correct styling', () => {
+  render(<Button variant="primary">Click me</Button>);
+  const button = screen.getByRole('button');
+  expect(button).toHaveClass('btn-primary');
+});
+
+test('triggers animation on hover', async () => {
+  render(<Button>Hover me</Button>);
+  await userEvent.hover(screen.getByRole('button'));
+  // Assert animation state
+});
+
+test('respects reduced motion preference', () => {
+  // Mock prefers-reduced-motion
+  render(<Button animated>Click me</Button>);
+  // Assert no animation classes applied
+});
+```
+
+## Delivery Format
+
+When executing a frontend task:
+
+```
+=== Frontend Design: [Task Name] ===
+
+Context: [purpose + audience]
+Intensity: [high | balanced | restrained]
+Aesthetic Direction: [chosen tone]
+Memorable Element: [the one thing]
+
+Typography:
+  Display: [font choice + why]
+  Body: [font choice]
+
+Palette:
+  Primary: [color]
+  Accent: [color]
+  Background: [color]
+
+Implementing...
+```
+
+## Responding to Feedback
+
+| Feedback | Response Approach |
+|----------|-------------------|
+| "Too much / too busy" | Identify 1-2 elements to remove while keeping core direction. Simplify, don't flatten. |
+| "Too boring / generic" | Amplify ONE element dramatically rather than adding everywhere. |
+| "Different direction entirely" | Propose 2-3 alternative aesthetics with distinct moods. Explain the tradeoffs. |
+| "More like [reference]" | Study the reference, extract its principles (not pixels), adapt to context. |
+| "Keep the layout, change the style" | Preserve structure, swap typography + color + texture layer. |
+
+## Verification Checklist
+
+Before `/done` on a frontend task:
+
+- [ ] Context assessed and intensity calibrated
+- [ ] Aesthetic direction chosen and documented
+- [ ] Typography is distinctive (not Inter/Roboto/Arial)
+- [ ] Color palette is cohesive and intentional
+- [ ] At least one memorable visual element
+- [ ] Motion/animation adds polish (respects reduced-motion)
+- [ ] No generic "AI slop" patterns
+- [ ] Accessibility requirements met
+- [ ] Responsive behavior tested
+- [ ] Tests pass (if applicable)
+
+## Remember
+
+Claude is capable of extraordinary creative work. The goal isn't creativity for its own sake—it's making interfaces that feel *designed*, not generated. Every choice should be intentional, every detail considered.
+
+**No two designs should look the same.** Vary themes, fonts, aesthetics. NEVER converge on common choices across generations.
+
+**Match complexity to vision.** Maximalist designs need elaborate code with extensive animations and effects. Minimalist designs need restraint, precision, and careful attention to spacing and subtle details. Elegance comes from executing the vision well.

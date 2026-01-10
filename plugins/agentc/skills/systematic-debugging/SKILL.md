@@ -2,4 +2,319 @@
 name: systematic-debugging
 description: Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes - four-phase framework (root cause investigation, pattern analysis, hypothesis testing, implementation) that ensures understanding before attempting solutions
 ---
-82 1 2 13945 2 10348 4 13 2 8597 4 9800 2 5416 2 3044 2 1322 2 130 2 301 2 727 2 14103 2 6442 2 14104 2 2256 2 2257 2 2010 4 1037 2 8681 2 13956 2 79 2 1045 2 1046 2 274 2 14105 2 14106 2 13460 2 5416 2 186 2 14107 4 14108 2 9 2 14109 2 115 2 177 2 129 2 58 2 14110 2 9 2 14111 2 115 2 14112 4 13 2 14 2 14113 2 14114 4 223 82 4819 2 14115 2 7847 2 14116 2 14117 2 14118 2 546 82 223 4 192 2 112 2 4337 2 3942 2 3625 2 5117 2 112 2 8226 2 8666 2 14106 4 13 2 1005 2 25 2 1996 4 1996 2 207 2 3411 2 1638 2 2277 82 51 2 1139 2 2119 82 51 2 13431 2 65 2 151 82 51 2 9818 2 1670 82 51 2 11089 2 1428 82 51 2 6615 2 2119 82 51 2 5423 2 475 4 3565 2 177 2 14119 2 8703 82 51 2 14120 2 1322 2 5677 2 14121 2 2361 2 14122 2 14123 82 51 2 4437 2 39 2 14083 2 14124 2 4606 2 1558 82 51 2 4139 2 2045 2 14125 2 1290 2 5416 82 51 2 14126 2 1478 2 1835 2 328 82 51 2 44 2 125 2 8600 2 1582 2 9 2 1444 4 5480 2 3879 2 8703 82 51 2 1440 2 4606 2 12513 2 14127 2 1415 2 904 2 1045 2 9081 2 14128 82 51 2 13667 2 65 2 1006 2 14129 2 14130 2 2411 2 14131 82 51 2 14132 2 2769 2 96 2 479 2 5251 2 14133 2 58 2 578 2 1571 2 14134 4 13 2 562 2 563 2 14135 4 2477 2 3625 2 5117 2 26 2 207 2 568 2 25 2 1582 2 569 2 14136 4 649 82 1 2 316 2 536 2 568 2 588 2 207 2 9 2 14137 2 1008 82 3552 2 3553 82 3552 2 3554 82 223 4 2637 2 568 2 643 2 567 2 96 2 4108 82 51 2 9555 2 1892 2 10266 2 344 2 14138 2 1009 2 14139 82 51 2 2023 2 14140 2 1892 2 619 2 513 2 186 2 2255 2 1009 2 14141 82 51 2 14142 2 1892 2 1691 2 1692 2 48 2 14143 2 1009 2 14144 82 51 2 3560 2 2144 2 9 2 2246 2 14145 2 1009 2 14146 4 14147 2 568 2 10268 2 628 2 489 2 14148 82 51 2 2226 2 1006 2 10356 2 1893 2 65 2 458 2 67 2 4418 2 65 2 14149 82 51 2 2226 2 59 2 619 2 507 2 183 2 13329 82 51 2 2226 2 1006 2 4148 2 183 2 14150 4 14151 2 644 2 25 2 3625 2 14152 2 37 2 569 2 9527 4 2637 2 516 2 14153 2 367 2 3592 2 25 2 3625 2 71 4 13 2 14 2 8961 2 14154 4 44 2 1018 2 725 2 737 2 12184 2 274 2 13263 2 25 2 9 2 14155 4 132 2 3625 2 1956 2 10620 2 13429 2 14156 4 14157 2 14105 2 3411 2 14158 4 71 2 14159 2 1143 2 1808 2 14160 1337 51 2 2019 2 3879 2 14161 2 2122 2 43 2 6103 1337 51 2 5174 2 1569 2 14162 2 9 2 293 2 10086 1337 51 2 587 2 9001 2 14163 2 5313 1337 51 2 2157 2 1475 2 14164 2 1008 2 8942 2 1437 2 14165 4 83 2 14166 2 14167 1337 51 2 343 2 112 2 4148 2 96 2 14168 1337 51 2 1892 2 186 2 9 2 293 2 14169 1337 51 2 2230 2 96 2 2028 2 279 2 2367 1337 51 2 192 2 183 2 14170 2 193 2 14171 2 1316 2 3612 2 125 2 8675 4 93 2 2470 2 3206 2 14172 1337 51 2 1892 2 5362 2 139 2 1726 2 1046 2 2672 1337 51 2 3756 2 14173 2 1814 2 14174 1337 51 2 4760 2 14175 2 5054 2 1385 1337 51 2 14176 2 14177 4 104 2 14178 2 493 2 65 2 14179 2 14180 3094 14181 2 52 2 2471 2 1290 2 3417 2 14182 2 193 2 4852 2 193 2 14183 2 5017 2 193 2 14184 2 193 2 14185 3094 14157 2 14186 2 14187 2 2644 2 14188 2 14189 1337 223 1337 1249 2 5050 2 3840 2 14190 2787 51 2 3740 2 110 2 756 2 12382 2 3840 2787 51 2 3740 2 110 2 756 2 11077 2 3840 2787 51 2 1269 2 14191 2 14192 2787 51 2 316 2 2327 2 30 2 737 2 8138 3094 1262 2 1183 2 25 2 14171 2 3924 2 2712 2 14193 2 96 2 1257 1337 14194 2 1329 2 3924 2 25 2 2519 2 462 2 3840 1337 14194 2 3490 2 139 2 137 2 3840 1337 223 3094 968 2 14195 2 14196 1337 649 1337 1 2 8962 2 1956 2 400 1337 3063 2 7097 2 14197 2 1330 2 65 2 3165 2 7099 1337 3063 2 14198 2 14199 3094 1 2 8962 2 1986 2 6615 2 1260 1337 3063 2 7097 2 14200 2 14201 2 65 2 4852 2 13513 2 7099 1337 14202 2 143 2 3108 2 14203 2 5365 2 3063 2 14204 2 183 2 65 2 14205 3094 1 2 8962 2 2489 2 14206 2 1260 1337 3063 2 7097 2 14207 2 1766 2 7099 1337 1170 2 14208 1337 1170 2 14209 2 3093 3094 1 2 8962 2 2511 2 1889 2 14210 1337 14211 2 14212 2 14213 2 14214 2 14215 1337 223 3094 3961 2 14216 2 2669 2 8138 2 8458 2 14217 2 193 2 1180 2 14218 2 1180 2 193 2 4852 2 14219 4 1022 2 9010 2 655 2 14220 3094 14181 2 1437 2 58 2 1637 2 65 2 713 2 13584 3094 9237 2 9238 2 1996 2 14221 2 207 2 13204 2 14222 2 14223 3094 14224 2 14225 1337 51 2 5280 2 194 2 9011 2 1655 2 9012 1337 51 2 1892 2 13468 2 177 2 37 2 9011 2 14226 1337 51 2 2685 2 14222 2 2713 2 1349 2 112 2 79 2 9 2 571 1337 51 2 2999 2 30 2 4732 2 183 2 30 2 13447 4 132 2 3625 2 1986 2 1858 2 1658 4 14227 2 9 2 1873 2 274 2 14228 4 71 2 14227 2 10247 2 14229 1337 51 2 14230 2 1859 2 4490 2 458 2 65 2 8223 2 184 1337 51 2 1892 2 1303 2 13437 2 1859 2 25 2 2482 2 14231 4 83 2 14147 2 14232 2 14233 1337 51 2 192 2 598 2 14234 2 567 2 7922 2 1056 2 14235 1337 51 2 2019 2 14236 2 51 2 567 2 279 2 1475 1337 51 2 2481 2 9 2 1873 2 8600 2 274 2 14237 4 93 2 3101 2 14238 1337 51 2 2144 2 272 2 2330 2 4490 2 130 2 14231 1337 51 2 3141 2 279 2 14239 2 14240 2 1291 1337 51 2 2019 2 4920 2 14241 2 6331 2 14242 4 104 2 14243 2 14244 1337 51 2 1892 2 63 2 3417 2 194 2 177 2 14245 1337 51 2 1892 2 3431 2 14246 2 14247 1337 51 2 1892 2 1688 2 194 2 96 2 14248 4 132 2 3625 2 2489 2 13954 2 130 2 1410 4 14249 2 14250 4 71 2 14251 2 657 2 14252 1337 51 2 2840 2 11479 2 1834 2 46 2 2051 2 58 2 9 2 1045 2 1046 2 3882 2 1824 1337 51 2 461 2 96 2 1247 1337 51 2 1494 2 14253 2 183 2 3035 4 83 2 2139 2 14254 1337 51 2 1595 2 9 2 14255 2 2718 2 1511 2 25 2 463 2 14024 1337 51 2 5225 2 13537 2 30 2 1006 2 1322 1337 51 2 2019 2 1478 2 1290 2 13142 2 30 2 1183 4 93 2 3476 2 335 2 14256 1337 51 2 9200 2 96 2 14257 2 4306 2 193 2 3625 2 2851 1337 51 2 14258 2 14257 2 10767 2 4100 2 14024 1337 51 2 14259 2 2644 2 1316 2 5416 2 120 2 12134 4 104 2 1874 2 44 2 2019 2 14260 1337 51 2 3071 2 1834 2 125 2 1582 2 1822 1337 51 2 2019 2 14261 2 25 2 2720 1337 51 2 2062 2 207 2 2234 1337 51 2 4946 2 1316 4 132 2 3625 2 2511 2 3667 4 14262 2 9 2 1045 2 13957 2 183 2 9 2 14263 4 71 2 1342 2 3627 2 1139 2 14264 1337 51 2 14265 2 2718 2 14266 1337 51 2 4943 2 463 2 536 2 2718 1337 51 2 14267 2 463 2 1260 2 536 2 516 2 1402 1337 51 2 1018 2 904 2 274 2 1846 1337 51 2 9237 2 9238 2 1996 2 9397 2 207 2 4881 2 1997 2 462 2 550 4 83 2 14268 2 657 2 14269 1337 51 2 3958 2 9 2 1045 2 1046 2 9050 1337 51 2 2474 2 1511 2 30 2 1006 2 1322 1337 51 2 150 2 14270 2 11276 2 14271 2 2130 1337 51 2 150 2 14272 2 2106 4 93 2 3476 2 14269 1337 51 2 1139 2 547 2 2237 1337 51 2 150 2 63 2 550 2 14231 1337 51 2 1440 2 1679 2 14273 4 104 2 2637 2 2999 2 14274 2 14275 1337 51 2 8556 1337 51 2 14276 2 2292 2 1585 2 5416 2 904 2 112 2 14277 1337 51 2 192 2 357 2 2489 2 1951 2 25 2 3625 2 5117 2 13998 2 37 2 727 2 6391 1337 51 2 2637 2 1464 2 2489 2 8556 2 130 2 2494 2 9 2 3491 2 14278 2 1302 2 14279 1337 51 2 14259 2 8554 2 2999 2 14280 2 966 2 2200 2 14281 4 1022 2 2637 2 5149 2 14282 2 14283 2 2854 2 14284 3094 729 2 14285 2 2200 2 14286 1337 51 2 1352 2 1478 2 9896 2 727 2 9079 2 14287 2 65 2 272 2 8938 1337 51 2 14282 2 166 2 14288 2 14289 2 25 2 9218 1337 51 2 1352 2 1478 2 7790 2 727 2 13958 2 14290 3094 9241 2 130 2 2494 2 14291 1337 51 2 2226 2 177 2 1873 2 14292 2 14293 1337 51 2 2103 2 5504 2 14294 2 37 2 96 2 1549 2 14295 2 14296 1337 51 2 1487 2 5504 2 9152 2 3491 2 14297 2 2266 2 1846 2 14298 3094 14299 2 37 2 228 2 57 2 9223 2 274 2 14105 2 1316 2 13425 3094 2483 2 58 2 2022 2 1006 2 3755 2 14024 2 51 2 177 2 58 2 1006 2 2182 2 2311 4 13 2 9502 2 9503 2 51 2 8556 2 130 2 1522 2 1606 4 192 2 112 2 2100 2 13163 2 14300 82 51 2 14301 2 1478 2 207 2 3500 2 3490 2 14302 82 51 2 4437 2 4569 2 14303 2 2051 2 130 2 488 2 536 2 96 2 3027 82 51 2 5014 2 1290 2 3162 2 289 2 9144 82 51 2 14304 2 9 2 3224 2 14305 2 4341 2 5065 82 51 2 14306 2 13827 2 14307 2 2054 2 4344 2 1478 2 1837 82 51 2 1834 2 125 2 8600 2 1582 2 67 2 177 2 2218 2 491 82 51 2 14308 2 9261 2 2051 2 67 2 14305 2 10201 2 96 2 14309 82 51 2 14310 2 186 2 9 2 2735 2 14311 2 14312 2 5416 2 966 2 14313 82 51 2 14314 2 1580 2 274 2 14222 2 756 2 410 82 51 2 14315 2 1316 2 1478 2 14316 2 1213 2 2045 2 14125 2 14317 82 51 2 14318 2 1478 2 9896 2 727 2 2041 2 65 2 272 2 14319 4 14320 2 115 2 3523 2 14321 2 3654 2 1951 2 25 2 3625 2 5509 4 2637 2 5149 2 5416 2 14322 2 2854 2 9 2 3491 2 13937 2 3625 2 14323 4 13 2 228 2 57 2 13094 2 14324 2 13667 2 14325 2 8229 2 1942 4 14326 2 207 2 3523 2 14327 82 51 2 13553 2 139 2 183 2 14328 2 51 2 44 2 14329 2 966 2 9505 82 51 2 14330 2 96 2 4315 2 14331 2 51 2 44 2 48 2 904 2 560 2 3924 2 2478 82 51 2 1823 2 14332 2 51 2 13667 2 14186 2 5416 2 966 2 579 82 51 2 14333 2 14334 2 51 2 2854 2 14335 2 183 2 3663 2 13958 82 51 2 14336 2 14337 2 14338 2 51 2 1371 2 1642 2 4967 2 4490 4 1874 2 112 2 488 2 14339 2 3654 2 1951 2 25 2 3625 2 71 4 13 2 1068 2 14340 4 143 2 14341 2 143 2 14342 2 143 82 12456 82 143 2 14343 2 58 2 14344 2 125 2 754 2 14345 2 143 2 7269 2 475 2 904 2 1045 2 9081 2 14346 2 1606 2 58 2 8678 2 207 2 12513 2 14103 2 143 82 143 2 14347 2 516 2 1322 2 207 2 14345 2 143 2 13945 2 601 2 58 2 14348 2 1571 2 14349 2 14350 2 143 82 143 2 4437 2 4569 2 177 2 12224 2 2556 2 14351 2 143 2 2476 2 1478 2 14352 2 9 2 14353 2 1784 2 96 2 2704 2 77 2 9 2 14354 2 143 82 143 2 14082 2 9270 2 463 2 471 2 14355 2 1478 2 3027 2 143 2 2087 2 5416 2 125 2 14356 2 1139 2 2596 2 14357 2 195 2 143 82 143 2 9063 2 5416 2 30 2 1183 2 11056 2 14358 2 143 2 146 2 14359 2 110 2 14360 2 13510 2 727 2 14103 2 143 82 143 2 14361 2 1584 2 14362 2 14305 2 10201 2 9 2 14363 2 143 2 12273 2 579 2 2411 2 14103 2 587 2 96 2 14364 2 143 82 143 2 1834 2 488 2 9 2 14365 2 2054 2 4344 2 1478 2 2936 2 143 2 14366 2 13958 2 9612 2 579 2 1045 2 14367 2 143 82 143 2 9070 2 1316 2 1478 2 14316 2 2628 2 14368 2 2089 2 143 2 5149 2 2119 2 292 2 2200 2 14369 2 2854 2 14234 2 125 2 1478 2 14370 2 143 4 13 2 6442 2 4530 4 143 2 3625 2 143 2 1243 2 14371 2 143 2 11299 2 2848 2 143 82 14372 82 143 2 4854 2 10620 2 14373 2 143 2 587 2 1419 2 14374 2 26 2 3162 2 14171 2 3924 2 143 2 2481 2 14375 2 130 2 8695 2 143 82 143 2 4861 2 14376 2 143 2 1253 2 4490 2 3380 2 14377 2 143 2 1414 2 14177 2 143 82 143 2 4865 2 14252 2 143 2 10767 2 14378 2 463 2 14379 2 143 2 14380 2 43 2 727 2 14024 2 143 82 143 2 4868 2 14381 2 143 2 321 2 3224 2 3221 2 355 2 143 2 10358 2 14382 2 550 2 510 2 143 4 13 2 1005 2 1606 2 14383 2 2806 2 10620 2 14384 4 192 2 9205 2 1047 2 9896 2 1444 2 58 2 1500 2 14385 2 14386 2 43 2 14387 4 71 2 4139 2 3942 2 9 2 129 82 83 2 1621 2 110 2 112 2 14388 82 93 2 3590 2 2228 2 1144 2 14389 2 14390 2 1437 2 12877 82 104 2 1773 2 14391 2 207 2 483 2 1047 4 14392 2 626 2 115 2 9697 2 1045 2 13549 2 513 2 186 2 5579 2 14393 4 13 2 5423 2 37 2 3484 2 209 4 3961 2 732 2 1331 2 14394 82 51 2 14395 2 51 2 14396 2 920 2 1437 2 58 2 1637 2 65 2 713 2 9001 2 13937 2 3625 2 5117 2 4353 2 4118 82 51 2 13940 2 51 2 14396 2 207 2 2009 2 462 2 463 2 507 2 13937 2 3625 2 5185 2 4353 2 3774 4 14397 2 3408 82 51 2 14398 2 51 2 1773 2 1073 2 30 2 1290 2 1074 2 471 2 14399 2 1045 2 1046 82 51 2 14400 2 51 2 961 2 6197 2 8826 2 9050 2 65 2 3625 2 943 82 51 2 14401 2 51 2 1269 2 1478 2 14402 2 274 2 14403 2 2680 4 13 2 8811 2 8812 4 2517 2 601 2 14404 82 51 2 13945 2 6178 2 14405 2 1353 2 25 2 1478 82 51 2 9800 2 5416 2 6178 2 1276 2 2303 2 115 2 14406 82 51 2 14407 2 1478 2 8816 2 626 2 628 2 8819 82 51 2 4760 2 1415 2 14408 2 14409 2 295 2 628 2 7660
+
+# Systematic Debugging
+
+## Overview
+
+Random fixes waste time and create new bugs. Quick patches mask underlying issues.
+
+**Core principle:** ALWAYS find root cause before attempting fixes. Symptom fixes are failure.
+
+**Violating the letter of this process is violating the spirit of debugging.**
+
+## The Iron Law
+
+```
+NO FIXES WITHOUT ROOT CAUSE INVESTIGATION FIRST
+```
+
+If you haven't completed Phase 1, you cannot propose fixes.
+
+## When to Use
+
+Use for ANY technical issue:
+- Test failures
+- Bugs in production
+- Unexpected behavior
+- Performance problems
+- Build failures
+- Integration issues
+
+**Use this ESPECIALLY when:**
+- Under time pressure (emergencies make guessing tempting)
+- "Just one quick fix" seems obvious
+- You've already tried multiple fixes
+- Previous fix didn't work
+- You don't fully understand the issue
+
+**Don't skip when:**
+- Issue seems simple (simple bugs have root causes too)
+- You're in a hurry (rushing guarantees rework)
+- Manager wants it fixed NOW (systematic is faster than thrashing)
+
+## ILX-First (Ruby/Rails Projects)
+
+**Before Phase 1, check for ILX to understand semantic intent:**
+
+```bash
+# Check if ILX exists for the buggy file
+ls .agentc/ilx/app/models/user.ilx
+ls .agentc/ilx/app/controllers/posts_controller.ilx
+```
+
+**If ILX exists, read it first:**
+- **Constraints**: What SHOULD be enforced? (e.g., `|amt>0∧status=active`)
+- **Edge cases**: What edge cases are documented? (e.g., `edge:amt<min→reject`)
+- **Triggers**: What side effects should fire? (e.g., `⟹λnotify∧λemail`)
+- **Features**: What's the expected behavior? (e.g., `#create→Entity|constraints`)
+
+**Compare ILX intent vs actual behavior:**
+- Is a constraint missing in code but present in ILX?
+- Is an edge case not handled?
+- Is a trigger not firing?
+
+**Then proceed to Phase 1** with semantic context.
+
+**If no ILX:** Proceed directly to Phase 1.
+
+## The Four Phases
+
+You MUST complete each phase before proceeding to the next.
+
+### Phase 1: Root Cause Investigation
+
+**BEFORE attempting ANY fix:**
+
+1. **Read Error Messages Carefully**
+   - Don't skip past errors or warnings
+   - They often contain the exact solution
+   - Read stack traces completely
+   - Note line numbers, file paths, error codes
+
+2. **Reproduce Consistently**
+   - Can you trigger it reliably?
+   - What are the exact steps?
+   - Does it happen every time?
+   - If not reproducible → gather more data, don't guess
+
+3. **Check Recent Changes**
+   - What changed that could cause this?
+   - Git diff, recent commits
+   - New dependencies, config changes
+   - Environmental differences
+
+4. **Gather Evidence in Multi-Component Systems**
+
+   **WHEN system has multiple components (CI → build → signing, API → service → database):**
+
+   **BEFORE proposing fixes, add diagnostic instrumentation:**
+   ```
+   For EACH component boundary:
+     - Log what data enters component
+     - Log what data exits component
+     - Verify environment/config propagation
+     - Check state at each layer
+
+   Run once to gather evidence showing WHERE it breaks
+   THEN analyze evidence to identify failing component
+   THEN investigate that specific component
+   ```
+
+   **Example (multi-layer system):**
+   ```bash
+   # Layer 1: Workflow
+   echo "=== Secrets available in workflow: ==="
+   echo "IDENTITY: ${IDENTITY:+SET}${IDENTITY:-UNSET}"
+
+   # Layer 2: Build script
+   echo "=== Env vars in build script: ==="
+   env | grep IDENTITY || echo "IDENTITY not in environment"
+
+   # Layer 3: Signing script
+   echo "=== Keychain state: ==="
+   security list-keychains
+   security find-identity -v
+
+   # Layer 4: Actual signing
+   codesign --sign "$IDENTITY" --verbose=4 "$APP"
+   ```
+
+   **This reveals:** Which layer fails (secrets → workflow ✓, workflow → build ✗)
+
+5. **Trace Data Flow**
+
+   **WHEN error is deep in call stack:**
+
+   **REQUIRED SUB-SKILL:** Use superpowers:root-cause-tracing for backward tracing technique
+
+   **Quick version:**
+   - Where does bad value originate?
+   - What called this with bad value?
+   - Keep tracing up until you find the source
+   - Fix at source, not at symptom
+
+### Phase 2: Pattern Analysis
+
+**Find the pattern before fixing:**
+
+1. **Find Working Examples**
+   - Locate similar working code in same codebase
+   - What works that's similar to what's broken?
+
+2. **Compare Against References**
+   - If implementing pattern, read reference implementation COMPLETELY
+   - Don't skim - read every line
+   - Understand the pattern fully before applying
+
+3. **Identify Differences**
+   - What's different between working and broken?
+   - List every difference, however small
+   - Don't assume "that can't matter"
+
+4. **Understand Dependencies**
+   - What other components does this need?
+   - What settings, config, environment?
+   - What assumptions does it make?
+
+### Phase 3: Hypothesis and Testing
+
+**Scientific method:**
+
+1. **Form Single Hypothesis**
+   - State clearly: "I think X is the root cause because Y"
+   - Write it down
+   - Be specific, not vague
+
+2. **Test Minimally**
+   - Make the SMALLEST possible change to test hypothesis
+   - One variable at a time
+   - Don't fix multiple things at once
+
+3. **Verify Before Continuing**
+   - Did it work? Yes → Phase 4
+   - Didn't work? Form NEW hypothesis
+   - DON'T add more fixes on top
+
+4. **When You Don't Know**
+   - Say "I don't understand X"
+   - Don't pretend to know
+   - Ask for help
+   - Research more
+
+### Phase 4: Implementation
+
+**Fix the root cause, not the symptom:**
+
+1. **Create Failing Test Case**
+   - Simplest possible reproduction
+   - Automated test if possible
+   - One-off test script if no framework
+   - MUST have before fixing
+   - **REQUIRED SUB-SKILL:** Use superpowers:test-driven-development for writing proper failing tests
+
+2. **Implement Single Fix**
+   - Address the root cause identified
+   - ONE change at a time
+   - No "while I'm here" improvements
+   - No bundled refactoring
+
+3. **Verify Fix**
+   - Test passes now?
+   - No other tests broken?
+   - Issue actually resolved?
+
+4. **If Fix Doesn't Work**
+   - STOP
+   - Count: How many fixes have you tried?
+   - If < 3: Return to Phase 1, re-analyze with new information
+   - **If ≥ 3: STOP and question the architecture (step 5 below)**
+   - DON'T attempt Fix #4 without architectural discussion
+
+5. **If 3+ Fixes Failed: Question Architecture**
+
+   **Pattern indicating architectural problem:**
+   - Each fix reveals new shared state/coupling/problem in different place
+   - Fixes require "massive refactoring" to implement
+   - Each fix creates new symptoms elsewhere
+
+   **STOP and question fundamentals:**
+   - Is this pattern fundamentally sound?
+   - Are we "sticking with it through sheer inertia"?
+   - Should we refactor architecture vs. continue fixing symptoms?
+
+   **Discuss with your human partner before attempting more fixes**
+
+   This is NOT a failed hypothesis - this is a wrong architecture.
+
+## Red Flags - STOP and Follow Process
+
+If you catch yourself thinking:
+- "Quick fix for now, investigate later"
+- "Just try changing X and see if it works"
+- "Add multiple changes, run tests"
+- "Skip the test, I'll manually verify"
+- "It's probably X, let me fix that"
+- "I don't fully understand but this might work"
+- "Pattern says X but I'll adapt it differently"
+- "Here are the main problems: [lists fixes without investigation]"
+- Proposing solutions before tracing data flow
+- **"One more fix attempt" (when already tried 2+)**
+- **Each fix reveals new problem in different place**
+
+**ALL of these mean: STOP. Return to Phase 1.**
+
+**If 3+ fixes failed:** Question the architecture (see Phase 4.5)
+
+## your human partner's Signals You're Doing It Wrong
+
+**Watch for these redirections:**
+- "Is that not happening?" - You assumed without verifying
+- "Will it show us...?" - You should have added evidence gathering
+- "Stop guessing" - You're proposing fixes without understanding
+- "Ultrathink this" - Question fundamentals, not just symptoms
+- "We're stuck?" (frustrated) - Your approach isn't working
+
+**When you see these:** STOP. Return to Phase 1.
+
+## Common Rationalizations
+
+| Excuse | Reality |
+|--------|---------|
+| "Issue is simple, don't need process" | Simple issues have root causes too. Process is fast for simple bugs. |
+| "Emergency, no time for process" | Systematic debugging is FASTER than guess-and-check thrashing. |
+| "Just try this first, then investigate" | First fix sets the pattern. Do it right from the start. |
+| "I'll write test after confirming fix works" | Untested fixes don't stick. Test first proves it. |
+| "Multiple fixes at once saves time" | Can't isolate what worked. Causes new bugs. |
+| "Reference too long, I'll adapt the pattern" | Partial understanding guarantees bugs. Read it completely. |
+| "I see the problem, let me fix it" | Seeing symptoms ≠ understanding root cause. |
+| "One more fix attempt" (after 2+ failures) | 3+ failures = architectural problem. Question pattern, don't fix again. |
+
+## Quick Reference
+
+| Phase | Key Activities | Success Criteria |
+|-------|---------------|------------------|
+| **1. Root Cause** | Read errors, reproduce, check changes, gather evidence | Understand WHAT and WHY |
+| **2. Pattern** | Find working examples, compare | Identify differences |
+| **3. Hypothesis** | Form theory, test minimally | Confirmed or new hypothesis |
+| **4. Implementation** | Create test, fix, verify | Bug resolved, tests pass |
+
+## When Process Reveals "No Root Cause"
+
+If systematic investigation reveals issue is truly environmental, timing-dependent, or external:
+
+1. You've completed the process
+2. Document what you investigated
+3. Implement appropriate handling (retry, timeout, error message)
+4. Add monitoring/logging for future investigation
+
+**But:** 95% of "no root cause" cases are incomplete investigation.
+
+## Integration with Other Skills
+
+**This skill requires using:**
+- **root-cause-tracing** - REQUIRED when error is deep in call stack (see Phase 1, Step 5)
+- **test-driven-development** - REQUIRED for creating failing test case (see Phase 4, Step 1)
+
+**Complementary skills:**
+- **defense-in-depth** - Add validation at multiple layers after finding root cause
+- **condition-based-waiting** - Replace arbitrary timeouts identified in Phase 2
+- **verification-before-completion** - Verify fix worked before claiming success
+
+## Real-World Impact
+
+From debugging sessions:
+- Systematic approach: 15-30 minutes to fix
+- Random fixes approach: 2-3 hours of thrashing
+- First-time fix rate: 95% vs 40%
+- New bugs introduced: Near zero vs common

@@ -2,4 +2,229 @@
 name: using-git-worktrees
 description: Use when starting feature work that needs isolation from current workspace or before executing implementation plans - creates isolated git worktrees with smart directory selection and safety verification
 ---
-82 1 2 6169 2 3756 2 15702 4 13 2 8597 4 3756 2 3102 2 301 2 8655 2 1106 2 13694 2 9 2 8223 2 15703 2 3766 2 328 2 120 2 1290 2 2092 2 290 2 966 2 15704 4 1037 2 8681 2 13945 2 2069 2 15705 2 329 2 1121 2 452 2 292 2 15706 2 15707 4 9215 2 30 2 9216 2 2486 2 1021 2 9 2 15708 2 732 2 25 2 5151 2 2713 2 59 2 8655 2 15709 4 13 2 2430 2 14724 2 1606 4 1522 2 177 2 2048 2 11326 4 132 2 71 2 316 2 2820 2 15710 4 649 82 1 2 316 2 65 2 2048 2 1812 82 3552 2 7748 2 15711 2 5364 981 1 2 1529 2 15712 82 3552 2 7748 2 3102 2 5364 260 1 2 8433 82 223 4 2637 2 2662 2 1996 2 139 2 4495 2 192 2 4679 2 1488 2 15713 2 15714 4 132 2 83 2 316 2 1452 4 649 82 3108 2 7894 2 15715 2 1452 2 5364 82 223 4 2637 2 15716 2 15717 2 1996 2 96 2 966 2 15718 4 132 2 93 2 2062 2 1807 4 192 2 516 2 2069 2 588 2 130 2 516 2 1452 2 15719 4 223 82 150 2 3104 2 2069 2 14063 2 5280 2 48 2 49 2 301 2 15720 4 71 2 15721 2 15722 2 15723 82 83 2 15724 2 15725 2 15726 4 2669 2 2027 2 112 2 15727 82 223 4 13 2 15728 2 484 4 132 2 1249 2 15729 2 15710 2 15730 2 43 2 15731 4 15732 2 355 2 15733 2 274 2 2009 2 15734 4 649 82 1 2 316 2 536 2 2069 2 1873 2 65 2 15733 82 3108 2 6530 2 15735 2 15733 2 5365 2 3108 2 6530 2 15736 2 15733 82 223 4 2637 2 2022 2 65 2 15737 4 15738 2 15739 2 1162 2 9143 2 2676 2 13142 2 15740 82 71 2 1773 2 2228 2 1475 2 25 2 15733 82 83 2 5428 2 9 2 1511 82 93 2 367 2 37 2 3104 2 4590 4 1878 2 15741 2 6454 2 2248 2 15742 2 3104 2 15743 2 25 2 3087 4 132 2 1249 2 15744 2 2430 2 15745 4 150 2 15733 2 452 2 2296 2 51 2 8988 2 1202 2 15746 4 13 2 403 2 4286 4 132 2 71 2 2652 2 1520 2 4302 4 649 82 15747 2 3128 2 3129 2 15748 82 223 4 132 2 83 2 321 2 9465 4 649 82 1 2 2966 2 630 2 81 82 507 2 15749 2 65 387 15750 709 15751 709 8050 387 15752 709 15753 709 8050 82 8060 4 1 2 321 2 3104 2 37 2 727 2 3092 82 3091 2 3104 2 2644 2 15754 2 3171 2 15755 82 650 2 15754 82 223 4 132 2 93 2 1262 2 1520 2 8093 4 15756 2 130 2 289 2 2228 2 15757 4 649 82 1 2 594 82 536 2 543 2 3055 2 5920 2 3131 2 2556 387 4006 2 5965 387 536 2 543 2 3055 2 15758 2 3131 2 2556 709 15758 2 15759 387 3068 82 3068 4 1 2 9409 82 536 2 543 2 3055 2 9410 2 3131 2 2556 2 9411 2 15760 2 3068 4 1 2 9413 82 536 2 543 2 3055 2 9414 2 3131 2 2556 2 9415 2 15761 2 3068 4 1 2 4580 82 536 2 543 2 3055 2 15762 2 3131 2 2556 2 15763 2 5965 2 6518 2 15764 2 3068 82 536 2 543 2 3055 2 9417 2 3131 2 2556 2 15765 2 15760 2 3068 4 1 2 8672 82 536 2 543 2 3055 2 9419 2 3131 2 2556 2 4412 2 15766 2 15767 2 3068 82 223 4 132 2 104 2 1269 2 3083 2 15258 4 1262 2 550 2 25 2 1632 2 3104 2 1026 2 15768 4 649 82 1 2 594 82 4006 2 1230 2 3398 4 1 2 9409 82 9411 2 463 4 1 2 9413 82 9415 2 463 4 1 2 4580 82 15769 4 1 2 8672 82 4412 2 463 2 15770 82 223 4 2637 2 550 2 9421 2 2979 2 15771 2 1836 2 1684 2 25 2 644 2 43 2 15772 4 2637 2 550 2 9405 2 2979 2 12220 4 132 2 1022 2 2979 2 4761 4 223 82 9465 2 2989 2 30 2 15773 82 503 2 5396 2 9422 2 8443 2 829 2 2089 82 12201 2 25 2 9218 2 15774 82 223 4 13 2 6442 2 4530 4 143 2 15775 2 143 2 2969 2 143 82 10791 82 143 2 15776 2 588 2 143 2 1996 2 96 2 15777 2 15778 2 143 82 143 2 15779 2 588 2 143 2 1996 2 96 2 15777 2 15778 2 143 82 143 2 1308 2 1676 2 143 2 1996 2 15776 2 143 82 143 2 1209 2 588 2 143 2 316 2 1452 2 193 2 2062 2 750 2 143 82 143 2 2430 2 183 2 65 2 15733 2 143 2 1773 2 96 2 1328 2 329 2 3175 2 143 82 143 2 503 2 3635 2 6602 2 13691 2 143 2 2979 2 2119 2 329 2 1836 2 143 82 143 2 150 2 15780 2 143 2 1272 2 1920 2 5965 2 143 4 13 2 1068 2 8775 4 9484 2 15733 2 9485 82 51 2 9486 2 9465 2 15743 2 723 2 15781 2 15782 2 3091 2 3142 82 51 2 9488 2 3046 2 3108 2 15733 2 274 2 2009 2 15783 2 3104 4 15784 2 2069 2 15785 82 51 2 9486 2 417 2 15786 2 15787 2 1202 2 1403 82 51 2 9488 2 1522 2 15788 2 2152 2 365 2 1452 2 365 2 1836 4 15789 2 37 2 462 2 3747 82 51 2 9486 2 146 2 15790 2 727 2 1415 2 77 2 1449 2 475 82 51 2 9488 2 2979 2 15771 2 723 2 1396 2 1907 2 25 2 644 4 15791 2 4948 2 15792 82 51 2 9486 2 13084 2 120 2 595 2 1021 2 272 2 3198 82 51 2 9488 2 15756 2 77 2 1202 2 586 2 15793 2 2207 4 13 2 2856 2 400 4 223 82 5591 2 11276 2 1021 2 9 2 15708 2 732 2 25 2 5151 2 2713 2 59 2 8655 2 15794 4 15795 2 15721 2 51 2 15796 82 13914 2 15733 2 51 2 1015 2 15797 82 15798 2 3133 2 3091 2 3104 2 2644 2 15799 2 3171 2 15800 82 15801 2 9411 2 15802 82 15801 2 9411 2 463 2 51 2 15803 2 15804 4 9465 2 2989 2 30 2 15805 82 503 2 5396 2 15806 2 8443 2 829 2 2089 82 12201 2 25 2 9218 2 162 2 3325 82 223 4 13 2 9502 2 9503 4 9504 82 51 2 321 2 3104 2 966 2 15733 2 452 2 15807 82 51 2 1272 2 13691 2 463 2 452 82 51 2 367 2 37 2 462 2 550 2 966 2 2926 82 51 2 15808 2 2069 2 4523 2 920 2 9493 82 51 2 1272 2 1452 2 26 4 9507 82 51 2 1522 2 2069 2 15788 2 2152 2 365 2 1452 2 365 2 1836 82 51 2 1269 2 15733 2 207 2 15783 82 51 2 15756 2 130 2 289 2 1202 2 4948 82 51 2 1269 2 6379 2 463 2 13691 4 13 2 5423 4 9387 2 9388 82 51 2 15809 2 9392 2 4426 2 51 2 14396 2 920 2 799 2 58 2 14615 2 130 2 1056 2 459 82 51 2 1627 2 732 2 2392 2 8655 2 8656 4 9512 2 9513 82 51 2 13938 2 51 2 14396 2 207 2 3148 2 471 2 328 2 725 82 51 2 9510 2 43 2 9508 2 51 2 4890 2 2727 2 65 2 177 2 3104
+
+# Using Git Worktrees
+
+## Overview
+
+Git worktrees create isolated workspaces sharing the same repository, allowing work on multiple branches simultaneously without switching.
+
+**Core principle:** Systematic directory selection + safety verification = reliable isolation.
+
+**Announce at start:** "I'm using the using-git-worktrees skill to set up an isolated workspace."
+
+## Directory Selection Process
+
+Follow this priority order:
+
+### 1. Check Existing Directories
+
+```bash
+# Check in priority order
+ls -d .worktrees 2>/dev/null     # Preferred (hidden)
+ls -d worktrees 2>/dev/null      # Alternative
+```
+
+**If found:** Use that directory. If both exist, `.worktrees` wins.
+
+### 2. Check CLAUDE.md
+
+```bash
+grep -i "worktree.*director" CLAUDE.md 2>/dev/null
+```
+
+**If preference specified:** Use it without asking.
+
+### 3. Ask User
+
+If no directory exists and no CLAUDE.md preference:
+
+```
+No worktree directory found. Where should I create worktrees?
+
+1. .worktrees/ (project-local, hidden)
+2. ~/.config/superpowers/worktrees/<project-name>/ (global location)
+
+Which would you prefer?
+```
+
+## Safety Verification
+
+### For Project-Local Directories (.worktrees or worktrees)
+
+**MUST verify .gitignore before creating worktree:**
+
+```bash
+# Check if directory pattern in .gitignore
+grep -q "^\.worktrees/$" .gitignore || grep -q "^worktrees/$" .gitignore
+```
+
+**If NOT in .gitignore:**
+
+Per Jesse's rule "Fix broken things immediately":
+1. Add appropriate line to .gitignore
+2. Commit the change
+3. Proceed with worktree creation
+
+**Why critical:** Prevents accidentally committing worktree contents to repository.
+
+### For Global Directory (~/.config/superpowers/worktrees)
+
+No .gitignore verification needed - outside project entirely.
+
+## Creation Steps
+
+### 1. Detect Project Name
+
+```bash
+project=$(basename "$(git rev-parse --show-toplevel)")
+```
+
+### 2. Create Worktree
+
+```bash
+# Determine full path
+case $LOCATION in
+  .worktrees|worktrees)
+    path="$LOCATION/$BRANCH_NAME"
+    ;;
+  ~/.config/superpowers/worktrees/*)
+    path="~/.config/superpowers/worktrees/$project/$BRANCH_NAME"
+    ;;
+esac
+
+# Create worktree with new branch
+git worktree add "$path" -b "$BRANCH_NAME"
+cd "$path"
+```
+
+### 3. Run Project Setup
+
+Auto-detect and run appropriate setup:
+
+```bash
+# Ruby/Rails
+if [ -f Gemfile ]; then
+  bundle install
+  if [ -f bin/rails ]; then
+    bin/rails db:prepare
+  fi
+fi
+
+# Node.js
+if [ -f package.json ]; then npm install; fi
+
+# Rust
+if [ -f Cargo.toml ]; then cargo build; fi
+
+# Python
+if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+if [ -f pyproject.toml ]; then poetry install; fi
+
+# Go
+if [ -f go.mod ]; then go mod download; fi
+```
+
+### 4. Verify Clean Baseline
+
+Run tests to ensure worktree starts clean:
+
+```bash
+# Ruby/Rails
+bundle exec rspec
+
+# Node.js
+npm test
+
+# Rust
+cargo test
+
+# Python
+pytest
+
+# Go
+go test ./...
+```
+
+**If tests fail:** Report failures, ask whether to proceed or investigate.
+
+**If tests pass:** Report ready.
+
+### 5. Report Location
+
+```
+Worktree ready at <full-path>
+Tests passing (<N> tests, 0 failures)
+Ready to implement <feature-name>
+```
+
+## Quick Reference
+
+| Situation | Action |
+|-----------|--------|
+| `.worktrees/` exists | Use it (verify .gitignore) |
+| `worktrees/` exists | Use it (verify .gitignore) |
+| Both exist | Use `.worktrees/` |
+| Neither exists | Check CLAUDE.md → Ask user |
+| Directory not in .gitignore | Add it immediately + commit |
+| Tests fail during baseline | Report failures + ask |
+| No package.json/Cargo.toml | Skip dependency install |
+
+## Common Mistakes
+
+**Skipping .gitignore verification**
+- **Problem:** Worktree contents get tracked, pollute git status
+- **Fix:** Always grep .gitignore before creating project-local worktree
+
+**Assuming directory location**
+- **Problem:** Creates inconsistency, violates project conventions
+- **Fix:** Follow priority: existing > CLAUDE.md > ask
+
+**Proceeding with failing tests**
+- **Problem:** Can't distinguish new bugs from pre-existing issues
+- **Fix:** Report failures, get explicit permission to proceed
+
+**Hardcoding setup commands**
+- **Problem:** Breaks on projects using different tools
+- **Fix:** Auto-detect from project files (package.json, etc.)
+
+## Example Workflow
+
+```
+You: I'm using the using-git-worktrees skill to set up an isolated workspace.
+
+[Check .worktrees/ - exists]
+[Verify .gitignore - contains .worktrees/]
+[Create worktree: git worktree add .worktrees/auth -b feature/auth]
+[Run npm install]
+[Run npm test - 47 passing]
+
+Worktree ready at /Users/jesse/myproject/.worktrees/auth
+Tests passing (47 tests, 0 failures)
+Ready to implement auth feature
+```
+
+## Red Flags
+
+**Never:**
+- Create worktree without .gitignore verification (project-local)
+- Skip baseline test verification
+- Proceed with failing tests without asking
+- Assume directory location when ambiguous
+- Skip CLAUDE.md check
+
+**Always:**
+- Follow directory priority: existing > CLAUDE.md > ask
+- Verify .gitignore for project-local
+- Auto-detect and run project setup
+- Verify clean test baseline
+
+## Integration
+
+**Called by:**
+- **brainstorming** (Phase 4) - REQUIRED when design is approved and implementation follows
+- Any skill needing isolated workspace
+
+**Pairs with:**
+- **finishing-a-development-branch** - REQUIRED for cleanup after work complete
+- **executing-plans** or **subagent-driven-development** - Work happens in this worktree

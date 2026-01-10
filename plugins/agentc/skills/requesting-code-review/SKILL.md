@@ -2,4 +2,104 @@
 name: requesting-code-review
 description: Use when completing tasks, implementing major features, or before merging to verify work meets requirements - dispatches superpowers:code-reviewer subagent to review implementation against plan or requirements before proceeding
 ---
-82 1 2 13234 2 468 2 469 4 1062 2 13235 2 13236 2 25 2 2100 2 475 2 274 2 2316 2 13237 4 1037 2 8681 2 469 2 13238 2 1374 2 13239 4 13 2 1005 2 25 2 9441 2 469 4 13240 82 51 2 1326 2 737 2 435 2 65 2 13241 2 1368 82 51 2 1326 2 3705 2 6202 2 3325 82 51 2 335 2 1484 2 25 2 2735 4 13242 2 67 2 13243 82 51 2 1005 2 5353 2 7765 2 13244 82 51 2 335 2 2106 2 13245 2 5074 82 51 2 1326 2 1846 2 4476 2 1460 4 13 2 2292 2 25 2 9441 4 4854 2 443 2 3091 2 13246 82 649 82 13247 2 3129 2 13248 247 1 2 43 2 13249 82 13250 2 3129 2 7943 82 223 4 4861 2 1062 2 3708 2 13251 4 1996 2 440 2 1794 2 37 2 13235 2 7240 2 13252 2 11898 2 30 2 13253 4 13254 82 51 2 13255 2 51 2 1892 2 112 2 3663 2 13256 82 51 2 13257 2 51 2 1892 2 96 2 48 2 109 82 51 2 13258 2 51 2 2667 2 3175 82 51 2 13259 2 51 2 13260 2 3175 82 51 2 13261 2 51 2 1742 2 3260 4 4865 2 13262 2 120 2 5431 82 51 2 2999 2 474 2 475 2 1328 82 51 2 2999 2 478 2 475 2 274 2 13263 82 51 2 2157 2 481 2 475 2 207 2 9372 82 51 2 5435 2 591 2 536 2 1063 2 58 2 2182 2 404 2 13264 4 13 2 2856 4 223 82 13153 2 3942 2 440 2 1986 2 1773 2 452 2 13265 4 5591 2 9061 2 4344 2 2072 2 458 2 1374 2 274 2 13266 4 13247 2 2231 2 3208 2 143 2 3108 2 843 2 13267 2 143 2 8028 2 5861 2 143 2 3112 2 3113 2 3122 82 13250 2 3129 2 7943 4 13268 2 13235 2 13269 387 13270 2 484 2 130 2 13271 2 1589 2 207 2 640 2 10283 387 13272 2 440 2 943 2 77 2 13273 387 13274 2 13275 387 13276 2 13277 387 8126 2 1990 2 13278 2 130 2 13279 2 37 2 2851 2 1444 2 1233 4 13280 2 13281 387 13282 2 3083 2 8641 2 2147 2 550 387 5533 709 13283 2 1435 2 371 2 10077 709 13284 2 13285 2 962 2 13286 2 207 2 13287 2 13288 387 13289 2 12201 2 25 2 644 4 5591 2 3732 2 371 2 13290 82 2000 2 25 2 440 2 3251 82 223 4 13 2 5423 2 37 2 13291 4 13292 2 13293 82 51 2 469 2 471 2 5050 2 435 82 51 2 2265 2 475 2 274 2 2316 2 13294 82 51 2 2999 2 274 2 9365 2 25 2 444 2 435 4 13295 2 13296 82 51 2 469 2 471 2 737 2 647 2 2997 2 390 82 51 2 443 2 11243 2 13297 2 2266 4 13298 2 13293 82 51 2 469 2 274 2 1484 82 51 2 469 2 920 2 5353 4 13 2 9502 2 9503 4 9504 82 51 2 1272 2 1374 2 3882 2 13299 2 13300 82 51 2 6306 2 474 2 475 82 51 2 367 2 37 2 13301 2 478 2 475 82 51 2 13302 2 37 2 3015 2 1638 2 1066 4 2637 2 1063 2 13303 82 51 2 5435 2 591 2 37 2 1638 2 8633 82 51 2 2467 2 13304 2 139 2 13305 2 96 2 1303 82 51 2 9441 2 3003 4 326 2 11898 2 7778 2 13306
+
+# Requesting Code Review
+
+Dispatch superpowers:code-reviewer subagent to catch issues before they cascade.
+
+**Core principle:** Review early, review often.
+
+## When to Request Review
+
+**Mandatory:**
+- After each task in subagent-driven development
+- After completing major feature
+- Before merge to main
+
+**Optional but valuable:**
+- When stuck (fresh perspective)
+- Before refactoring (baseline check)
+- After fixing complex bug
+
+## How to Request
+
+**1. Get git SHAs:**
+```bash
+BASE_SHA=$(git rev-parse HEAD~1)  # or origin/main
+HEAD_SHA=$(git rev-parse HEAD)
+```
+
+**2. Dispatch code-reviewer subagent:**
+
+Use Task tool with superpowers:code-reviewer type, fill template at `code-reviewer.md`
+
+**Placeholders:**
+- `{WHAT_WAS_IMPLEMENTED}` - What you just built
+- `{PLAN_OR_REQUIREMENTS}` - What it should do
+- `{BASE_SHA}` - Starting commit
+- `{HEAD_SHA}` - Ending commit
+- `{DESCRIPTION}` - Brief summary
+
+**3. Act on feedback:**
+- Fix Critical issues immediately
+- Fix Important issues before proceeding
+- Note Minor issues for later
+- Push back if reviewer is wrong (with reasoning)
+
+## Example
+
+```
+[Just completed Task 2: Add verification function]
+
+You: Let me request code review before proceeding.
+
+BASE_SHA=$(git log --oneline | grep "Task 1" | head -1 | awk '{print $1}')
+HEAD_SHA=$(git rev-parse HEAD)
+
+[Dispatch superpowers:code-reviewer subagent]
+  WHAT_WAS_IMPLEMENTED: Verification and repair functions for conversation index
+  PLAN_OR_REQUIREMENTS: Task 2 from docs/plans/deployment-plan.md
+  BASE_SHA: a7981ec
+  HEAD_SHA: 3df7661
+  DESCRIPTION: Added verifyIndex() and repairIndex() with 4 issue types
+
+[Subagent returns]:
+  Strengths: Clean architecture, real tests
+  Issues:
+    Important: Missing progress indicators
+    Minor: Magic number (100) for reporting interval
+  Assessment: Ready to proceed
+
+You: [Fix progress indicators]
+[Continue to Task 3]
+```
+
+## Integration with Workflows
+
+**Subagent-Driven Development:**
+- Review after EACH task
+- Catch issues before they compound
+- Fix before moving to next task
+
+**Executing Plans:**
+- Review after each batch (3 tasks)
+- Get feedback, apply, continue
+
+**Ad-Hoc Development:**
+- Review before merge
+- Review when stuck
+
+## Red Flags
+
+**Never:**
+- Skip review because "it's simple"
+- Ignore Critical issues
+- Proceed with unfixed Important issues
+- Argue with valid technical feedback
+
+**If reviewer wrong:**
+- Push back with technical reasoning
+- Show code/tests that prove it works
+- Request clarification
+
+See template at: requesting-code-review/code-reviewer.md

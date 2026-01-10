@@ -1,1 +1,36 @@
-663 387 681 2 5867 2 559 2 207 2 1185 2 5868 2 1170 2 5869 2 130 2 3052 2 5871 387 5872 2 663 709 5873 2 543 664 663 668 5872 2 543 673 663 5189 893 2 5874 5189 5875 2 5876 673 706 668 544 664 706 709 707 709 5877 2 543 664 663 668 5872 2 543 673 663 5189 893 2 5874 5189 5875 2 5878 673 706 668 707 668 5879 2 5880 664 706 709 707 709 5882 2 543 664 663 668 5872 2 543 673 663 5189 893 2 5874 5189 5875 2 5883 673 706 668 544 664 706 709 544 387 706 82 706 82
+{
+  "description": "AgentC hooks for session prompts, security reminders, and Ralph loop",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/decode-session.sh"
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/security_reminder_hook.py"
+          }
+        ],
+        "matcher": "Edit|Write|MultiEdit"
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/stop-hook.sh"
+          }
+        ]
+      }
+    ]
+  }
+}

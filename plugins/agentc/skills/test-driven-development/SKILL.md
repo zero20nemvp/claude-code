@@ -2,4 +2,527 @@
 name: test-driven-development
 description: Use when implementing any feature or bugfix, before writing implementation code - write the test first, watch it fail, write minimal code to pass; ensures tests actually verify behavior by requiring failure first
 ---
-82 1 2 14637 2 9233 2 14638 4 13 2 8597 4 461 2 9 2 463 2 3762 2 14639 2 96 2 14640 2 461 2 283 2 458 2 25 2 9429 4 1037 2 8681 2 192 2 112 2 1835 2 14569 2 9 2 463 2 14641 2 112 2 125 2 2720 2 536 2 96 2 550 2 9 2 2704 2 14642 4 14108 2 9 2 14109 2 115 2 9 2 1397 2 58 2 14110 2 9 2 14111 2 115 2 9 2 14643 4 13 2 1005 2 25 2 1996 4 9507 82 51 2 4760 2 599 82 51 2 10358 2 5416 82 51 2 10448 82 51 2 4274 2 1385 4 14644 2 14645 2 228 2 57 2 14646 82 51 2 14647 2 14648 82 51 2 11084 2 458 82 51 2 4947 2 586 4 14649 2 14650 2 448 2 3663 2 177 2 14651 2 9430 2 229 2 14652 4 13 2 562 2 563 2 14135 4 2477 2 4881 2 31 2 550 2 43 2 9487 2 26 2 207 2 14153 4 649 82 1 2 316 2 536 2 568 2 588 2 207 2 9 2 585 2 586 82 3552 2 3553 82 3552 2 3554 82 223 4 2637 2 568 2 643 2 567 2 96 2 4108 82 51 2 2481 2 632 2 10260 2 613 2 614 82 51 2 326 2 2152 2 633 2 618 2 619 2 513 82 51 2 1414 2 123 2 727 2 458 2 14653 2 65 2 9 2 2401 82 51 2 2481 2 614 2 139 2 550 2 1516 2 355 4 14151 2 9270 2 3747 2 139 2 355 2 9 2 569 2 10268 2 77 2 14654 4 2637 2 516 2 14153 2 367 2 3592 2 25 2 4881 2 9097 2 1704 2 3909 2 647 2 648 82 649 82 650 2 651 2 3126 2 652 2 653 2 654 82 223 4 13 2 495 2 333 2 14655 4 448 2 3988 2 30 2 3256 2 14656 2 67 2 1745 2 14657 4 132 2 3768 2 14658 2 14659 82 223 82 461 2 3608 2 507 2 463 2 546 2 193 2 14569 2 96 2 3647 2 193 2 283 2 458 2 25 2 3668 82 223 4 51 2 2474 2 463 2 207 2 9 2 3608 2 81 82 51 2 229 2 96 82 51 2 1996 2 10245 2 14660 2 9487 2 14661 2 633 2 1322 2 5677 4 1237 2 14662 82 8716 82 14663 2 858 2 14664 2 8748 2 5958 2 663 387 14665 82 8872 82 223 4 14666 2 14662 82 10999 82 12287 2 14667 2 109 387 96 2 12346 2 858 2 14668 2 109 709 14669 2 344 2 218 387 1293 82 1293 82 223 4 132 2 3769 2 14670 82 223 82 506 2 507 2 463 2 546 2 193 2 80 2 512 2 513 2 193 2 283 2 551 2 458 82 223 4 51 2 506 2 507 2 463 2 4944 2 13860 82 51 2 549 2 512 2 513 2 14671 2 2372 2 3611 2 162 2 3613 82 51 2 468 2 58 2 551 2 67 2 183 2 552 4 1237 2 14662 82 8716 82 3776 2 506 2 507 2 546 82 14663 2 858 2 14664 2 8748 2 5958 2 663 387 14665 82 8872 4 3776 2 549 2 512 2 513 82 14672 2 2625 2 14673 2 8748 2 5958 2 663 387 14674 82 8872 4 14672 2 14675 2 14673 2 8748 2 5958 2 663 387 14676 82 8872 82 223 4 14666 2 14662 82 10999 82 12287 2 14667 2 109 387 1 2 506 2 507 2 546 387 96 2 12346 2 858 2 14668 2 109 709 14669 2 344 2 218 387 1293 3014 1 2 549 2 512 2 513 387 96 2 12749 2 2625 2 2909 2 109 709 14677 2 344 2 771 387 1293 3014 96 2 12749 2 14675 2 2909 2 109 709 14678 2 344 2 771 387 1293 82 1293 82 223 4 132 2 3772 2 3773 2 14679 82 223 82 506 2 193 2 80 2 512 2 193 2 14680 2 512 2 193 2 520 2 513 2 193 2 1408 2 193 2 3624 82 223 4 51 2 506 2 507 2 463 2 4944 2 13860 82 51 2 549 2 512 2 513 82 51 2 555 2 512 2 513 2 3618 2 3619 82 51 2 3783 2 513 2 14681 2 1422 2 2289 2 14682 82 51 2 1773 2 1408 2 25 2 1056 82 51 2 1773 2 3624 2 559 4 1237 2 14662 82 8716 82 3776 2 506 2 507 2 546 82 14663 2 858 2 14664 2 8748 2 5958 2 663 2 22 2 8872 4 3776 2 549 2 512 2 513 82 14672 2 2625 2 14673 2 8748 2 5958 2 663 2 22 2 8872 82 14672 2 14675 2 14673 2 8748 2 5958 2 663 2 22 2 8872 4 3776 2 555 2 512 2 513 82 14672 2 858 2 37 2 5805 2 14683 2 8748 2 5958 2 663 2 22 2 8872 82 14672 2 858 2 37 2 14684 2 14685 2 8748 2 5958 2 663 2 22 2 8872 4 3776 2 3783 2 513 82 14686 2 14687 2 1073 2 14688 2 8712 2 8748 2 5958 2 663 2 22 2 8872 82 14689 2 77 2 1799 2 14690 2 8748 2 5958 2 663 2 22 2 8872 82 223 4 3667 2 14691 82 8716 82 1406 2 14692 2 14693 2 14694 2 663 387 14695 2 14673 2 663 2 12873 2 14696 2 8872 387 14697 3014 3776 2 22 2 1073 2 1554 2 22 3014 14698 2 6845 2 14699 2 5762 2 14700 387 1531 2 8760 82 706 82 223 4 14666 2 14662 82 10999 82 12287 2 14667 2 109 387 1 2 506 2 507 2 546 387 96 2 12346 2 858 2 14668 2 109 709 14669 2 344 2 218 387 1293 3014 1 2 549 2 512 2 513 387 96 2 12749 2 2625 2 2909 2 109 709 14677 2 344 2 771 387 1293 3014 96 2 12749 2 14675 2 2909 2 109 709 14678 2 344 2 771 387 1293 3014 1 2 555 2 512 2 513 387 96 2 12749 2 858 2 37 2 5805 2 14701 2 109 709 14702 2 14703 2 344 2 771 387 1293 3014 96 2 12749 2 858 2 37 2 14684 2 14704 2 109 709 14705 2 344 2 771 247 1 2 14706 2 14707 387 1293 3014 1 2 3783 2 513 387 96 2 14708 2 14687 2 1073 2 14688 2 14709 2 109 709 14710 2 292 2 14711 2 663 2 14712 2 663 2 14713 2 706 2 706 709 14714 2 14715 2 3238 387 1293 82 1293 82 223 4 3667 2 14691 82 10999 82 6659 2 14667 387 5907 2 14716 709 14717 2 12873 2 14718 2 14719 709 14720 17 4082 2 292 2 14721 17 14722 2 6845 2 14699 2 5762 2 14723 709 4082 387 1293 82 1293 82 223 4 132 2 502 2 14724 4 51 2 14725 2 14726 2 2338 2 9599 2 14661 82 51 2 14727 2 14728 2 458 2 1210 82 51 2 518 2 14729 2 14730 2 12652 2 14731 2 756 2 14732 4 13077 2 448 2 30 2 86 2 14733 2 461 2 463 2 3762 2 14639 2 96 2 14640 2 461 2 283 2 4853 4 13 2 14 2 14113 2 14114 4 223 82 4819 2 14734 2 14735 2 7847 2 9091 2 14736 2 14737 2 546 82 223 4 461 2 458 2 274 2 9 2 13507 2 3136 2 195 2 1358 2 14738 4 2193 2 14739 82 51 2 2019 2 8422 2 96 2 134 2 14740 82 51 2 2019 2 14741 2 96 2 1312 2 4881 2 550 82 51 2 2019 2 2300 2 30 2 96 82 51 2 3136 2 6494 2 3107 4 3590 2 7758 2 77 2 9097 2 14742 4 13 2 14743 4 8685 82 8686 2 14744 2 663 709 14745 709 14746 2 14747 2 462 2 14748 2 14749 2 13561 2 14750 709 14751 2 14752 2 14753 2 14754 709 3676 2 14755 2 14756 2 14749 2 13561 2 14757 709 14758 2 14752 2 14759 2 14760 2 14754 709 9152 2 14761 2 12068 2 14749 2 13561 2 14762 709 444 2 14763 2 14764 17 14746 2 19 2 14765 709 14751 2 19 2 3676 2 8701 709 14751 2 19 2 14746 2 14766 709 3676 2 19 2 14767 709 14758 2 19 2 9152 2 8701 709 14758 2 19 2 3676 2 8702 709 9152 2 19 2 14758 2 14768 709 14758 2 19 2 14769 709 444 2 19 2 14770 82 706 82 223 4 132 2 464 2 51 2 461 2 3627 2 1139 4 461 2 39 2 283 2 463 2 2712 2 110 2 48 2 14771 4 14772 82 8716 82 14773 2 3755 2 2272 2 271 2 14774 2 8712 2 8748 2 5958 2 663 387 2054 2 2275 2 292 2 9930 387 8723 2 4435 2 292 2 8748 2 5958 2 663 709 14775 709 536 2 14776 2 357 2 9393 2 8763 2 727 2 14777 709 1531 2 14778 387 8870 3014 8723 2 4082 2 292 2 8719 2 14779 3014 14780 387 14781 82 8872 82 223 82 351 2 4292 2 550 2 2147 2 4433 2 39 2 2724 82 14782 4 14783 82 8716 82 14784 2 14785 2 8712 2 8748 2 5958 2 663 387 8723 2 14786 2 292 2 14787 709 14788 2 14789 709 14788 2 14789 709 14790 387 8719 2 14791 387 14792 82 8872 82 223 82 2836 2 4292 2 550 2 14786 2 183 2 458 82 14793 4 8808 82 51 2 5225 2 1670 82 51 2 351 2 3169 82 51 2 158 2 458 2 4776 2 2198 2 1602 2 14794 4 132 2 1269 2 464 2 51 2 14639 2 8229 2 2857 4 14795 2 1324 2 14796 4 14797 82 649 82 9411 2 463 2 14798 82 223 4 14799 82 649 82 4006 2 1230 2 3398 2 14800 82 223 4 4566 82 51 2 1139 2 8458 2 635 2 14801 82 51 2 14802 2 2242 2 58 2 2246 82 51 2 8927 2 3882 2 3325 2 1893 2 635 2 14803 4 2139 2 14804 2 13667 2 155 2 2152 2 14805 2 2999 2 14806 4 2139 2 14807 2 2999 2 3489 2 14808 2 1349 2 96 2 8458 2 14809 4 132 2 465 2 51 2 514 2 468 4 461 2 14810 2 458 2 25 2 510 2 9 2 14806 4 14772 82 8716 82 8712 2 1406 2 14811 2 8748 2 5958 2 14812 2 8754 2 663 387 207 2 14813 2 5840 2 292 2 9930 2 5840 2 357 2 5710 2 5843 2 663 709 4569 2 663 664 1531 2 8719 2 14814 709 706 2 2100 2 8903 2 663 664 536 2 5838 2 373 2 5825 2 8763 2 14815 709 706 387 706 387 8763 2 727 2 14816 82 706 82 223 82 11 2 2243 2 25 2 510 82 14782 4 14783 82 8716 82 8712 2 1406 2 14817 387 14818 2 8748 2 5958 2 14819 387 14820 2 663 709 14821 2 14822 709 14823 2 14824 2 143 2 14825 709 14826 2 14827 2 14828 2 5958 2 14829 387 706 82 6297 2 8754 2 663 387 3776 2 13102 82 706 82 223 82 14830 82 14793 4 2019 2 2644 2 633 2 9152 2 63 2 9487 2 43 2 14831 2 14832 2 9 2 14806 4 132 2 1269 2 465 2 51 2 14639 2 8229 2 2855 4 14833 4 14797 82 649 82 9411 2 463 2 14798 82 223 4 14799 82 649 82 4006 2 1230 2 3398 2 14800 82 223 4 4566 82 51 2 1139 2 547 82 51 2 3484 2 550 2 3744 2 510 82 51 2 1466 2 14834 2 4776 2 1419 2 14835 4 2139 2 14836 2 2999 2 9487 2 183 2 14806 4 14603 2 550 2 14837 2 2999 2 14838 4 132 2 3670 2 51 2 3083 2 1301 4 1326 2 3676 2 14839 82 51 2 1590 2 1434 82 51 2 14840 2 1551 82 51 2 278 2 7403 4 2685 2 550 2 14841 2 2019 2 2644 2 14805 4 132 2 1348 4 4106 2 462 2 463 2 207 2 444 2 14842 4 13 2 2953 2 503 4 143 2 333 2 143 2 2953 2 143 2 14843 2 143 82 14844 82 143 2 14845 2 143 2 5225 2 14642 2 14846 2 65 2 14847 2 7657 2 195 2 143 2 14848 2 858 2 130 2 2401 2 130 2 14849 2 143 82 143 2 14850 2 143 2 4302 2 10898 2 1670 2 143 2 14851 2 143 82 143 2 14852 2 14853 2 143 2 14854 2 11237 2 5017 2 143 2 14855 2 110 2 458 2 48 2 109 2 143 4 13 2 145 2 13113 2 14856 4 14857 2 9270 2 550 2 471 2 25 2 355 2 96 2 14858 4 503 2 545 2 471 2 458 2 510 2 14859 2 14860 2 1328 2 14357 2 14861 82 51 2 14862 2 463 2 2182 2 2724 82 51 2 14862 2 463 2 14863 2 183 2 1670 82 51 2 14862 2 14864 2 619 2 513 2 112 2 12094 82 51 2 44 2 45 2 14865 2 96 2 2100 2 9 2 1460 4 14866 2 14867 2 112 2 25 2 488 2 9 2 463 2 14641 2 14868 2 96 2 1679 2 550 2 14869 4 14870 2 2045 2 4341 2 2085 2 86 2 9 2 619 2 14871 4 4122 2 155 2 58 2 14872 2 44 2 46 2 112 2 2085 2 95 2 14873 82 51 2 150 2 14874 2 115 2 110 2 112 2 2085 82 51 2 146 2 14808 2 920 2 458 2 1385 82 51 2 14875 2 25 2 14876 2 513 2 4988 2 5677 82 51 2 14877 2 14402 2 920 2 49 2 14125 2 2936 2 9612 2 4726 4 4943 2 550 2 186 2 14878 2 5174 2 289 2 9 2 8223 2 14613 2 279 2 2684 4 14879 2 2051 2 2303 2 115 2 328 2 58 2 14880 4 14495 2 14548 2 14881 2 14 2 1322 2 58 2 2045 2 14882 2 1371 2 8619 2 14883 82 51 2 3136 2 130 2 14884 2 37 2 448 2 5409 2 1316 2 14885 2 1377 2 14886 82 51 2 2685 2 96 2 130 2 2644 2 550 2 471 2 6287 2 14887 2 2007 2 14888 2 1717 2 14889 4 14 2 14890 2 58 2 3675 2 458 2 112 2 6331 2 14891 2 10247 2 458 2 966 2 2147 2 550 2 58 2 1638 2 1647 4 14892 2 58 2 14893 2 2076 2 14489 2 6494 2 14894 4 448 2 3884 2 14895 82 51 2 14896 2 1415 2 274 2 3175 2 14897 2 1571 2 601 2 14898 82 51 2 6454 2 2102 2 14899 2 2100 2 1257 2 14900 82 51 2 14901 2 1670 2 14899 2 4315 2 1512 2 25 2 929 2 637 82 51 2 14902 2 2106 2 14903 2 14904 2 550 2 2100 2 14905 4 14906 2 14031 2 292 2 601 2 65 2 151 2 292 2 14907 4 14908 2 471 2 14909 2 9 2 8223 2 78 2 51 2 2286 2 14111 2 183 2 14910 4 14911 2 14912 2 8661 2 682 2 194 2 177 2 14913 2 14914 2 8661 2 682 2 48 2 177 2 14913 4 14912 2 186 2 14915 2 188 2 228 2 13066 2 44 2 463 2 110 2 112 2 14916 2 183 2 2482 2 14917 2 44 2 355 2 14918 2 619 2 10518 2 183 2 11264 2 14919 4 14914 2 5339 2 619 2 507 2 4850 2 274 2 13018 2 14912 2 355 2 112 2 14918 2 95 2 14452 2 14920 4 6279 2 1353 2 115 2 550 2 471 2 9612 2 14921 2 44 2 723 2 14922 2 14923 2 14924 2 550 2 1355 4 13 2 1068 2 14340 4 143 2 14341 2 143 2 14342 2 143 82 12456 82 143 2 10180 2 12513 2 25 2 987 2 143 2 7269 2 458 2 14925 2 1139 2 14926 2 6279 2 14927 2 143 82 143 2 14082 2 463 2 14928 2 143 2 503 2 5396 2 1328 2 13305 2 14929 2 143 82 143 2 783 2 471 2 14909 2 8223 2 2460 2 143 2 14912 2 292 2 47 2 194 2 177 2 14913 2 14914 2 292 2 47 2 48 2 177 2 14913 2 143 82 143 2 14930 2 4341 2 14931 2 143 2 14932 2 9612 2 14878 2 150 2 14933 2 6331 2 14934 2 143 82 143 2 14935 2 2051 2 2303 2 58 2 14936 2 143 2 14495 2 14548 2 14881 2 14937 2 14938 2 458 2 58 2 1638 2 1647 2 143 82 143 2 10202 2 134 2 10199 2 9270 2 550 2 4555 2 143 2 5345 2 10201 2 195 2 229 2 155 2 14939 2 3136 2 6494 2 14940 2 143 82 143 2 14941 2 25 2 14942 2 4555 2 143 2 14943 2 14944 2 14945 2 8624 2 3492 2 37 2 14921 2 143 82 143 2 8688 2 1581 2 292 2 799 2 14946 2 143 2 14947 2 25 2 14806 2 14948 2 25 2 463 2 292 2 1581 2 25 2 4529 2 143 82 143 2 14949 2 2061 2 14950 2 4344 2 14951 2 143 2 448 2 578 2 1571 2 14952 2 14953 2 292 2 14954 2 143 82 143 2 14955 2 463 2 14014 2 143 2 4122 2 2624 2 13305 2 619 2 14956 2 5345 2 14957 2 279 2 14958 2 143 82 143 2 14959 2 458 2 2471 2 516 2 9144 2 143 2 13667 2 2314 2 195 2 1773 2 550 2 207 2 2152 2 4853 2 143 4 13 2 9502 2 9503 2 51 2 8556 2 130 2 1358 2 14960 4 51 2 468 2 274 2 463 82 51 2 1139 2 471 2 1056 82 51 2 1139 2 547 2 1328 82 51 2 146 2 2180 2 1631 2 463 2 3755 82 51 2 503 2 560 2 14961 82 51 2 14962 2 14963 2 177 2 14964 82 51 2 1834 2 2045 2 4341 2 2085 2 2936 82 51 2 783 2 471 2 14909 2 9 2 8223 2 14965 82 51 2 14306 2 126 2 14111 2 183 2 14966 82 51 2 10202 2 134 2 14967 2 43 2 14968 2 2152 2 1992 82 51 2 14930 2 14969 2 2051 2 14885 2 14970 2 58 2 14936 82 51 2 14949 2 58 2 14893 2 11276 2 2076 2 14971 82 51 2 9433 2 58 2 272 2 14972 4 8538 2 115 2 3523 2 14321 2 3136 2 4853 2 1358 2 1321 2 37 2 14973 4 13 2 1025 2 10358 2 2999 4 14974 2 2262 2 858 2 14975 4 132 2 3400 2 2856 4 14976 82 8716 82 14672 2 2625 2 14673 2 8712 2 8748 2 5958 2 663 387 8723 2 4082 2 292 2 8719 2 14977 2 12873 2 7336 2 8872 387 14978 2 14979 82 8872 82 223 4 3476 2 14980 82 649 82 14981 2 9411 2 463 82 14982 2 2246 2 14983 2 14984 2 14985 2 8750 82 223 4 14986 82 8716 82 1406 2 14987 2 14988 2 663 387 536 2 14989 2 663 709 1531 2 663 2 5600 2 14983 2 14990 2 8870 387 706 387 3776 2 22 82 706 82 223 4 3476 2 14991 82 649 82 14981 2 9411 2 463 82 3668 82 223 4 132 2 14992 2 2856 4 14976 82 10999 82 1 2 14993 82 12287 2 12342 2 14994 2 2323 2 12317 2 109 387 96 2 12749 2 2625 2 2909 2 109 709 10349 2 14995 2 7181 2 663 2 6257 2 663 2 12873 2 7336 2 706 2 706 709 14996 2 14997 2 14998 387 1293 82 1293 82 223 4 3476 2 14980 82 649 82 14981 2 4006 2 1230 2 3398 2 14993 82 14982 2 2246 2 14983 2 14984 2 14985 2 5927 82 223 4 14986 82 10999 82 1 2 14999 82 5907 2 301 387 536 2 15000 2 15001 709 12000 2 15002 2 663 2 5600 2 14983 2 14990 2 684 2 3150 2 12441 709 1531 387 1293 387 1 2 22 82 1293 82 223 4 3476 2 14991 82 649 82 14981 2 4006 2 1230 2 3398 2 14993 82 942 2 15003 2 829 2 2119 82 223 4 15004 82 278 2 1073 2 207 2 1290 2 2331 2 536 2 3149 4 13 2 484 2 3482 4 335 2 12153 2 328 2 3254 4 51 2 543 2 544 2 457 2 727 2 15005 2 2471 2 1006 2 463 82 51 2 543 2 544 2 15006 2 737 2 463 2 3635 2 274 2 598 82 51 2 543 2 544 2 1352 2 463 2 3755 2 207 2 2246 2 1882 2 15007 2 11508 2 183 2 15008 82 51 2 543 2 544 2 15009 2 283 2 458 2 25 2 510 2 737 2 463 82 51 2 543 2 544 2 287 2 550 2 510 82 51 2 543 2 544 2 1466 2 14834 2 4776 2 1419 2 14835 82 51 2 543 2 544 2 503 2 929 2 2147 2 458 2 15010 2 106 2 536 2 14794 82 51 2 543 2 544 2 1677 2 513 2 130 2 2122 2 2151 4 146 2 26 2 86 2 15011 2 44 2 15012 2 14921 2 1358 2 14738 4 13 2 1005 2 15013 4 143 2 2701 2 143 2 15014 2 143 82 15015 82 143 2 2019 2 2720 2 1512 2 25 2 463 2 143 2 461 2 15016 2 15017 2 461 2 15018 2 3762 2 2062 2 228 2 57 2 15019 2 143 82 143 2 1139 2 1584 2 15020 2 143 2 3440 2 1584 2 15021 2 1538 2 6429 2 143 82 143 2 487 2 14786 2 95 2 143 2 468 2 1584 2 15022 2 1996 2 1920 2 6256 2 143 82 143 2 1139 2 4948 2 15023 2 143 2 278 2 15024 2 4359 2 15025 2 1538 2 10474 2 143 4 13 2 10348 2 5423 4 10358 2 15026 2 461 2 462 2 463 2 15027 2 195 2 1522 2 448 2 15028 2 1139 2 14357 2 1478 2 130 2 2302 2 15029 4 1324 2 1478 2 1415 2 966 2 1006 2 14806 4 13 2 13889 2 1118 4 223 82 14420 2 458 2 193 2 463 2 588 2 130 2 3755 2 2596 82 15030 2 193 2 183 2 448 82 223 4 150 2 15031 2 966 2 228 2 57 2 13094 2 15032
+
+# Test-Driven Development (TDD)
+
+## Overview
+
+Write the test first. Watch it fail. Write minimal code to pass.
+
+**Core principle:** If you didn't watch the test fail, you don't know if it tests the right thing.
+
+**Violating the letter of the rules is violating the spirit of the rules.**
+
+## When to Use
+
+**Always:**
+- New features
+- Bug fixes
+- Refactoring
+- Behavior changes
+
+**Exceptions (ask your human partner):**
+- Throwaway prototypes
+- Generated code
+- Configuration files
+
+Thinking "skip TDD just this once"? Stop. That's rationalization.
+
+## ILX-First (Ruby/Rails Projects)
+
+**Before writing any tests or code, check for ILX:**
+
+```bash
+# Check if ILX exists for the relevant files
+ls .agentc/ilx/app/models/user.ilx
+ls .agentc/ilx/app/controllers/posts_controller.ilx
+```
+
+**If ILX exists, read it first:**
+- Understand entities, fields, relationships, constraints
+- See existing features, triggers, edge cases
+- Identify where new code fits in the domain
+- Understand constraints that tests must verify
+
+**Then write tests** that verify the semantic intent from ILX.
+
+**If no ILX:** Proceed directly to writing tests. Consider running batch conversion:
+```bash
+cd plugins/agentc/scripts && ruby ilx_batch_convert.rb .
+```
+
+## Milk Quality Tiers
+
+TDD applies at ALL tiers, but scope varies:
+
+### SKIMMED (Bare Minimum)
+```
+Write happy case test FIRST → watch it FAIL → minimal code to PASS
+```
+
+- ONE test for the happy path
+- That's it
+- Use when: Exploratory code, low-risk features, time pressure
+
+**JavaScript Example:**
+```typescript
+test('validates email format', () => {
+  expect(isValidEmail('user@example.com')).toBe(true);
+});
+```
+
+**Ruby/RSpec Example:**
+```ruby
+RSpec.describe EmailValidator do
+  it 'validates email format' do
+    expect(described_class.valid?('user@example.com')).to be true
+  end
+end
+```
+
+### SEMI-SKIMMED (Default)
+```
+Happy case test FIRST → essential sad cases → minimal extensible code
+```
+
+- Happy case test (write first)
+- Essential sad cases (null, invalid input, auth failure)
+- Code is extensible but not overengineered
+
+**JavaScript Example:**
+```typescript
+// Happy case FIRST
+test('validates email format', () => {
+  expect(isValidEmail('user@example.com')).toBe(true);
+});
+
+// Essential sad cases
+test('rejects empty email', () => {
+  expect(isValidEmail('')).toBe(false);
+});
+
+test('rejects malformed email', () => {
+  expect(isValidEmail('not-an-email')).toBe(false);
+});
+```
+
+**Ruby/RSpec Example:**
+```ruby
+RSpec.describe EmailValidator do
+  # Happy case FIRST
+  it 'validates email format' do
+    expect(described_class.valid?('user@example.com')).to be true
+  end
+
+  # Essential sad cases
+  it 'rejects empty email' do
+    expect(described_class.valid?('')).to be false
+  end
+
+  it 'rejects malformed email' do
+    expect(described_class.valid?('not-an-email')).to be false
+  end
+end
+```
+
+### FULL PHAT (Production-Ready)
+```
+Happy → essential sad → non-essential sad → mad cases → logging → monitoring
+```
+
+- Happy case test (write first)
+- Essential sad cases
+- Non-essential sad cases (edge cases)
+- Mad cases (race conditions, unexpected states)
+- Add logging to implementation
+- Add monitoring hooks
+
+**JavaScript Example:**
+```typescript
+// Happy case FIRST
+test('validates email format', () => { ... });
+
+// Essential sad cases
+test('rejects empty email', () => { ... });
+test('rejects malformed email', () => { ... });
+
+// Non-essential sad cases
+test('rejects email with leading spaces', () => { ... });
+test('rejects email with unicode lookalikes', () => { ... });
+
+// Mad cases
+test('handles concurrent validation calls', async () => { ... });
+test('recovers from regex timeout', () => { ... });
+```
+
+Implementation includes:
+```typescript
+function isValidEmail(email: string): boolean {
+  logger.debug('Validating email', { email: maskEmail(email) });
+  metrics.increment('email_validation_attempts');
+
+  // ... validation logic ...
+
+  metrics.increment(result ? 'email_validation_success' : 'email_validation_failure');
+  return result;
+}
+```
+
+**Ruby/RSpec Example:**
+```ruby
+RSpec.describe EmailValidator do
+  # Happy case FIRST
+  it 'validates email format' do
+    expect(described_class.valid?('user@example.com')).to be true
+  end
+
+  # Essential sad cases
+  it 'rejects empty email' do
+    expect(described_class.valid?('')).to be false
+  end
+
+  it 'rejects malformed email' do
+    expect(described_class.valid?('not-an-email')).to be false
+  end
+
+  # Non-essential sad cases
+  it 'rejects email with leading spaces' do
+    expect(described_class.valid?(' user@example.com')).to be false
+  end
+
+  it 'rejects email with unicode lookalikes' do
+    expect(described_class.valid?('user@exаmple.com')).to be false  # Cyrillic 'а'
+  end
+
+  # Mad cases
+  it 'handles concurrent validation calls', :aggregate_failures do
+    threads = 10.times.map { Thread.new { described_class.valid?('user@example.com') } }
+    expect(threads.map(&:value)).to all(be true)
+  end
+end
+```
+
+Implementation includes:
+```ruby
+class EmailValidator
+  def self.valid?(email)
+    Rails.logger.debug("Validating email: #{email.gsub(/.(?=.{4})/, '*')}")
+    StatsD.increment('email_validation_attempts')
+
+    result = email.match?(URI::MailTo::EMAIL_REGEXP)
+
+    StatsD.increment(result ? 'email_validation_success' : 'email_validation_failure')
+    result
+  end
+end
+```
+
+### Tier Selection
+
+- **Skimmed**: Prototypes, internal tools, low-risk
+- **Semi-skimmed**: Most code (default)
+- **Full phat**: User-facing, payment, auth, data integrity
+
+**Still TDD at all tiers:** Write test first. Watch it fail. Write minimal code.
+
+## The Iron Law
+
+```
+NO PRODUCTION CODE WITHOUT A FAILING TEST FIRST
+```
+
+Write code before the test? Delete it. Start over.
+
+**No exceptions:**
+- Don't keep it as "reference"
+- Don't "adapt" it while writing tests
+- Don't look at it
+- Delete means delete
+
+Implement fresh from tests. Period.
+
+## Red-Green-Refactor
+
+```dot
+digraph tdd_cycle {
+    rankdir=LR;
+    red [label="RED\nWrite failing test", shape=box, style=filled, fillcolor="#ffcccc"];
+    verify_red [label="Verify fails\ncorrectly", shape=diamond];
+    green [label="GREEN\nMinimal code", shape=box, style=filled, fillcolor="#ccffcc"];
+    verify_green [label="Verify passes\nAll green", shape=diamond];
+    refactor [label="REFACTOR\nClean up", shape=box, style=filled, fillcolor="#ccccff"];
+    next [label="Next", shape=ellipse];
+
+    red -> verify_red;
+    verify_red -> green [label="yes"];
+    verify_red -> red [label="wrong\nfailure"];
+    green -> verify_green;
+    verify_green -> refactor [label="yes"];
+    verify_green -> green [label="no"];
+    refactor -> verify_green [label="stay\ngreen"];
+    verify_green -> next;
+    next -> red;
+}
+```
+
+### RED - Write Failing Test
+
+Write one minimal test showing what should happen.
+
+<Good>
+```typescript
+test('retries failed operations 3 times', async () => {
+  let attempts = 0;
+  const operation = () => {
+    attempts++;
+    if (attempts < 3) throw new Error('fail');
+    return 'success';
+  };
+
+  const result = await retryOperation(operation);
+
+  expect(result).toBe('success');
+  expect(attempts).toBe(3);
+});
+```
+Clear name, tests real behavior, one thing
+</Good>
+
+<Bad>
+```typescript
+test('retry works', async () => {
+  const mock = jest.fn()
+    .mockRejectedValueOnce(new Error())
+    .mockRejectedValueOnce(new Error())
+    .mockResolvedValueOnce('success');
+  await retryOperation(mock);
+  expect(mock).toHaveBeenCalledTimes(3);
+});
+```
+Vague name, tests mock not code
+</Bad>
+
+**Requirements:**
+- One behavior
+- Clear name
+- Real code (no mocks unless unavoidable)
+
+### Verify RED - Watch It Fail
+
+**MANDATORY. Never skip.**
+
+**JavaScript:**
+```bash
+npm test path/to/test.test.ts
+```
+
+**Ruby:**
+```bash
+bundle exec rspec spec/path/to/spec.rb
+```
+
+Confirm:
+- Test fails (not errors)
+- Failure message is expected
+- Fails because feature missing (not typos)
+
+**Test passes?** You're testing existing behavior. Fix test.
+
+**Test errors?** Fix error, re-run until it fails correctly.
+
+### GREEN - Minimal Code
+
+Write simplest code to pass the test.
+
+<Good>
+```typescript
+async function retryOperation<T>(fn: () => Promise<T>): Promise<T> {
+  for (let i = 0; i < 3; i++) {
+    try {
+      return await fn();
+    } catch (e) {
+      if (i === 2) throw e;
+    }
+  }
+  throw new Error('unreachable');
+}
+```
+Just enough to pass
+</Good>
+
+<Bad>
+```typescript
+async function retryOperation<T>(
+  fn: () => Promise<T>,
+  options?: {
+    maxRetries?: number;
+    backoff?: 'linear' | 'exponential';
+    onRetry?: (attempt: number) => void;
+  }
+): Promise<T> {
+  // YAGNI
+}
+```
+Over-engineered
+</Bad>
+
+Don't add features, refactor other code, or "improve" beyond the test.
+
+### Verify GREEN - Watch It Pass
+
+**MANDATORY.**
+
+**JavaScript:**
+```bash
+npm test path/to/test.test.ts
+```
+
+**Ruby:**
+```bash
+bundle exec rspec spec/path/to/spec.rb
+```
+
+Confirm:
+- Test passes
+- Other tests still pass
+- Output pristine (no errors, warnings)
+
+**Test fails?** Fix code, not test.
+
+**Other tests fail?** Fix now.
+
+### REFACTOR - Clean Up
+
+After green only:
+- Remove duplication
+- Improve names
+- Extract helpers
+
+Keep tests green. Don't add behavior.
+
+### Repeat
+
+Next failing test for next feature.
+
+## Good Tests
+
+| Quality | Good | Bad |
+|---------|------|-----|
+| **Minimal** | One thing. "and" in name? Split it. | `test('validates email and domain and whitespace')` |
+| **Clear** | Name describes behavior | `test('test1')` |
+| **Shows intent** | Demonstrates desired API | Obscures what code should do |
+
+## Example: Bug Fix
+
+**Bug:** Empty email accepted
+
+### JavaScript Example
+
+**RED**
+```typescript
+test('rejects empty email', async () => {
+  const result = await submitForm({ email: '' });
+  expect(result.error).toBe('Email required');
+});
+```
+
+**Verify RED**
+```bash
+$ npm test
+FAIL: expected 'Email required', got undefined
+```
+
+**GREEN**
+```typescript
+function submitForm(data: FormData) {
+  if (!data.email?.trim()) {
+    return { error: 'Email required' };
+  }
+  // ...
+}
+```
+
+**Verify GREEN**
+```bash
+$ npm test
+PASS
+```
+
+### Ruby/RSpec Example
+
+**RED**
+```ruby
+# spec/requests/forms_spec.rb
+RSpec.describe 'Form submission', type: :request do
+  it 'rejects empty email' do
+    post '/forms', params: { form: { email: '' } }
+    expect(response.parsed_body['error']).to eq('Email required')
+  end
+end
+```
+
+**Verify RED**
+```bash
+$ bundle exec rspec spec/requests/forms_spec.rb
+FAIL: expected 'Email required', got nil
+```
+
+**GREEN**
+```ruby
+# app/controllers/forms_controller.rb
+def create
+  if params.dig(:form, :email).blank?
+    render json: { error: 'Email required' }, status: :unprocessable_entity
+    return
+  end
+  # ...
+end
+```
+
+**Verify GREEN**
+```bash
+$ bundle exec rspec spec/requests/forms_spec.rb
+1 example, 0 failures
+```
+
+**REFACTOR**
+Extract validation for multiple fields if needed.
+
+## Verification Checklist
+
+Before marking work complete:
+
+- [ ] Every new function/method has a test
+- [ ] Watched each test fail before implementing
+- [ ] Each test failed for expected reason (feature missing, not typo)
+- [ ] Wrote minimal code to pass each test
+- [ ] All tests pass
+- [ ] Output pristine (no errors, warnings)
+- [ ] Tests use real code (mocks only if unavoidable)
+- [ ] Edge cases and errors covered
+
+Can't check all boxes? You skipped TDD. Start over.
+
+## When Stuck
+
+| Problem | Solution |
+|---------|----------|
+| Don't know how to test | Write wished-for API. Write assertion first. Ask your human partner. |
+| Test too complicated | Design too complicated. Simplify interface. |
+| Must mock everything | Code too coupled. Use dependency injection. |
+| Test setup huge | Extract helpers. Still complex? Simplify design. |
+
+## Debugging Integration
+
+Bug found? Write failing test reproducing it. Follow TDD cycle. Test proves fix and prevents regression.
+
+Never fix bugs without a test.
+
+## Final Rule
+
+```
+Production code → test exists and failed first
+Otherwise → not TDD
+```
+
+No exceptions without your human partner's permission.

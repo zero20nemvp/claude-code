@@ -1,6 +1,107 @@
 ---
 name: commit
-allowed-tools: Bash(git add:*), Bash(git status:*), Bash(git commit:*)
-description: Create a git commit with auto-generated message based on changes
+description: "Git commit with auto-generated message. Use --push to push, --pr to create PR"
+arguments:
+  - name: flags
+    description: "--push to push after commit, --pr to push and create PR"
+    required: false
+allowed-tools:
+  - Bash
 ---
-3667 2 2339 2 186 2 65 2 1452 2 51 2 488 2  2  2 17540 6086 13 2 2038 4 51 2 1765 2 3091 2 3150 2 3151 2 1363 82 51 2 1765 2 3091 2 3152 2 3153 2 130 2 1384 2 3154 2 3151 2 3152 2 3155 82 51 2 1765 2 3117 2 3151 2 3092 2 3156 82 51 2 3206 2 3207 2 3151 2 2231 2 3208 2 3209 4 13 2 1371 2 435 4 3160 2 120 2 9 2 3161 2 3162 2 301 2 1006 2 1588 2 3091 2 3210 4 71 2 1160 2 9 2 1385 2 130 2 1814 2 3175 2 1405 82 83 2 3174 2 86 2 585 2 586 82 93 2 321 2 3175 2 37 2 3168 2 2242 2 3211 2 3212 2 1403 4 44 2 904 2 9 2 103 2 25 2 713 2 1290 2 3198 2 65 2 1006 2 1588 2 3199 2 3174 2 130 2 301 2 9 2 3175 2 1021 2 1006 2 1588 2 3201 4 3213 2 2242 2 3214 82 223 82 3215 2 3216 4 3217 2 536 2 3218 4 3194 2 140 2 3195 82 223 4 1068 2 3219 2 3220 2 3221 2 3222 2 3223 2 3224 2 3225
+
+You are creating a git commit with optional push and PR.
+
+## Context
+
+- Current git status: !`git status`
+- Current git diff: !`git diff HEAD`
+- Current branch: !`git branch --show-current`
+- Recent commits: !`git log --oneline -5`
+
+## Route by Flags
+
+**No flags:** Commit only
+**--push:** Commit and push
+**--pr:** Commit, push, and create PR (creates branch if on main)
+
+---
+
+## COMMIT (always)
+
+1. Analyze changes and recent commit style
+2. Stage relevant files
+3. Create commit with descriptive message
+
+**Message format:**
+```
+<type>: <description>
+
+<body if needed>
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+```
+
+Types: feat, fix, refactor, docs, test, chore
+
+---
+
+## --push: Push to Remote
+
+After commit:
+```bash
+git push -u origin [current-branch]
+```
+
+---
+
+## --pr: Full PR Workflow
+
+1. **If on main/master:** Create branch first
+   ```bash
+   git checkout -b [descriptive-branch-name]
+   ```
+
+2. **Commit** (as above)
+
+3. **Push**
+   ```bash
+   git push -u origin [branch]
+   ```
+
+4. **Create PR**
+   ```bash
+   gh pr create --title "<title>" --body "$(cat <<'EOF'
+   ## Summary
+   <description of changes>
+
+   ## Test plan
+   - [ ] <test steps>
+
+   Co-Authored-By: Claude <noreply@anthropic.com>
+   EOF
+   )"
+   ```
+
+5. **Output PR URL**
+
+---
+
+## Output
+
+**Commit only:**
+```
+Committed: [hash] [message]
+```
+
+**With --push:**
+```
+Committed: [hash] [message]
+Pushed to: origin/[branch]
+```
+
+**With --pr:**
+```
+Committed: [hash] [message]
+Pushed to: origin/[branch]
+PR created: [url]
+```

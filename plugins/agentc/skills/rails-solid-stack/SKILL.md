@@ -11,4 +11,476 @@ triggers:
   - Action Cable
   - ActiveJob
 ---
-82 1 2 1219 2 1100 2 1212 2 3441 4 9516 2 920 2 435 2 3410 2 1100 2 1101 2 1100 2 1102 2 43 2 1100 2 12559 4 1219 2 1086 2 12560 2 9 2 12561 2 9001 2 51 2 12562 2 12563 2 25 2 12564 2 207 2 12565 2 12566 2 130 2 12567 2 2483 2 732 2 12262 2 1997 2 324 2 207 2 3617 2 12568 4 13 2 14 2 1100 2 1212 4 143 2 12131 2 143 2 12569 2 143 2 306 2 143 82 12570 82 143 2 12571 2 12572 2 143 2 12573 2 143 2 4990 2 8421 2 12574 2 143 82 143 2 12571 2 12575 2 143 2 12564 2 8137 2 143 2 10446 2 12576 2 143 82 143 2 12571 2 12577 2 143 2 12564 2 12578 2 143 2 12579 2 12580 2 143 4 902 2 12581 2 150 2 208 2 4972 2 51 2 3663 2 228 2 12582 4 13 2 1100 2 1271 4 132 2 4947 4 8504 82 1 2 12583 82 12495 2 12584 387 12585 709 51 2 12586 2 942 664 12587 2 11178 387 12588 709 51 2 12589 2 12590 664 12591 2 1302 664 12586 2 12592 4 12593 387 12594 2 12595 4 12596 387 12594 2 12595 387 12588 709 51 2 12589 2 12597 2 12598 664 12591 2 641 709 51 2 12589 2 12599 664 12591 2 271 82 223 4 132 2 448 2 207 2 11303 4 10999 82 1 2 12600 82 12287 2 12601 2 2323 2 12602 2 109 387 1 2 506 2 507 2 546 387 96 2 12603 2 10314 2 858 2 25 2 12604 2 109 709 750 2 292 2 12605 17 12335 2 663 664 12606 709 12336 2 1511 2 663 2 12607 2 12608 17 12609 2 12610 387 1293 3014 1 2 549 2 512 2 513 387 96 2 12611 2 920 2 750 2 183 2 12612 2 109 709 12335 2 663 664 12613 709 12336 2 12614 387 1293 3014 96 2 12615 2 12616 2 12617 2 109 709 750 2 292 2 12618 2 12619 2 12620 17 12335 2 663 664 12606 709 12621 2 1511 2 663 2 12607 2 706 387 1293 3014 1 2 1271 2 2066 387 96 2 12622 2 2214 2 12623 2 109 709 12624 2 12625 387 1293 3014 96 2 12626 2 12627 2 109 709 750 2 292 2 12605 17 12335 2 663 664 12628 709 12336 2 12629 387 1293 82 1293 82 223 4 132 2 11267 2 3667 4 10999 82 1 2 12630 82 6659 2 12631 2 357 2 12632 387 12633 2 12634 3014 12635 2 12636 2 12637 2 12638 2 12639 2 271 387 12640 2 12641 3014 5907 2 12642 709 750 2 292 2 12643 709 1531 2 536 2 12644 17 12645 709 12646 2 12647 17 12648 2 858 2 12649 2 12650 2 12651 387 1293 82 1293 82 223 4 132 2 1271 2 11488 4 10999 82 1 2 474 2 3318 2 51 2 12652 2 162 82 6659 2 12653 2 357 2 12632 387 12633 2 12654 82 1293 4 1 2 4915 2 3318 2 51 2 170 2 8286 82 6659 2 12655 2 357 2 12632 387 12633 2 12634 82 1293 4 1 2 12656 2 2048 2 51 2 12657 2 3148 82 6659 2 12658 2 357 2 12632 387 12633 2 12659 82 1293 82 223 4 132 2 1088 2 207 2 11303 4 12522 82 1 2 12660 82 6659 2 12631 2 357 2 12632 387 5907 2 12661 2 12662 2 12651 2 19 2 12526 82 1293 82 223 4 13 2 1100 2 8789 4 132 2 4947 4 10999 82 1 2 12663 82 12664 2 292 2 12665 82 223 4 8504 82 1 2 12666 82 12495 2 12584 387 12667 2 8137 387 12668 709 12669 2 7400 2 12670 2 7401 709 12671 2 7400 2 12672 2 7401 4 12596 387 12594 2 12595 387 12668 709 12669 2 7400 2 12673 2 7401 709 12671 2 7400 2 12674 2 7401 82 223 4 132 2 448 2 207 2 12675 4 10999 82 1 2 12676 82 12287 2 1807 2 109 387 12677 2 12678 2 109 709 96 2 12679 2 9 2 12680 2 109 664 750 2 292 2 12605 5783 1 2 2476 2 713 2 51 2 12681 664 12682 2 12683 5783 12684 2 292 2 12685 664 12686 2 292 2 12685 247 1 2 1487 2 929 2 8137 5783 12687 2 12688 664 12689 2 12688 709 1293 17 96 2 12690 2 8137 2 471 2 942 2 12691 2 109 664 750 2 292 2 12605 664 12692 2 12693 2 12694 5783 12685 5783 12695 2 12696 2 109 668 12697 2 12698 664 1293 709 1293 17 96 2 12699 2 120 2 12700 2 109 664 750 2 292 2 12605 664 12692 2 12693 2 12694 5783 12685 664 12701 2 12307 2 12702 5783 12697 2 12698 709 1293 387 1293 82 1293 82 223 4 132 2 8789 2 3667 4 10999 82 1 2 4016 82 6659 2 1807 2 357 2 7153 387 12703 2 12704 3014 5907 2 12705 709 12706 2 12707 2 12708 2 109 664 12709 709 1293 387 1293 3014 6752 3014 5907 2 12710 709 12711 387 1293 3014 5907 2 12712 709 12713 387 1293 82 1293 82 223 4 132 2 12714 2 12675 4 11554 82 12364 2 12365 2 7401 82 7493 2 8137 2 12422 2 109 2 7401 387 12415 709 12715 2 12716 2 11581 709 7400 2 12717 2 7401 17 7493 2 8137 2 12718 2 12719 2 109 2 7401 664 7400 2 12000 2 12720 2 7401 709 7493 2 1293 2 7401 387 12419 82 7493 2 1293 2 7401 82 223 4 132 2 12721 2 12722 2 12675 4 11554 82 7493 2 8137 2 12422 2 109 2 7401 387 12415 709 12715 2 12716 2 11581 17 7493 2 12723 2 109 2 12724 2 7401 664 7493 2 8137 2 1635 2 109 2 7401 668 7400 2 12000 2 1635 2 7401 664 7493 2 1293 2 7401 709 7493 2 1293 2 7401 387 12419 82 7493 2 1293 2 7401 82 223 4 13 2 1100 2 1103 4 132 2 4947 4 8504 82 1 2 12725 82 12593 387 12726 2 12727 387 12586 2 12728 4 12596 387 12726 2 12727 387 12586 2 12729 387 12730 2 12731 82 223 4 132 2 448 2 207 2 12732 4 10999 82 1 2 12733 82 12287 2 12734 2 2323 2 12735 2 109 387 12736 2 663 2 12605 2 706 387 12737 2 663 2 12738 2 706 3014 274 2 109 709 12739 2 12740 2 750 387 1293 3014 1 2 506 2 507 2 546 387 96 2 12741 2 25 2 12742 2 12743 2 109 709 12744 2 12745 17 12746 2 12747 709 12746 2 12748 387 1293 3014 1 2 549 2 512 2 513 387 96 2 12749 2 12750 2 12617 2 109 709 12739 2 12740 2 5927 17 12744 2 12745 17 12746 2 12751 387 1293 3014 96 2 12749 2 12752 2 12742 2 12753 2 109 709 12754 2 292 2 12755 2 12756 17 12744 2 12757 17 12746 2 12751 387 1293 3014 96 2 12333 2 1791 2 25 2 12758 2 109 709 12744 2 12745 17 12335 2 663 664 7170 2 12759 2 12760 2 12761 709 12336 2 12762 664 12763 2 12764 2 4525 2 12765 387 1293 82 1293 82 223 4 132 2 12766 2 3667 4 10999 82 1 2 12767 82 6659 2 12768 2 357 2 12769 387 5907 2 12770 709 12771 2 292 2 12772 17 536 2 12773 664 12774 2 12771 709 3066 664 12775 709 1293 387 1293 3014 5907 2 12776 709 2242 2 292 2 12777 664 4525 2 12778 664 6862 2 12779 709 5734 17 12780 2 663 664 6862 2 12781 664 4525 2 12782 664 12783 2 12784 709 12785 387 1293 3014 5907 2 12786 709 1 2 9457 2 536 2 2296 387 1293 82 1293 82 223 4 132 2 12787 2 8093 4 10999 82 1 2 12788 82 1528 2 12789 387 6659 2 12787 2 357 2 12790 709 12791 2 12792 17 5907 2 12088 664 12793 2 292 2 12794 709 1293 17 6752 17 5907 2 12794 664 536 2 4390 2 292 2 12795 2 12796 668 750 664 3066 668 12797 664 1293 709 1293 387 1293 82 1293 82 223 4 132 2 1088 2 207 2 12732 4 12522 82 1 2 12798 82 6659 2 12768 2 357 2 12769 387 12799 2 12800 3014 5907 2 12801 2 8748 2 19 2 12526 387 5907 2 12802 2 12803 2 12804 2 12805 2 19 2 12526 387 5907 2 12806 2 8748 2 19 2 12526 82 1293 82 223 4 13 2 10010 4 143 2 10018 2 143 2 2999 2 143 82 12511 82 143 2 6169 2 12564 2 920 2 1100 2 1303 2 143 2 1358 2 37 2 12807 2 12808 2 106 2 536 2 2296 2 143 82 143 2 12809 2 3318 2 2730 2 330 2 143 2 7657 2 1587 2 10892 2 7279 2 929 2 12810 2 12811 2 143 82 143 2 12675 2 12812 2 12813 2 143 2 8789 2 12814 2 43 2 12815 2 756 2 143 82 143 2 150 2 8137 2 12816 2 8435 2 143 2 1996 2 5705 2 8137 2 12817 2 12818 2 559 2 143 82 143 2 12819 2 12278 2 65 2 2072 2 143 2 1996 2 8712 2 3318 2 207 2 12266 2 12278 2 143 82 143 2 1435 2 8421 2 12820 2 143 2 3440 2 3318 2 25 2 344 2 12821 2 12822 2 143 4 13 2 484 2 3482 4 335 2 480 2 120 2 1006 2 1100 2 1212 2 3515 4 51 2 543 2 544 2 11267 2 550 2 12823 2 3608 2 81 2 2596 82 51 2 543 2 544 2 11267 2 550 2 12823 2 12824 2 9298 82 51 2 543 2 544 2 8789 2 550 2 355 2 12825 2 1670 82 51 2 543 2 544 2 8789 2 550 2 355 2 12816 82 51 2 543 2 544 2 12766 2 550 2 355 2 12826 82 51 2 543 2 544 2 1271 2 2066 2 2228 2 207 2 12827 82 51 2 543 2 544 2 8789 2 12828 2 8450 2 4284 82 51 2 543 2 544 2 1088 2 1233 2 207 2 86 2 12829 82 51 2 543 2 544 2 12830 2 559 2 65 2 8938 2 12831 2 12832 2 12833 82 51 2 543 2 544 2 11303 2 186 2 12834 2 12835 2 25 2 12836 4 13 2 6442 2 4530 4 132 2 11267 2 11055 4 10999 82 6659 2 12837 2 357 2 12632 387 12633 2 12634 3014 1 2 2273 2 2066 387 12635 2 12838 2 12637 2 12839 2 12639 2 1302 387 12640 2 12840 3014 1 2 7204 387 12841 2 12842 387 12843 2 12844 387 12845 2 12846 3014 5907 2 12847 709 1 2 11267 2 1554 387 1293 3014 6752 3014 5907 2 12848 709 12849 2 12850 709 11586 709 12851 2 12850 387 1293 82 1293 82 223 4 132 2 8789 2 1862 4 10999 82 1 2 12363 2 12852 82 12853 2 12707 2 12708 2 663 2 12854 2 706 4 1 2 2211 2 12576 82 12853 2 12707 2 12855 2 12856 2 3238 2 663 2 12857 2 706 4 1 2 4122 2 12816 82 12858 82 12859 247 1 2 1858 2 4027 4 1 2 12860 2 4965 2 12861 2 120 2 822 2 3259 82 12862 2 663 2 12863 2 706 82 223
+
+# Rails Solid Stack Skill
+
+**Auto-activates when task involves Solid Queue, Solid Cache, or Solid Cable.**
+
+Rails 8 introduces the "Solid" stack - database-backed alternatives to Redis for queues, cache, and WebSockets. This skill ensures proper patterns for production-ready implementations.
+
+## The Solid Stack
+
+| Component | Replaces | Purpose |
+|-----------|----------|---------|
+| **Solid Queue** | Sidekiq/Resque | Background job processing |
+| **Solid Cache** | Redis cache | Application caching |
+| **Solid Cable** | Redis pub/sub | WebSocket messaging |
+
+**Key benefit:** No external dependencies - just your database.
+
+## Solid Queue
+
+### Configuration
+
+```yaml
+# config/queue.yml
+default: &default
+  dispatchers:
+    - polling_interval: 1
+      batch_size: 500
+  workers:
+    - queues: "*"
+      threads: 5
+      polling_interval: 0.1
+
+development:
+  <<: *default
+
+production:
+  <<: *default
+  workers:
+    - queues: [critical, default]
+      threads: 10
+    - queues: [low]
+      threads: 3
+```
+
+### TDD for Jobs
+
+```ruby
+# spec/jobs/send_welcome_email_job_spec.rb
+RSpec.describe SendWelcomeEmailJob, type: :job do
+  # Happy case FIRST
+  it 'sends welcome email to user' do
+    user = create(:user)
+
+    expect {
+      described_class.perform_now(user.id)
+    }.to change { ActionMailer::Base.deliveries.count }.by(1)
+
+    expect(ActionMailer::Base.deliveries.last.to).to eq([user.email])
+  end
+
+  # Essential sad cases
+  it 'raises when user not found' do
+    expect {
+      described_class.perform_now(999999)
+    }.to raise_error(ActiveRecord::RecordNotFound)
+  end
+
+  it 'skips already-welcomed users' do
+    user = create(:user, welcomed_at: 1.day.ago)
+
+    expect {
+      described_class.perform_now(user.id)
+    }.not_to change { ActionMailer::Base.deliveries.count }
+  end
+
+  # Queue configuration
+  it 'uses default queue' do
+    expect(described_class.new.queue_name).to eq('default')
+  end
+
+  it 'is enqueued' do
+    user = create(:user)
+
+    expect {
+      described_class.perform_later(user.id)
+    }.to have_enqueued_job(described_class).with(user.id)
+  end
+end
+```
+
+### Job Implementation
+
+```ruby
+# app/jobs/send_welcome_email_job.rb
+class SendWelcomeEmailJob < ApplicationJob
+  queue_as :default
+
+  retry_on ActiveRecord::RecordNotFound, wait: 5.seconds, attempts: 3
+  discard_on ActiveJob::DeserializationError
+
+  def perform(user_id)
+    user = User.find(user_id)
+    return if user.welcomed_at.present?
+
+    UserMailer.welcome(user).deliver_now
+    user.update!(welcomed_at: Time.current)
+
+    Rails.logger.info("Welcome email sent", user_id: user_id)
+  end
+end
+```
+
+### Queue Priority
+
+```ruby
+# Critical jobs - payment, auth
+class ProcessPaymentJob < ApplicationJob
+  queue_as :critical
+end
+
+# Default jobs - emails, notifications
+class SendNotificationJob < ApplicationJob
+  queue_as :default
+end
+
+# Low priority - reports, cleanup
+class GenerateReportJob < ApplicationJob
+  queue_as :low
+end
+```
+
+### RBS for Jobs
+
+```rbs
+# sig/app/jobs/send_welcome_email_job.rbs
+class SendWelcomeEmailJob < ApplicationJob
+  def perform: (Integer user_id) -> void
+end
+```
+
+## Solid Cache
+
+### Configuration
+
+```ruby
+# config/environments/production.rb
+config.cache_store = :solid_cache_store
+```
+
+```yaml
+# config/solid_cache.yml
+default: &default
+  database: cache
+  store_options:
+    max_age: <%= 1.week.to_i %>
+    max_size: <%= 256.megabytes %>
+
+production:
+  <<: *default
+  store_options:
+    max_age: <%= 1.month.to_i %>
+    max_size: <%= 1.gigabyte %>
+```
+
+### TDD for Caching
+
+```ruby
+# spec/models/user_spec.rb
+RSpec.describe User do
+  describe '#expensive_calculation' do
+    it 'caches the result' do
+      user = create(:user)
+
+      # First call - computes
+      expect(ExpensiveService).to receive(:compute).once.and_return(42)
+
+      result1 = user.expensive_calculation
+      result2 = user.expensive_calculation  # Should use cache
+
+      expect(result1).to eq(42)
+      expect(result2).to eq(42)
+    end
+
+    it 'expires cache after 1 hour' do
+      user = create(:user)
+      allow(ExpensiveService).to receive(:compute).and_return(42, 100)
+
+      user.expensive_calculation
+
+      travel 2.hours do
+        expect(user.expensive_calculation).to eq(100)
+      end
+    end
+
+    it 'invalidates on update' do
+      user = create(:user)
+      allow(ExpensiveService).to receive(:compute).and_return(42, 100)
+
+      user.expensive_calculation
+      user.update!(name: 'New Name')
+
+      expect(user.expensive_calculation).to eq(100)
+    end
+  end
+end
+```
+
+### Cache Implementation
+
+```ruby
+# app/models/user.rb
+class User < ApplicationRecord
+  after_update :invalidate_cache
+
+  def expensive_calculation
+    Rails.cache.fetch(cache_key_for(:expensive), expires_in: 1.hour) do
+      ExpensiveService.compute(self)
+    end
+  end
+
+  private
+
+  def cache_key_for(method)
+    "#{cache_key_with_version}/#{method}"
+  end
+
+  def invalidate_cache
+    Rails.cache.delete(cache_key_for(:expensive))
+  end
+end
+```
+
+### Fragment Caching
+
+```erb
+<%# app/views/posts/show.html.erb %>
+<% cache @post do %>
+  <article>
+    <h1><%= @post.title %></h1>
+    <%= @post.body %>
+
+    <% cache [@post, :comments] do %>
+      <%= render @post.comments %>
+    <% end %>
+  </article>
+<% end %>
+```
+
+### Russian Doll Caching
+
+```erb
+<% cache @post do %>
+  <article>
+    <h1><%= @post.title %></h1>
+
+    <% @post.comments.each do |comment| %>
+      <% cache comment do %>
+        <%= render comment %>
+      <% end %>
+    <% end %>
+  </article>
+<% end %>
+```
+
+## Solid Cable
+
+### Configuration
+
+```yaml
+# config/cable.yml
+development:
+  adapter: solid_cable
+  polling_interval: 0.1.seconds
+
+production:
+  adapter: solid_cable
+  polling_interval: 1.second
+  message_retention: 1.day
+```
+
+### TDD for Channels
+
+```ruby
+# spec/channels/chat_channel_spec.rb
+RSpec.describe ChatChannel, type: :channel do
+  let(:user) { create(:user) }
+  let(:room) { create(:room) }
+
+  before do
+    stub_connection current_user: user
+  end
+
+  # Happy case FIRST
+  it 'subscribes to room stream' do
+    subscribe(room_id: room.id)
+
+    expect(subscription).to be_confirmed
+    expect(subscription).to have_stream_for(room)
+  end
+
+  # Essential sad cases
+  it 'rejects unauthenticated users' do
+    stub_connection current_user: nil
+
+    subscribe(room_id: room.id)
+
+    expect(subscription).to be_rejected
+  end
+
+  it 'rejects unauthorized room access' do
+    private_room = create(:room, :private)
+
+    subscribe(room_id: private_room.id)
+
+    expect(subscription).to be_rejected
+  end
+
+  it 'broadcasts messages to room' do
+    subscribe(room_id: room.id)
+
+    expect {
+      perform :speak, message: 'Hello!'
+    }.to have_broadcasted_to(room)
+      .with(hash_including(body: 'Hello!', user: user.name))
+  end
+end
+```
+
+### Channel Implementation
+
+```ruby
+# app/channels/chat_channel.rb
+class ChatChannel < ApplicationCable::Channel
+  def subscribed
+    @room = Room.find(params[:room_id])
+
+    if current_user&.can_access?(@room)
+      stream_for @room
+    else
+      reject
+    end
+  end
+
+  def speak(data)
+    message = @room.messages.create!(
+      user: current_user,
+      body: data['message']
+    )
+
+    ChatChannel.broadcast_to(@room, {
+      body: message.body,
+      user: current_user.name,
+      created_at: message.created_at.iso8601
+    })
+  end
+
+  def unsubscribed
+    # Cleanup if needed
+  end
+end
+```
+
+### Connection Setup
+
+```ruby
+# app/channels/application_cable/connection.rb
+module ApplicationCable
+  class Connection < ActionCable::Connection::Base
+    identified_by :current_user
+
+    def connect
+      self.current_user = find_verified_user
+    end
+
+    private
+
+    def find_verified_user
+      if (user = User.find_by(id: cookies.encrypted[:user_id]))
+        user
+      else
+        reject_unauthorized_connection
+      end
+    end
+  end
+end
+```
+
+### RBS for Channels
+
+```rbs
+# sig/app/channels/chat_channel.rbs
+class ChatChannel < ApplicationCable::Channel
+  @room: Room
+
+  def subscribed: () -> void
+  def speak: (Hash[String, untyped] data) -> void
+  def unsubscribed: () -> void
+end
+```
+
+## Anti-Patterns
+
+| Anti-Pattern | Fix |
+|--------------|-----|
+| Using Redis when Solid works | Start with Solid, upgrade only if needed |
+| Long-running jobs blocking queue | Split into smaller jobs, use dedicated queues |
+| Caching ActiveRecord objects | Cache primitives or serializable data |
+| No cache invalidation strategy | Use versioned cache keys, after_commit hooks |
+| Synchronous broadcasts in request | Use async jobs for heavy broadcasts |
+| Missing job idempotency | Design jobs to be safely re-runnable |
+
+## Verification Checklist
+
+Before `/done` on a Solid Stack task:
+
+- [ ] Job tests cover happy path first
+- [ ] Job tests cover retry/failure scenarios
+- [ ] Cache tests verify expiration behavior
+- [ ] Cache tests verify invalidation
+- [ ] Channel tests verify subscription/broadcast
+- [ ] Queue configuration appropriate for workload
+- [ ] Cache size limits configured
+- [ ] RBS types for all jobs/channels
+- [ ] Logging/monitoring hooks in place (full phat tier)
+- [ ] Jobs are idempotent (safe to retry)
+
+## Quick Reference
+
+### Job Lifecycle
+
+```ruby
+class MyJob < ApplicationJob
+  queue_as :default
+
+  # Retry configuration
+  retry_on SomeError, wait: :exponentially_longer, attempts: 5
+  discard_on UnrecoverableError
+
+  # Callbacks
+  before_perform :setup
+  after_perform :cleanup
+  around_perform :with_logging
+
+  def perform(args)
+    # Job logic
+  end
+
+  private
+
+  def with_logging
+    Rails.logger.info("Starting #{self.class.name}")
+    yield
+    Rails.logger.info("Completed #{self.class.name}")
+  end
+end
+```
+
+### Cache Patterns
+
+```ruby
+# Basic fetch
+Rails.cache.fetch("key", expires_in: 1.hour) { expensive_operation }
+
+# Conditional caching
+Rails.cache.fetch("key", expires_in: 1.hour, skip_nil: true) { maybe_nil_result }
+
+# Manual invalidation
+Rails.cache.delete("key")
+Rails.cache.delete_matched("user:*")  # Pattern matching
+
+# Versioned keys (auto-invalidate on model changes)
+Rails.cache.fetch(@user) { @user.expensive_data }
+```

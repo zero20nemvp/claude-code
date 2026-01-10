@@ -1,6 +1,13 @@
 ---
 name: do
-description: "Execute current task with TDD discipline, tier-based quality, and verification. Usage: /do [--tier skimmed|semi|full]"
+description: "Execute task with TDD discipline. Usage: /do [task] [--tier skimmed|semi|full]"
+arguments:
+  - name: task
+    description: "Task description (optional if /next was used)"
+    required: false
+  - name: tier
+    description: "--tier skimmed|semi|full"
+    required: false
 allowed-tools:
   - Read
   - Write
@@ -11,4 +18,610 @@ allowed-tools:
   - Task
   - AskUserQuestion
 ---
-3667 2 2339 2 186 2 65 2 1452 2 51 2 488 2  2  2 17540 6086 44 2 186 2 716 2 1006 2 435 2 37 2 9 2 630 2 1034 2 3226 2 3227 2 458 2 3228 2 3229 4 13 2 2430 2 1200 4 1996 2 2431 2 134 2 2432 2 2433 2 2434 4 13 2 2435 2 2436 2 1269 2 2632 2 440 4 71 2 316 2 3230 2 588 82 83 2 192 2 516 2 435 2 3231 2 2806 2 435 2 3232 2 1262 2 18 2 2647 82 93 2 2433 2 435 2 2339 2 77 2 3233 82 104 2 316 2 3234 2 51 2 536 2 861 2 929 2 647 2 319 2 410 4 13 2 2435 2 3235 2 1058 2 233 2 441 2 3236 2 3237 2 292 2 3238 4 1005 2 3237 2 58 2 3239 2 1290 2 214 2 3163 2 134 2 1006 2 3240 4 71 2 3241 2 647 2 3242 3132 373 2 3243 2 3244 2 373 3132 3245 2 86 2 3246 2 458 2 1374 2 1292 2 1183 2 30 2 3247 3248 3249 2 3250 2 2549 3132 3249 2 3250 2 2550 3132 3249 2 3250 2 3251 4 83 2 1249 2 737 2 435 2 65 2 3252 1337 51 2 2052 2 134 2 1280 2 1274 1337 51 2 447 2 3253 2 448 2 536 2 458 2 724 1337 51 2 2052 2 3254 2 1259 2 3250 2 2549 1337 51 2 3255 2 25 2 444 4 93 2 1326 2 3256 2 119 2 3254 1337 51 2 1262 2 458 2 1374 2 3257 2 3258 2 86 2 3259 1337 51 2 3241 2 3260 4 104 2 3261 3132 3243 2 3262 2 3263 2 3264 3248 1259 2 3250 2 2549 3132 1259 2 3250 2 2550 3132 1259 2 3250 2 3251 3248 41 2 21 4 3265 2 313 2 3266 2 3267 2 458 2 3268 2 469 2 1292 2 1183 2 30 2 3247 4 2637 2 3237 2 292 2 3269 2 3270 2 25 2 3271 2 3272 2 2835 4 13 2 2435 2 3273 2 3274 2 441 4 316 2 3275 2 25 2 2828 2 319 2 3276 4 3277 2 292 2 3278 2 43 2 3279 4 1262 2 2965 2 401 2 402 2 3280 82 71 2 1996 2 3281 2 682 2 2041 2 186 2 112 2 3282 82 83 2 1996 2 3281 2 3283 2 2471 2 177 2 2041 2 2725 2 3284 82 93 2 1996 2 3281 2 682 2 194 2 2680 2 2300 2 2681 82 104 2 321 2 401 2 402 2 77 2 3285 82 1022 2 2067 2 25 2 2465 82 1620 2 3261 2 3286 2 401 2 2594 2 3287 2 2556 2 41 2 21 4 3277 2 292 2 3288 4 1262 2 2965 2 332 2 3280 82 71 2 1996 2 3281 2 682 2 137 2 2497 2 109 2 112 2 2498 2 25 2 3289 82 83 2 1996 2 3281 2 2711 2 2061 2 112 2 2720 2 2286 2 3290 2 2546 2 3291 82 93 2 1996 2 3281 2 682 2 2218 2 476 2 2722 82 104 2 1996 2 3281 2 3292 2 1516 2 177 2 344 2 3293 82 1022 2 321 2 332 2 37 2 3294 2 292 2 3295 2 3296 2 86 2 3297 82 1620 2 2067 2 25 2 2465 82 2297 2 3261 2 3286 2 3008 2 3298 2 2556 2 41 2 21 4 3277 2 292 2 3299 4 1262 2 2965 2 3300 2 3301 82 71 2 2433 2 317 2 3302 82 83 2 1996 2 3281 2 3292 2 3303 2 49 2 2498 2 25 2 3304 2 3305 2 49 2 113 2 3306 82 93 2 3307 2 3308 2 37 2 3309 2 1339 82 104 2 2067 2 3300 2 25 2 3310 82 1022 2 2452 2 3311 2 292 2 663 2 3150 2 835 2 658 2 81 2 706 82 1620 2 3261 2 3312 2 3313 2 2556 2 41 2 21 4 3277 2 292 2 3314 4 1262 2 2965 2 3315 2 3316 82 71 2 2433 2 3300 2 1008 2 77 2 3317 82 83 2 1896 2 3318 2 25 2 750 2 3319 2 499 2 2492 2 207 2 1073 82 93 2 2067 2 25 2 3320 82 104 2 2452 2 3321 2 292 2 663 2 3150 2 835 2 658 2 81 2 706 82 1022 2 3261 2 3322 2 3323 2 2556 2 41 2 21 4 3277 2 292 2 3324 4 1262 2 2965 2 3325 2 3326 82 71 2 2433 2 3319 2 1008 82 83 2 2064 2 3327 2 3325 2 586 82 93 2 2067 2 25 2 3328 82 104 2 2452 2 3329 2 292 2 663 2 3150 2 835 2 3276 2 81 2 706 82 1022 2 3261 2 3330 2 3331 2 2556 2 41 2 21 4 3277 2 292 2 3332 4 1262 2 2965 2 3333 2 3334 82 71 2 2433 2 3325 2 586 82 83 2 3335 2 3336 2 3333 2 3337 2 499 2 2492 82 93 2 2452 2 3338 2 292 2 663 2 3150 2 835 2 3339 2 3340 2 706 82 104 2 3261 2 3341 2 3342 2 2556 2 41 2 21 4 3277 2 292 2 696 2 43 2 3343 4 3270 2 25 2 2435 2 3344 2 3345 2 448 2 3346 4 13 2 2435 2 3347 2 3348 2 495 2 333 2 502 4 3349 2 3350 2 2844 2 536 2 3351 2 3352 2 3353 2 3354 2 3355 4 540 2 3356 82 223 82 3357 2 531 2 3358 82 3359 2 3360 82 223 4 143 2 502 2 143 2 503 2 485 2 143 2 468 2 3361 2 143 82 3362 82 143 2 3363 2 143 2 506 2 507 2 106 2 143 2 508 2 509 2 143 82 143 2 3364 2 1210 2 143 2 506 2 329 2 80 2 512 2 513 2 143 2 3365 2 516 2 517 2 143 82 143 2 3366 2 143 2 506 2 329 2 86 2 512 2 329 2 80 2 520 2 329 2 521 2 143 2 561 2 143 4 2452 2 3367 2 65 2 3368 82 2522 82 663 387 847 2 3369 387 849 2 663 709 850 2 690 709 851 2 690 709 852 2 690 709 853 2 690 709 854 2 771 387 706 82 706 82 223 4 3241 2 1280 2 3370 82 223 82 373 2 495 2 3371 2 3372 2 373 82 223 4 13 2 2435 2 3373 2 1199 2 1200 4 2652 2 1202 2 349 2 25 2 3374 2 2228 2 3375 4 649 82 3376 82 223 4 3377 2 3378 2 2534 2 120 2 3379 82 51 2 652 2 51 2 1996 2 1228 2 294 2 1216 2 3380 2 1088 2 1089 2 3381 82 51 2 3382 2 51 2 1996 2 1238 2 294 2 1241 2 1242 82 51 2 3383 2 51 2 1996 2 2492 2 37 2 3384 2 3385 2 3386 4 3387 2 3233 2 65 2 3388 82 2522 82 663 387 845 2 3389 82 706 82 223 4 3390 82 223 82 373 2 1199 2 3391 2 3392 2 143 2 3393 2 373 82 223 4 3394 2 463 2 3395 4 143 2 1199 2 143 2 1139 2 305 2 143 82 3396 82 143 2 1216 2 143 2 3397 2 1230 2 3398 2 3399 2 143 82 143 2 3400 2 143 2 3401 2 463 2 3402 2 143 4 13 2 2435 2 3403 2 3404 2 440 2 1149 2 1050 2 1519 2 209 4 3405 2 9 2 435 2 1473 2 25 2 3406 2 3407 2 3408 4 132 2 3409 2 1200 4 316 2 536 2 435 2 3410 2 3411 2 3412 82 51 2 3413 2 3414 2 3415 2 3416 2 3417 82 51 2 3418 2 3419 2 3420 2 3421 82 51 2 1079 2 3422 2 3423 2 3424 2 3425 2 3426 2 3427 82 51 2 3428 2 3429 2 3430 2 3431 2 3432 82 51 2 3433 2 3434 2 799 2 3435 82 51 2 3436 2 3437 2 2328 4 2637 2 3438 2 3439 82 223 82 373 2 3409 2 3440 2 3441 2 3442 2 373 4 3443 2 3444 2 3445 82 223 4 1519 2 9 2 1077 2 3446 82 71 2 3447 2 274 2 3448 2 51 2 3449 2 3444 2 416 82 83 2 3450 2 9 2 799 2 3451 1337 223 1337 3452 2 2800 2 3453 2 3454 2 51 2 3455 2 3456 2 3457 2 3458 1337 3459 2 3460 2 3461 2 2474 2 2724 2 3462 2 2061 2 3463 1337 3464 2 3465 2 3466 2 2281 2 3467 2 3466 1337 3468 2 3469 2 2281 2 3470 2 2281 2 3471 1337 223 82 93 2 3472 2 37 2 9 2 3473 2 3474 2 51 2 86 2 3438 2 458 2 459 2 177 2 3475 82 104 2 3476 2 516 2 98 2 3477 2 51 2 516 2 3478 2 516 2 3479 2 3480 2 120 2 3481 4 1075 2 214 2 1516 2 510 2 9 2 3409 2 3440 2 3482 2 274 2 3483 4 132 2 3484 2 3441 2 1200 4 3485 2 3406 2 130 2 3486 82 51 2 1043 2 51 2 536 2 435 2 3487 2 3488 2 3489 2 3221 2 3490 82 51 2 1052 2 51 2 536 2 435 2 1331 2 799 2 1109 2 43 2 3491 4 13 2 2435 2 1956 2 1358 2 1351 2 130 2 2452 2 1187 2 2840 4 1262 2 9 2 1359 2 1260 2 25 2 3492 2 3493 2 2684 4 2452 2 3368 82 51 2 3348 2 3494 2 292 2 3495 82 51 2 3348 2 3496 2 292 2 663 2 3497 2 3498 2 3499 2 3500 2 3501 2 3502 2 3503 2 706 82 51 2 3348 2 3504 2 292 2 3505 82 51 2 3348 2 3506 2 292 2 2649 4 13 2 2435 2 3507 2 98 2 2230 2 3508 2 133 2 2230 2 3509 4 1037 2 3510 2 98 2 194 2 95 2 96 2 3511 2 133 2 106 2 194 2 110 2 111 2 57 2 113 2 3512 4 335 2 3513 2 3514 2 9 2 3515 4 71 2 1246 2 435 2 1587 2 100 82 83 2 1249 2 737 2 3516 2 2223 2 3517 2 98 2 109 2 2738 1337 51 2 3518 2 98 2 99 2 1328 1337 51 2 3519 2 1271 2 207 2 57 2 3520 2 57 2 3521 82 93 2 447 2 86 2 98 2 100 2 2596 82 104 2 3522 2 111 2 107 2 57 2 624 2 499 2 2492 4 133 2 1320 2 2732 2 3523 2 166 2 3524 82 51 2 148 2 52 2 149 2 3525 2 3526 82 51 2 153 2 154 2 155 82 51 2 158 2 159 2 160 2 37 2 162 82 51 2 163 2 164 2 2281 2 167 82 51 2 148 2 168 2 3527 2 170 2 3528 82 51 2 173 2 174 2 175 2 3529 2 177 2 178 2 3530 82 51 2 180 2 181 2 183 2 65 2 184 4 1025 82 51 2 3531 2 3532 2 839 2 25 2 271 2 840 82 51 2 98 2 3533 2 3534 2 3535 2 79 2 3536 2 3537 2 2058 2 3538 82 51 2 133 2 3533 2 3532 2 177 2 293 2 2242 2 25 2 3539 2 3540 2 3541 4 14 2 57 2 3542 2 9 2 3543 2 107 2 3544 2 98 2 230 2 95 2 231 4 13 2 2435 2 3545 2 562 2 563 2 564 2 565 4 2477 2 598 2 43 2 3546 2 26 2 207 2 568 2 569 2 3547 4 568 2 573 2 574 2 575 2 115 2 184 2 3548 4 583 4 71 2 2470 2 536 2 594 2 3549 2 3550 2 597 82 83 2 2470 2 207 2 585 2 568 2 3551 1337 649 1337 3552 2 3553 1337 3552 2 3554 1337 3552 2 3555 1337 223 82 93 2 2637 2 568 2 643 2 567 2 96 2 3556 1337 51 2 3557 2 3558 2 3559 2 613 2 614 1337 51 2 3560 2 3561 2 618 2 619 2 513 1337 51 2 3562 2 3563 2 623 2 617 2 3421 2 3564 82 104 2 3565 2 568 2 25 2 3566 2 463 2 3567 1337 51 2 3568 2 193 2 1073 2 550 1337 51 2 1677 2 513 2 193 2 512 2 507 2 550 1337 51 2 3569 2 193 2 3570 2 550 82 1022 2 3571 2 591 2 25 2 571 2 458 2 536 2 516 2 3572 4 968 2 562 2 3573 4 223 82 3531 2 1773 2 858 2 1073 2 25 2 1807 2 822 4 71 2 316 2 3553 82 83 2 587 2 3574 1337 3575 1337 3576 1337 3577 1337 3578 4 93 2 461 2 550 2 77 2 568 2 3579 1337 51 2 3580 2 3581 2 3582 2 3583 1337 51 2 3584 2 858 2 2058 2 3582 2 3585 1337 51 2 619 2 3586 2 3587 2 858 2 3588 2 3582 2 3589 4 104 2 3590 2 283 2 458 2 25 2 510 2 550 82 223 4 2637 2 516 2 568 2 3591 82 51 2 367 2 37 2 629 2 571 2 458 2 3592 82 51 2 646 2 647 2 648 2 3593 2 651 2 3126 2 652 2 653 2 3594 4 3595 2 3596 82 51 2 1272 2 177 2 3597 2 3598 2 106 2 207 2 3599 82 51 2 367 2 3592 2 25 2 448 4 13 2 2435 2 1986 2 1519 2 448 2 453 2 3600 4 3601 2 458 2 3602 2 3603 2 1040 2 37 2 3604 2 463 2 3605 4 132 2 502 2 3606 4 3607 2 506 2 507 2 463 2 106 82 51 2 461 2 2474 2 463 2 207 2 9 2 3608 2 81 82 51 2 1595 2 96 2 510 82 51 2 3609 4 3610 2 506 2 329 2 80 2 512 2 513 82 51 2 461 2 3608 2 507 2 463 2 546 82 51 2 1773 2 80 2 512 2 507 2 550 2 1009 2 696 2 3611 2 2372 2 3612 2 162 2 3613 82 51 2 287 2 550 2 1516 2 510 4 3614 2 3615 2 3616 2 329 2 3617 82 51 2 506 2 507 2 463 2 546 82 51 2 549 2 512 2 507 2 550 82 51 2 555 2 512 2 507 2 550 2 3618 2 3619 82 51 2 549 2 520 2 507 2 550 2 3620 2 3621 2 3622 2 3623 82 51 2 1773 2 1408 2 25 2 1056 82 51 2 1773 2 3624 2 559 4 132 2 464 2 3625 2 3626 2 3627 2 3628 4 71 2 3629 2 9 2 463 2 3630 2 51 2 274 2 31 2 1056 82 83 2 3631 2 9 2 3632 2 51 2 355 2 96 2 3633 82 93 2 3476 2 1146 2 3634 2 51 2 48 2 3635 2 207 2 9 2 3636 2 1882 2 635 2 1119 2 3637 4 223 82 448 2 3638 2 3639 2 462 2 3640 82 495 2 3371 2 3372 82 1139 2 658 2 3641 82 3140 2 3642 2 3643 2 48 2 3644 4 3645 2 3640 82 3646 2 3647 2 3648 2 51 2 3649 2 3650 4 3651 2 25 2 465 2 3652 82 223 4 2637 2 463 2 547 2 3653 2 3654 2 3655 2 3656 2 2019 2 3657 4 132 2 465 2 3625 2 3658 2 3659 4 71 2 3629 2 283 2 3660 2 25 2 2361 2 463 2 510 82 83 2 3631 2 9 2 3632 2 51 2 355 2 96 2 3661 82 93 2 2193 2 3662 2 51 2 3663 2 2243 2 25 2 510 4 223 82 448 2 3664 2 3665 2 283 2 3666 82 3667 2 658 2 3641 4 3645 2 3640 82 3646 2 3668 4 1139 2 3669 2 3651 2 25 2 3670 2 3652 82 223 4 132 2 3670 2 3625 2 3671 2 3672 4 71 2 3673 2 458 2 3674 2 1312 2 3675 2 550 2 3676 82 83 2 3631 2 550 2 471 2 737 2 3677 2 51 2 3678 2 3676 82 93 2 3213 2 920 2 3679 4 223 82 448 2 3680 2 3681 2 3682 82 3683 2 3684 4 3645 2 3685 82 3646 2 3668 2 3686 2 3687 4 3688 2 3689 2 3650 82 223 4 13 2 2435 2 2489 2 3690 2 2428 4 1249 2 3691 2 3692 82 51 2 448 2 2624 2 3374 82 51 2 1499 2 120 2 1550 2 3693 82 51 2 1621 2 1109 2 1625 4 223 82 440 2 2323 2 3694 82 3695 2 3696 2 3407 4 3697 2 3698 82 3699 2 3700 4 3701 2 3643 2 1841 2 3702 82 223 4 13 2 2435 2 2511 2 1062 2 3703 2 468 2 469 4 3704 2 3705 2 3706 2 3707 2 3708 2 64 2 3709 17 3710 2 458 2 1374 2 3711 4 1996 2 9 2 440 2 1794 2 25 2 3707 2 9 2 3708 2 64 2 37 2 3712 2 292 2 3713 4 3377 2 3714 2 65 2 3715 709 3716 2 292 2 218 4 3717 2 2022 2 3718 2 207 2 1374 2 25 2 3205 2 133 2 113 2 2266 2 25 2 3229 4 469 2 2061 2 344 2 2365 2 65 2 21 2 3719 2 3720 2 468 2 469 2 3721 4 13 2 2435 2 2539 2 3722 2 3723 2 474 2 1810 2 3236 2 469 2 3724 2 3725 4 192 2 1374 2 64 2 2895 2 3726 2 37 2 2280 2 1433 4 3727 2 1852 2 2999 2 1328 709 3728 2 3729 709 3730 2 3731 709 3732 2 3733 709 3734 2 3685 709 3668 4 3735 2 1852 2 2157 2 207 2 21 2 1092 709 1783 2 3729 709 3736 2 3737 2 274 2 3738 4 3739 2 1852 2 3740 2 207 2 483 709 3741 2 3729 709 3742 2 207 2 483 2 3743 4 2637 2 1374 2 3744 2 3745 2 3270 2 25 2 2435 2 1620 2 469 2 2365 2 65 2 3738 4 13 2 2435 2 2572 2 484 2 335 2 1196 4 3631 2 452 2 51 2 1516 2 488 2 489 2 3746 4 71 2 3631 2 3747 2 51 2 488 2 489 2 3748 2 35 82 83 2 2470 2 3749 2 51 2 355 2 96 2 1303 82 93 2 3750 2 3751 2 51 2 3091 2 3152 2 1275 2 2246 2 1385 4 223 82 373 2 484 2 373 4 3645 2 3685 82 3752 2 463 2 3753 82 3646 2 2051 2 3754 2 829 2 3755 4 3756 2 3150 82 3757 2 3758 4 3759 2 3760 82 223 4 2637 2 452 2 3761 2 1784 2 2022 2 1194 2 207 2 3738 2 2999 2 3762 4 13 2 2435 2 3763 2 502 2 333 2 3764 4 3476 2 537 2 538 2 3765 2 274 2 3766 2 3767 4 132 2 3768 2 3482 82 51 2 543 2 544 2 506 2 507 2 463 2 545 2 546 82 51 2 543 2 544 2 506 2 507 2 463 2 547 4 132 2 3769 2 3482 82 51 2 543 2 544 2 506 2 507 2 463 2 545 2 546 82 51 2 543 2 544 2 549 2 512 2 507 2 550 2 545 2 3770 2 1720 2 3771 82 51 2 543 2 544 2 287 2 550 2 510 4 132 2 3772 2 3773 2 3482 82 51 2 543 2 544 2 506 2 507 2 463 2 545 2 546 82 51 2 543 2 544 2 549 2 512 2 507 2 550 2 545 82 51 2 543 2 544 2 555 2 512 2 507 2 550 2 545 82 51 2 543 2 544 2 549 2 520 2 507 2 550 2 545 2 3770 2 1720 2 3774 82 51 2 543 2 544 2 556 2 557 2 65 2 458 82 51 2 543 2 544 2 558 2 559 2 560 4 3387 2 3775 2 65 2 3388 82 2522 82 663 387 849 2 663 709 850 2 861 709 851 2 861 245 3776 2 3777 2 3778 2 106 709 852 2 861 245 3776 2 3778 2 106 709 853 2 861 260 3776 2 3778 2 106 709 854 2 218 245 3776 2 3778 2 106 387 706 82 706 82 223 4 3779 2 537 2 1092 2 3379 82 223 82 373 2 495 2 333 2 3780 2 3372 2 373 82 1259 2 506 2 507 2 2085 82 1259 2 3781 2 513 2 2085 2 1781 2 3782 82 1259 2 3783 2 513 2 2085 2 1781 2 3782 82 1259 2 556 2 560 2 1781 2 3782 82 1259 2 558 2 560 2 1781 2 3782 4 502 2 3784 2 3760 82 223 4 2637 2 537 2 538 2 2022 2 3785 2 1784 2 2022 2 1194 2 207 2 3738 2 2999 2 3762 2 2483 2 58 2 3786 2 3787 4 13 2 2435 2 3788 2 3409 2 3440 2 3764 2 3236 2 3789 4 1462 2 207 2 214 2 123 2 3790 2 732 2 1841 2 3791 4 132 2 3409 2 3440 2 3482 4 51 2 543 2 544 2 3452 2 416 2 1841 2 3473 2 130 2 1667 82 51 2 543 2 544 2 3792 2 58 2 3793 2 2513 2 3794 2 3795 2 3796 2 52 2 3797 82 51 2 543 2 544 2 3798 2 3799 2 58 2 3800 2 130 2 3801 82 51 2 543 2 544 2 3802 2 1720 2 39 2 3803 2 3804 2 3805 2 588 82 51 2 543 2 544 2 3806 2 1653 2 3807 2 635 2 3808 2 67 2 3809 82 51 2 543 2 544 2 150 2 3810 2 3811 2 3812 2 324 2 3813 82 51 2 543 2 544 2 3814 2 1670 2 345 2 1781 2 3815 82 51 2 543 2 544 2 1438 2 3816 2 2365 2 1781 2 3815 4 3779 2 3438 2 1092 2 3379 82 223 82 373 2 3409 2 3440 2 3764 2 373 82 3817 2 3453 2 2761 82 3464 2 1259 2 3818 2 3819 2 3820 82 3468 2 1259 2 3821 2 3822 82 3823 2 1259 2 3461 2 39 2 3824 82 98 2 3825 2 3826 2 1259 2 3827 2 3813 4 3409 2 3784 2 3760 82 223 4 3828 2 3825 2 1200 2 51 2 3647 2 536 2 31 2 2662 82 51 2 3794 2 3795 2 3829 2 134 2 1372 2 1081 82 51 2 3830 2 3831 2 120 2 3481 2 3832 82 51 2 3833 2 3834 2 3835 2 37 2 516 2 3836 82 51 2 150 2 3837 2 43 2 3804 2 3838 82 51 2 3839 2 3840 2 3841 4 2637 2 3438 2 538 2 2022 2 3785 2 1784 2 2022 2 1194 2 207 2 3738 2 3842 2 3762 4 13 2 2435 2 2589 2 3843 2 207 2 1196 4 15 2 3844 82 51 2 448 2 3845 2 725 2 3846 2 458 2 390 82 51 2 468 2 1374 2 3847 2 3848 2 3849 82 51 2 484 2 3847 82 51 2 502 2 318 2 1092 2 3847 82 51 2 3409 2 799 2 1092 2 3847 2 1781 2 3438 2 724 4 1466 2 3850 17 3262 709 3250 2 3851 17 41 2 21 4 229 2 195 2 150 2 3852 2 1493 2 133 2 3853 2 9 2 129 2 3847 2 86 2 3854 4 13 2 1243 2 264 4 3855 2 58 2 3856 2 207 2 458 2 3857 82 51 2 1139 2 3858 2 488 2 96 2 3647 82 51 2 3590 2 3859 2 458 2 25 2 510 82 51 2 466 2 1312 2 3860 2 465 4 3861 2 333 2 3862 2 3863 2 3864 82 51 2 542 2 506 2 507 2 3865 2 3866 2 509 82 51 2 548 2 506 2 329 2 80 2 512 2 513 2 1210 82 51 2 553 2 554 2 3867 2 3617 82 51 2 502 2 1092 2 58 2 3868 2 2351 4 1429 2 1374 2 58 2 3869 82 51 2 3870 2 471 2 3706 2 2624 2 476 2 20 82 51 2 3871 2 65 2 21 2 1092 82 51 2 2280 2 1433 2 3872 2 363 2 3135 2 3873 2 25 2 3874 82 51 2 133 2 3875 2 410 2 2327 4 3876 2 58 2 3877 82 51 2 487 2 488 2 489 2 463 2 35 82 51 2 490 2 491 2 58 2 183 2 492 82 51 2 493 2 274 2 477 2 494 4 3878 2 3879 2 9 2 3880 82 51 2 3881 2 1397 2 1676 2 3882 2 2316 2 328 82 51 2 3883 2 2837 2 25 2 1415 82 51 2 1606 2 3884 2 9 2 3885
+
+You are executing a task with the full superpowers discipline: TDD, code review, verification.
+
+## Directory Detection
+
+Use `agentc/` as `$DIR`. Load `$DIR/agentc.json` (create if doesn't exist).
+
+## STEP 0: Identify Task
+
+**Two entry points - same discipline:**
+
+**A) Task provided as argument:** `/do fix the login button typo`
+- Create ad-hoc task from description
+- Set current.humanTask = { description: "[task]", type: "ad-hoc", ... }
+- Proceed to execution
+
+**B) Task from /next:** `/do` (no argument)
+- Check current.humanTask exists
+- If no task: "Describe task or run /next first."
+- Proceed to execution
+
+**Both paths get identical discipline (TDD, verification, review).**
+
+4. Check current.batchMode - if true, use batch execution flow
+
+## STEP 0.1: Batch Mode Execution (If batchMode = true)
+
+When batchMode is active, multiple tasks execute as a checklist:
+
+1. Display batch header:
+       === BATCH MODE ===
+       Complete all items, code review runs once at end.
+
+       □ [Task 1]
+       □ [Task 2]
+       □ [Task 3]
+
+2. For each task in batch:
+   - Mark as current focus
+   - Execute (apply TDD if code task)
+   - Mark complete: ✓ [Task 1]
+   - Move to next
+
+3. After ALL items complete:
+   - Run code review ONCE (covers all changes)
+   - Display summary
+
+4. Output:
+       BATCH COMPLETE [X items]
+
+       ✓ [Task 1]
+       ✓ [Task 2]
+       ✓ [Task 3]
+
+       DO: /done
+
+**Batch mode skips per-item code review.** Review runs once at end.
+
+**If batchMode = false:** Continue to normal single-task execution.
+
+## STEP 0.25: Stage-Aware Execution
+
+Check humanTask.type to determine execution path:
+
+**type = "bootstrap" or "create-north-star":**
+
+Run inline North Star creation:
+1. Use AskUserQuestion: "What problem are you solving?"
+2. Use AskUserQuestion: "Who has this problem most acutely?"
+3. Use AskUserQuestion: "What does success look like?"
+4. Create North Star from answers
+5. Save to agentc.json
+6. Output: "Created North Star: [name]" then DO: /done
+
+**type = "create-goal":**
+
+Run inline Goal creation:
+1. Use AskUserQuestion: "What specific outcome do you want to achieve?"
+2. Use AskUserQuestion: "How will you know it's done? (acceptance criteria)"
+3. Use AskUserQuestion: "What might block you?"
+4. Use AskUserQuestion: "When must this be complete?"
+5. Create Goal with stage = "discovery", stageProgress all pending
+6. Save to agentc.json
+7. Output: "Created Goal: [wish]" then DO: /done
+
+**type = "jtbd":**
+
+Run inline JTBD discovery:
+1. Load goal context
+2. Use AskUserQuestion: "When [situation], I want to [motivation], so I can [outcome]"
+3. Probe deeper with follow-up questions
+4. Save JTBD to docs/jtbd/YYYY-MM-DD-[goal-slug].md
+5. Update goal.stageProgress.jtbd = { status: "done", file: path }
+6. Output: "JTBD documented" then DO: /done
+
+**type = "stories":**
+
+Run inline story mapping:
+1. Load JTBD file from goal.stageProgress.jtbd.file
+2. Convert jobs to user stories via AskUserQuestion for validation
+3. Save to docs/stories/YYYY-MM-DD-[goal-slug].md
+4. Update goal.stageProgress.stories = { status: "done", file: path }
+5. Output: "Stories mapped" then DO: /done
+
+**type = "features":**
+
+Run inline feature writing:
+1. Load stories file
+2. Generate Gherkin feature files
+3. Save to features/[goal-slug]/
+4. Update goal.stageProgress.features = { status: "done", path: path }
+5. Output: "Features written" then DO: /done
+
+**type = "slices":**
+
+Run inline vertical slicing:
+1. Load feature files
+2. Plan thin vertical slices via AskUserQuestion
+3. Update goal.stageProgress.slices = { status: "done", branches: [...] }
+4. Output: "Slices planned" then DO: /done
+
+**type = null or "implementation":**
+
+Continue to STEP 0.5 (normal TDD execution).
+
+## STEP 0.5: Set Milk Quality Tier
+
+Parse `--tier` argument if provided. Options: `skimmed`, `semi`, `full`
+
+**Tier Selection:**
+```
+Argument: --tier [value]
+Default: semi-skimmed
+```
+
+| Tier | Tests Required | Code Approach |
+|------|----------------|---------------|
+| **skimmed** | Happy case only | Bare minimum |
+| **semi-skimmed** (default) | Happy + essential sad cases | Extensible, no overengineering |
+| **full-phat** | Happy + all sad + essential mad + logging/monitoring | Production-ready |
+
+Update `humanTask.milkQuality` in agentc.json:
+```json
+{
+  "milkQuality": "[selected-tier]",
+  "qualityVerification": {
+    "happyCaseTested": false,
+    "sadCasesTested": false,
+    "madCasesTested": false,
+    "loggingAdded": false,
+    "monitoringAdded": false
+  }
+}
+```
+
+Display current tier:
+```
+=== Milk Quality: [TIER] ===
+```
+
+## STEP 0.6: Language Detection
+
+Detect project language to apply appropriate tooling:
+
+```bash
+${CLAUDE_PLUGIN_ROOT}/scripts/detect-language.sh
+```
+
+**Set LANG_MODE based on result:**
+- ruby - Use RSpec commands, Ruby examples, RBS type checking
+- javascript - Use Jest/Vitest commands, TypeScript examples
+- unknown - Use AskUserQuestion with options: ["Ruby/Rails", "JavaScript/TypeScript"]
+
+**Update humanTask in agentc.json:**
+```json
+{
+  "languageMode": "ruby|javascript"
+}
+```
+
+**Display:**
+```
+=== Language Mode: [Ruby/Rails | JavaScript/TypeScript] ===
+```
+
+**Language-specific test commands:**
+
+| Language | Test Command |
+|----------|--------------|
+| Ruby | `bundle exec rspec spec/path/to/spec.rb` |
+| JavaScript | `npm test path/to/test.test.ts` |
+
+## STEP 0.75: Auto-Detect Task Type & Apply Skills
+
+**Analyze the task description to detect applicable skills:**
+
+### Frontend Detection
+
+Check if task involves ANY of:
+- React, Vue, Svelte, Angular components
+- HTML, CSS, SCSS, Tailwind
+- UI elements (buttons, forms, cards, modals, menus)
+- Pages (landing, dashboard, settings, profile)
+- Styling, theming, design systems
+- Animation, motion, transitions
+
+**If frontend detected:**
+```
+=== Frontend Design Skill Activated ===
+
+Detecting aesthetic requirements...
+```
+
+Apply the `frontend-design` skill:
+1. **Pause before coding** - Choose aesthetic direction
+2. **Document the design decision:**
+   ```
+   Aesthetic Direction: [chosen tone - e.g., "brutally minimal", "retro-futuristic"]
+   Memorable Element: [the ONE thing someone will remember]
+   Typography: [display font] / [body font]
+   Palette: [primary] / [accent] / [background]
+   ```
+3. **Execute with the chosen direction** - all frontend code follows this vision
+4. **Verify no AI slop** - no Inter/Roboto, no purple gradients on white
+
+**Frontend tasks must pass the Frontend Design Checklist before /done.**
+
+### Other Skill Detection
+
+Similarly detect and apply:
+- `systematic-debugging` - if task mentions bug, error, fix, investigate
+- `brainstorming` - if task requires design decisions or architecture
+
+## STEP 1: Start Timer and Update Loop State
+
+Run the timer script to start tracking time.
+
+Update agentc.json:
+- Set current.loopState = "executing"
+- Set current.lastAction = { action: "do", timestamp: now, description: "Started: [task]" }
+- Set humanTask.status = "in_progress"
+- Set humanTask.startedAt = now
+
+## STEP 1.5: AI Does Max, Human Does Minimum
+
+**Core principle: AI does everything it CAN. Human only does what ONLY human can do.**
+
+Before executing, decompose the task:
+
+1. Break task into subtasks
+2. For each subtask ask: "Can AI do this?"
+   - YES: AI executes immediately
+   - NO: Queue for human (requires human capability)
+3. Execute all AI subtasks first
+4. Surface ONLY atomic human actions via AskUserQuestion
+
+Human capabilities (only these require human):
+- External system access (production credentials)
+- Physical device testing
+- Real browser sessions with auth
+- Strategic authority / sign-off
+- External communication (send emails, calls)
+- Subjective UX judgment ("does this feel right?")
+- Domain expertise not in codebase
+
+Example:
+- Task: "Send outreach to 3 founders"
+- AI does: Draft messages, find contact info, format templates
+- Human does: "Send this exact message to sarah@startup.io" [text provided]
+
+The human receives the MINIMUM atomic action. AI handles everything else.
+
+## STEP 1.75: ILX-First (Ruby/Rails Projects Only)
+
+**Before implementing or debugging, check for ILX semantic maps.**
+
+ILX provides 300-500:1 compression of codebase semantics.
+
+**Workflow:**
+
+1. **Check if Ruby/Rails project** (detect Gemfile)
+2. **Check for relevant ILX files:**
+   ```bash
+   ls .agentc/ilx/app/models/user.ilx
+   ls .agentc/ilx/app/controllers/posts_controller.ilx
+   ls .agentc/ilx/app/views/users/index.html.ilx
+   ```
+3. **If ILX exists, read it FIRST:**
+   - **Entities**: Fields, validations, relationships, constraints
+   - **Features**: Actions, triggers, edge cases
+   - **Views**: Layout, bindings, actions, Tailwind classes
+4. **Use ILX to guide test writing:**
+   - Constraints → validation tests
+   - Edge cases → sad case tests
+   - Triggers → callback tests
+5. **Fall back to source code if no ILX**
+
+**Example ILX-First Workflow:**
+
+```
+Task: Add email validation to User model
+
+1. Check .agentc/ilx/app/models/user.ilx
+2. Read ILX:
+   User{email!,name?,Team⊂team}
+   |email!∧valid_format
+   #create→User|constraints
+   edge:email_blank→reject
+
+3. Write tests from ILX constraints:
+   - validates_presence_of :email (from |email!)
+   - validates email format (from |valid_format)
+   - edge case: blank email rejected (from edge:)
+
+4. Implement minimal code to pass tests
+```
+
+**If no ILX exists:**
+- Proceed with reading source code directly
+- Suggest batch conversion: `cd plugins/agentc/scripts && ruby ilx_batch_convert.rb .`
+
+**Non-Ruby/Rails projects:**
+- Skip this step (ILX only for Ruby/Rails)
+- Proceed directly to TDD
+
+## STEP 2: Apply TDD Discipline (Tier-Based)
+
+**For code tasks, follow RED-GREEN-REFACTOR with tier-appropriate test coverage:**
+
+### Tier Requirements
+
+**SKIMMED:** Happy case test only
+- Write ONE test for the happy path
+- Make it pass
+- Done
+
+**SEMI-SKIMMED:** Happy + essential sad cases
+- Write happy case test FIRST
+- Add essential sad case tests (e.g., null input, invalid data, auth failure)
+- All tests must pass
+
+**FULL PHAT:** Comprehensive + production-ready
+- Happy case test FIRST
+- Essential sad case tests
+- Non-essential sad case tests (edge cases)
+- Essential mad case tests (unexpected states, race conditions)
+- Add logging to implementation
+- Add monitoring hooks
+
+### RED Phase (Write Failing Test)
+
+1. **Write the test first** - before any implementation
+2. **Run the test** - verify it FAILS
+3. **Verify failure reason** - should fail for the RIGHT reason (not syntax error)
+
+```
+TDD RED: Writing failing test...
+Milk Quality: [TIER]
+Test file: [path]
+Expected failure: [what should fail]
+
+Running test...
+Result: FAIL (expected) - [failure message]
+
+Proceeding to GREEN phase.
+```
+
+**If test passes unexpectedly:** STOP. Investigate why. Don't proceed.
+
+### GREEN Phase (Minimal Implementation)
+
+1. **Write minimal code** to make test pass
+2. **Run the test** - verify it PASSES
+3. **No over-engineering** - just enough to pass
+
+```
+TDD GREEN: Implementing minimal code...
+Implementation file: [path]
+
+Running test...
+Result: PASS
+
+Test passes. Proceeding to REFACTOR phase.
+```
+
+### REFACTOR Phase (Clean Up)
+
+1. **Improve code quality** while keeping tests green
+2. **Run tests after each change** - stay green
+3. **Commit when clean**
+
+```
+TDD REFACTOR: Cleaning up...
+[Changes made]
+
+Running tests...
+Result: PASS (stayed green)
+
+Committing: [commit message]
+```
+
+## STEP 3: Non-Code Tasks
+
+For design/research/documentation tasks:
+- TDD doesn't apply
+- Focus on clear deliverables
+- Document decisions made
+
+```
+Task type: [design/research/docs]
+TDD: Not applicable
+
+Executing task...
+[Work done]
+
+Deliverable: [what was produced]
+```
+
+## STEP 4: Dispatch Async Code Review
+
+**After completing work, dispatch code-reviewer agent asynchronously:**
+
+    Dispatching code review (async)...
+
+Use the Task tool to dispatch the code-reviewer agent with run_in_background = true.
+
+**Set reviewPending in state:**
+    current.reviewPending = true
+
+**Do NOT wait for review to complete.** Human can continue to verification.
+
+Review will be checked in /done (STEP 2.5 Code Review Gate).
+
+## STEP 5: Handle Immediate Critical Issues (If Review Completes Fast)
+
+If review agent returns quickly with CRITICAL issues:
+
+**CRITICAL issues:** Fix immediately
+    CRITICAL: [issue]
+    Fixing now...
+    [Fix applied]
+    Re-running tests...
+    PASS
+
+**IMPORTANT issues:** Note for /done gate
+    IMPORTANT: [issue]
+    Will address before /done.
+
+**MINOR issues:** Log for future
+    MINOR: [issue]
+    Noted for future cleanup.
+
+**If review still pending:** Continue to STEP 6. Review checked in /done.
+
+## STEP 6: Verification Before Completion
+
+**Run verification - must see actual output:**
+
+1. **Run tests** - see actual PASS/FAIL output
+2. **Check functionality** - verify it works
+3. **Review changes** - git diff shows expected changes
+
+```
+=== Verification ===
+
+Running tests...
+[actual test output]
+Result: X passed, 0 failed
+
+Git status:
+[files changed]
+
+Verification: PASSED
+```
+
+**If verification fails:** Do NOT prompt for /done. Fix first.
+
+## STEP 6.5: Tier Quality Gate
+
+**Verify tier requirements met before allowing completion:**
+
+### SKIMMED Checklist
+- [ ] Happy case test written FIRST
+- [ ] Happy case test passes
+
+### SEMI-SKIMMED Checklist
+- [ ] Happy case test written FIRST
+- [ ] Essential sad case tests written (at least 1-2)
+- [ ] All tests pass
+
+### FULL PHAT Checklist
+- [ ] Happy case test written FIRST
+- [ ] Essential sad case tests written
+- [ ] Non-essential sad case tests written
+- [ ] Essential mad case tests written (at least 1)
+- [ ] Logging implemented in code
+- [ ] Monitoring hooks added
+
+**Update qualityVerification in agentc.json:**
+```json
+{
+  "qualityVerification": {
+    "happyCaseTested": true,
+    "sadCasesTested": true,    // semi-skimmed, full-phat only
+    "madCasesTested": true,    // full-phat only
+    "loggingAdded": true,      // full-phat only
+    "monitoringAdded": true    // full-phat only
+  }
+}
+```
+
+**Display tier gate result:**
+```
+=== Milk Quality Gate: [TIER] ===
+✓ Happy case tested
+✓ Sad cases tested (if required)
+✓ Mad cases tested (if required)
+✓ Logging added (if required)
+✓ Monitoring added (if required)
+
+Tier Requirements: PASSED
+```
+
+**If tier requirements NOT met:** Do NOT prompt for /done. Fix first. This is STRICT enforcement.
+
+## STEP 6.75: Frontend Design Gate (If Applicable)
+
+**Only for tasks where frontend-design skill was activated.**
+
+### Frontend Design Checklist
+
+- [ ] Aesthetic direction was chosen and documented
+- [ ] Typography is distinctive (NOT Inter, Roboto, Arial, system fonts)
+- [ ] Color palette is cohesive and intentional
+- [ ] At least one memorable visual element exists
+- [ ] Motion/animation adds polish (not required, but encouraged)
+- [ ] No generic "AI slop" patterns detected
+- [ ] Responsive behavior verified (if applicable)
+- [ ] Accessibility basics checked (if applicable)
+
+**Display frontend gate result:**
+```
+=== Frontend Design Gate ===
+Aesthetic: [chosen direction]
+Typography: ✓ Distinctive ([font names])
+Palette: ✓ Cohesive ([colors])
+Memorable: ✓ [the one thing]
+AI Slop Check: ✓ None detected
+
+Frontend Requirements: PASSED
+```
+
+**AI Slop Detection - FAIL if any found:**
+- Inter, Roboto, Arial as primary font
+- Purple/blue gradient on white background
+- Generic card layouts with no personality
+- No animation or visual interest
+- Cookie-cutter component styling
+
+**If frontend requirements NOT met:** Do NOT prompt for /done. Redesign first.
+
+## STEP 7: Prompt for Completion
+
+Only after:
+- TDD cycle complete (for code tasks)
+- Code review passed (critical/important fixed)
+- Verification passed
+- Tier quality gate passed
+- Frontend design gate passed (if frontend task)
+
+Output (minimal):
+
+    COMPLETE
+    [Task description]
+
+    DO: /done
+
+That's it. No verbose summary. Human trusts the process passed all gates.
+
+## Key Principles
+
+**TDD is mandatory for code tasks:**
+- Test FIRST, see it FAIL
+- Implement MINIMAL code to pass
+- Refactor while staying GREEN
+
+**Milk Quality tiers calibrate effort:**
+- Skimmed: Happy case only, bare minimum
+- Semi-skimmed: Happy + essential sad cases (default)
+- Full phat: Comprehensive, production-ready
+- Tier gate is STRICTLY enforced
+
+**Code review is async:**
+- Dispatched after work, doesn't block /do
+- Checked in /done gate
+- CRITICAL issues: warn, allow --force (logs to reviewDebt)
+- Human maintains flow state
+
+**Verification is required:**
+- Must see actual test output
+- "Should work" is not acceptable
+- Evidence before completion claims
+
+**Never skip the discipline:**
+- These rules exist because they work
+- Shortcuts lead to bugs
+- Process IS the productivity

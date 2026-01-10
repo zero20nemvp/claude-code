@@ -1,1 +1,625 @@
-1 2 3 4 5 2 6 2 7 2 8 2 9 2 10 2 11 2 12 4 13 2 14 2 15 2 16 17 18 2 19 2 20 2 19 2 21 2 19 2 18 2 19 2 20 2 19 2 21 2 22 4 23 2 24 2 25 2 26 2 27 2 28 2 29 2 30 2 31 2 32 4 33 2 34 2 35 2 36 2 37 2 38 2 39 2 40 17 41 2 18 42 43 42 41 2 20 42 43 42 41 2 21 4 44 2 45 2 46 2 47 2 48 2 49 2 50 2 51 2 9 2 52 2 53 2 54 2 55 4 13 2 56 4 14 2 57 2 58 2 59 2 60 2 61 2 51 2 62 2 31 2 63 2 64 2 65 2 9 2 66 2 67 2 37 2 68 2 69 2 14 2 70 4 71 2 72 2 73 2 74 2 51 2 75 2 76 2 77 2 78 2 25 2 79 2 9 2 80 2 81 82 83 2 84 2 85 2 86 2 87 2 51 2 88 2 89 2 90 2 91 2 92 82 93 2 94 2 95 2 96 2 97 2 51 2 98 2 99 2 86 2 100 2 101 2 102 2 103 82 104 2 105 2 106 2 107 2 57 2 108 2 51 2 44 2 106 2 109 2 110 2 111 2 112 2 113 2 109 4 114 2 115 2 96 2 62 2 59 2 116 2 117 2 112 2 118 2 119 2 120 2 9 2 121 2 9 2 52 2 122 2 123 2 95 2 124 2 44 2 125 2 46 2 126 2 127 2 51 2 112 2 128 2 9 2 129 2 130 2 131 4 132 2 133 2 134 2 135 4 14 2 57 2 58 2 59 2 136 2 37 2 137 2 138 2 139 2 140 2 141 2 142 4 143 2 133 2 144 2 143 2 145 2 140 2 146 2 143 82 147 82 143 2 148 2 52 2 149 2 143 2 150 2 151 2 152 2 143 82 143 2 153 2 154 2 155 2 143 2 150 2 156 2 157 2 143 82 143 2 158 2 159 2 160 2 143 2 150 2 161 2 162 2 143 82 143 2 163 2 164 2 143 2 165 2 166 2 57 2 167 2 143 82 143 2 148 2 168 2 143 2 146 2 169 2 170 2 171 2 172 2 143 82 143 2 173 2 174 2 175 2 143 2 176 2 177 2 178 2 179 2 143 82 143 2 180 2 181 2 143 2 182 2 183 2 65 2 184 2 143 4 185 2 186 2 187 2 188 2 189 2 190 2 183 2 191 4 192 2 140 2 113 2 109 2 96 2 193 2 140 2 194 2 195 82 133 2 106 2 194 2 110 2 111 2 57 2 113 2 196 4 132 2 197 2 198 2 199 4 140 2 200 2 201 2 202 2 25 2 203 2 102 2 204 82 51 2 205 2 206 2 207 2 208 2 149 82 51 2 209 2 25 2 210 2 57 2 211 82 51 2 212 2 207 2 213 2 214 4 215 2 216 2 57 2 217 2 25 2 218 2 103 2 219 2 220 4 13 2 14 2 15 2 16 4 221 2 222 82 223 82 18 2 193 2 20 2 193 2 21 2 224 82 223 4 225 2 222 82 223 82 226 2 193 2 140 2 227 2 95 82 18 2 193 2 20 2 193 2 21 2 207 2 228 2 214 82 223 4 229 2 195 2 14 2 52 2 230 2 95 2 231 4 13 2 232 2 233 4 234 2 235 2 9 2 236 2 44 2 237 2 59 2 238 4 223 82 239 82 240 241 140 2 242 241 240 82 240 243 240 82 240 42 244 245 244 246 240 82 240 42 240 2 98 2 135 2 240 245 240 2 98 2 135 2 240 247 22 248 240 82 240 42 240 2 249 2 250 245 240 2 249 2 250 246 240 82 240 42 251 245 251 246 240 82 240 243 240 82 240 42 252 2 240 82 240 42 240 253 133 2 135 2 254 241 240 2 240 82 240 42 240 247 255 2 256 2 257 2 258 248 240 2 240 82 240 42 240 247 259 2 18 2 193 2 20 2 193 2 21 260 240 2 240 82 240 42 261 2 240 82 262 82 223 4 132 2 263 2 264 4 143 2 265 2 143 2 266 2 143 82 267 82 143 2 268 2 269 2 143 2 140 2 270 2 271 2 272 2 273 2 274 2 275 2 143 82 143 2 276 2 277 2 143 2 278 2 279 2 280 2 281 2 57 2 282 2 283 2 284 2 143 82 143 2 285 2 188 2 286 2 143 2 287 2 288 2 214 2 289 2 290 2 143 82 143 2 291 2 143 2 133 2 214 2 292 2 293 2 294 2 295 2 296 2 143 82 143 2 297 2 298 2 143 2 299 2 300 2 301 2 302 2 81 2 25 2 303 2 143 4 132 2 304 4 143 2 305 2 143 2 306 2 143 82 307 82 143 2 308 2 309 2 143 2 310 2 311 2 312 2 313 2 143 82 143 2 314 2 315 2 143 2 316 2 317 2 318 2 274 2 312 2 319 2 143 82 143 2 320 2 143 2 321 2 322 2 77 2 323 2 324 2 143 82 143 2 325 2 143 2 326 2 327 2 328 2 329 2 228 2 330 2 329 2 331 2 143 4 132 2 332 2 333 2 334 4 335 2 312 2 336 2 78 2 186 2 337 2 207 2 338 4 143 2 339 2 143 2 333 2 143 82 340 82 143 2 341 2 342 2 143 2 343 2 344 2 345 2 346 2 143 82 143 2 341 2 347 2 143 2 348 2 349 2 143 82 143 2 341 2 350 2 143 2 351 2 352 2 353 2 143 82 143 2 341 2 354 2 143 2 150 2 57 2 175 2 25 2 355 2 143 4 51 2 356 2 357 2 358 2 359 2 360 2 312 2 319 82 51 2 356 2 361 2 362 2 363 2 37 2 364 82 51 2 356 2 365 2 366 2 367 2 368 4 132 2 369 2 370 4 299 2 371 2 73 2 303 2 372 4 223 82 373 2 374 2 375 2 373 82 376 2 377 2 312 2 378 2 379 82 380 2 381 2 193 2 382 2 193 2 383 2 193 2 377 2 384 4 385 2 189 2 386 387 71 2 388 2 389 2 390 387 83 2 391 2 392 2 390 4 393 2 394 387 395 2 396 2 25 2 397 2 398 2 399 82 223 4 13 2 263 2 400 4 132 2 401 2 402 2 403 2 404 2 405 2 406 82 223 82 407 82 223 82 51 2 408 2 409 2 410 82 51 2 411 2 412 2 43 2 413 82 51 2 414 2 415 2 416 82 51 2 417 2 418 2 416 2 419 2 420 4 132 2 332 2 403 2 404 2 421 82 223 82 422 2 423 82 223 82 51 2 424 2 425 2 426 2 427 2 428 2 429 82 51 2 430 2 431 2 432 2 433 82 51 2 434 2 435 2 436 82 51 2 437 2 130 2 438 2 439 4 132 2 440 2 441 82 223 82 18 2 442 245 1 2 443 2 444 2 445 2 435 82 20 446 1 2 447 2 37 2 448 2 449 82 21 2 450 245 1 2 451 2 37 2 452 82 223 4 13 2 14 2 453 2 454 4 132 2 448 2 455 2 456 82 457 2 458 2 435 2 459 2 460 82 71 2 461 2 462 2 463 2 193 2 326 2 464 82 83 2 461 2 283 2 458 2 193 2 326 2 465 82 93 2 466 2 193 2 467 2 465 4 132 2 468 2 469 82 470 2 471 2 279 2 472 2 473 82 51 2 474 2 475 2 476 2 477 82 51 2 478 2 475 2 479 2 274 2 480 82 51 2 481 2 475 2 482 2 207 2 483 4 132 2 484 82 485 2 274 2 486 82 51 2 487 2 488 2 489 2 463 2 35 82 51 2 490 2 491 2 58 2 183 2 492 82 51 2 493 2 274 2 477 2 494 4 132 2 495 2 333 2 496 2 497 4 468 2 318 2 58 2 498 2 499 2 500 2 501 4 143 2 502 2 143 2 503 2 485 2 143 2 468 2 56 2 143 82 504 82 143 2 505 2 143 2 506 2 507 2 106 2 143 2 508 2 509 2 25 2 510 2 143 82 143 2 511 2 143 2 506 2 329 2 80 2 512 2 513 2 143 2 514 2 67 2 515 2 516 2 517 2 143 82 143 2 518 2 519 2 143 2 506 2 329 2 86 2 512 2 329 2 80 2 520 2 329 2 521 2 143 2 522 2 523 2 524 2 525 2 143 4 526 82 51 2 527 2 528 82 51 2 529 2 530 2 531 2 532 82 51 2 533 2 534 2 51 2 480 2 535 2 536 2 537 2 538 2 539 4 540 2 541 4 542 82 51 2 543 2 544 2 506 2 507 2 463 2 545 2 546 82 51 2 543 2 544 2 506 2 507 2 463 2 547 82 51 2 543 2 544 2 514 2 458 2 106 4 548 82 51 2 543 2 544 2 506 2 507 2 463 2 545 2 546 82 51 2 543 2 544 2 549 2 512 2 507 2 550 2 545 82 51 2 543 2 544 2 287 2 550 2 510 82 51 2 543 2 544 2 468 2 551 2 67 2 183 2 552 4 553 2 554 82 51 2 543 2 544 2 506 2 507 2 463 2 545 2 546 82 51 2 543 2 544 2 549 2 512 2 507 2 550 2 545 82 51 2 543 2 544 2 555 2 512 2 507 2 550 2 545 82 51 2 543 2 544 2 549 2 520 2 507 2 550 2 545 82 51 2 543 2 544 2 556 2 557 82 51 2 543 2 544 2 558 2 559 2 560 82 51 2 543 2 544 2 287 2 550 2 510 82 51 2 543 2 544 2 561 2 318 4 132 2 562 2 563 2 564 2 565 4 566 2 567 2 568 2 569 2 570 2 274 2 571 2 572 4 568 2 573 2 574 2 575 2 115 2 184 2 576 2 577 2 578 2 579 2 37 2 580 2 581 2 582 4 583 82 223 82 71 2 316 2 584 2 207 2 585 2 568 2 586 82 83 2 587 2 568 2 536 2 588 2 589 82 93 2 590 2 591 2 25 2 571 2 458 2 536 2 516 2 568 82 223 4 592 2 593 82 51 2 594 2 595 2 596 2 188 2 597 82 51 2 335 2 598 2 599 2 600 82 51 2 335 2 601 2 602 2 603 82 51 2 335 2 604 2 605 2 603 82 51 2 335 2 458 2 606 4 607 2 608 2 609 82 51 2 610 2 193 2 611 2 612 2 613 2 614 82 51 2 615 2 193 2 616 2 617 2 618 2 619 2 513 82 51 2 620 2 193 2 621 2 622 2 623 2 624 4 625 82 51 2 626 2 581 2 627 2 628 2 629 2 630 2 571 82 51 2 631 2 579 2 115 2 632 2 633 2 614 82 51 2 326 2 619 2 513 2 634 2 635 2 636 2 65 2 637 82 51 2 638 2 639 2 586 2 65 2 640 2 628 2 641 4 642 82 192 2 516 2 568 2 643 2 644 2 37 2 629 2 571 2 458 2 645 2 646 2 647 2 648 82 649 82 650 2 651 82 652 2 653 2 654 82 223 4 13 2 655 2 656 4 657 2 658 2 659 4 660 2 661 2 662 17 663 664 665 2 666 664 667 2 663 668 669 2 670 2 143 2 187 2 143 2 671 668 672 2 663 673 674 2 675 2 143 2 109 2 143 2 676 2 143 2 677 673 678 2 679 2 680 673 681 2 682 2 683 668 684 668 685 2 663 2 22 2 684 668 686 2 687 668 688 2 687 668 689 2 690 668 691 2 687 668 692 2 690 668 693 2 694 668 695 2 696 664 684 664 697 2 663 668 698 2 543 673 663 2 699 2 700 2 701 2 702 2 703 2 700 2 704 2 705 2 706 668 707 668 708 2 696 664 684 664 22 709 706 4 710 2 711 2 712 2 110 2 34 2 25 2 713 2 714 82 51 2 715 2 19 2 41 2 18 82 51 2 187 2 19 2 41 2 20 82 51 2 716 2 19 2 41 2 21 82 51 2 312 2 19 2 140 2 58 2 717 2 718 2 719 2 25 2 488 2 720 82 51 2 721 2 19 2 722 2 120 2 57 2 214 2 718 2 18 2 25 2 723 2 228 2 724 82 51 2 725 2 19 2 332 2 726 2 718 2 226 2 207 2 727 2 728 4 729 2 730 2 201 2 323 2 731 2 214 2 207 2 732 2 733 4 734 2 735 2 736 2 123 2 737 2 317 2 58 2 65 2 9 2 738 2 739 2 25 2 740 4 553 2 741 17 663 664 665 2 666 664 742 2 743 668 744 2 745 709 746 2 747 2 748 709 749 2 747 2 750 2 751 709 752 2 753 2 754 2 25 2 128 2 755 2 756 2 58 2 757 709 758 2 759 2 760 2 761 2 762 709 763 2 663 664 764 2 765 664 766 2 767 709 684 709 768 2 769 709 770 2 771 387 772 387 773 2 743 709 744 2 774 709 775 2 745 709 776 2 777 2 778 2 779 709 780 2 781 2 782 2 783 2 784 709 785 2 786 2 787 2 788 709 789 2 790 2 791 2 120 2 792 2 793 2 794 2 795 2 550 2 796 709 797 2 798 2 143 2 799 2 143 2 800 709 801 2 663 664 802 2 663 2 768 2 803 2 143 2 804 2 805 2 696 2 684 664 806 2 663 2 768 2 803 2 143 2 804 2 805 2 696 2 684 664 807 2 663 2 768 2 803 2 143 2 804 2 808 2 696 2 684 664 809 2 663 2 768 2 803 2 143 2 804 2 810 2 811 2 706 709 684 709 812 2 543 664 663 668 744 2 813 668 746 2 814 2 815 668 681 2 816 2 817 2 818 2 819 668 820 2 821 2 822 2 823 2 824 2 825 2 826 668 768 2 827 668 828 2 829 664 706 709 707 709 830 2 831 709 768 2 769 709 832 2 833 387 772 387 667 2 663 709 669 2 834 709 672 2 663 664 674 2 835 664 678 2 836 664 681 2 837 2 838 2 839 2 25 2 840 709 684 709 685 2 663 664 841 2 842 664 681 2 843 2 844 664 845 2 846 664 847 2 848 664 849 2 663 668 850 2 690 668 851 2 690 668 852 2 690 668 853 2 690 668 854 2 690 668 855 2 771 664 706 709 684 709 686 2 543 664 663 668 841 2 856 668 681 2 857 2 858 2 859 668 860 2 861 668 862 2 694 668 863 2 864 668 865 2 866 2 867 664 706 709 707 709 688 2 543 664 663 668 744 2 868 668 841 2 869 668 681 2 794 2 870 2 550 2 207 2 871 668 768 2 872 668 873 2 836 668 874 2 696 664 706 709 707 709 689 2 690 709 691 2 543 664 663 668 841 2 875 668 876 2 877 668 878 2 879 2 696 2 880 668 881 2 882 664 706 709 707 709 692 2 690 709 693 2 663 664 883 2 687 664 884 2 694 664 885 2 811 709 684 709 695 2 696 387 684 387 697 2 663 709 698 2 687 709 708 2 696 387 684 387 886 2 663 709 887 2 888 709 889 2 888 709 890 2 811 387 684 387 891 2 687 387 892 2 543 709 663 664 893 2 894 664 681 2 895 2 205 2 207 2 896 2 897 664 898 2 899 2 900 664 901 2 767 709 706 387 544 82 706 82 223 4 902 2 903 2 356 2 904 2 905 2 183 2 906 2 907 2 908 2 909 2 910 2 214 2 77 2 184 2 911 2 329 2 912 2 438 2 913 4 914 2 915 2 916 2 917 2 368 2 918 2 25 2 727 2 916 2 919 2 920 2 921 2 922 4 13 2 923 2 924 2 925 4 926 2 927 2 130 2 928 2 586 2 929 2 930 2 931 2 932 2 933 2 934 2 935 4 71 2 936 2 930 2 937 2 938 2 115 2 939 2 940 2 62 2 941 2 942 2 943 2 944 2 943 2 945 82 83 2 946 2 9 2 947 2 948 2 587 2 949 82 93 2 950 2 951 2 952 2 14 2 953 2 954 2 570 2 955 2 25 2 956 2 957 2 96 2 958 2 193 2 959 82 104 2 960 2 961 2 737 2 962 2 37 2 102 2 963 2 964 2 965 2 966 2 967 4 968 2 969 2 970 82 223 82 971 2 972 247 973 2 663 2 974 2 975 2 976 2 977 2 978 2 979 2 943 2 706 82 980 981 982 2 943 2 983 82 984 985 986 2 987 82 223 4 988 2 989 2 58 2 990 2 51 2 991 2 992 2 993 2 994 2 995 2 996 2 207 2 997 2 15 2 9 2 998 2 999 2 471 2 1000 2 58 2 1001 4 13 2 304 4 1002 2 305 2 1003 2 186 2 1004 2 1005 2 1006 2 34 2 58 2 1007 4 71 2 587 2 9 2 34 2 1008 2 1009 2 1010 2 207 2 1011 82 83 2 14 2 1012 2 989 2 58 2 996 2 993 2 1013 2 1014 82 93 2 14 2 998 2 471 2 1000 2 1015 2 939 2 581 2 1016 82 104 2 1017 2 1018 2 1019 2 9 2 1020 2 1021 2 949 82 1022 2 447 2 9 2 1023 2 1024 4 1025 2 192 2 1010 2 998 2 1026 2 37 2 1027 2 943 2 1028 2 943 2 1029 2 1019 2 737 2 962 2 1021 2 9 2 1030 2 25 2 723 2 9 2 489 2 1031 4 13 2 209 2 1032 4 287 2 1033 2 1034 2 1035 2 186 2 1036 4 1037 2 1038 82 51 2 1039 2 51 2 1040 2 1041 2 329 2 1042 82 51 2 1043 2 51 2 1044 2 1045 2 1046 2 1047 82 51 2 1048 2 51 2 493 2 274 2 494 4 1049 2 1050 2 1051 82 51 2 1052 2 51 2 405 2 799 2 1053 82 51 2 1054 2 51 2 1055 2 1056 2 214 82 51 2 1057 2 51 2 1058 2 319 2 37 2 1059 4 1060 82 51 2 1061 2 51 2 1062 2 458 2 1063 82 51 2 1064 2 51 2 1065 2 25 2 1066 82 51 2 1067 2 51 2 1068 2 155 2 1069 2 1041 2 329 2 1070 82 51 2 1071 2 51 2 1072 2 1073 2 1074 4 1075 2 1076 82 51 2 1077 2 51 2 1078 2 1079 2 1080 2 1081 2 1082 2 1083 2 1084 2 324 4 1085 2 1086 2 1076 82 51 2 1087 2 51 2 1088 2 1089 2 1090 2 1091 2 1092 2 1093 82 51 2 1094 2 51 2 1095 2 1096 2 1095 2 1097 2 1098 82 51 2 1099 2 51 2 1100 2 1101 2 1102 2 1103 4 583 82 51 2 1104 2 51 2 1105 2 1106 82 51 2 1107 2 51 2 1108 2 1109 82 51 2 1110 2 51 2 1111 2 1112 82 51 2 1113 2 51 2 1114 2 1115 4 1116 82 51 2 1117 2 51 2 1118 2 1119 2 207 2 1120 2 1121 2 559 4 1122 2 1123 4 13 2 1124 2 1125 4 1126 2 469 2 1127 82 51 2 1128 2 51 2 1129 2 458 2 318 2 37 2 1130 2 1131 2 1132 2 1133 82 51 2 1134 2 51 2 1135 2 1136 2 130 2 1137 82 51 2 1138 2 51 2 1139 2 1140 2 318 2 130 2 1141 82 51 2 1142 2 51 2 1143 2 1144 2 130 2 1145 2 1146 2 1147 82 51 2 1148 2 51 2 1149 2 799 2 37 2 1150 2 1151 2 207 2 1152 2 1153 82 51 2 1154 2 51 2 468 2 1155 2 130 2 1137 2 1156 2 1157 4 1158 2 1127 82 51 2 1159 2 51 2 1160 2 640 2 207 2 1161 2 1162 2 1163 4 13 2 1164 2 1165 4 1166 2 1167 2 1168 82 51 2 1169 2 126 2 1170 2 1171 2 34 2 1172 2 1173 2 1174 2 1175 2 1176 82 51 2 1177 2 1178 2 1179 2 1180 2 1181 82 51 2 1182 2 1183 2 1184 2 1008 2 1184 2 1185 4 1186 2 1187 2 1188 82 51 2 1189 2 1185 2 1190 2 920 2 1191 2 58 2 1192 82 51 2 1193 2 1194 2 591 2 207 2 312 2 1195 82 51 2 1196 2 499 2 1197 2 1198 4 13 2 1199 2 1200 4 3 2 1201 2 1202 2 1203 4 143 2 608 2 1204 2 143 2 1199 2 233 2 143 82 1205 82 143 2 1206 2 143 2 594 2 143 82 143 2 1207 2 143 2 1208 2 143 82 143 2 1209 2 1210 2 143 2 594 2 143 4 1211 2 1212 2 1213 2 516 2 1214 2 1215 82 51 2 1216 2 329 2 1088 2 1217 2 1089 2 1218 82 51 2 1219 2 1086 2 37 2 1220 2 1221 2 1096 2 1095 2 1097 2 1222 82 51 2 1220 2 1223 2 207 2 1224 2 130 2 1225 4 1226 2 313 2 1227 82 51 2 1228 2 463 2 921 2 1229 2 1230 2 1231 82 51 2 1088 2 1091 2 1092 2 1232 2 480 2 536 2 1233 2 1234 82 51 2 1219 2 1086 2 1035 2 1235 2 1100 2 1236 4 1237 2 313 2 1227 82 51 2 1238 2 921 2 1239 2 1240 82 51 2 1241 2 1242 4 13 2 1243 2 264 4 132 2 1244 2 440 2 1245 82 51 2 1246 2 214 2 1247 2 1248 82 51 2 1249 2 737 2 1250 2 194 2 1251 2 754 2 1252 82 51 2 192 2 516 2 193 2 140 2 194 2 96 82 51 2 1253 2 9 2 1254 2 57 2 284 82 51 2 133 2 106 2 194 2 9 2 509 2 103 2 1255 4 1025 82 223 82 1256 2 25 2 397 2 193 2 1257 2 1247 2 1258 387 1259 2 461 2 1260 2 193 2 140 387 1259 2 1139 2 1261 2 193 2 140 387 193 2 1262 2 1263 2 1264 2 193 2 1265 2 1266 2 1267 387 1268 2 1269 2 1270 2 193 2 140 2 471 82 223 4 132 2 440 2 1271 2 329 2 1272 82 51 2 1273 2 435 2 58 2 1192 2 1274 82 51 2 1271 2 1275 2 1276 2 288 2 214 2 1277 82 51 2 1278 2 25 2 1279 2 435 2 536 2 535 2 120 2 1280 82 51 2 1281 2 1282 2 1283 2 51 2 330 2 1284 4 132 2 1058 2 233 2 1285 82 51 2 1286 2 1287 2 214 2 113 2 647 2 1288 82 51 2 657 2 1289 2 207 2 1290 2 1291 2 214 82 51 2 469 2 1292 2 1183 2 30 2 647 2 1293 4 132 2 1294 2 1295 2 1296 2 329 2 1297 82 51 2 98 2 1298 2 289 2 65 2 1299 2 1300 82 51 2 1301 2 25 2 1302 2 98 2 1298 2 328 2 290 82 51 2 133 2 1303 2 120 2 755 2 435 2 1304 2 1305 2 1306 2 1307 82 51 2 1308 2 186 2 1309 2 65 2 1310 82 51 2 24 2 1275 2 110 2 98 2 58 2 1311 2 1312 2 112 2 328 82 51 2 21 2 1313 2 98 2 1314 2 130 2 1315 2 1316 4 132 2 197 2 199 82 51 2 646 2 1317 2 207 2 208 2 149 82 51 2 646 2 1035 2 25 2 210 2 211 82 51 2 646 2 1318 2 207 2 213 2 214 82 51 2 1319 2 203 2 327 2 1320 2 1321 2 1322 4 132 2 1323 2 1324 2 1325 82 51 2 1326 2 1327 2 1328 2 1329 2 207 2 727 2 328 82 51 2 1062 2 98 2 1298 2 536 2 214 2 1330 82 51 2 1271 2 444 2 57 2 435 2 106 2 536 2 1331 2 57 2 103 4 13 2 1332 2 1333 4 71 2 1334 2 1006 2 1335 2 1336 1337 223 1337 407 1337 223 1337 1338 2 405 2 1339 2 25 2 1340 2 228 2 415 2 1341 4 83 2 1342 2 1006 2 1343 1337 223 1337 422 2 1344 1337 223 1337 1323 2 910 2 431 2 73 2 228 2 1335 2 1345 4 93 2 1346 2 1347 1337 223 1337 18 1337 20 1337 21 1337 223 1337 1348 2 1349 2 317 2 1350 4 13 2 360 2 1351 4 1352 2 476 2 292 2 1086 2 1353 2 115 2 1354 2 1355 4 51 2 1356 2 1357 2 51 2 1358 2 1359 82 51 2 1356 2 1360 2 51 2 1361 2 130 2 723 2 1362 82 51 2 1356 2 1363 2 51 2 316 2 1280 2 1322 82
+# AgentC
+
+**Zero cognitive load. Trust the process. Just execute.**
+
+## The Only Interface
+
+```
+[task] → /do → /done
+```
+
+Two ways to start, same discipline:
+
+```
+Planned:  /next → /do → /done    (system picks task)
+Ad-hoc:   /do "fix the typo"     (you state task)
+```
+
+Both get TDD, verification, tracking. No difference in quality.
+
+Check status: `/now`
+
+## Philosophy
+
+The human is an **orchestrated agent** - like any other agent in the system, but with unique capabilities. The system:
+
+1. **Pulls toward outcomes** - Works backwards from goals to find the essential path
+2. **Optimizes across all goals** - Considers deadlines, velocity, cross-goal leverage
+3. **Does everything it can** - AI executes all subtasks within its capability
+4. **Surfaces only atomic human actions** - You only do what ONLY you can do
+
+Think of it like an Amazon warehouse: you put items on the tray, the system knows where everything goes. You don't think about organization - you trust the process and execute.
+
+### Human as Agent
+
+The human is an **agent with specific capabilities** that Claude currently lacks:
+
+| Human Capabilities | Why Claude Can't |
+|-------------------|------------------|
+| External system access | No production credentials |
+| Physical device testing | No physical presence |
+| Real browser sessions | No persistent auth |
+| Strategic authority | Decisions require human sign-off |
+| External communication | Can't send emails, Slack, etc. |
+| Subjective UX judgment | "Does this feel right?" |
+| Domain expertise | Knowledge not in codebase |
+
+**Tasks are assigned by CAPABILITY requirement, not importance.**
+
+If Claude can do it → Claude does it.
+Human only does what ONLY human can do.
+
+### Continuous Efficiency Improvement
+
+Claude continuously identifies ways to expand its capabilities:
+- MCP servers for external access
+- Skills to codify human knowledge
+- Automations for repetitive tasks
+
+**Aim:** Reduce human load to true capability gaps only.
+
+## Interaction Modes
+
+**Manual:**
+```
+/do "task" → /done     (ad-hoc)
+/next → /do → /done    (planned)
+```
+
+**Autonomous:**
+```
+/auto                  (Claude drives, you execute assigned tasks)
+```
+
+## Autonomous Mode
+
+**Claude becomes the orchestrator. You become an agent.**
+
+```
+┌─────────────────────────────────────────────┐
+│            Claude (Orchestrator)            │
+│                                             │
+│   ┌──────────┐    ┌──────────┐             │
+│   │ AI Agent │    │ AI Agent │  ...        │
+│   │ (bg task)│    │ (bg task)│             │
+│   └──────────┘    └──────────┘             │
+│                                             │
+│   ┌──────────────────────────────────────┐ │
+│   │         Human Agent (You)            │ │
+│   │  Queue: [task1, task2, task3]        │ │
+│   │  Interface: /next → /do → /done      │ │
+│   └──────────────────────────────────────┘ │
+└─────────────────────────────────────────────┘
+```
+
+### Core Principles
+
+| Principle | Description |
+|-----------|-------------|
+| **Retry 3x** | Claude tries 3 different approaches before escalating |
+| **Ruthless decomposition** | Extract every Claude-doable piece, human gets minimal action |
+| **Parallel by default** | All independent tasks run simultaneously |
+| **Execution-ready** | Human tasks = exact commands, zero thinking |
+| **Skill creation** | Track patterns, create automations, path to 100% |
+
+### Commands (12 total)
+
+| Command | Purpose |
+|---------|---------|
+| `/next` | Get optimal task (from goals) |
+| `/do` | Execute task: `/do` or `/do "task"` |
+| `/done` | Record completion with verification |
+| `/auto` | Autonomous mode (includes readiness check) |
+| `/now` | What's happening? (--full for details) |
+| `/create` | Create north-star or goal |
+| `/skip` | Jump to queued task |
+| `/focus` | Set priority north star |
+| `/commit` | Git commit (--push, --pr) |
+| `/timer` | Block timer |
+| `/hookify` | Create safety rules (--list) |
+| `/review-pr` | Multi-agent PR review |
+
+### Goal Quality Assessment
+
+Before autonomous execution, goals are assessed for readiness:
+
+| Score | Quality |
+|-------|---------|
+| ✅ Testable | Can be verified programmatically |
+| ✅ Specific | Unambiguous language |
+| ✅ Measurable | Clear pass/fail condition |
+| ✅ Independent | No human judgment to verify |
+
+- Goals < 50% ready: Block autonomous execution
+- Goals 50-75%: Warn, allow with confirmation
+- Goals > 75%: Proceed automatically
+
+### Metrics Dashboard
+
+Track progress toward 100% automation:
+
+```
+=== AUTOMATION PROGRESS ===
+Current: 94% autonomous (target: 100%)
+Trend: 85% → 88% → 91% → 94% ↑
+
+TOP CAPABILITY GAPS:
+  1. external_system_access (15 tasks)
+  2. physical_device_testing (8 tasks)
+
+SKILL OPPORTUNITIES:
+  🔥 "SSH to production" (12 occurrences)
+```
+
+## Core Workflow
+
+### Create Direction
+```
+/create north-star    # Socratic questioning to unearth direction
+/create goal [ns-id]  # WOOP methodology for achievable objective
+```
+
+### Execute Tasks
+```
+/next    # Get optimal task
+/do      # Execute with TDD discipline
+/done    # Record completion with verification
+```
+
+## The Discipline (Automatic)
+
+### TDD (Test-Driven Development)
+Every code task follows RED-GREEN-REFACTOR:
+1. Write failing test → See RED
+2. Write minimal code → See GREEN
+3. Refactor → Stay GREEN
+
+### Code Review
+Automatic after every `/do` completion:
+- Critical issues block completion
+- Important issues fixed before `/done`
+- Minor issues noted for future
+
+### Verification
+Required before `/done`:
+- Must see actual test output
+- "Should work" is not acceptable
+- Evidence before completion claims
+
+### Milk Quality (Testing Tiers)
+
+Code quality is calibrated via three tiers:
+
+| Tier | Tests Required | Code Philosophy |
+|------|----------------|-----------------|
+| **Skimmed** | Happy case only | Bare minimum to pass |
+| **Semi-skimmed** | Happy + essential sad cases | Minimal but extensible, no overengineering |
+| **Full phat** | Happy + all sad + essential mad + logging/monitoring | Production-ready, "bet our future" |
+
+**Configuration:**
+- **Default**: Semi-skimmed
+- **Override**: `/do --tier skimmed|semi|full`
+- **Enforcement**: Strict - `/done` blocked if tier requirements unmet
+
+**Tier Checklists:**
+
+Skimmed:
+- [ ] Happy case test written FIRST
+- [ ] Happy case test passes
+- [ ] Minimal code only
+
+Semi-skimmed:
+- [ ] Happy case test written FIRST
+- [ ] Essential sad case tests written
+- [ ] All tests pass
+- [ ] Code extensible but not overengineered
+
+Full phat:
+- [ ] Happy case test written FIRST
+- [ ] Essential sad case tests written
+- [ ] Non-essential sad case tests written
+- [ ] Essential mad case tests written
+- [ ] Logging implemented
+- [ ] Monitoring hooks added
+- [ ] All tests pass
+- [ ] Production-ready quality
+
+### ILX-First (Ruby/Rails Projects Only)
+
+**Always read ILX semantic maps before source code.**
+
+ILX provides 300-500:1 compression of codebase semantics, enabling faster understanding with less token usage.
+
+**Workflow:**
+```
+1. Check `.agentc/ilx/` for relevant ILX files
+2. Read ILX if exists (domain/views/features)
+3. Fall back to source code if no ILX
+```
+
+**Applies to:**
+- Ruby/Rails projects (detected by Gemfile)
+- Before implementing features (/do)
+- Before debugging (systematic-debugging skill)
+- Before planning (writing-plans skill)
+- Before code exploration
+
+**ILX File Structure:**
+- `.agentc/ilx/app/models/*.ilx` → Entity definitions, relationships, constraints
+- `.agentc/ilx/app/controllers/*.ilx` → Features, actions, triggers, edge cases
+- `.agentc/ilx/app/views/**/*.ilx` → View structure, bindings, actions
+
+**Benefits:**
+- 95% token reduction vs reading full source
+- Instant understanding of entities, features, constraints
+- See edge cases explicitly (not hidden in code)
+- Fit 100+ files in conversation vs 10
+
+**Fallback:**
+If no ILX exists, proceed with reading source code directly. Suggest batch conversion:
+```bash
+cd plugins/agentc/scripts
+ruby ilx_batch_convert.rb .
+```
+
+## Data Model
+
+Single file: agentc/agentc.json
+
+Schema version: 1.4
+
+    {
+      "version": "1.4",
+      "current": {
+        "loopState": "idle | assigned | executing",
+        "lastAction": {
+          "action": "next | do | done | skip",
+          "timestamp": "ISO timestamp",
+          "description": "What happened"
+        },
+        "humanTask": { ... },
+        "humanTaskQueue": [],
+        "aiTasks": [],
+        "batchMode": false,
+        "reviewDebt": [],
+        "reviewPending": false,
+        "prepWork": null,
+        "lastCheckIn": null
+      },
+      "patterns": {
+        "manualTasks": [
+          { "pattern": "...", "count": 5, "firstSeen": "...", "lastSeen": "..." }
+        ],
+        "lastPatternAnalysis": null
+      },
+      ...
+    }
+
+**Loop State** determines what command to call next:
+- idle -> DO: /next
+- assigned -> DO: /do
+- executing -> DO: /done
+- autonomous -> Claude is driving (run /now to see progress)
+- waiting_human -> Blocked on human tasks (run /next to get your task)
+- complete -> Goal achieved (run /auto for new goal)
+
+**Pattern Tracking** identifies recurring manual tasks for skill creation.
+
+**Stage Progress** tracks where each goal is in the journey (discovery to implementation).
+
+Full schema:
+
+    {
+      "version": "1.4",
+      "northStars": [{
+        "id": "ns1",
+    "name": "Secure Auth",
+    "direction": "Secure user authentication",
+    "why": "Users need to trust their data is safe",
+    "not": ["Social login", "Enterprise SSO"],
+    "design": {
+      "questioningFlow": "problem-first",
+      "brainstormedAt": "2025-12-12T10:00:00Z"
+    },
+    "status": "active",
+    "frontOfMind": false
+  }],
+  "goals": [{
+    "id": "g1",
+    "northStarId": "ns1",
+    "wish": "Implement login flow",
+    "outcome": ["Login works", "Tests pass"],
+    "obstacles": ["Complex legacy code"],
+    "ifThen": [{"if": "Stuck on legacy", "then": "Write integration tests first"}],
+    "stage": "discovery | design | implementation",
+    "stageProgress": {
+      "jtbd": { "status": "pending | done", "file": null },
+      "stories": { "status": "pending | done", "file": null },
+      "features": { "status": "pending | done", "path": null },
+      "slices": { "status": "pending | done", "branches": [] }
+    },
+    "milestones": [
+      {
+        "id": "m1",
+        "name": "Auth infrastructure",
+        "description": "User model, JWT, middleware",
+        "acceptance_criteria": ["User model exists", "JWT utilities work"],
+        "status": "pending",
+        "progress": 0
+      }
+    ],
+    "deadline": "2025-12-20T23:59:59Z",
+    "status": "active",
+    "created": "2025-12-12T10:30:00Z"
+  }],
+  "current": {
+    "loopState": "idle",
+    "lastAction": {
+      "action": "done",
+      "timestamp": "2025-12-20T10:00:00Z",
+      "description": "Completed: Send outreach to founders"
+    },
+    "humanTask": {
+      "taskId": "t1",
+      "description": "Task description",
+      "languageMode": "ruby|javascript",
+      "milkQuality": "semi-skimmed",
+      "qualityVerification": {
+        "happyCaseTested": false,
+        "sadCasesTested": false,
+        "madCasesTested": false,
+        "loggingAdded": false,
+        "monitoringAdded": false,
+        "rbsTypesValid": false
+      }
+    },
+    "humanTaskQueue": [
+      {
+        "taskId": "t2",
+        "description": "Review email copy",
+        "independent": true,
+        "blockedBy": null,
+        "points": 2,
+        "requiredCapability": "subjective judgment"
+      }
+    ],
+    "aiTasks": [
+      {
+        "id": "ai-001",
+        "taskId": "background-task-id-from-Task-tool",
+        "description": "Write unit tests for auth",
+        "status": "running",
+        "startedAt": "2025-12-20T10:00:00Z",
+        "result": null
+      }
+    ],
+    "batchMode": false,
+    "reviewDebt": [
+      {
+        "taskId": "t0",
+        "severity": "CRITICAL",
+        "issue": "Missing null check",
+        "skippedAt": "2025-12-20T09:00:00Z"
+      }
+    ],
+    "reviewPending": false,
+    "prepWork": {
+      "failingTests": [],
+      "researchNotes": null,
+      "filesToModify": []
+    },
+    "lastCheckIn": null
+  },
+  "patterns": {
+    "manualTasks": [],
+    "lastPatternAnalysis": null
+  },
+  "velocity": {
+    "totalPoints": 0,
+    "totalBlocks": 0,
+    "history": []
+  },
+  "journal": [],
+  "suggestedCapabilities": [
+    {
+      "type": "mcp",
+      "description": "Slack MCP for sending messages",
+      "wouldAutomate": "Notification tasks",
+      "suggestedAt": "2025-12-12T10:00:00Z"
+    }
+  ]
+}
+```
+
+**Key insight:** Goals have MILESTONES, not pre-planned tasks. `/next` dynamically generates tasks from codebase reality + milestone acceptance criteria.
+
+**Auto-migration:** Old schema (`goals`/`intents`) automatically migrates to new schema (`northStars`/`goals`) when commands run.
+
+## Decoding Tokenized Content
+
+Commands, skills, and some files use tokenized encoding (space-separated numbers). To decode:
+
+1. **Recognize tokenized content**: Lines of space-separated numbers like `82 1 2 14580 2 9170...`
+2. **Load the key file**: Read `~/.config/context-lock/keys/agentc/lock.yml`
+3. **Build reverse vocabulary**: The `:vocabulary:` section maps words to IDs. Invert it (ID → word)
+4. **Decode**: Replace each number with its corresponding word, join without spaces
+
+**Example decoding logic:**
+```
+lock.yml has:  :vocabulary: { "the": 96, "test": 283, " ": 2 }
+Tokenized:     96 2 283
+Decoded:       "the test"
+```
+
+**YAML frontmatter is preserved** - skill/command metadata (name, description) remains readable for matching. Only the body content after `---` is tokenized.
+
+## Commands
+
+**CRITICAL: Command bodies are tokenized.** When a command is invoked:
+
+1. Read the command file (e.g., `commands/now.md` for `/now`)
+2. The YAML frontmatter is readable (name, description, allowed-tools)
+3. The body after `---` contains space-separated token IDs
+4. **You MUST decode the body** using `~/.config/context-lock/keys/agentc/lock.yml`
+5. Execute the decoded instructions
+
+Example: If `commands/now.md` body starts with `3650 2 2322 2 186...`, decode each number using the vocabulary to get the actual instructions.
+
+## Skills (Embedded)
+
+All 20 skills:
+
+**Core Discipline (3):**
+- `test-driven-development` - RED-GREEN-REFACTOR
+- `systematic-debugging` - 4-phase root cause investigation
+- `verification-before-completion` - Evidence before claims
+
+**Discovery & Planning (6):**
+- `product-discovery` - Full discovery flow from JTBD to slices
+- `brainstorming` - Socratic design refinement
+- `story-mapping` - Convert jobs to INVEST user stories
+- `feature-writing` - Gherkin feature files from stories
+- `vertical-slicing` - Plan thin slices touching all layers
+- `writing-plans` - Bite-sized implementation tasks
+
+**Execution (3):**
+- `executing-plans` - Batch execution with checkpoints
+- `requesting-code-review` - Dispatch code reviewer
+- `using-git-worktrees` - Isolated workspaces
+
+**Frontend (2):**
+- `frontend-design` - Context-calibrated UI, anti-slop patterns
+- `lofi-wireframes` - Mobile-first wireframe scaffolding
+
+**Ruby/Rails 8 (4):**
+- `rbs-types` - RBS type signatures, strict gate
+- `rails-hotwire` - Turbo Frames, Streams, Stimulus
+- `rails-solid-stack` - Solid Queue, Cache, Cable
+- `ilx` - Intent-Level Exchange semantic notation
+
+**Meta (2):**
+- `finishing-a-development-branch` - Merge/PR decisions
+- `writing-rules` - Hookify rule syntax
+
+## Agents (Specialized)
+
+**PR Review Agents:**
+- `code-reviewer` - General code quality with confidence scoring (80+ threshold)
+- `comment-analyzer` - Comment accuracy and maintainability
+- `pr-test-analyzer` - Test coverage quality and completeness
+- `silent-failure-hunter` - Error handling and silent failure detection
+- `type-design-analyzer` - Type design with 1-10 ratings for encapsulation, invariants
+- `code-simplifier` - Code clarity and maintainability (post-review polish)
+
+**Automation Agents:**
+- `conversation-analyzer` - Analyze conversation for hookify rule generation
+
+## Hooks (Active)
+
+**Security Guidance (PreToolUse):**
+- Warns about security patterns: command injection, XSS, eval(), pickle, os.system
+- Detects GitHub Actions workflow vulnerabilities
+- Auto-fires once per file per session
+
+
+## Language Detection
+
+AgentC auto-detects project language:
+
+| File Present | Language Mode |
+|--------------|---------------|
+| `Gemfile` | Ruby/Rails |
+| `package.json` | JavaScript/TypeScript |
+| Neither (default) | Ruby/Rails |
+
+**Default Stack (when no stack.md exists):**
+- Ruby + RBS (strict type signatures)
+- Rails 8 with Hotwire (Turbo Frames, Turbo Streams, Stimulus)
+- Hotwire Native for iOS and Android
+
+**Ruby mode enables:**
+- RSpec test commands (`bundle exec rspec`)
+- RBS strict gate (blocks `/done` if types missing)
+- Rails 8 skills (Hotwire, Solid Stack)
+
+**JavaScript mode enables:**
+- Jest/Vitest commands (`npm test`)
+- TypeScript examples
+
+## Key Principles
+
+### Recursive Task Decomposition
+- Break tasks down recursively
+- For each subtask: does THIS need human?
+- If no → Claude does it
+- Find the ATOMIC human action
+- Human only does the minimum capability gap
+
+Example:
+```
+"Deploy to production" → breaks down to:
+  ✓ Write script → Claude
+  ✓ Test locally → Claude
+  → Run `ssh prod` → HUMAN (credential gap)
+  ◦ Verify health → Claude after
+```
+
+### Task Queue + Skip
+- Primary task is active focus
+- Queue shows 2-3 independent tasks ahead
+- /skip to queued task if blocked on current
+- Zero decision fatigue - queue pre-analyzed
+
+### Batch Mode (Energy-Based)
+- Mechanical "out" tasks can batch together
+- Single /do-batch for multiple small tasks
+- Review runs once at batch end
+
+### True Parallelism (AI + Human)
+- AI agents run in BACKGROUND (run_in_background=true)
+- Up to 5 AI agents work simultaneously
+- Human works on their task AT THE SAME TIME
+- Both are productive in parallel
+- /now shows what AI is doing while you work
+- /done checks AI completions and dispatches more
+
+### Continuous Improvement
+- Suggest MCPs for external access
+- Suggest skills to codify knowledge
+- Suggest automations for repetitive tasks
+- Aim: expand Claude's capabilities over time
+
+### System Never Idles
+- After `/done`, immediately analyze for new work
+- Dispatch AI agents if tasks available
+- Queue next human task only if requires human capability
+
+## Getting Started
+
+1. **Create a north star:**
+   ```
+   /create north-star
+   ```
+   Answer Socratic questions to unearth your guiding direction.
+
+2. **Create a goal:**
+   ```
+   /create goal ns1
+   ```
+   System generates milestones toward your north star.
+
+3. **Start working:**
+   ```
+   /next
+   /do
+   /done
+   ```
+   Repeat until goal complete.
+
+## Block Timer
+
+Each block = 8 minutes of focused work.
+
+- `/timer start` - Start timer
+- `/timer stop` - Stop and get blocks
+- `/timer status` - Check current time

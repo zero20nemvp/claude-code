@@ -8,4 +8,342 @@ triggers:
   - Type checking
   - Steep
 ---
-82 1 2 1088 2 2403 2 3441 4 9516 2 920 2 4490 2 120 2 1216 2 458 2 1457 2 1089 2 12864 4 1088 2 3987 2 12865 2 573 2 1089 2 9279 2 207 2 1216 2 4853 2 2483 2 732 2 12262 2 1997 2 1089 2 1140 2 207 2 86 2 151 2 1216 2 4853 4 13 2 1088 2 12866 4 132 2 608 2 9115 4 223 82 10272 387 10273 709 11081 387 10288 709 12867 82 5975 387 10272 709 10273 664 11038 709 10288 664 12868 82 223 4 12869 2 1088 2 586 2 12870 2 9 2 571 2 12871 2 4988 2 12872 4 132 2 12363 2 10749 4 12522 82 1 2 4017 82 6659 2 1807 2 357 2 7153 387 7363 2 4461 2 10955 387 7363 2 12873 2 10955 387 7363 2 12783 2 10695 3014 5907 2 12874 2 8748 2 19 2 10955 387 5907 2 12875 2 12876 2 12877 2 19 2 11048 387 5907 2 12878 2 8748 2 19 2 12879 82 1293 82 223 4 132 2 12880 2 12881 4 12522 82 1 2 150 2 12882 2 2895 2 10955 82 5907 2 4461 2 8748 2 19 2 10955 4 1 2 485 2 2844 82 5907 2 11039 2 12876 2 12883 2 19 2 10955 4 1 2 2216 2 2844 82 5907 2 11039 2 12884 2 12883 2 19 2 10955 4 1 2 12885 2 4416 82 5907 2 2775 2 12886 2 12887 2 12873 2 12887 2 12888 2 12889 2 19 2 1807 4 1 2 360 82 5907 2 12890 2 8748 2 663 2 12891 2 19 2 12526 2 706 2 19 2 12526 4 1 2 12892 2 1233 82 5907 2 12893 2 12662 2 143 2 10955 2 5815 2 19 2 12894 4 1 2 12895 2 1531 82 5907 2 12896 2 12876 2 12897 2 19 2 12894 82 223 4 132 2 1068 2 2403 4 12522 82 1 2 12898 82 12899 82 12900 2 12901 82 12902 4 1 2 12812 82 12903 82 12904 4 1 2 1219 2 1233 82 12529 82 12905 4 1 2 12906 82 5907 2 12907 2 12908 2 12909 2 12910 2 19 2 12911 82 223 4 13 2 448 2 37 2 1088 4 132 2 461 2 2403 2 7872 2 3667 4 12912 2 448 2 12913 2 2603 2 1233 2 134 2 2737 2 115 2 12167 4 12522 82 1 2 71 2 3638 2 2847 2 9 2 2345 2 65 2 1088 82 1 2 12914 82 6659 2 12915 387 5907 2 12916 2 12917 2 12918 2 19 2 12526 387 5907 2 12919 2 8748 2 19 2 12920 387 5907 2 12921 2 8748 2 19 2 12920 387 5907 2 12922 2 8748 2 19 2 12920 82 1293 82 223 4 10999 82 1 2 83 2 461 2 462 2 463 82 12287 2 12915 2 109 387 96 2 12923 2 12924 2 109 709 1812 2 292 2 12925 2 12926 2 12927 2 12928 2 12929 709 12930 2 292 2 12931 17 12932 2 12933 387 1293 82 1293 82 223 4 10999 82 1 2 93 2 3664 2 3590 2 25 2 510 82 6659 2 12915 387 5907 2 12934 709 12935 2 292 2 1812 387 1293 3014 5907 2 4032 709 12936 387 1293 82 1293 82 223 4 132 2 2464 2 2403 4 649 82 1 2 2464 2 1088 2 1119 82 4006 2 1230 2 4007 2 4008 4 1 2 1149 2 26 2 37 2 4009 82 4006 2 1230 2 4012 2 26 82 223 4 13 2 12937 2 1862 4 132 2 12938 4 12522 82 1 2 4017 82 6659 2 1807 2 357 2 7153 387 1 2 12939 2 3582 2 12940 387 7363 2 12941 2 11043 387 7363 2 4461 2 10955 387 7363 2 12873 2 10955 387 7363 2 12783 2 12905 387 7363 2 12942 2 12905 3014 1 2 7188 387 5907 2 12878 2 8748 2 19 2 12904 387 5907 2 12943 2 8748 2 19 2 12944 3014 1 2 12945 387 5907 2 12946 2 8748 2 19 2 12903 387 5907 2 12947 2 12876 2 12897 2 19 2 12903 3014 1 2 12948 2 6223 387 5907 2 12949 2 12876 2 12897 2 19 2 1807 3014 1 2 12950 2 6223 387 5907 2 12874 2 8748 2 19 2 10955 387 5907 2 12951 2 8748 2 19 2 11048 82 1293 82 223 4 132 2 12340 4 12522 82 1 2 12952 82 6659 2 12953 2 357 2 11529 387 5907 2 12525 2 8748 2 19 2 12526 387 5907 2 11148 2 8748 2 19 2 12526 387 5907 2 2775 2 8748 2 19 2 12526 387 5907 2 8561 2 8748 2 19 2 12526 387 5907 2 12527 2 8748 2 19 2 12526 3014 6752 387 5907 2 12954 2 8748 2 19 2 12529 387 5907 2 12955 2 8748 2 19 2 12526 82 1293 82 223 4 132 2 12956 4 12522 82 1 2 12957 82 6659 2 12958 387 6659 2 12959 2 357 2 12960 387 1293 3014 5907 2 12916 2 12917 2 12961 2 12962 2 12963 2 19 2 12526 387 5907 2 12964 2 8748 2 19 2 12965 387 5907 2 12966 2 12967 2 12968 2 19 2 12969 3014 6752 387 5907 2 12970 2 8748 2 19 2 12526 387 5907 2 12971 2 8748 2 19 2 11048 82 1293 4 6659 2 12965 387 7363 2 7056 2 11048 387 7363 2 12972 2 12973 387 7363 2 5600 2 12973 82 1293 82 223 4 132 2 11303 4 12522 82 1 2 12974 82 6659 2 12975 2 357 2 12632 387 5907 2 12661 2 12662 2 12976 2 10955 2 11887 2 19 2 12526 82 1293 82 223 4 132 2 12732 2 12977 2 12978 4 12522 82 1 2 12798 82 6659 2 12768 2 357 2 12769 387 5907 2 12801 2 8748 2 19 2 12526 387 5907 2 12802 2 12803 2 12804 2 12805 2 19 2 12526 82 1293 82 223 4 13 2 4009 2 4947 4 8504 82 1 2 12979 82 4267 2 12980 2 109 387 4004 2 12981 3014 26 2 12982 387 26 2 12983 387 26 2 12984 387 26 2 12985 3014 1 2 6306 2 1922 2 586 387 2728 2 12986 3014 1998 2 12987 387 1998 2 12988 387 1998 2 12989 82 1293 82 223 4 13 2 10010 4 143 2 10018 2 143 2 2999 2 143 82 12511 82 143 2 12990 2 12517 2 143 2 2847 2 1997 2 1233 2 143 82 143 2 1435 2 5927 2 1144 2 143 2 1996 2 12991 2 207 2 12992 2 143 82 143 2 150 2 1088 2 207 2 727 2 458 2 143 2 1773 2 1088 2 134 2 2737 2 115 2 448 2 143 82 143 2 2403 2 471 2 1056 2 143 2 2847 2 2345 2 65 2 1088 2 2596 2 143 82 143 2 12993 2 1411 2 143 2 12994 2 571 2 436 2 38 2 143 82 143 2 12995 2 4476 2 12996 2 1233 2 143 2 1538 2 9 2 2345 2 143 4 13 2 484 2 3482 4 335 2 480 2 120 2 1216 2 1663 4 51 2 543 2 544 2 287 2 727 2 3564 2 904 2 1088 2 1665 2 65 2 12997 82 51 2 543 2 544 2 287 2 4734 2 6223 2 904 2 1089 2 1665 82 51 2 543 2 544 2 3397 2 1230 2 4007 2 12998 2 547 82 51 2 543 2 544 2 3397 2 1230 2 4012 2 12999 2 547 2 1781 2 4010 82 51 2 543 2 544 2 12895 2 2895 2 2170 2 3146 2 37 2 10609 82 51 2 543 2 544 2 150 2 12990 2 966 2 1667 2 1882 82 51 2 543 2 544 2 1088 2 586 2 12870 2 571 2 12871 2 436 4 13 2 1088 2 3764 2 2364 4 14 2 480 2 34 2 13000 2 1088 2 538 2 207 2 1216 2 9283 4 223 82 373 2 1088 2 1149 2 3764 2 373 82 1259 2 287 2 4013 2 586 2 904 2 4014 2 1665 82 1259 2 1088 2 1073 2 3847 82 1259 2 4009 2 1089 2 26 2 3847 4 1088 2 3784 2 3760 82 223 4 13001 2 13002 82 223 82 3934 2 1088 2 1089 2 538 2 183 2 3979 4 1435 2 4015 82 51 2 4018 2 193 2 2176 2 4019 82 51 2 13003 2 193 2 2176 2 13004 4 1262 2 20 2 25 2 2644 2 1893 2 1088 2 1233 2 274 2 3738 82 223 4 3961 2 58 2 3786 2 3985 2 287 2 151 2 1216 2 458 2 1331 2 1088 2 13005 4 13 2 6442 2 4530 4 132 2 7815 2 1006 2 4760 2 12948 4 71 2 321 2 1088 2 4004 2 2442 82 12522 82 1 2 13006 82 6659 2 13007 387 5907 2 12916 2 12876 2 12883 2 19 2 12526 387 5907 2 13008 2 8748 2 19 2 2206 82 1293 82 223 4 83 2 461 2 2115 82 10999 82 12287 2 13007 2 109 387 96 2 12318 2 12680 2 109 709 13009 2 13010 387 1293 82 1293 82 223 4 93 2 13011 82 10999 82 6659 2 13007 387 5907 2 13012 709 11878 2 292 2 3169 387 1293 3014 5907 2 713 709 13013 2 3238 387 1293 82 1293 82 223 4 104 2 13014 82 649 82 4006 2 1230 2 4007 2 4008 2 3126 2 4006 2 1230 2 4012 2 26 82 223
+
+# RBS Types Skill
+
+**Auto-activates when working on Ruby code requiring type signatures.**
+
+RBS (Ruby Signature) provides type definitions for Ruby code. This skill ensures proper type coverage for all production Ruby code.
+
+## RBS Basics
+
+### File Structure
+
+```
+app/
+  models/
+    user.rb
+  services/
+    order_processor.rb
+sig/
+  app/
+    models/
+      user.rbs
+    services/
+      order_processor.rbs
+```
+
+**Convention:** RBS files mirror the source tree under `sig/`.
+
+### Basic Syntax
+
+```rbs
+# sig/app/models/user.rbs
+class User < ApplicationRecord
+  attr_reader name: String
+  attr_reader email: String
+  attr_reader created_at: Time
+
+  def full_name: () -> String
+  def send_notification: (String message) -> bool
+  def posts: () -> ActiveRecord::Relation[Post]
+end
+```
+
+### Method Signatures
+
+```rbs
+# No arguments, returns String
+def name: () -> String
+
+# Required argument
+def greet: (String name) -> String
+
+# Optional argument
+def greet: (?String name) -> String
+
+# Keyword arguments
+def create: (name: String, email: String, ?admin: bool) -> User
+
+# Block
+def each: () { (Item) -> void } -> void
+
+# Union types
+def find: (Integer | String id) -> User?
+
+# Nilable return
+def find_by_email: (String email) -> User?
+```
+
+### Common Types
+
+```rbs
+# Collections
+Array[String]
+Hash[Symbol, String]
+Set[Integer]
+
+# ActiveRecord
+ActiveRecord::Relation[User]
+ActiveRecord::Associations::CollectionProxy[Post]
+
+# Rails types
+ActionController::Parameters
+ActiveSupport::TimeWithZone
+
+# Generics
+def wrap: [T] (T value) -> Array[T]
+```
+
+## TDD with RBS
+
+### Write Types BEFORE Implementation
+
+Following TDD principles, define types as part of design:
+
+```rbs
+# 1. RED: Define the interface in RBS
+# sig/app/services/order_calculator.rbs
+class OrderCalculator
+  def initialize: (Order order) -> void
+  def total: () -> BigDecimal
+  def tax: () -> BigDecimal
+  def discount: () -> BigDecimal
+end
+```
+
+```ruby
+# 2. Write failing test
+RSpec.describe OrderCalculator do
+  it 'calculates total' do
+    order = create(:order, items: [create(:item, price: 100)])
+    calculator = OrderCalculator.new(order)
+
+    expect(calculator.total).to eq(BigDecimal('100'))
+  end
+end
+```
+
+```ruby
+# 3. GREEN: Implement to pass
+class OrderCalculator
+  def initialize(order)
+    @order = order
+  end
+
+  def total
+    @order.items.sum(&:price)
+  end
+end
+```
+
+### Validate Types
+
+```bash
+# Validate RBS syntax
+bundle exec rbs validate
+
+# Type check with Steep
+bundle exec steep check
+```
+
+## Rails-Specific Patterns
+
+### Models
+
+```rbs
+# sig/app/models/user.rbs
+class User < ApplicationRecord
+  # Attributes (from schema)
+  attr_reader id: Integer
+  attr_reader name: String
+  attr_reader email: String
+  attr_reader created_at: ActiveSupport::TimeWithZone
+  attr_reader updated_at: ActiveSupport::TimeWithZone
+
+  # Associations
+  def posts: () -> ActiveRecord::Associations::CollectionProxy[Post]
+  def profile: () -> Profile?
+
+  # Scopes
+  def self.active: () -> ActiveRecord::Relation[User]
+  def self.by_email: (String email) -> ActiveRecord::Relation[User]
+
+  # Class methods
+  def self.find_by_email!: (String email) -> User
+
+  # Instance methods
+  def full_name: () -> String
+  def admin?: () -> bool
+end
+```
+
+### Controllers
+
+```rbs
+# sig/app/controllers/users_controller.rbs
+class UsersController < ApplicationController
+  def index: () -> void
+  def show: () -> void
+  def create: () -> void
+  def update: () -> void
+  def destroy: () -> void
+
+  private
+  def user_params: () -> ActionController::Parameters
+  def set_user: () -> void
+end
+```
+
+### Services
+
+```rbs
+# sig/app/services/payment_processor.rbs
+class PaymentProcessor
+  class PaymentError < StandardError
+  end
+
+  def initialize: (Order order, PaymentMethod payment_method) -> void
+  def process!: () -> PaymentResult
+  def refund!: (BigDecimal amount) -> RefundResult
+
+  private
+  def validate_order: () -> void
+  def charge_payment_method: () -> bool
+end
+
+class PaymentResult
+  attr_reader success: bool
+  attr_reader transaction_id: String?
+  attr_reader error: String?
+end
+```
+
+### Jobs
+
+```rbs
+# sig/app/jobs/send_email_job.rbs
+class SendEmailJob < ApplicationJob
+  def perform: (Integer user_id, String template) -> void
+end
+```
+
+### Channels (Action Cable)
+
+```rbs
+# sig/app/channels/chat_channel.rbs
+class ChatChannel < ApplicationCable::Channel
+  def subscribed: () -> void
+  def speak: (Hash[String, untyped] data) -> void
+end
+```
+
+## Steep Configuration
+
+```yaml
+# Steepfile
+target :app do
+  signature "sig"
+
+  check "app/models"
+  check "app/controllers"
+  check "app/services"
+  check "app/jobs"
+
+  # Ignore generated files
+  ignore "app/models/application_record.rb"
+
+  library "activesupport"
+  library "activerecord"
+  library "actionpack"
+end
+```
+
+## Anti-Patterns
+
+| Anti-Pattern | Fix |
+|--------------|-----|
+| `untyped` everywhere | Define proper types |
+| Missing nil handling | Use `Type?` for nilable |
+| No RBS for new code | Add RBS as part of TDD |
+| Types after implementation | Define interface in RBS first |
+| Inconsistent naming | Mirror source structure exactly |
+| Overly complex union types | Simplify the interface |
+
+## Verification Checklist
+
+Before `/done` on Ruby code:
+
+- [ ] All new classes have RBS signatures in `sig/`
+- [ ] All public methods have type signatures
+- [ ] `bundle exec rbs validate` passes
+- [ ] `bundle exec steep check` passes (if configured)
+- [ ] Nilable returns properly marked with `?`
+- [ ] No `untyped` without documented reason
+- [ ] RBS files mirror source tree structure
+
+## RBS Gate Enforcement
+
+The `/done` command enforces RBS requirements for Ruby projects:
+
+```
+=== RBS Type Gate ===
+✓ All .rb files have .rbs signatures
+✓ RBS validation passed
+✓ Steep type check passed
+
+RBS Requirements: PASSED
+```
+
+**Blocked example:**
+```
+BLOCKED: RBS type requirements not satisfied.
+
+Missing signatures:
+- app/services/order_processor.rb → needs sig/app/services/order_processor.rbs
+- app/models/payment.rb → needs sig/app/models/payment.rbs
+
+Run /do to add missing RBS types before /done.
+```
+
+**This is STRICT enforcement.** All production Ruby code requires RBS types.
+
+## Quick Reference
+
+### Creating a New Class
+
+1. Create RBS signature first:
+```rbs
+# sig/app/services/foo.rbs
+class Foo
+  def initialize: (String name) -> void
+  def call: () -> Result
+end
+```
+
+2. Write test:
+```ruby
+RSpec.describe Foo do
+  it 'returns result' do
+    expect(Foo.new('test').call).to be_a(Result)
+  end
+end
+```
+
+3. Implement:
+```ruby
+class Foo
+  def initialize(name)
+    @name = name
+  end
+
+  def call
+    Result.new(success: true)
+  end
+end
+```
+
+4. Validate:
+```bash
+bundle exec rbs validate && bundle exec steep check
+```

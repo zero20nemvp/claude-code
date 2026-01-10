@@ -2,4 +2,75 @@
 name: executing-plans
 description: Use when partner provides a complete implementation plan to execute in controlled batches with review checkpoints - loads plan, reviews critically, executes tasks in batches, reports for review between batches
 ---
-82 1 2 3697 2 9209 4 13 2 8597 4 2433 2 9210 2 1374 2 9211 2 3163 2 214 2 65 2 9212 2 1463 2 207 2 1374 2 2330 2 9213 4 1037 2 8681 2 1058 2 319 2 37 2 1059 2 207 2 9214 2 2073 4 9215 2 30 2 9216 2 2486 2 1021 2 9 2 9217 2 732 2 25 2 9218 2 177 2 9219 4 13 2 14 2 1606 4 132 2 4353 2 1956 2 2433 2 130 2 469 2 3335 82 71 2 587 2 3191 2 1008 82 83 2 469 2 9220 2 51 2 2519 2 31 2 1339 2 43 2 1586 2 126 2 9 2 3191 82 93 2 192 2 9221 2 9222 2 2606 2 37 2 228 2 57 2 9223 2 274 2 5485 82 104 2 192 2 516 2 9221 2 321 2 4613 2 130 2 644 4 132 2 4353 2 1986 2 447 2 1058 82 9224 2 2476 2 271 2 2605 4 1249 2 737 2 3515 82 71 2 2052 2 134 2 9225 82 83 2 1522 2 737 2 3597 2 38 2 9226 2 2471 2 9227 2 9228 82 93 2 1262 2 9229 2 134 2 2882 82 104 2 2052 2 134 2 3942 4 132 2 4353 2 2489 2 2979 82 1005 2 647 2 3254 82 51 2 2467 2 110 2 1841 2 557 82 51 2 2467 2 452 2 35 82 51 2 9230 2 8652 2 207 2 9231 4 132 2 4353 2 2511 2 3270 82 3160 2 120 2 9232 82 51 2 1519 2 1385 2 536 2 2296 82 51 2 447 2 444 2 647 82 51 2 1348 2 1349 2 725 4 132 2 4353 2 2539 2 3245 2 9233 4 1326 2 86 2 214 2 725 2 130 2 9234 82 51 2 2631 2 2486 2 1021 2 9 2 9235 2 732 2 25 2 725 2 177 2 9236 82 51 2 9237 2 9238 2 1996 2 9239 82 51 2 1522 2 139 2 732 2 25 2 355 2 8443 2 4418 2 9240 2 3163 2 8619 4 13 2 1005 2 25 2 1361 2 130 2 2062 2 207 2 8598 4 9241 2 716 2 1328 2 8703 82 51 2 9242 2 1006 2 9243 2 9244 2 9245 2 9246 2 463 2 9247 2 9248 2 9249 82 51 2 3335 2 2471 2 1436 2 219 2 2161 2 5485 82 51 2 44 2 125 2 1582 2 59 2 9248 82 51 2 484 2 8458 2 9250 4 2683 2 207 2 3003 2 2081 2 1571 2 9251 4 13 2 1005 2 25 2 9252 2 9253 2 4286 4 2056 2 25 2 469 2 9254 2 3774 2 8703 82 51 2 9255 2 5436 2 9 2 3191 2 2534 2 120 2 228 2 1066 82 51 2 9256 2 1642 2 2176 2 9257 4 5480 2 5339 2 1549 2 9258 2 51 2 3908 2 130 2 9259 4 13 2 9260 82 51 2 469 2 3191 2 9220 2 2596 82 51 2 1522 2 3191 2 3200 2 38 82 51 2 2019 2 3879 2 9229 82 51 2 4530 2 1035 2 920 2 3191 2 9261 2 25 82 51 2 9262 2 9263 2 3663 2 1463 2 130 2 3718 82 51 2 1361 2 920 2 9264 2 125 2 8675
+
+# Executing Plans
+
+## Overview
+
+Load plan, review critically, execute tasks in batches, report for review between batches.
+
+**Core principle:** Batch execution with checkpoints for architect review.
+
+**Announce at start:** "I'm using the executing-plans skill to implement this plan."
+
+## The Process
+
+### Step 1: Load and Review Plan
+1. Read plan file
+2. Review critically - identify any questions or concerns about the plan
+3. If concerns: Raise them with your human partner before starting
+4. If no concerns: Create TodoWrite and proceed
+
+### Step 2: Execute Batch
+**Default: First 3 tasks**
+
+For each task:
+1. Mark as in_progress
+2. Follow each step exactly (plan has bite-sized steps)
+3. Run verifications as specified
+4. Mark as completed
+
+### Step 3: Report
+When batch complete:
+- Show what was implemented
+- Show verification output
+- Say: "Ready for feedback."
+
+### Step 4: Continue
+Based on feedback:
+- Apply changes if needed
+- Execute next batch
+- Repeat until complete
+
+### Step 5: Complete Development
+
+After all tasks complete and verified:
+- Announce: "I'm using the finishing-a-development-branch skill to complete this work."
+- **REQUIRED SUB-SKILL:** Use superpowers:finishing-a-development-branch
+- Follow that skill to verify tests, present options, execute choice
+
+## When to Stop and Ask for Help
+
+**STOP executing immediately when:**
+- Hit a blocker mid-batch (missing dependency, test fails, instruction unclear)
+- Plan has critical gaps preventing starting
+- You don't understand an instruction
+- Verification fails repeatedly
+
+**Ask for clarification rather than guessing.**
+
+## When to Revisit Earlier Steps
+
+**Return to Review (Step 1) when:**
+- Partner updates the plan based on your feedback
+- Fundamental approach needs rethinking
+
+**Don't force through blockers** - stop and ask.
+
+## Remember
+- Review plan critically first
+- Follow plan steps exactly
+- Don't skip verifications
+- Reference skills when plan says to
+- Between batches: just report and wait
+- Stop when blocked, don't guess

@@ -12,4 +12,999 @@ triggers:
   - low fidelity
   - wireframing
 ---
-82 1 2 11422 2 11423 2 3441 4 9516 2 920 2 435 2 3410 2 11424 2 11425 2 43 2 1079 2 410 2 799 2 65 2 1219 2 4023 4 321 2 11426 2 11427 2 11428 2 139 2 1274 2 120 2 436 2 130 2 8643 2 183 2 3804 2 11429 2 2064 2 1219 2 8822 2 130 2 5363 2 3538 2 77 2 8603 2 349 2 750 2 410 2 11430 4 13 2 56 4 11431 2 11428 2 186 2 11432 2 11433 2 183 2 11434 82 51 2 11435 2 1321 2 11436 2 1499 2 120 2 10203 2 9616 2 130 2 410 82 51 2 11437 2 11438 2 11439 2 11440 2 11441 2 6179 2 115 2 489 2 11442 82 51 2 11443 2 11444 2 11445 2 130 2 11446 2 106 2 51 2 516 2 9779 2 1109 2 9164 82 51 2 11447 2 11448 2 7607 2 58 2 9 2 1372 2 11449 2 8035 2 58 2 9 2 11450 82 51 2 11451 2 11452 2 11453 2 207 2 1368 2 106 4 13 2 1200 2 3569 4 2483 2 732 2 9528 2 368 2 920 2 9 2 435 2 9529 82 51 2 7815 2 11428 2 43 2 11454 82 51 2 11455 2 750 2 11456 82 51 2 11457 2 11458 82 51 2 10333 2 1079 2 436 82 51 2 11459 2 43 2 11427 2 799 2 328 4 13 2 335 2 44 2 11423 4 132 2 71 2 2481 2 9 2 2663 4 2062 2 11460 82 51 2 11461 2 58 2 9 2 11462 2 11463 2 11464 2 11465 2 11464 2 11466 2 2207 82 51 2 11467 2 755 2 11468 2 11469 2 11470 2 725 2 11471 2 79 2 11472 82 51 2 11467 2 9 2 11473 2 11474 2 9016 2 193 2 3200 2 193 2 2680 2 4120 4 132 2 83 2 1414 2 11475 4 1246 2 9 2 410 2 1587 2 11476 2 11477 82 51 2 1352 2 11478 2 292 2 39 2 750 2 435 2 43 2 1282 2 9016 82 51 2 4302 2 11458 2 11479 2 11480 2 11481 2 11482 2 11483 82 51 2 7613 2 11484 2 2063 2 11478 2 11485 2 25 2 11486 4 132 2 93 2 3449 2 11487 2 11488 4 51 2 11489 2 11490 2 11491 2 130 2 1220 2 1223 2 11492 82 51 2 11493 2 11494 2 11495 2 11496 2 130 2 9538 2 3198 4 4915 2 25 2 11497 2 1602 2 9 2 750 2 634 2 4381 2 11498 4 13 2 11499 2 1200 4 335 2 11500 2 26 2 536 2 11501 2 8822 2 2450 4 10999 82 1 2 316 2 11453 82 11502 2 11503 4 1 2 316 2 11504 82 11505 4 1 2 316 2 10891 82 11506 4 1 2 316 2 9775 82 11507 82 223 4 192 2 3411 2 3840 2 58 2 11508 2 11509 2 9 2 630 2 11510 4 13 2 11511 2 11512 4 132 2 11513 2 11514 4 1773 2 8792 2 11515 4 10999 82 1 2 11516 2 51 2 1368 2 106 82 536 2 11517 387 7292 2 11518 2 109 709 1045 2 1258 2 11519 709 723 2 11520 2 1258 2 11521 2 11269 2 11522 709 723 2 11523 2 1258 2 11524 2 11269 2 11525 387 1293 82 1293 82 223 4 132 2 9431 2 11526 2 11527 4 10999 82 1 2 5885 2 218 4 1528 2 11516 387 6659 2 11528 2 357 2 11529 709 7607 2 11530 709 11531 2 11532 17 6752 17 5907 2 11533 664 6746 2 11534 2 11535 2 11536 2 1602 2 11517 709 1293 387 1293 82 1293 82 223 4 132 2 11537 2 11526 2 11538 4 10999 82 1 2 5885 2 218 4 1528 2 11516 387 6659 2 11539 2 357 2 11528 709 5907 2 4315 664 11540 2 292 2 11541 709 1293 387 1293 82 1293 82 223 4 132 2 11542 2 11526 2 11543 4 10999 82 1 2 5885 2 218 4 1528 2 11516 387 6659 2 11544 2 357 2 11528 709 5907 2 10283 664 11545 2 292 2 11546 664 11547 2 11548 2 1602 2 11545 709 1293 17 5907 2 4315 664 11545 2 292 2 11546 664 11549 2 292 2 11550 664 11547 2 11551 2 1602 2 11549 709 1293 387 1293 82 1293 82 223 4 132 2 11552 2 11553 4 11554 82 11555 2 11556 82 11557 82 11558 387 11559 2 11560 387 11559 2 11561 2 11562 2 11563 387 11564 387 7400 2 11565 2 11566 2 11567 2 11568 2 7401 387 7400 2 11569 2 7401 82 11570 82 3217 2 11571 2 11572 387 11573 2 11574 709 11575 2 11576 664 11577 2 11578 2 11579 2 11580 2 11548 2 11581 709 11582 709 11583 2 11584 2 11585 664 7400 2 11586 2 11587 2 7401 709 11588 709 11575 2 11589 664 11575 2 11590 668 11591 2 11592 6295 11593 6295 11594 6295 11595 2 11596 673 11597 668 11598 668 11591 2 11592 6295 11599 6295 11600 6295 11601 673 8074 668 11598 664 11582 709 11582 387 11602 3014 11603 2 11604 2 11605 709 11575 2 11606 664 7400 2 11586 2 7401 709 11582 387 11607 82 11608 82 11609 82 223 4 132 2 9775 2 11610 4 9758 82 9759 2 11423 2 3440 2 1323 2 51 2 11611 2 15 2 8848 82 9826 2 663 387 9759 2 7729 2 51 2 11611 2 3799 2 8848 387 11612 2 11613 387 11614 2 11615 387 11616 2 11617 387 11618 2 11619 387 11620 2 11621 387 11622 2 11623 387 11624 2 11625 387 11626 2 11627 387 11628 2 11629 387 11630 2 11631 387 11632 2 11633 387 11634 2 11635 3014 9759 2 11636 2 8848 387 11637 2 11638 387 11639 2 11640 387 11641 2 11642 387 11643 2 11644 387 11645 2 11646 3014 9759 2 3792 2 8848 387 11647 2 9772 2 11648 2 11649 2 11650 2 11651 2 9769 387 11652 2 11653 2 11654 2 11655 2 11656 2 11657 2 11658 3014 9759 2 11597 2 11659 2 8848 387 11660 2 11661 387 11662 2 11663 82 706 4 9759 2 11664 2 8848 82 6579 2 9947 2 9948 2 663 387 11665 2 11666 387 11667 2 9930 387 11668 2 9930 82 706 4 9759 2 11669 2 8848 82 11670 2 663 387 9771 2 11671 387 9835 2 11672 387 11673 2 11674 387 11675 2 11676 82 706 4 9759 2 11677 2 8848 82 11678 2 663 387 9835 2 11679 387 11675 2 11680 387 11668 2 11681 2 11682 387 11683 2 11684 387 11685 2 11686 387 11687 2 11688 387 11689 2 11682 387 9987 2 11690 387 11691 2 9930 387 11692 2 11693 82 706 4 11694 2 663 387 11695 2 11696 387 11697 2 11698 387 11699 2 11700 387 11701 2 11702 82 706 4 11694 2 1006 2 663 387 11675 2 11680 387 11703 2 10009 82 706 4 11704 2 663 387 11683 2 11684 387 11689 2 11705 387 11706 2 11707 387 11687 2 11686 387 11708 2 5839 82 706 4 11704 2 1006 2 663 387 11675 2 11709 387 11703 2 10009 387 11695 2 11710 387 11668 2 11711 2 11712 387 11713 2 11714 387 11715 2 86 2 11716 2 11717 82 706 4 11704 2 11718 82 11704 2 11719 2 663 387 11675 2 11680 387 9835 2 11720 82 706 4 9759 2 11487 2 11721 2 8848 82 11722 2 663 387 11683 2 11684 387 9835 2 11720 387 11713 2 11714 387 11723 2 11724 82 706 4 11725 2 663 387 9835 2 11726 387 11727 2 10009 387 11675 2 11709 387 11668 2 11711 2 11712 387 11695 2 11710 387 11728 2 11729 387 11715 2 86 2 11716 2 11717 82 706 4 11730 2 663 387 11675 2 11680 82 706 4 11731 2 663 387 9835 2 11732 387 11675 2 11680 82 706 4 9759 2 11733 2 8848 82 11734 2 663 387 11668 2 11735 387 11683 2 11684 387 11687 2 11686 82 706 4 11736 2 663 387 11737 2 11738 387 11739 2 11740 387 9835 2 11680 387 11727 2 11741 2 11742 2 11732 387 11673 2 11743 2 51 2 11744 387 11715 2 11745 2 11746 2 11717 82 706 4 11747 2 11736 2 663 387 11739 2 11748 82 706 4 9759 2 11749 2 11750 2 11751 2 11749 2 8848 4 9759 2 11752 2 8848 82 11753 2 663 387 11668 2 11735 387 11754 2 11755 2 11742 2 11672 82 706 4 11756 2 663 387 11754 2 10009 82 706 4 11757 2 663 387 11695 2 11710 387 11697 2 11698 387 11699 2 11700 387 11701 2 11758 387 11675 2 11759 387 11760 2 11682 82 706 4 9759 2 9846 2 8848 82 11761 2 663 387 9835 2 11680 387 11727 2 11755 2 11742 2 11762 387 11668 2 11682 387 11760 2 11682 387 11683 2 11763 387 11703 2 10009 387 11675 2 11764 387 11715 2 86 2 11716 2 11717 82 706 4 11765 2 663 387 11766 2 11759 387 9835 2 11767 82 706 4 11768 2 663 387 11695 2 11642 387 11697 2 11698 387 11760 2 11705 82 706 4 11769 2 663 387 11695 2 11696 387 11675 2 11770 82 706 4 9759 2 7588 2 51 2 11771 2 8848 82 11772 2 663 387 11683 2 11773 387 11685 2 11686 387 11687 2 11686 387 11668 2 11711 2 11712 387 9835 2 11774 387 11727 2 11755 2 11775 2 11709 387 9771 2 11776 387 11695 2 11710 387 11675 2 11770 82 706 4 9759 2 7588 2 51 2 10764 2 8848 82 11777 2 663 387 9835 2 11774 387 11727 2 11755 2 11775 2 11709 387 11683 2 11684 387 11685 2 11686 387 11687 2 11686 387 9771 2 11776 387 11695 2 11710 387 11675 2 11759 387 11673 2 11778 387 11668 2 11682 82 706 4 9759 2 7588 2 51 2 4353 2 8848 82 11779 2 663 387 11683 2 11684 387 11685 2 11686 387 11689 2 11712 387 11668 2 11681 2 11682 387 9835 2 11774 387 11780 2 11781 2 11742 2 11709 387 11760 2 11712 82 706 4 11782 2 663 387 9835 2 11762 387 11675 2 11720 387 11737 2 11644 387 11783 2 11644 387 11713 2 11784 387 11683 2 11684 387 11685 2 11686 387 11687 2 11686 387 11695 2 11710 387 11697 2 11698 387 11785 2 9930 82 706 4 11786 2 663 387 11695 2 11696 82 706 4 9759 2 3792 2 8848 82 11787 2 663 387 11695 2 11644 387 11697 2 11788 387 11675 2 11732 387 11760 2 11682 82 706 4 11789 2 663 387 11695 2 11790 387 11697 2 11698 387 11675 2 11732 387 11760 2 11712 82 706 4 11791 2 663 387 11695 2 11642 387 11697 2 11698 387 11675 2 11679 387 11760 2 11705 82 706 4 11792 2 663 387 11695 2 11696 387 11675 2 11720 387 11793 2 11794 82 706 4 11795 2 663 387 11695 2 11710 387 11675 2 11759 82 706 4 9759 2 11796 2 8848 82 11797 2 663 387 11683 2 11773 387 11685 2 11686 387 11687 2 11686 387 11689 2 11705 387 11668 2 11681 2 11682 387 11695 2 11696 387 11697 2 11798 387 11727 2 11741 2 11742 2 11726 387 11728 2 11729 387 11715 2 86 2 11716 2 11717 82 706 4 11799 2 663 387 9835 2 11732 387 11675 2 11680 387 11766 2 11732 82 706 4 11800 2 663 387 9835 2 11679 82 706 4 11801 2 663 387 9835 2 11680 387 11675 2 11732 387 11766 2 11732 82 706 4 11802 2 663 387 9835 2 11774 82 706 4 11803 2 663 387 9835 2 11726 387 11675 2 11770 387 11766 2 11726 82 706 4 11804 2 663 387 11675 2 11732 387 9835 2 11774 82 706 4 9759 2 9739 2 8848 82 11805 2 663 387 11737 2 11738 387 11668 2 11681 2 11682 387 11695 2 11696 387 11727 2 11741 2 11742 2 11762 387 9835 2 11680 387 11715 2 11806 2 11716 2 11717 82 706 4 11807 2 663 387 11808 2 10009 387 11766 2 11732 82 706 4 11809 2 663 387 11675 2 11709 82 706 4 9759 2 11810 2 8848 82 11811 2 663 387 11683 2 11763 387 11695 2 11710 387 11697 2 11798 387 11675 2 11720 387 11760 2 11705 82 706 4 9759 2 10767 2 1480 2 8848 82 11812 2 663 387 11760 2 11682 82 706 4 9759 2 11813 2 8848 82 11814 2 663 387 11683 2 11815 387 11689 2 11682 82 706 4 11816 2 663 2 11817 2 11818 2 11819 2 706 82 11820 2 663 2 11817 2 11821 2 11819 2 706 4 9759 2 11822 2 825 2 8848 82 11823 2 663 2 11683 2 11684 2 706 82 11824 2 663 2 11825 2 11826 2 706 82 11827 2 663 2 11685 2 11686 2 706 82 11828 2 663 2 11687 2 11688 2 706 82 11829 2 663 2 11687 2 11686 2 706 82 11830 2 663 2 11689 2 11712 2 706 82 11831 2 663 2 11689 2 11682 2 706 4 9759 2 11636 2 825 2 8848 82 11832 2 663 2 11833 2 11682 2 706 82 11834 2 663 2 11760 2 11682 2 706 82 11835 2 663 2 11668 2 11682 2 706 4 9759 2 2663 2 1624 2 8848 82 11836 2 663 387 9835 2 11774 387 11668 2 11682 387 11695 2 11696 82 706 4 11836 2 11837 2 663 387 11675 2 11720 82 706 4 11836 2 11838 2 663 387 11675 2 11709 387 11667 2 829 2 11705 82 706 82 223 4 132 2 1098 2 11526 2 11839 4 11840 82 1526 2 663 2 11526 2 706 2 77 2 11841 4 8849 2 2214 2 6659 2 11842 2 11526 2 663 387 6251 2 11843 2 292 2 11844 2 11845 2 11846 2 11847 3014 11848 2 663 709 11849 387 706 3014 11850 2 663 709 11851 709 11852 709 11853 387 706 3014 11854 2 663 709 11855 709 11856 709 11857 387 706 82 706 82 223 4 132 2 11423 2 11858 2 11859 4 10999 82 1 2 5885 2 218 4 6659 2 11860 387 6659 2 6009 2 11861 709 5907 2 11456 664 11540 2 7158 2 811 709 1293 17 5907 2 11862 664 11456 2 6009 2 410 2 1602 2 11863 2 663 2 5911 2 11864 2 4146 2 11865 2 706 664 410 709 1293 17 5907 2 11866 664 11867 2 663 2 5911 2 11864 2 4146 2 11868 2 706 709 1293 17 5907 2 11869 664 11540 2 292 2 811 709 1293 387 1293 82 1293 4 6659 2 11870 387 7363 2 11871 2 11872 2 11873 2 11874 3014 5907 2 11875 2 11876 2 3501 2 7549 709 11877 2 292 2 11868 709 11878 2 292 2 3169 709 11879 2 292 2 1473 709 11880 2 292 2 811 387 1293 3014 5907 2 11881 2 11876 2 11882 2 7549 709 11478 2 292 2 11883 2 11884 2 4461 2 4292 2 11885 2 11886 2 11882 2 11887 709 11880 2 6009 2 11478 2 1602 2 11888 2 663 2 11889 2 11890 2 4146 2 11868 2 706 709 11478 387 1293 3014 5907 2 11891 709 11892 2 663 2 11889 2 11890 2 4146 2 11868 2 706 387 1293 82 1293 4 6659 2 11893 387 7363 2 11871 2 11872 2 11894 2 11895 3014 5907 2 11875 2 11876 2 11896 2 11882 2 7549 709 11877 2 292 2 11868 709 11878 2 292 2 3169 709 11545 2 292 2 410 709 11897 2 292 2 11898 2 5365 2 11868 387 1293 3014 5907 2 81 709 11899 387 1293 82 1293 82 223 4 132 2 11900 2 11901 4 10999 82 1 2 5885 2 218 4 1528 2 11902 387 1 2 11903 2 6913 2 11904 387 1 2 6651 2 7400 2 11905 2 11906 2 7401 387 5907 2 11907 709 11908 2 11909 2 11910 2 11911 2 7179 2 11912 387 1293 3014 1 2 11903 2 6913 2 11913 387 1 2 6651 2 7400 2 11914 2 7401 2 43 2 7400 2 11914 2 11915 2 11916 2 7401 387 5907 2 11917 2 292 2 11918 2 11783 2 7549 709 1405 2 292 2 11919 2 6845 2 11920 2 11921 2 5762 2 5927 709 11908 2 11922 2 11923 2 7179 2 11924 2 11925 2 1405 387 1293 3014 1 2 11903 2 129 2 3597 387 1 2 6651 2 7400 2 11926 2 5117 2 11927 2 11928 2 7401 387 5907 2 11929 2 10076 709 11908 2 11922 2 7179 2 11930 2 109 664 11931 2 8882 2 7179 2 11932 2 329 668 11931 2 10073 2 7179 2 11933 709 1293 387 1293 3014 1 2 11903 2 3834 2 7979 387 1 2 6651 2 7400 2 11934 2 663 2 22 2 706 2 7401 2 43 2 7400 2 11935 2 6726 2 663 2 22 2 706 2 7401 387 5907 2 11935 2 11936 2 11937 709 536 2 7663 664 11579 2 11938 2 7179 2 11939 2 11940 709 3066 664 11908 2 11922 2 7179 2 11939 2 11940 709 1293 387 1293 3014 1 2 316 2 536 2 1280 2 11478 387 5907 2 11941 709 11942 2 4146 2 11943 387 1293 3014 1 2 316 2 536 2 1280 2 410 387 5907 2 11944 709 11945 2 4146 2 11865 387 1293 82 1293 82 223 4 132 2 11537 2 621 2 11946 4 11554 82 7493 2 11947 2 11587 2 109 2 7401 387 7493 2 11948 2 109 2 11949 2 7401 709 7400 2 11579 2 11950 2 11951 668 7179 2 11944 2 6845 2 11952 2 5762 2 5294 2 7401 387 7493 2 1293 2 7401 82 7493 2 1293 2 7401 4 11575 2 11953 387 11577 2 11954 387 11955 2 11956 2 11454 2 207 2 750 2 11957 82 11582 4 7493 2 11948 2 109 2 11949 2 7401 387 11575 2 11953 709 11958 2 11959 2 11960 2 11961 17 7493 2 536 2 11962 2 7401 664 11955 2 11963 2 11964 2 11965 2 11966 709 7493 2 1293 2 7401 17 11575 2 11967 2 11968 664 7493 2 11969 2 109 2 11970 2 7401 668 7400 2 11935 2 11971 2 11972 2 109 2 7401 673 11575 2 11973 2 11974 2 11975 5189 7400 2 11905 2 11943 2 7401 5189 11976 7229 11977 2 11978 2 11979 2 11980 5189 11582 673 11582 668 7493 2 1293 2 7401 664 7493 2 1293 2 7401 709 11582 387 11582 82 7493 2 1293 2 7401 82 223 4 132 2 2663 2 11537 2 621 2 11981 4 11554 82 7493 2 11947 2 11587 2 109 2 7401 387 7493 2 11982 2 109 2 11949 2 7401 709 7400 2 11579 2 11950 2 11951 668 7179 2 11944 2 6845 2 11952 2 5762 2 5294 2 7401 387 7493 2 1293 2 7401 387 11983 2 11984 2 11985 387 7493 2 11986 2 109 2 11970 2 7401 709 7400 2 11579 2 11987 2 11988 2 11989 668 7179 2 11941 2 6845 2 11952 2 5762 2 5294 2 7401 387 7493 2 1293 2 7401 82 7493 2 1293 2 7401 4 11575 2 11953 387 11577 2 11990 2 11991 2 11581 387 7493 2 536 2 11992 2 7401 709 11955 2 11993 2 11994 2 11966 387 7493 2 1293 2 7401 82 11582 4 11575 2 11953 387 11958 2 11995 3014 7493 2 11996 2 109 2 11997 2 6993 2 7401 709 7400 2 11935 2 11988 2 11972 2 109 2 7401 664 11575 2 11973 2 11974 2 11975 668 7400 2 11926 2 5840 2 329 2 5117 2 11979 2 7401 664 11582 709 7493 2 1293 2 7401 387 7493 2 1293 2 7401 82 11582 82 223 4 132 2 11998 2 621 2 11999 4 11554 82 7493 2 11947 2 11587 2 109 2 7401 387 7493 2 11982 2 109 2 11949 2 7401 709 7400 2 11579 2 11950 2 11951 668 7179 2 11944 2 6845 2 11952 2 5762 2 5294 2 7401 387 7493 2 1293 2 7401 387 11983 2 11984 2 11985 387 7493 2 11986 2 109 2 11970 2 7401 709 7400 2 11579 2 11987 2 11988 2 11989 668 7179 2 11941 2 6845 2 11952 2 5762 2 5294 2 7401 387 7493 2 1293 2 7401 82 7493 2 1293 2 7401 4 7400 2 12000 2 12001 2 7401 82 223 4 132 2 2856 2 12002 2 12003 4 10999 82 1 2 5885 2 218 4 1 2 12004 2 11501 2 11456 82 1 2 2483 2 1008 2 58 2 12005 2 188 2 9 2 12006 2 732 4 1531 2 1602 2 11517 4 12007 2 12008 4 1 2 1025 2 12009 2 2663 82 12010 2 292 2 12011 387 12012 2 12013 387 4461 2 12014 387 3501 2 816 2 778 2 130 2 12015 2 12016 82 5734 82 12017 2 12018 2 4461 2 12019 82 12017 2 12020 2 4461 2 12021 82 12017 2 12022 2 4461 2 12023 2 12024 4 12025 82 223 4 132 2 2856 2 11998 2 12026 2 12027 4 11554 82 11575 2 11953 387 7400 2 11914 2 12028 2 12029 2 11783 2 6289 2 7401 82 11582 4 11575 2 11953 387 11577 2 12030 2 12031 387 11955 2 12032 2 65 2 25 2 228 2 12033 82 11582 4 11575 2 11953 387 11575 2 12034 709 7400 2 12035 2 12036 2 12037 2 7179 2 12038 2 7401 709 7400 2 12039 2 12036 2 11936 2 7179 2 12040 2 12041 2 12042 2 7401 387 11582 3014 11575 2 12034 709 7400 2 12035 2 12043 2 12044 2 7179 2 12038 2 7401 709 7400 2 12045 2 12043 2 11936 2 7179 2 12040 2 12041 2 12046 2 7401 387 11582 3014 11575 2 11973 2 12047 2 11974 2 12048 709 12049 2 12050 664 7400 2 12051 2 12052 2 7401 2 9260 2 4344 709 12053 709 7400 2 11579 2 12023 2 12054 2 12055 2 12056 668 7179 2 12057 2 7401 387 11582 3014 11591 2 12058 2 12059 2 12060 2 12061 709 7400 2 11905 2 11906 2 7401 2 12062 2 4784 387 11598 82 11582 4 11575 2 11953 387 11955 2 12063 2 12064 2 12065 709 2019 2 904 2 59 2 12066 709 7400 2 11579 2 12067 2 12068 2 12055 2 12069 2 7401 387 12070 82 11582 82 223 4 13 2 12071 2 11516 2 77 2 12072 2 1199 4 1005 2 9 2 750 2 10898 2 1006 2 410 2 65 2 8603 2 9360 2 3603 2 177 2 12073 4 132 2 71 2 3349 2 9 2 2663 2 266 4 12074 82 51 2 12075 2 12076 2 14 2 5525 2 738 2 1009 2 12077 2 12078 2 12079 82 51 2 12080 2 12081 2 12082 2 1678 82 51 2 10626 2 12083 2 12084 2 12085 2 10056 2 12086 82 51 2 12087 2 2292 2 11458 2 12088 4 2856 2 12089 82 365 2 1834 2 754 2 11428 2 207 2 1006 2 778 2 11885 2 9575 2 10379 2 37 2 12090 2 12091 2 130 2 778 2 12092 2 778 2 10132 2 37 2 858 2 130 2 12093 2 12094 2 2525 2 12095 2 130 2 1006 2 2680 2 2867 4 12096 82 51 2 12097 2 12098 2 12099 82 51 2 12100 2 12101 2 11480 2 12102 2 12103 82 51 2 12104 2 12091 2 12105 2 12084 2 10132 2 2331 4 132 2 83 2 2064 2 2663 2 12106 4 1773 2 25 2 12107 4 10999 82 12010 2 292 2 12011 387 12012 2 12013 387 4461 2 12014 387 3501 2 816 2 778 2 12016 82 5734 82 12017 2 12108 2 4461 2 12109 82 12017 2 12018 2 4461 2 12019 82 12017 2 12022 2 4461 2 12023 2 12024 82 12017 2 12110 2 4461 2 12111 4 12025 82 223 4 132 2 93 2 2064 2 11998 2 11512 4 321 2 12112 2 207 2 737 2 12113 4 1996 2 11501 2 12114 82 51 2 12115 2 12116 2 207 2 11904 2 7489 82 51 2 12117 2 12118 2 207 2 11913 2 7489 82 51 2 12119 2 12120 2 12121 2 207 2 129 2 3200 82 51 2 12122 2 663 2 12123 2 207 2 3834 2 12124 82 51 2 8432 2 10132 2 7403 2 37 2 12125 2 3564 4 132 2 104 2 12126 2 11475 2 37 2 12127 4 1996 2 12128 2 12129 2 207 2 7664 2 2330 2 12130 4 13 2 12131 2 1862 4 132 2 12009 2 11475 82 51 2 12132 2 329 2 12133 2 30 2 12134 82 51 2 10767 2 37 2 12135 2 2331 82 51 2 1273 2 284 2 10138 82 51 2 11296 2 7664 2 12136 2 12093 2 12137 2 12138 4 132 2 370 2 11475 82 51 2 11677 2 37 2 750 2 6616 82 51 2 12139 82 51 2 9846 2 9847 2 207 2 999 82 51 2 2969 2 5080 4 132 2 12140 2 11475 82 51 2 12141 2 8231 82 51 2 9846 2 9847 2 43 2 3105 2 5363 82 51 2 12142 2 43 2 12143 2 12144 2 12145 4 132 2 12146 2 11475 82 51 2 12147 2 11913 82 51 2 12148 2 329 2 1473 82 51 2 2969 2 5080 82 51 2 11298 2 999 2 10042 4 132 2 12149 2 11475 82 51 2 4031 2 12145 2 12150 82 51 2 657 2 1274 2 1184 2 11478 82 51 2 11170 2 12151 82 51 2 351 2 12152 4 13 2 484 2 3482 4 335 2 12153 2 11501 2 435 2 3254 4 51 2 543 2 544 2 11499 2 12154 2 12155 2 12156 2 3419 2 12157 82 51 2 543 2 544 2 2663 2 12158 2 65 2 12159 82 51 2 543 2 544 2 287 2 11478 2 3538 2 1847 82 51 2 543 2 544 2 12127 2 2330 2 11458 2 1303 82 51 2 543 2 544 2 11597 2 12160 2 58 2 2214 82 51 2 543 2 544 2 8074 2 12161 2 1303 82 51 2 543 2 544 2 287 2 7489 2 929 2 12162 2 7403 82 51 2 543 2 544 2 11611 2 106 2 4776 2 12163 82 51 2 543 2 544 2 343 2 4295 2 30 2 12164 4 13 2 9260 4 11516 2 186 2 207 2 12165 2 130 2 12166 2 183 2 3804 2 12167 82 51 2 2019 2 2644 2 10029 2 10028 2 43 2 12168 2 1692 82 51 2 2019 2 12169 2 126 2 293 2 9849 2 43 2 12170 82 51 2 1784 2 1274 2 120 2 110 2 3422 2 8833 2 120 2 737 2 11478 82 51 2 1784 2 4315 2 1512 2 11458 2 12088 2 25 2 737 2 63 82 51 2 1784 2 929 2 6913 2 1952 2 139 2 12171 2 9 2 999 2 1089 4 12172 2 1321 2 12173 2 14 2 317 2 58 2 12174 2 1195 2 120 2 750 2 12175 2 183 2 12176 2 12177
+
+# Low-Fidelity Wireframe Skill
+
+**Auto-activates when task involves wireframing, prototyping, or UI flow design in Rails projects.**
+
+Create rapid, low-fidelity wireframes that focus on structure and flow, not visual polish. Generate Rails infrastructure and view templates from natural language user flow descriptions.
+
+## Philosophy
+
+Low-fidelity wireframes are **thinking tools**, not deliverables:
+- **Structure over style**: Focus on layout, hierarchy, and flow
+- **Placeholder-based**: `[icon: login]`, `[image: hero]` instead of actual graphics
+- **Monochrome**: White, black, and gray only - no color decisions yet
+- **Mobile-first**: PWA/mobile layout is the primary view, desktop is the expansion
+- **Removable**: Environment-gated routes for development only
+
+## Detection Triggers
+
+This skill activates automatically when the task involves:
+- Creating wireframes or mockups
+- Designing user flows
+- Prototyping screens
+- Planning UI structure
+- Lo-fi or low-fidelity design work
+
+## Before You Wireframe
+
+### 1. Understand the Flow
+
+Ask yourself:
+- **Who is the user?** (new user, returning user, admin, etc.)
+- **What's their goal?** (sign up, complete purchase, find information)
+- **What's the journey?** (entry point → steps → success state)
+
+### 2. Identify Screens
+
+Break the flow into discrete screens:
+- Each screen = one user task or decision point
+- Name screens clearly: `login`, `register`, `dashboard`, `product-detail`
+- Map transitions: which screen leads to which?
+
+### 3. Choose Viewport Priority
+
+- **Mobile** (375px): PWA and Hotwire Native apps
+- **Desktop** (1024px): Browser-based dashboards and admin tools
+
+Default to mobile-first unless the user explicitly requests desktop-first.
+
+## Infrastructure Detection
+
+Before scaffolding, check if wireframe infrastructure exists:
+
+```ruby
+# Check routes
+File.read("config/routes.rb").include?("namespace :wireframes")
+
+# Check controllers
+Dir.exist?("app/controllers/wireframes")
+
+# Check views
+Dir.exist?("app/views/wireframes")
+
+# Check CSS
+File.exist?("app/assets/stylesheets/wireframes.css")
+```
+
+If ANY component is missing, scaffold the full infrastructure.
+
+## Scaffolding Templates
+
+### Routes (config/routes.rb)
+
+Add inside `Rails.application.routes.draw`:
+
+```ruby
+# Wireframes - development only
+if Rails.env.development?
+  namespace :wireframes do
+    root to: "index#show"
+    get ":flow", to: "flows#index", as: :flow
+    get ":flow/:screen", to: "flows#show", as: :screen
+  end
+end
+```
+
+### Base Controller (app/controllers/wireframes/base_controller.rb)
+
+```ruby
+# frozen_string_literal: true
+
+module Wireframes
+  class BaseController < ApplicationController
+    layout "wireframes"
+    before_action :development_only!
+
+    private
+
+    def development_only!
+      raise ActionController::RoutingError, "Not Found" unless Rails.env.development?
+    end
+  end
+end
+```
+
+### Index Controller (app/controllers/wireframes/index_controller.rb)
+
+```ruby
+# frozen_string_literal: true
+
+module Wireframes
+  class IndexController < BaseController
+    def show
+      @flows = WireframeRegistry.flows
+    end
+  end
+end
+```
+
+### Flows Controller (app/controllers/wireframes/flows_controller.rb)
+
+```ruby
+# frozen_string_literal: true
+
+module Wireframes
+  class FlowsController < BaseController
+    def index
+      @flow = WireframeRegistry.find_flow(params[:flow])
+      redirect_to wireframes_root_path unless @flow
+    end
+
+    def show
+      @flow = WireframeRegistry.find_flow(params[:flow])
+      @screen = @flow&.find_screen(params[:screen])
+      redirect_to wireframes_flow_path(params[:flow]) unless @screen
+    end
+  end
+end
+```
+
+### Layout (app/views/layouts/wireframes.html.erb)
+
+```erb
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wireframes</title>
+  <%= stylesheet_link_tag "wireframes", media: "all" %>
+  <%= javascript_importmap_tags %>
+</head>
+<body class="wf-body" data-controller="viewport-toggle">
+  <header class="wf-header">
+    <div class="wf-header-left">
+      <h1 class="wf-logo"><%= link_to "Wireframes", wireframes_root_path %></h1>
+    </div>
+    <nav class="wf-nav" data-viewport-toggle-target="nav">
+      <%= yield :wireframe_nav %>
+    </nav>
+    <div class="wf-header-right">
+      <div class="wf-viewport-toggle">
+        <button type="button"
+                data-action="viewport-toggle#setMobile"
+                data-viewport-toggle-target="mobileBtn"
+                class="wf-viewport-btn wf-viewport-btn--active">
+          Mobile
+        </button>
+        <button type="button"
+                data-action="viewport-toggle#setDesktop"
+                data-viewport-toggle-target="desktopBtn"
+                class="wf-viewport-btn">
+          Desktop
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wf-canvas" data-viewport-toggle-target="canvas">
+    <div class="wf-canvas-inner">
+      <%= yield %>
+    </div>
+  </main>
+</body>
+</html>
+```
+
+### CSS (app/assets/stylesheets/wireframes.css)
+
+```css
+/* Wireframe Design System - Monochrome Only */
+:root {
+  /* Colors - Monochrome palette */
+  --wf-white: #ffffff;
+  --wf-gray-50: #fafafa;
+  --wf-gray-100: #f5f5f5;
+  --wf-gray-200: #e5e5e5;
+  --wf-gray-300: #d4d4d4;
+  --wf-gray-400: #a3a3a3;
+  --wf-gray-500: #737373;
+  --wf-gray-600: #525252;
+  --wf-gray-700: #404040;
+  --wf-gray-800: #262626;
+  --wf-gray-900: #171717;
+  --wf-black: #000000;
+
+  /* Spacing */
+  --wf-space-xs: 0.25rem;
+  --wf-space-sm: 0.5rem;
+  --wf-space-md: 1rem;
+  --wf-space-lg: 1.5rem;
+  --wf-space-xl: 2rem;
+
+  /* Typography */
+  --wf-font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --wf-font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
+
+  /* Mobile canvas */
+  --wf-canvas-mobile: 375px;
+  --wf-canvas-desktop: 1024px;
+}
+
+/* Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body */
+.wf-body {
+  font-family: var(--wf-font-sans);
+  background: var(--wf-gray-200);
+  min-height: 100vh;
+  color: var(--wf-gray-900);
+}
+
+/* Header */
+.wf-header {
+  background: var(--wf-gray-800);
+  color: var(--wf-white);
+  padding: var(--wf-space-sm) var(--wf-space-md);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--wf-space-md);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.wf-logo {
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.wf-logo a {
+  color: var(--wf-white);
+  text-decoration: none;
+}
+
+.wf-nav {
+  display: flex;
+  gap: var(--wf-space-xs);
+  flex-wrap: wrap;
+  justify-content: center;
+  flex: 1;
+}
+
+.wf-nav a {
+  color: var(--wf-gray-400);
+  text-decoration: none;
+  font-size: 0.75rem;
+  padding: var(--wf-space-xs) var(--wf-space-sm);
+  border-radius: 4px;
+  transition: all 0.15s ease;
+}
+
+.wf-nav a:hover,
+.wf-nav a.active {
+  color: var(--wf-white);
+  background: var(--wf-gray-700);
+}
+
+/* Viewport Toggle */
+.wf-viewport-toggle {
+  display: flex;
+  background: var(--wf-gray-700);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.wf-viewport-btn {
+  background: transparent;
+  border: none;
+  color: var(--wf-gray-400);
+  padding: var(--wf-space-xs) var(--wf-space-sm);
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.wf-viewport-btn:hover {
+  color: var(--wf-white);
+}
+
+.wf-viewport-btn--active {
+  background: var(--wf-black);
+  color: var(--wf-white);
+}
+
+/* Canvas */
+.wf-canvas {
+  padding: var(--wf-space-lg);
+  display: flex;
+  justify-content: center;
+}
+
+.wf-canvas-inner {
+  width: 100%;
+  max-width: var(--wf-canvas-mobile);
+  background: var(--wf-white);
+  border: 2px solid var(--wf-black);
+  min-height: calc(100vh - 100px);
+  transition: max-width 0.3s ease;
+}
+
+.wf-canvas--desktop .wf-canvas-inner {
+  max-width: var(--wf-canvas-desktop);
+}
+
+/* ===== WIREFRAME COMPONENTS ===== */
+
+/* Section */
+.wf-section {
+  padding: var(--wf-space-lg);
+  border-bottom: 1px solid var(--wf-gray-200);
+}
+
+.wf-section:last-child {
+  border-bottom: none;
+}
+
+.wf-section-title {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--wf-gray-500);
+  margin-bottom: var(--wf-space-md);
+}
+
+/* Card */
+.wf-card {
+  background: var(--wf-white);
+  border: 1px solid var(--wf-gray-300);
+  padding: var(--wf-space-md);
+  margin-bottom: var(--wf-space-md);
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.15s ease;
+}
+
+.wf-card:hover {
+  border-color: var(--wf-gray-500);
+  background: var(--wf-gray-50);
+}
+
+.wf-card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: var(--wf-space-xs);
+}
+
+.wf-card-desc {
+  font-size: 0.875rem;
+  color: var(--wf-gray-600);
+}
+
+/* Placeholder - Icon */
+.wf-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--wf-space-xs) var(--wf-space-sm);
+  background: var(--wf-gray-100);
+  border: 1px dashed var(--wf-gray-400);
+  font-family: var(--wf-font-mono);
+  font-size: 0.75rem;
+  color: var(--wf-gray-600);
+}
+
+/* Placeholder - Image */
+.wf-image {
+  background: var(--wf-gray-100);
+  border: 1px dashed var(--wf-gray-400);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--wf-font-mono);
+  font-size: 0.75rem;
+  color: var(--wf-gray-500);
+  min-height: 120px;
+  padding: var(--wf-space-md);
+}
+
+/* Placeholder - Step */
+.wf-step {
+  display: flex;
+  align-items: center;
+  gap: var(--wf-space-sm);
+  padding: var(--wf-space-sm) var(--wf-space-md);
+  background: var(--wf-gray-100);
+  border-left: 3px solid var(--wf-gray-400);
+  margin-bottom: var(--wf-space-sm);
+}
+
+.wf-step-num {
+  background: var(--wf-gray-300);
+  color: var(--wf-gray-700);
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.wf-step-text {
+  font-size: 0.875rem;
+}
+
+/* Typography */
+.wf-h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--wf-black);
+  margin-bottom: var(--wf-space-md);
+}
+
+.wf-h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--wf-black);
+  margin-bottom: var(--wf-space-sm);
+}
+
+.wf-h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--wf-gray-800);
+  margin-bottom: var(--wf-space-xs);
+}
+
+.wf-text {
+  font-size: 0.875rem;
+  color: var(--wf-gray-700);
+  line-height: 1.5;
+}
+
+.wf-caption {
+  font-size: 0.75rem;
+  color: var(--wf-gray-500);
+}
+
+/* Button */
+.wf-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--wf-space-xs);
+  padding: var(--wf-space-sm) var(--wf-space-md);
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.wf-btn--primary {
+  background: var(--wf-black);
+  color: var(--wf-white);
+  border-color: var(--wf-black);
+}
+
+.wf-btn--primary:hover {
+  background: var(--wf-gray-800);
+}
+
+.wf-btn--secondary {
+  background: var(--wf-white);
+  color: var(--wf-black);
+  border-color: var(--wf-black);
+}
+
+.wf-btn--secondary:hover {
+  background: var(--wf-gray-100);
+}
+
+.wf-btn--ghost {
+  background: transparent;
+  color: var(--wf-gray-600);
+  border-color: transparent;
+}
+
+.wf-btn--ghost:hover {
+  color: var(--wf-black);
+  background: var(--wf-gray-100);
+}
+
+/* Input */
+.wf-input {
+  width: 100%;
+  padding: var(--wf-space-sm) var(--wf-space-md);
+  font-size: 0.875rem;
+  border: 2px solid var(--wf-gray-300);
+  background: var(--wf-white);
+  transition: border-color 0.15s ease;
+}
+
+.wf-input:focus {
+  outline: none;
+  border-color: var(--wf-black);
+}
+
+.wf-input::placeholder {
+  color: var(--wf-gray-400);
+}
+
+/* Label */
+.wf-label {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--wf-gray-700);
+  margin-bottom: var(--wf-space-xs);
+}
+
+/* Form Group */
+.wf-form-group {
+  margin-bottom: var(--wf-space-md);
+}
+
+/* Grid */
+.wf-grid {
+  display: grid;
+  gap: var(--wf-space-md);
+}
+
+.wf-grid--2 { grid-template-columns: repeat(2, 1fr); }
+.wf-grid--3 { grid-template-columns: repeat(3, 1fr); }
+
+/* Flex utilities */
+.wf-flex { display: flex; }
+.wf-flex-col { flex-direction: column; }
+.wf-items-center { align-items: center; }
+.wf-justify-between { justify-content: space-between; }
+.wf-justify-center { justify-content: center; }
+.wf-gap-sm { gap: var(--wf-space-sm); }
+.wf-gap-md { gap: var(--wf-space-md); }
+
+/* Spacing utilities */
+.wf-mt-md { margin-top: var(--wf-space-md); }
+.wf-mb-md { margin-bottom: var(--wf-space-md); }
+.wf-p-md { padding: var(--wf-space-md); }
+
+/* Flow Summary */
+.wf-flow-summary {
+  background: var(--wf-gray-100);
+  padding: var(--wf-space-md);
+  font-size: 0.875rem;
+}
+
+.wf-flow-summary strong {
+  color: var(--wf-gray-700);
+}
+
+.wf-flow-summary .wf-arrow {
+  color: var(--wf-gray-400);
+  margin: 0 var(--wf-space-xs);
+}
+```
+
+### Stimulus Controller (app/javascript/controllers/viewport_toggle_controller.js)
+
+```javascript
+import { Controller } from "@hotwired/stimulus"
+
+export default class extends Controller {
+  static targets = ["canvas", "mobileBtn", "desktopBtn", "nav"]
+
+  connect() {
+    this.setMobile()
+  }
+
+  setMobile() {
+    this.canvasTarget.classList.remove("wf-canvas--desktop")
+    this.mobileBtnTarget.classList.add("wf-viewport-btn--active")
+    this.desktopBtnTarget.classList.remove("wf-viewport-btn--active")
+  }
+
+  setDesktop() {
+    this.canvasTarget.classList.add("wf-canvas--desktop")
+    this.desktopBtnTarget.classList.add("wf-viewport-btn--active")
+    this.mobileBtnTarget.classList.remove("wf-viewport-btn--active")
+  }
+}
+```
+
+### Wireframe Registry (lib/wireframe_registry.rb)
+
+```ruby
+# frozen_string_literal: true
+
+class WireframeRegistry
+  class << self
+    def flows
+      @flows ||= []
+    end
+
+    def register_flow(flow)
+      flows << flow unless flows.any? { |f| f.slug == flow.slug }
+      flow
+    end
+
+    def find_flow(slug)
+      flows.find { |f| f.slug == slug.to_s }
+    end
+
+    def reset!
+      @flows = []
+    end
+  end
+end
+
+class WireframeFlow
+  attr_reader :slug, :name, :description, :screens
+
+  def initialize(slug:, name:, description: nil)
+    @slug = slug.to_s
+    @name = name
+    @description = description
+    @screens = []
+  end
+
+  def add_screen(slug:, name:, template: nil)
+    screen = WireframeScreen.new(slug: slug, name: name, flow: self, template: template)
+    @screens << screen unless @screens.any? { |s| s.slug == slug.to_s }
+    screen
+  end
+
+  def find_screen(slug)
+    @screens.find { |s| s.slug == slug.to_s }
+  end
+end
+
+class WireframeScreen
+  attr_reader :slug, :name, :flow, :template
+
+  def initialize(slug:, name:, flow:, template: nil)
+    @slug = slug.to_s
+    @name = name
+    @flow = flow
+    @template = template || slug.to_s
+  end
+
+  def path
+    "/wireframes/#{flow.slug}/#{slug}"
+  end
+end
+```
+
+### Helper (app/helpers/wireframes_helper.rb)
+
+```ruby
+# frozen_string_literal: true
+
+module WireframesHelper
+  # Render placeholder icon
+  # Usage: <%= wf_icon "login" %>
+  def wf_icon(name)
+    content_tag :span, "[icon: #{name}]", class: "wf-icon"
+  end
+
+  # Render placeholder image
+  # Usage: <%= wf_image %> or <%= wf_image "hero banner" %>
+  def wf_image(label = "image", height: nil)
+    style = height ? "min-height: #{height}px" : nil
+    content_tag :div, "[#{label}]", class: "wf-image", style: style
+  end
+
+  # Render process step
+  # Usage: <%= wf_step 1, "Enter email" %>
+  def wf_step(number, text)
+    content_tag :div, class: "wf-step" do
+      content_tag(:span, number, class: "wf-step-num") +
+        content_tag(:span, text, class: "wf-step-text")
+    end
+  end
+
+  # Render card container
+  # Usage: <%= wf_card { ... } %> or <%= wf_card(href: path) { ... } %>
+  def wf_card(href: nil, &block)
+    if href
+      link_to href, class: "wf-card", &block
+    else
+      content_tag :div, class: "wf-card", &block
+    end
+  end
+
+  # Check if current screen
+  def wf_current_screen?(screen)
+    params[:screen] == screen.slug
+  end
+
+  # Check if current flow
+  def wf_current_flow?(flow)
+    params[:flow] == flow.slug
+  end
+end
+```
+
+### Index View (app/views/wireframes/index/show.html.erb)
+
+```erb
+<% content_for :wireframe_nav do %>
+  <% @flows.each do |flow| %>
+    <%= link_to flow.name, wireframes_flow_path(flow.slug),
+        class: wf_current_flow?(flow) ? "active" : "" %>
+  <% end %>
+<% end %>
+
+<div class="wf-section">
+  <h1 class="wf-h1">Wireframes</h1>
+  <p class="wf-text">Low-fidelity mockups for user flows</p>
+</div>
+
+<% @flows.each do |flow| %>
+  <div class="wf-section">
+    <h2 class="wf-section-title"><%= flow.name %></h2>
+
+    <% if flow.description.present? %>
+      <p class="wf-text wf-mb-md"><%= flow.description %></p>
+    <% end %>
+
+    <div class="wf-grid wf-grid--2">
+      <% flow.screens.each do |screen| %>
+        <%= wf_card(href: wireframes_screen_path(flow.slug, screen.slug)) do %>
+          <div class="wf-flex wf-items-center wf-gap-sm">
+            <%= wf_icon screen.slug %>
+            <div>
+              <h3 class="wf-card-title"><%= screen.name %></h3>
+            </div>
+          </div>
+        <% end %>
+      <% end %>
+    </div>
+  </div>
+<% end %>
+```
+
+### Flow Index View (app/views/wireframes/flows/index.html.erb)
+
+```erb
+<% content_for :wireframe_nav do %>
+  <% WireframeRegistry.flows.each do |flow| %>
+    <%= link_to flow.name, wireframes_flow_path(flow.slug),
+        class: wf_current_flow?(flow) ? "active" : "" %>
+  <% end %>
+  <span style="color: var(--wf-gray-600)">|</span>
+  <% @flow.screens.each do |screen| %>
+    <%= link_to screen.name, wireframes_screen_path(@flow.slug, screen.slug),
+        class: wf_current_screen?(screen) ? "active" : "" %>
+  <% end %>
+<% end %>
+
+<div class="wf-section">
+  <h1 class="wf-h1"><%= @flow.name %></h1>
+  <% if @flow.description.present? %>
+    <p class="wf-text"><%= @flow.description %></p>
+  <% end %>
+</div>
+
+<div class="wf-section">
+  <h2 class="wf-section-title">Screens</h2>
+
+  <% @flow.screens.each_with_index do |screen, i| %>
+    <%= wf_card(href: wireframes_screen_path(@flow.slug, screen.slug)) do %>
+      <div class="wf-flex wf-items-center wf-gap-sm">
+        <%= wf_step i + 1, screen.name %>
+      </div>
+    <% end %>
+  <% end %>
+</div>
+```
+
+### Screen View (app/views/wireframes/flows/show.html.erb)
+
+```erb
+<% content_for :wireframe_nav do %>
+  <% WireframeRegistry.flows.each do |flow| %>
+    <%= link_to flow.name, wireframes_flow_path(flow.slug),
+        class: wf_current_flow?(flow) ? "active" : "" %>
+  <% end %>
+  <span style="color: var(--wf-gray-600)">|</span>
+  <% @flow.screens.each do |screen| %>
+    <%= link_to screen.name, wireframes_screen_path(@flow.slug, screen.slug),
+        class: wf_current_screen?(screen) ? "active" : "" %>
+  <% end %>
+<% end %>
+
+<%= render "wireframes/screens/#{@flow.slug}/#{@screen.template}" %>
+```
+
+### Example Initializer (config/initializers/wireframes.rb)
+
+```ruby
+# frozen_string_literal: true
+
+# Register wireframe flows
+# This file is auto-generated by the lofi-wireframes skill
+
+return unless Rails.env.development?
+
+require_relative "../../lib/wireframe_registry"
+
+# Example: Authentication Flow
+auth_flow = WireframeFlow.new(
+  slug: "auth",
+  name: "Authentication",
+  description: "User login and registration flow"
+)
+auth_flow.add_screen(slug: "login", name: "Login")
+auth_flow.add_screen(slug: "register", name: "Register")
+auth_flow.add_screen(slug: "forgot-password", name: "Forgot Password")
+
+WireframeRegistry.register_flow(auth_flow)
+```
+
+### Example Screen Template (app/views/wireframes/screens/auth/login.html.erb)
+
+```erb
+<div class="wf-section">
+  <%= wf_image "App Logo", height: 60 %>
+</div>
+
+<div class="wf-section">
+  <h1 class="wf-h1">Welcome back</h1>
+  <p class="wf-text">Sign in to your account</p>
+</div>
+
+<div class="wf-section">
+  <div class="wf-form-group">
+    <%= label_tag :email, "Email", class: "wf-label" %>
+    <%= text_field_tag :email, nil, class: "wf-input", placeholder: "you@example.com" %>
+  </div>
+
+  <div class="wf-form-group">
+    <%= label_tag :password, "Password", class: "wf-label" %>
+    <%= password_field_tag :password, nil, class: "wf-input", placeholder: "********" %>
+  </div>
+
+  <div class="wf-flex wf-justify-between wf-items-center wf-mb-md">
+    <label class="wf-caption">
+      <%= check_box_tag :remember %> Remember me
+    </label>
+    <%= link_to "Forgot password?", wireframes_screen_path("auth", "forgot-password"),
+        class: "wf-caption" %>
+  </div>
+
+  <button class="wf-btn wf-btn--primary" style="width: 100%">
+    <%= wf_icon "login" %> Sign In
+  </button>
+</div>
+
+<div class="wf-section">
+  <p class="wf-text" style="text-align: center">
+    Don't have an account?
+    <%= link_to "Sign up", wireframes_screen_path("auth", "register") %>
+  </p>
+</div>
+```
+
+## Generating Wireframes from Natural Language
+
+When the user describes a flow in natural language, follow this process:
+
+### 1. Parse the Flow Description
+
+Extract:
+- **Flow name**: The overall journey (e.g., "authentication", "checkout", "onboarding")
+- **Screens**: Individual pages/views mentioned
+- **Components**: Forms, buttons, images, icons referenced
+- **Transitions**: How screens connect
+
+Example input:
+> "I need wireframes for a login flow: landing page with app logo and login button, login form with email and password, forgot password screen, and a success message"
+
+Parsed:
+- Flow: `auth` (Authentication)
+- Screens: `landing`, `login`, `forgot-password`, `success`
+- Components: logo image, buttons, form fields
+
+### 2. Generate Flow Registration
+
+Add to `config/initializers/wireframes.rb`:
+
+```ruby
+auth_flow = WireframeFlow.new(
+  slug: "auth",
+  name: "Authentication",
+  description: "User login flow"
+)
+auth_flow.add_screen(slug: "landing", name: "Landing")
+auth_flow.add_screen(slug: "login", name: "Login")
+auth_flow.add_screen(slug: "forgot-password", name: "Forgot Password")
+auth_flow.add_screen(slug: "success", name: "Success")
+
+WireframeRegistry.register_flow(auth_flow)
+```
+
+### 3. Generate Screen Templates
+
+Create `app/views/wireframes/screens/{flow}/{screen}.html.erb` for each screen.
+
+Use wireframe components:
+- `wf_icon "name"` for icon placeholders
+- `wf_image "description"` for image placeholders
+- `wf_step n, "text"` for process steps
+- `wf_card { }` for card containers
+- Standard form helpers with `wf-` classes
+
+### 4. Connect Screens with Navigation
+
+Use `wireframes_screen_path(flow, screen)` for links between screens.
+
+## Component Patterns
+
+### Authentication Screens
+- Logo + tagline at top
+- Form with email/password fields
+- Primary action button
+- Secondary links (forgot password, sign up)
+
+### Dashboard Screens
+- Header with user info
+- Navigation/tabs
+- Card grid for content
+- Action buttons
+
+### List/Catalog Screens
+- Search/filter bar
+- Card grid or list view
+- Pagination or infinite scroll indicator
+
+### Detail Screens
+- Hero image
+- Title + description
+- Action buttons
+- Related content cards
+
+### Onboarding Screens
+- Progress indicator (steps)
+- Single focus per screen
+- Large visuals
+- Clear CTAs
+
+## Verification Checklist
+
+Before marking wireframe task complete:
+
+- [ ] Infrastructure scaffolded (routes, controllers, CSS, JS)
+- [ ] Flow registered in initializer
+- [ ] All screen templates created
+- [ ] Navigation between screens works
+- [ ] Mobile viewport is default
+- [ ] Desktop toggle works
+- [ ] All placeholders use `wf_` helpers
+- [ ] Monochrome only (no colors)
+- [ ] Can preview at `/wireframes`
+
+## Remember
+
+Wireframes are for **structure and flow**, not visual design:
+- Don't add colors, gradients, or fancy effects
+- Don't worry about exact spacing or alignment
+- Do focus on what elements appear on each screen
+- Do show how screens connect to each other
+- Do use placeholder text that explains the content type
+
+**Speed over polish.** The goal is rapid iteration on user flows, not pixel-perfect mockups.

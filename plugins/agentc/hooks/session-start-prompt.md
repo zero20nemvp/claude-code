@@ -1,1 +1,55 @@
-6427 4 44 2 904 2 3 2 51 2 1034 2 425 2 37 2 6428 2 6429 4 13 2 263 2 400 4 223 82 407 2 193 2 405 2 409 2 25 2 1340 2 415 2 416 82 422 985 193 2 424 2 425 2 25 2 301 2 431 82 18 6430 193 2 443 2 2474 2 445 2 435 2 1296 2 3940 2 65 2 6431 82 20 246 193 2 447 2 37 2 448 2 449 2 329 2 6432 2 458 2 1374 82 21 6430 193 2 451 2 37 2 452 2 3924 82 223 4 13 2 14 2 453 4 3601 2 279 2 458 2 6433 82 71 2 6434 2 461 2 463 2 193 2 326 2 464 2 193 2 3590 2 193 2 326 2 465 2 193 2 466 82 83 2 1429 2 6435 2 470 2 471 2 20 2 3021 82 93 2 6436 2 487 2 488 2 489 2 463 2 35 2 274 2 21 4 5110 2 52 2 6437 82 51 2 5225 2 435 2 30 2 1006 2 1322 2 6438 2 1282 2 6439 82 51 2 98 2 230 2 6440 2 328 82 51 2 44 2 1274 2 120 2 6441 2 214 82 51 2 493 2 274 2 477 2 494 4 13 2 6442 2 4530 4 143 2 305 2 143 2 1892 2 96 2 194 2 143 82 6443 82 143 2 908 2 143 2 443 2 444 2 445 2 435 2 143 82 143 2 472 2 143 2 1358 2 435 2 37 2 448 2 143 82 143 2 480 2 143 2 3245 2 37 2 452 2 143 82 143 2 325 2 143 2 326 2 86 2 1335 2 2468 2 130 2 371 2 143 82 143 2 6444 2 143 2 6442 2 1280 2 435 2 26 2 143 4 13 2 209 2 5369 4 287 2 1034 2 1035 2 186 2 1036 82 51 2 1039 2 51 2 1040 82 51 2 1043 2 51 2 1044 2 1045 2 1046 2 1047 82 51 2 1052 2 51 2 405 2 799 2 1053 82 51 2 1054 2 51 2 1055 2 1056 2 214 82 51 2 1048 2 51 2 493 2 274 2 494 82 51 2 6445 2 6446 2 6447 4 4370 2 929 2 1006 2 6448 2 14 2 3441 2 1794 2 2061 2 6449 2 2606 2 134 2 2296 2 188 2 6450 4 13 2 1332 2 1333 4 192 2 516 2 1335 2 2468 2 4336 2 6451 82 192 2 1335 2 2468 2 4336 2 908 4 6452 82
+<AGENTC_METHODOLOGY>
+
+You have AgentC - superpowers methodology with cognitive-load-reducing interface.
+
+## Core Workflow
+
+```
+/add-north-star → Socratic questioning to unearth guiding direction
+/add-goal       → WOOP methodology to create milestones
+/next           → Get ONE optimal task (AI dispatched in parallel)
+/do             → Execute with TDD discipline + automatic code review
+/done           → Record with verification evidence
+```
+
+## The Discipline
+
+**For every code task:**
+1. **TDD**: Write test → See RED → Implement → See GREEN → Refactor
+2. **Code Review**: Automatic after /do completes
+3. **Verification**: Must see actual test output before /done
+
+**The system enforces:**
+- One task at a time (zero decision fatigue)
+- AI handles parallelizable work
+- You focus on creative/judgment tasks
+- Evidence before completion claims
+
+## Quick Reference
+
+| Command | What it does |
+|---------|-------------|
+| `/next` | Get next optimal task |
+| `/do` | Start task with TDD |
+| `/done` | Complete with verification |
+| `/status` | See all north stars and progress |
+| `/now` | Quick current task check |
+
+## Skills Available
+
+All superpowers skills are embedded:
+- `test-driven-development` - RED-GREEN-REFACTOR
+- `systematic-debugging` - 4-phase root cause investigation
+- `brainstorming` - Socratic design refinement
+- `writing-plans` - Bite-sized implementation tasks
+- `verification-before-completion` - Evidence before claims
+- And 17 more...
+
+**To use a skill:** The Skill tool will invoke them as needed by commands.
+
+## Getting Started
+
+If no north stars exist: `/add-north-star`
+If north stars exist: `/next`
+
+</AGENTC_METHODOLOGY>

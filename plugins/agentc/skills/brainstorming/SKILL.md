@@ -2,4 +2,53 @@
 name: brainstorming
 description: Use when creating or developing, before writing code or implementation plans - refines rough ideas into fully-formed designs through collaborative questioning, alternative exploration, and incremental validation. Don't use during clear 'mechanical' processes
 ---
-82 1 2 8593 2 8594 2 8595 2 8596 4 13 2 8597 4 8598 2 5896 2 8599 2 1587 2 8600 2 8601 2 2315 2 130 2 8602 2 1549 2 8603 2 8604 2 8605 4 1358 2 188 2 579 2 9 2 1280 2 1202 2 8606 2 2556 2 1836 2 1339 2 39 2 30 2 1006 2 1322 2 25 2 1599 2 9 2 8607 2 8608 2 112 2 1582 2 110 2 1469 2 8609 2 4418 2 9 2 799 2 65 2 1291 2 1607 2 8610 2 8611 2 3381 2 471 2 737 2 954 2 1684 2 96 2 8612 2 2704 2 3305 2 8613 4 13 2 14 2 1606 4 8614 2 9 2 8615 82 51 2 316 2 7016 2 9 2 1280 2 1202 2 2327 2 2596 2 8616 2 3223 2 1814 2 8617 82 51 2 2062 2 1339 2 39 2 30 2 1006 2 1322 2 25 2 1599 2 9 2 8618 82 51 2 2410 2 1290 2 8619 2 1339 2 920 2 8620 2 67 2 8621 2 58 2 8622 2 1584 82 51 2 15 2 39 2 2494 2 1184 2 2242 2 51 2 536 2 1006 2 8623 2 2176 2 1316 2 8624 2 5922 2 96 2 1587 2 1290 2 1339 82 51 2 1499 2 120 2 8625 2 8626 2 7185 2 2680 2 439 4 8627 2 8628 82 51 2 8629 2 1276 2 272 2 273 2 37 2 8630 82 51 2 1204 2 7222 2 8631 2 37 2 228 2 8632 2 130 2 8633 82 51 2 8634 2 37 2 228 2 8635 2 2692 2 130 2 2180 2 1631 4 8636 2 9 2 8637 82 51 2 8608 2 112 2 5324 2 112 2 1582 2 110 2 1469 2 8609 2 4418 2 9 2 799 82 51 2 1246 2 96 2 1587 2 1607 2 115 2 8638 2 955 82 51 2 2062 2 471 2 737 2 954 2 1684 2 96 2 8612 2 2704 2 3305 2 8639 82 51 2 8640 2 8641 2 8642 2 756 2 8643 2 1437 2 8644 2 155 82 51 2 1494 2 2989 2 25 2 4412 2 591 2 130 2 3034 2 536 2 4383 2 2624 2 2361 2 8645 4 13 2 1326 2 9 2 3440 4 8646 82 51 2 461 2 9 2 8647 2 799 2 25 2 8648 82 51 2 1996 2 8649 2 732 2 536 2 1330 82 51 2 5428 2 9 2 799 2 7465 2 25 2 3091 4 8650 2 1781 2 8651 82 51 2 3037 2 8652 2 25 2 5151 2 2713 2 207 2 8653 82 51 2 1996 2 8654 2 25 2 301 2 8655 2 8656 82 51 2 1996 2 8657 2 25 2 301 2 3005 2 1056 2 3191 4 13 2 1243 2 264 4 51 2 2607 2 2494 2 30 2 1006 2 2813 2 51 2 2019 2 2814 2 37 2 1290 2 1339 82 51 2 8658 2 8619 2 8659 2 51 2 8660 2 25 2 8661 2 1571 2 8621 2 920 2 2718 82 51 2 8662 2 8663 2 51 2 1590 2 1541 2 599 2 77 2 86 2 2315 82 51 2 8664 2 8665 2 51 2 3046 2 8666 2 1276 2 273 2 274 2 8667 82 51 2 8668 2 8669 2 51 2 1204 2 799 2 65 2 8670 2 4008 2 737 82 51 2 3042 2 8671 2 51 2 8672 2 591 2 130 2 3034 2 920 2 4383 2 2624 2 2361 2 8645
+
+# Brainstorming Ideas Into Designs
+
+## Overview
+
+Help turn ideas into fully formed designs and specs through natural collaborative dialogue.
+
+Start by understanding the current project context, then ask questions one at a time to refine the idea. Once you understand what you're building, present the design in small sections (200-300 words), checking after each section whether it looks right so far.
+
+## The Process
+
+**Understanding the idea:**
+- Check out the current project state first (files, docs, recent commits)
+- Ask questions one at a time to refine the idea
+- Prefer multiple choice questions when possible, but open-ended is fine too
+- Only one question per message - if a topic needs more exploration, break it into multiple questions
+- Focus on understanding: purpose, constraints, success criteria
+
+**Exploring approaches:**
+- Propose 2-3 different approaches with trade-offs
+- Present options conversationally with your recommendation and reasoning
+- Lead with your recommended option and explain why
+
+**Presenting the design:**
+- Once you believe you understand what you're building, present the design
+- Break it into sections of 200-300 words
+- Ask after each section whether it looks right so far
+- Cover: architecture, components, data flow, error handling, testing
+- Be ready to go back and clarify if something doesn't make sense
+
+## After the Design
+
+**Documentation:**
+- Write the validated design to `docs/plans/YYYY-MM-DD-<topic>-design.md`
+- Use elements-of-style:writing-clearly-and-concisely skill if available
+- Commit the design document to git
+
+**Implementation (if continuing):**
+- Ask: "Ready to set up for implementation?"
+- Use superpowers:using-git-worktrees to create isolated workspace
+- Use superpowers:writing-plans to create detailed implementation plan
+
+## Key Principles
+
+- **One question at a time** - Don't overwhelm with multiple questions
+- **Multiple choice preferred** - Easier to answer than open-ended when possible
+- **YAGNI ruthlessly** - Remove unnecessary features from all designs
+- **Explore alternatives** - Always propose 2-3 approaches before settling
+- **Incremental validation** - Present design in sections, validate each
+- **Be flexible** - Go back and clarify when something doesn't make sense

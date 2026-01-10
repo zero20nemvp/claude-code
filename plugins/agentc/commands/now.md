@@ -1,8 +1,112 @@
 ---
 name: now
-description: "Read-only status check - safe to call multiple times"
+description: "What's happening now? Use --full for comprehensive view"
+arguments:
+  - name: flag
+    description: "--full for comprehensive view"
+    required: false
 allowed-tools:
   - Read
+  - Write
   - TaskOutput
 ---
-3667 2 2339 2 186 2 65 2 1452 2 51 2 488 2  2  2 17540 6086 44 2 186 2 2712 2 1280 2 3072 2 5230 2 5231 2 516 2 2327 2 5232 4 13 2 2433 2 655 4 2433 2 659 2 51 2 5233 2 5234 2 109 2 183 2 5235 4 13 2 4258 4 192 2 4661 2 357 2 5236 2 43 2 2331 2 5237 82 51 2 1773 2 3494 2 292 2 4165 2 536 2 1893 82 51 2 1773 2 3496 2 292 2 696 2 536 2 1893 82 51 2 1773 2 324 2 292 2 663 2 4838 2 687 2 4839 2 696 2 706 2 536 2 1893 82 51 2 3095 2 1784 2 2022 2 5238 2 1385 2 5239 2 5240 2 3663 2 929 2 5241 4 13 2 1466 2 1467 2 2997 2 938 2 565 4 5242 2 5243 2 5244 2 43 2 5245 2 536 2 5246 82 5247 247 5248 2 120 2 4111 2 51 2 488 2 5249 82 41 42 5250 2 25 2 713 2 51 2 488 2 5249 4 13 2 2840 2 1418 4 143 2 4111 2 143 2 5251 2 1275 2 143 2 5252 2 1275 2 143 82 5253 82 143 2 715 2 143 2 2806 2 1192 2 5254 2 143 2 18 2 143 82 143 2 187 2 143 2 843 2 359 2 5255 2 143 2 20 2 143 82 143 2 716 2 143 2 5256 2 5255 2 143 2 21 2 143 4 13 2 1736 4 192 2 4111 2 58 2 4165 2 130 2 5257 2 1841 2 3705 2 1006 2 3515 17 5242 2 5258 2 3532 2 839 2 25 2 840 709 5247 247 150 2 1192 2 435 709 41 42 18 4 192 2 4111 2 58 2 5259 17 5242 2 5260 2 18 709 5247 247 440 2 359 2 5261 2 5262 2 30 2 5263 709 41 42 20 4 192 2 4111 2 58 2 5264 17 5242 2 1333 2 435 709 5247 247 5265 2 5261 2 5262 2 30 2 5263 709 41 42 21 4 13 2 316 2 4990 2 98 2 2428 4 192 2 4075 2 2471 2 31 2 214 2 37 2 3142 2 5266 4 71 2 1996 2 4077 2 37 2 4078 2 207 2 737 2 4079 82 83 2 316 2 536 2 3744 2 3909 2 43 2 3942 82 93 2 1773 2 98 2 3142 2 954 2 25 2 35 4 13 2 1466 2 37 2 98 2 2428 2 3645 17 5242 2 5267 709 5247 247 5248 2 120 2 5268 709 41 42 5269 17 98 2 5270 664 4095 2 4895 2 2549 2 5271 664 4095 2 4895 2 2550 2 5272 4 13 2 1466 2 37 2 98 2 2428 2 5258 2 5273 2 5274 2 5074 17 5242 2 5267 709 5247 247 5248 2 120 2 5268 709 41 42 5269 17 98 2 5275 664 1259 2 4895 2 2549 664 1259 2 4895 2 2550 4 13 2 1243 2 265 4 1037 2 58 2 271 2 5276 2 98 2 3142 2 106 2 1275 2 536 2 214 2 186 2 5277 4 14 2 57 2 48 2 5278 2 5279 82 71 2 1892 2 2316 2 3663 2 1832 82 83 2 5280 2 2316 2 186 2 2649 82 93 2 1892 2 25 2 713 2 444 82 104 2 1892 2 98 2 58 2 1311 2 65 2 1310 4 1281 2 6 2 7 2 1294 2 5010 2 5281
+
+You are showing current AgentC state.
+
+## Load Data
+
+Load `agentc/agentc.json` - create if doesn't exist.
+
+## Auto-Migration
+
+If old schema detected:
+- If `goals[]` exists but `northStars[]` doesn't: rename `goals` → `northStars`
+- If `intents[]` exists: rename `intents` → `goals`
+- Save and announce migration
+
+## Route by Argument
+
+**No argument (default):** Quick 3-line status
+**--full:** Comprehensive view
+
+---
+
+## DEFAULT: Quick Status (3 lines)
+
+```
+LAST: [current.lastAction.description or "None"]
+NOW:  [based on loopState - see table]
+DO:   [next command - see table]
+```
+
+| loopState | NOW shows | DO shows |
+|-----------|-----------|----------|
+| idle | "No active task" | /next |
+| assigned | "Task ready: [humanTask.description]" | /do |
+| executing | "Executing: [humanTask.description]" | /done |
+| autonomous | "Autonomous mode active" | /now --full |
+
+**If AI tasks running, append:**
+```
+AI:
+  ⋯ [task description] (Xm)
+```
+
+**If AI tasks completed since last check:**
+```
+AI:
+  ✓ [task description]
+```
+
+---
+
+## --full: Comprehensive View
+
+**If autonomous mode:**
+
+```
+═══════════════════════════════════════════════════════════════
+                    AUTONOMOUS MODE
+═══════════════════════════════════════════════════════════════
+
+Goal: [autonomousSession.goalDescription]
+Started: [time ago]
+Iterations: [iterationCount]
+
+CLAUDE:
+  ✓ [completed AI task]
+  ⋯ [running AI task] (Xm)
+  ○ [blocked - waiting for human]
+
+YOU:
+  1. [current human task if assigned]
+  2. [queued human task 1]
+
+═══════════════════════════════════════════════════════════════
+```
+
+**If NOT autonomous mode:**
+
+```
+=== AgentC ===
+
+NORTH STARS:
+[ns-id] [name] [frontOfMind? → "*"]
+  → [goal-wish] ([X%]) due [date]
+
+VELOCITY:
+[N] tasks / [M] blocks
+
+NOW:
+[description or "No task"]
+
+DO: [next command]
+```
+
+---
+
+## Key Principles
+
+- **Default is quick** - 3 lines, zero cognitive load
+- **Full on demand** - When you need the big picture
+- **Always show DO:** - System tells you what's next

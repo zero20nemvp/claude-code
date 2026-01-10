@@ -2,4 +2,145 @@
 name: product-discovery
 description: Use when starting a new product area or major feature from scratch. Guides the full discovery flow from Jobs-to-be-Done through to implementation-ready vertical slices.
 ---
-82 1 2 12178 2 11228 4 13 2 8597 4 3245 2 4850 2 410 2 77 2 9659 2 8618 2 25 2 12179 2 12180 4 9215 2 30 2 9216 2 2486 2 1021 2 9 2 12181 2 732 2 25 2 3566 2 112 2 77 2 8618 2 25 2 12179 2 12182 4 2483 2 7965 2 732 2 12183 2 1288 2 9 2 630 2 4850 2 129 2 37 2 1059 2 2330 2 737 2 3652 2 44 2 113 2 3908 2 30 2 31 2 12184 2 130 2 4271 2 12185 4 13 2 14 2 2663 17 3625 2 1956 2 3300 2 11228 4086 8552 709 3625 2 1986 2 12186 2 11037 4086 8552 709 3625 2 2489 2 9265 2 3639 4086 8552 709 3625 2 2511 2 12187 2 12188 4086 8552 709 3625 2 2539 2 3667 4 1352 2 12184 2 2471 2 1006 2 12189 2 123 2 112 2 113 2 12190 2 3228 2 130 2 2055 2 1684 2 25 2 12191 4 13 2 3625 2 1956 2 3300 2 11228 4 12192 2 12193 4 8964 2 11229 2 9 2 3318 2 2167 2 186 2 11247 2 25 2 11248 4 12194 82 51 2 2481 2 1202 2 3302 82 51 2 2062 2 405 2 1339 2 39 2 30 2 1006 2 1322 82 51 2 4887 2 9629 2 12195 2 12196 2 3318 82 51 2 2464 2 737 2 8421 2 274 2 9366 4 12197 2 11292 4 12198 2 12199 2 11264 2 130 2 12200 2 12201 2 25 2 11302 2 750 2 11301 4 13 2 3625 2 1986 2 12186 2 11037 4 12192 2 9389 4 8964 2 1896 2 3318 2 1587 2 12202 2 750 2 3319 4 12194 82 51 2 587 2 11264 2 3318 82 51 2 7697 2 3319 2 39 2 30 2 1006 2 1322 82 51 2 1519 2 12203 2 439 82 51 2 1592 2 37 2 12204 4 12197 2 12205 4 12198 2 3322 2 12206 2 130 2 12207 2 12201 2 25 2 9270 2 3325 2 12208 4 13 2 3625 2 2489 2 9265 2 3639 4 12192 2 12209 4 8964 2 461 2 9266 2 3327 2 3325 2 586 4 12194 82 51 2 587 2 750 2 3319 82 51 2 3348 2 2713 2 9267 2 536 2 2296 82 51 2 461 2 9298 2 12210 2 12211 82 51 2 321 2 3597 2 9279 4 12197 2 12212 2 329 2 3597 2 9279 4 12198 2 12213 2 586 2 12214 2 12201 2 25 2 3191 2 3333 2 12215 4 13 2 3625 2 2511 2 12187 2 12188 4 12192 2 9369 4 8964 2 3335 2 3336 2 3333 2 3337 2 130 2 301 2 3102 4 12194 82 51 2 587 2 3325 2 586 82 51 2 1414 2 12216 2 12217 2 3337 82 51 2 321 2 3104 2 207 2 737 2 12218 82 51 2 321 2 1056 2 3191 2 207 2 737 4 12197 2 9465 2 329 2 3191 2 1184 2 12218 4 12198 2 3341 2 12219 2 130 2 3102 2 12220 2 12201 2 25 2 3492 2 12221 4 13 2 3625 2 2539 2 3667 4 12192 2 12222 2 43 2 12223 4 8964 2 3590 2 3337 2 37 2 448 2 449 4 12194 82 51 2 3255 2 25 2 2596 2 12218 2 3104 82 51 2 1522 2 1056 2 3191 82 51 2 3695 2 463 2 12224 2 2556 2 458 82 51 2 9438 2 920 2 5407 2 12225 2 25 2 444 2 12218 4 12197 2 12226 2 2085 2 458 4 13 2 12227 2 12228 4 192 2 112 2 8227 2 30 2 31 2 12229 2 112 2 113 2 12230 4 51 2 3704 2 3625 2 12231 2 11304 2 12232 2 77 2 12233 82 51 2 3704 2 3625 2 12234 2 12235 2 12232 2 77 2 12236 82 51 2 3704 2 3625 2 2640 2 9373 2 12232 2 77 2 12237 82 51 2 3704 2 3625 2 9478 2 650 2 1587 2 12238 2 2266 2 37 2 3191 4 13 2 1243 2 264 4 51 2 12239 2 30 2 737 2 12240 2 51 2 1324 2 12241 2 966 2 9092 82 51 2 12242 2 12243 2 51 2 1352 2 12184 2 12244 2 12245 2 139 2 113 2 344 2 8320 82 51 2 2607 2 2494 2 30 2 1006 2 2813 2 51 2 12246 2 12247 2 86 2 12248 82 51 2 8662 2 12249 2 51 2 1590 2 1541 2 7279 2 12250 2 633 2 3337 82 51 2 12251 2 274 2 12252 2 51 2 2590 2 737 2 12253 2 274 2 9365 2 120 4 13 2 1005 2 25 2 1996 4 3565 2 12181 2 8703 82 51 2 2667 2 1006 2 727 2 11231 2 12254 82 51 2 12255 2 727 2 3325 2 37 2 12256 2 1745 82 51 2 12257 2 1006 2 2041 2 9863 2 274 2 12258 82 51 2 44 2 2498 2 9 2 630 2 12259 2 2294 4 3565 2 6307 2 1035 2 8703 82 51 2 44 2 2045 2 904 2 3318 2 130 2 754 2 3319 82 51 2 44 2 2045 2 904 2 3319 2 130 2 754 2 599 82 51 2 44 2 2498 2 25 2 3879 2 12248 2 5327 2 2045 2 676 4 13 2 5423 4 9394 2 12260 82 71 2 12193 82 83 2 9389 82 93 2 12209 82 104 2 9369 82 1022 2 12222 2 2281 2 12223 82 1620 2 9239
+
+# Product Discovery
+
+## Overview
+
+Complete discovery flow from raw idea to implementation-ready slices.
+
+**Announce at start:** "I'm using the product-discovery skill to guide you from idea to implementation-ready slices."
+
+This master skill chains together the full discovery process with checkpoints between each phase. You can stop at any phase and resume later.
+
+## The Flow
+
+    Phase 1: JTBD Discovery
+         ↓
+    Phase 2: Story Mapping
+         ↓
+    Phase 3: Feature Writing
+         ↓
+    Phase 4: Vertical Slicing
+         ↓
+    Phase 5: Implementation
+
+Each phase has a checkpoint where you can pause, review, and decide whether to continue.
+
+## Phase 1: JTBD Discovery
+
+**Skill:** superpowers:jtbd-discovery
+
+**Purpose:** Unearth the jobs users are trying to accomplish
+
+**Process:**
+- Understand project context
+- Ask Socratic questions one at a time
+- Discover functional, emotional, social jobs
+- Validate each job before continuing
+
+**Output:** docs/jtbd/YYYY-MM-DD-domain.md
+
+**Checkpoint:** "Jobs discovered and documented. Ready to derive user stories?"
+
+## Phase 2: Story Mapping
+
+**Skill:** superpowers:story-mapping
+
+**Purpose:** Convert jobs into INVEST-compliant user stories
+
+**Process:**
+- Read discovered jobs
+- Derive stories one at a time
+- Apply INVEST criteria
+- Prioritize with MoSCoW
+
+**Output:** docs/stories/YYYY-MM-DD-feature.md
+
+**Checkpoint:** "Stories mapped and prioritized. Ready to write feature files?"
+
+## Phase 3: Feature Writing
+
+**Skill:** superpowers:feature-writing
+
+**Purpose:** Write executable Gherkin feature files
+
+**Process:**
+- Read user stories
+- Set up Cucumber if needed
+- Write scenarios (tier-appropriate coverage)
+- Create step definitions
+
+**Output:** features/*.feature + step definitions
+
+**Checkpoint:** "Feature files written. Ready to plan vertical slices?"
+
+## Phase 4: Vertical Slicing
+
+**Skill:** superpowers:vertical-slicing
+
+**Purpose:** Plan thin vertical slices and create worktrees
+
+**Process:**
+- Read feature files
+- Identify thinnest valuable slices
+- Create worktree for each slice
+- Create implementation plan for each
+
+**Output:** Worktree + plan per slice
+
+**Checkpoint:** "Slices planned and worktrees ready. Ready to start implementing?"
+
+## Phase 5: Implementation
+
+**Skill:** superpowers:executing-plans or superpowers:subagent-driven-development
+
+**Purpose:** Implement slices with TDD discipline
+
+**Process:**
+- Move to first slice worktree
+- Follow implementation plan
+- TDD: test first, then code
+- Merge when complete, move to next slice
+
+**Output:** Working, tested code
+
+## Resuming Mid-Flow
+
+If you stopped at any phase, you can resume:
+
+- **After Phase 1:** /story-mapping (reads from docs/jtbd/)
+- **After Phase 2:** /feature-writing (reads from docs/stories/)
+- **After Phase 3:** /vertical-slicing (reads from features/)
+- **After Phase 4:** cd into worktree, continue with plan
+
+## Key Principles
+
+- **Checkpoint at each phase** - Never auto-continue without approval
+- **Artifacts persist** - Each phase writes documents that can be resumed
+- **One question at a time** - Applies throughout all phases
+- **YAGNI throughout** - Remove unnecessary jobs, stories, features, slices
+- **Validation before continuation** - Confirm each artifact before moving on
+
+## When to Use
+
+**Use product-discovery when:**
+- Starting a new product area
+- Major new feature with unclear scope
+- Exploring a problem space before solutioning
+- You want the full guided experience
+
+**Use individual skills when:**
+- You already have jobs and need stories
+- You already have stories and need features
+- You want to skip phases you've already done
+
+## Integration
+
+**Chains through:**
+1. superpowers:jtbd-discovery
+2. superpowers:story-mapping
+3. superpowers:feature-writing
+4. superpowers:vertical-slicing
+5. superpowers:executing-plans / superpowers:subagent-driven-development
+6. superpowers:finishing-a-development-branch

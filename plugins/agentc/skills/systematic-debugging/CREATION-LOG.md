@@ -1,1 +1,119 @@
-1 2 403 2 13944 2 13945 2 10348 2 3441 4 4530 2 4444 2 115 2 13946 2 13947 2 130 2 13948 2 1006 2 1436 2 13949 4 13 2 4724 2 13950 4 13951 2 601 2 1402 2 77 2 13952 82 51 2 1044 2 9205 2 129 2 13953 2 193 2 1858 2 1658 2 193 2 13954 2 193 2 3659 82 51 2 263 2 13955 2 13956 2 79 2 1045 2 13957 2 10224 2 1478 2 13958 82 51 2 4281 2 5331 2 25 2 13959 2 1322 2 5677 2 130 2 13960 4 13 2 10895 2 165 4 1871 2 25 2 13961 82 51 2 3245 2 1044 2 1402 2 37 2 86 2 1397 82 51 2 13962 2 13963 2 1478 2 13964 2 13965 2 130 2 13966 82 51 2 13967 2 349 2 13968 2 536 2 13969 2 13970 2 536 2 49 2 13971 2 65 2 1006 2 13972 82 51 2 1477 2 3200 2 207 2 737 2 12184 4 1871 2 25 2 13973 2 13974 82 51 2 13655 2 3302 82 51 2 13975 2 13976 2 115 2 8223 2 1162 82 51 2 13977 2 13978 2 13979 2 25 2 13980 4 13 2 9115 2 12912 2 13981 4 71 2 13982 2 13983 2 51 2 13984 2 13958 2 130 2 10111 82 83 2 13985 2 13986 2 51 2 1477 2 129 2 37 2 3200 82 93 2 13987 2 51 2 13988 2 13989 2 13990 2 13991 2 13992 2 13993 82 104 2 13994 2 51 2 13995 2 9016 2 207 2 13996 2 13997 2 193 2 13998 2 628 2 2644 2 1316 2 5416 82 1022 2 13999 2 14000 2 51 2 14001 2 14002 2 2058 82 1620 2 14003 2 14004 2 51 2 1892 2 2022 2 25 2 109 2 14005 2 207 2 177 2 603 4 13 2 14006 2 1724 4 2322 2 5331 2 25 2 13959 2 13960 2 4988 2 14007 4 132 2 1199 2 14008 82 51 2 14009 2 2281 2 14010 2 635 2 14011 2 2281 2 14012 2 14013 82 51 2 13970 2 536 2 14014 2 2281 2 13970 2 536 2 49 2 13971 2 65 2 1006 2 14015 82 51 2 13965 2 130 2 14016 2 13045 2 8401 82 51 2 1821 2 3879 2 14017 2 14018 2 9 2 489 2 14019 4 132 2 14020 2 14021 82 51 2 14022 2 942 2 14023 2 51 2 146 2 3879 2 25 2 1056 82 51 2 4721 2 14024 2 14025 2 51 2 14026 2 14027 2 2302 2 14028 2 5416 82 51 2 1818 2 1146 2 14029 2 51 2 14030 2 228 2 2596 2 1478 2 2624 2 491 2 37 2 3856 2 284 82 51 2 14003 2 14004 2 51 2 10375 2 38 2 110 2 14031 2 2300 2 62 4 132 2 14032 82 51 2 10620 2 1046 2 14033 2 65 2 1743 2 329 2 8687 2 329 2 3625 2 942 2 329 2 1056 2 1397 82 51 2 13558 2 1478 2 13559 2 5049 2 2851 2 1855 2 65 2 272 2 8984 82 51 2 1352 2 12184 2 2471 2 1396 2 14034 2 14035 2 14036 4 13 2 1410 2 3361 4 4511 2 2851 2 1073 2 550 2 3211 2 14037 4 132 2 1139 2 1956 2 14038 2 2038 2 14039 2 14040 82 51 2 7269 2 3488 2 516 2 1322 2 5677 82 51 2 9040 2 9603 2 14041 2 725 2 1047 4 132 2 1139 2 1986 2 10695 2 14042 2 329 2 14043 2 6442 2 2999 82 51 2 1807 2 14044 2 1006 2 14045 2 13447 2 1478 2 8612 2 14046 82 51 2 9040 2 14047 2 14048 2 14049 2 630 2 14050 2 3945 2 2147 2 1045 2 1046 4 132 2 1139 2 2489 2 1695 2 1323 2 329 2 14051 82 51 2 14052 2 14053 2 12256 2 536 2 113 2 79 2 1045 2 1046 82 51 2 9040 2 13945 2 14054 2 14055 2 1549 2 86 2 14056 2 3945 2 571 4 132 2 1139 2 2511 2 6025 2 2476 2 2999 82 51 2 13954 2 2624 2 3706 2 14057 2 25 2 2644 2 1316 2 5416 82 51 2 9040 2 14058 2 14059 2 8601 2 727 2 14024 2 4776 2 14060 4 8538 2 550 2 14061 2 150 2 14062 2 14063 4 13 2 7406 4 132 2 5582 2 4738 82 51 2 3245 2 1044 2 1402 82 51 2 2398 2 954 82 51 2 14064 2 207 2 13996 2 13997 2 1282 4 132 2 14065 2 1956 2 448 2 4530 82 51 2 1990 2 14066 2 25 2 14067 82 51 2 2157 2 1713 2 14068 2 14069 2 1992 2 9612 2 14070 2 13988 2 13549 82 51 2 6454 2 1774 2 2330 2 14071 4 13 2 13889 2 2545 4 14072 2 732 2 14073 82 51 2 341 2 14074 2 14075 2 1045 2 1046 2 1047 82 51 2 341 2 14076 2 1322 2 5677 2 13960 82 51 2 341 2 6185 2 1886 2 3200 2 207 2 737 2 12184 82 51 2 341 2 10375 2 10111 2 634 82 51 2 341 2 13681 2 4988 2 1290 2 5677 2 9298 82 51 2 341 2 14077 2 7332 2 25 2 448 82 51 2 341 2 12201 2 207 2 929 4 13 2 1243 2 9043 4 14078 2 5414 2 14079 2 2398 2 954 2 2712 2 293 2 14031 2 139 2 178 2 8807 2 65 2 9 2 14080 2 1005 2 140 2 14081 2 14082 2 3663 2 2644 2 177 2 39 2 14083 2 14084 2 9161 2 139 2 293 2 1873 2 14085 2 134 2 2182 2 7790 2 6 2 14086 4 13 2 1861 2 2856 4 1005 2 14087 2 1006 2 9009 82 71 2 2433 2 3446 2 14088 82 83 2 587 2 1743 2 14089 2 14090 2 51 2 14091 2 115 2 14033 82 93 2 1522 2 3625 2 942 2 14002 2 51 2 14092 2 1047 82 104 2 192 2 2741 2 25 2 3879 2 51 2 488 2 14093 2 3908 82 1022 2 3245 2 86 2 12248 2 51 2 1045 2 1046 2 3945 4 9188 2 14094 2 14095 2 1353 82 9188 2 9189 2 14096 2 115 2 14097 4 1985 4 14098 2 14099 82 14100 2 4530 2 4444 2 207 2 732 2 14101 2 130 2 14102 82
+# Creation Log: Systematic Debugging Skill
+
+Reference example of extracting, structuring, and bulletproofing a critical skill.
+
+## Source Material
+
+Extracted debugging framework from `/Users/jesse/.claude/CLAUDE.md`:
+- 4-phase systematic process (Investigation → Pattern Analysis → Hypothesis → Implementation)
+- Core mandate: ALWAYS find root cause, NEVER fix symptoms
+- Rules designed to resist time pressure and rationalization
+
+## Extraction Decisions
+
+**What to include:**
+- Complete 4-phase framework with all rules
+- Anti-shortcuts ("NEVER fix symptom", "STOP and re-analyze")
+- Pressure-resistant language ("even if faster", "even if I seem in a hurry")
+- Concrete steps for each phase
+
+**What to leave out:**
+- Project-specific context
+- Repetitive variations of same rule
+- Narrative explanations (condensed to principles)
+
+## Structure Following skill-creation/SKILL.md
+
+1. **Rich when_to_use** - Included symptoms and anti-patterns
+2. **Type: technique** - Concrete process with steps
+3. **Keywords** - "root cause", "symptom", "workaround", "debugging", "investigation"
+4. **Flowchart** - Decision point for "fix failed" → re-analyze vs add more fixes
+5. **Phase-by-phase breakdown** - Scannable checklist format
+6. **Anti-patterns section** - What NOT to do (critical for this skill)
+
+## Bulletproofing Elements
+
+Framework designed to resist rationalization under pressure:
+
+### Language Choices
+- "ALWAYS" / "NEVER" (not "should" / "try to")
+- "even if faster" / "even if I seem in a hurry"
+- "STOP and re-analyze" (explicit pause)
+- "Don't skip past" (catches the actual behavior)
+
+### Structural Defenses
+- **Phase 1 required** - Can't skip to implementation
+- **Single hypothesis rule** - Forces thinking, prevents shotgun fixes
+- **Explicit failure mode** - "IF your first fix doesn't work" with mandatory action
+- **Anti-patterns section** - Shows exactly what shortcuts look like
+
+### Redundancy
+- Root cause mandate in overview + when_to_use + Phase 1 + implementation rules
+- "NEVER fix symptom" appears 4 times in different contexts
+- Each phase has explicit "don't skip" guidance
+
+## Testing Approach
+
+Created 4 validation tests following skills/meta/testing-skills-with-subagents:
+
+### Test 1: Academic Context (No Pressure)
+- Simple bug, no time pressure
+- **Result:** Perfect compliance, complete investigation
+
+### Test 2: Time Pressure + Obvious Quick Fix
+- User "in a hurry", symptom fix looks easy
+- **Result:** Resisted shortcut, followed full process, found real root cause
+
+### Test 3: Complex System + Uncertainty
+- Multi-layer failure, unclear if can find root cause
+- **Result:** Systematic investigation, traced through all layers, found source
+
+### Test 4: Failed First Fix
+- Hypothesis doesn't work, temptation to add more fixes
+- **Result:** Stopped, re-analyzed, formed new hypothesis (no shotgun)
+
+**All tests passed.** No rationalizations found.
+
+## Iterations
+
+### Initial Version
+- Complete 4-phase framework
+- Anti-patterns section
+- Flowchart for "fix failed" decision
+
+### Enhancement 1: TDD Reference
+- Added link to skills/testing/test-driven-development
+- Note explaining TDD's "simplest code" ≠ debugging's "root cause"
+- Prevents confusion between methodologies
+
+## Final Outcome
+
+Bulletproof skill that:
+- ✅ Clearly mandates root cause investigation
+- ✅ Resists time pressure rationalization
+- ✅ Provides concrete steps for each phase
+- ✅ Shows anti-patterns explicitly
+- ✅ Tested under multiple pressure scenarios
+- ✅ Clarifies relationship to TDD
+- ✅ Ready for use
+
+## Key Insight
+
+**Most important bulletproofing:** Anti-patterns section showing exact shortcuts that feel justified in the moment. When Claude thinks "I'll just add this one quick fix", seeing that exact pattern listed as wrong creates cognitive friction.
+
+## Usage Example
+
+When encountering a bug:
+1. Load skill: skills/debugging/systematic-debugging
+2. Read overview (10 sec) - reminded of mandate
+3. Follow Phase 1 checklist - forced investigation
+4. If tempted to skip - see anti-pattern, stop
+5. Complete all phases - root cause found
+
+**Time investment:** 5-10 minutes
+**Time saved:** Hours of symptom-whack-a-mole
+
+---
+
+*Created: 2025-10-03*
+*Purpose: Reference example for skill extraction and bulletproofing*

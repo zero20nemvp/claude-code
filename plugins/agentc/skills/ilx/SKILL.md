@@ -7,4 +7,901 @@ triggers:
   - dense-code-representation
   - intent-documentation
 ---
-82 1 2 3574 2 10465 2 10466 4 607 2 10467 2 10468 2 51 2 10469 2 569 2 10470 2 5331 2 207 2 10471 2 168 2 2330 2 349 2 10472 4 568 2 58 2 183 2 10473 2 188 2 10474 2 10475 2 10476 2 65 2 8603 2 10477 2 1006 2 1291 2 349 2 822 2 10478 2 25 2 10479 2 1006 2 10075 2 349 2 822 2 10480 2 568 2 130 2 910 2 4853 4 13 2 6442 2 1358 2 10481 2 10482 4 132 2 470 2 568 2 5123 2 10483 2 188 2 10484 4 568 2 1163 2 58 2 10485 2 188 2 286 2 207 2 594 2 10486 4 4370 2 10487 2 1781 2 10488 4 649 82 8849 2 5895 82 3063 2 10489 2 10490 2 10491 2 10492 82 571 2 10492 82 223 4 132 2 470 2 5123 2 10493 2 10494 4 568 2 586 2 186 2 368 2 1922 2 920 2 10495 82 51 2 321 2 1006 2 727 2 1216 2 1008 2 10496 82 51 2 4327 2 59 2 2152 2 1216 2 1008 82 51 2 2067 2 1385 2 25 2 1216 2 586 4 3202 2 4574 2 584 2 10497 2 228 2 1202 2 2626 4 1025 82 223 82 4016 247 193 247 3553 82 223 4 132 2 4122 2 1058 2 10498 4 1896 2 86 2 2152 2 1216 2 586 2 65 2 1006 2 10499 4 649 82 650 2 651 82 652 2 653 2 10500 82 223 4 132 2 10501 4 10502 2 4772 2 1216 2 10503 4 649 82 5964 2 5965 2 5952 2 4007 82 223 4 1985 4 13 2 568 2 10467 2 7131 4 132 2 3440 2 264 4 71 2 10401 2 10504 2 10505 2 569 2 999 2 1184 2 581 82 83 2 10506 2 10507 2 150 2 10508 2 3808 2 10509 2 10510 82 93 2 10511 2 10512 2 1627 2 6763 2 10513 2 188 2 81 82 104 2 10514 2 10515 2 10268 2 1385 2 10516 2 1291 2 568 2 1385 82 1022 2 10517 2 1677 2 10518 2 7185 2 130 2 7177 2 186 2 10519 4 132 2 10520 2 2461 4 143 2 2475 2 10521 2 143 2 10522 2 10523 2 143 2 568 2 10523 2 143 2 10524 2 143 82 10525 82 143 2 10526 2 10527 985 143 2 10528 260 143 2 10529 985 143 2 10530 2 143 82 143 2 10531 2 10527 260 143 2 10532 260 143 2 10533 248 143 2 10534 2 143 4 1985 4 13 2 10535 4 132 2 10536 2 10537 4 143 2 10538 2 143 2 10539 2 143 2 2856 2 143 82 10540 82 143 2 10541 42 143 2 10542 2 1045 2 143 2 10543 2 143 82 143 2 10544 247 143 2 10545 2 143 2 10546 2 143 82 143 2 10547 42 143 2 10548 2 143 2 10549 2 143 82 143 2 10550 42 143 2 611 2 10551 2 143 2 10552 2 143 82 143 2 10553 42 143 2 10554 2 143 2 10555 2 143 4 10556 2 10557 2 955 2 966 2 10558 2 186 2 10559 2 10560 2 10561 2 292 2 10552 4 132 2 10562 4 143 2 10563 2 143 2 10539 2 143 2 2856 2 143 82 10564 82 143 2 10565 260 143 2 10566 2 143 2 10567 2 143 82 143 2 10568 981 143 2 3568 2 3603 2 143 2 10569 2 143 82 143 2 10570 260 143 2 10571 2 143 2 10572 2 143 82 143 2 10573 260 143 2 6445 2 143 2 10574 2 143 82 143 2 10575 260 143 2 4340 2 143 2 10576 2 143 82 143 2 10577 260 143 2 10578 2 143 2 10579 2 143 82 143 2 10580 260 143 2 3696 2 9848 2 143 2 10581 2 143 82 143 2 10582 260 143 2 10583 2 1571 2 143 2 10584 2 143 82 143 2 10585 260 143 2 10586 2 1571 2 143 2 10587 2 143 82 143 2 10588 260 143 2 10583 2 43 2 9848 2 143 2 10589 2 143 82 143 2 10590 260 143 2 10586 2 43 2 9848 2 143 2 10591 2 143 82 143 2 10592 260 143 2 10593 2 115 2 2281 2 1089 2 143 2 10594 2 143 82 143 2 10595 260 143 2 10596 2 25 2 143 2 10597 2 143 82 143 2 10598 260 143 2 10599 2 1585 2 143 2 10600 2 143 82 143 2 10601 981 143 2 10599 2 39 2 10313 2 143 2 10602 2 143 82 143 2 10603 260 143 2 10604 2 143 2 10605 2 143 82 143 2 10606 260 143 2 10607 2 143 2 10608 2 143 82 143 2 10609 260 143 2 2216 2 4177 2 143 2 10610 2 143 82 143 2 10611 260 143 2 485 2 4177 2 143 2 10612 2 143 82 143 2 10613 260 143 2 10614 2 143 2 10615 2 143 82 143 2 10616 260 143 2 1443 2 10617 2 10618 2 143 2 10619 2 143 4 132 2 9115 4 9449 2 10446 2 10620 4 223 82 10621 82 223 4 9449 2 10622 4 223 82 10297 387 10623 387 10624 82 223 4 9449 2 611 2 9329 4 223 82 10625 82 223 4 10626 82 51 2 10627 2 10424 2 4772 2 4177 82 51 2 10628 2 10424 2 2129 2 4177 82 51 2 10629 2 10424 2 7320 2 4177 82 51 2 10630 2 10424 2 6480 2 10631 82 51 2 10433 2 10424 2 1448 2 2147 2 962 82 51 2 10632 2 10424 2 4163 82 51 2 10633 2 10424 2 10307 2 7332 2 37 2 10634 2 3169 4 9449 2 7139 2 10635 4 223 82 10299 82 10300 82 10636 82 223 4 10637 2 10638 2 43 2 10639 4 9449 2 9265 2 9329 4 223 82 10640 82 223 4 10626 82 51 2 10641 2 10424 2 9 2 284 2 10642 82 51 2 10643 2 10424 2 4859 2 10644 2 96 2 10645 2 5241 2 25 2 1782 82 51 2 10646 2 10424 2 110 2 96 2 10647 82 51 2 10648 2 10424 2 1693 2 139 2 1516 2 344 2 218 82 51 2 10649 2 10424 2 1691 2 1692 2 130 2 7177 4 9449 2 3568 4 3568 2 3603 2 10650 2 130 2 186 2 10651 2 37 2 10573 2 10652 2 43 2 10575 2 10653 4 223 82 10654 82 10655 82 223 4 9449 2 10656 4 10657 2 3603 2 10570 2 130 2 10658 2 1691 2 10659 4 223 82 10660 82 10661 82 223 4 2211 2 7177 2 929 2 10662 4 223 82 10663 247 1 2 6062 2 10664 82 223 4 9449 2 1677 2 10665 4 1677 2 513 2 186 2 1560 2 4988 2 10666 4 223 82 10667 387 10668 387 10669 387 10670 82 223 4 10637 2 10427 2 43 2 10671 4 9449 2 3667 2 10672 4 1005 2 458 2 1516 2 344 2 10673 4 223 82 10674 82 223 4 10637 2 10675 4 9449 2 608 2 10676 4 10677 2 599 2 25 2 1056 2 4288 4 223 82 10678 387 10679 387 10680 82 223 4 132 2 10681 4 1627 2 6763 2 58 2 10682 2 188 2 3276 4 143 2 10683 2 143 2 10684 2 934 2 143 82 10685 82 143 2 10543 2 143 2 10686 2 7291 2 143 82 143 2 10687 2 143 2 10688 2 7292 2 143 82 143 2 10689 2 143 2 10690 2 3325 2 143 82 143 2 10691 2 143 2 10692 2 7271 2 143 82 143 2 10693 2 143 2 10690 2 614 2 143 82 143 2 10694 2 143 2 10690 2 7177 2 143 4 132 2 10695 2 130 2 1443 2 10696 4 143 2 2348 2 143 2 10539 2 143 82 10697 82 143 2 10619 245 143 2 1302 2 1184 2 8815 2 1353 2 143 82 143 2 10698 42 143 2 4297 2 1184 2 10699 2 143 82 143 2 10700 981 143 2 942 2 1184 2 10701 2 143 82 143 2 10702 260 143 2 6288 2 2303 2 143 82 143 2 10703 260 143 2 641 2 1353 2 143 82 143 2 10704 260 143 2 6279 2 2568 2 143 4 132 2 2840 2 10705 4 223 82 10706 82 223 4 4340 2 37 2 1290 2 4548 4 223 82 10707 387 10708 387 10709 387 10710 82 544 82 223 4 1985 4 13 2 3245 2 180 2 2856 4 223 82 10711 4 10712 387 10713 4 10714 387 10715 387 10716 387 10717 3014 10718 387 10719 4 10720 387 10721 387 10722 387 10723 3014 10724 709 10670 709 10725 709 10726 709 10727 3014 10728 4 10729 387 10730 3014 10731 709 10732 709 10733 3014 10734 4 10735 387 10736 3014 10737 709 10738 709 10739 82 223 4 10401 2 10740 2 10741 2 5757 4 10742 82 51 2 10743 2 10744 2 10745 2 5757 82 51 2 3667 2 1663 2 10746 2 10527 4 1985 4 13 2 7126 2 10467 4 7126 2 10658 2 1079 2 622 2 756 2 623 2 10747 2 130 2 3841 2 65 2 10239 2 10748 4 132 2 621 2 10749 4 223 82 10750 387 10751 387 10752 82 223 4 132 2 263 2 1724 4 143 2 10753 2 143 2 306 2 143 2 2856 2 143 82 10754 82 143 2 10755 2 143 2 10620 2 7979 2 143 2 10756 2 143 82 143 2 10757 2 143 2 10758 2 143 2 10759 2 143 82 143 2 10760 2 143 2 10761 2 5284 2 143 2 10762 2 143 82 143 2 10763 2 143 2 10764 2 143 2 10765 2 143 82 143 2 10766 2 143 2 10767 2 4177 2 143 2 10768 2 143 82 143 2 10769 2 143 2 8462 2 143 2 10770 2 143 82 143 2 10771 2 143 2 9359 2 476 2 143 2 10772 2 143 82 143 2 10773 2 143 2 10774 2 143 2 10775 2 143 82 143 2 10776 2 143 2 2213 2 143 2 10777 2 10778 2 143 82 143 2 10779 2 143 2 2211 2 143 2 10780 2 143 4 132 2 3421 2 10781 4 10782 2 3564 2 3592 2 7398 2 10783 4 223 82 10784 82 10785 82 10786 82 223 4 132 2 10787 4 1996 2 10788 2 207 2 756 2 10789 4 143 2 10790 2 143 2 1466 2 143 82 10791 82 143 2 10792 2 143 2 10793 2 143 82 143 2 10794 2 143 2 10795 2 10796 2 10797 2 143 82 143 2 10798 2 143 2 271 2 2303 2 10799 2 143 82 143 2 10800 2 143 2 2476 2 5834 2 10801 2 143 82 143 2 10802 2 143 2 10803 2 143 82 143 2 10804 2 143 2 10805 2 143 4 1025 2 10806 4 132 2 3568 2 120 2 7126 4 3568 2 3603 2 10650 2 130 2 10807 2 10808 2 43 2 8949 4 223 82 10809 82 10810 82 10811 82 223 4 132 2 1179 4 10812 2 10439 2 25 2 10666 4 223 82 10369 82 10813 82 10814 82 10815 82 223 4 4471 2 10816 82 51 2 10817 2 10424 2 364 2 10818 82 51 2 10819 2 10424 2 10443 2 4328 82 51 2 10820 2 10424 2 4315 2 10821 2 2327 4 132 2 10822 4 10823 2 10824 2 10825 4 223 82 10363 387 10826 709 10827 664 10365 668 10366 673 10828 673 10829 5189 10367 5189 10368 673 10369 82 223 4 132 2 3245 2 621 2 2856 4 223 82 10830 3014 10363 709 10364 664 10831 668 10832 668 10833 664 10834 668 10835 673 10836 5189 10837 5189 10829 7229 10784 7229 10838 6295 10839 6295 10840 5189 10369 668 10841 673 10842 2 1192 2 10843 673 10844 2 10845 3014 10846 709 10847 664 10848 664 10849 668 10850 673 10851 673 10852 2 10853 668 10854 673 10855 673 10856 2 10857 664 10858 664 10859 668 10860 673 10861 2 10862 673 10863 668 10864 2 10865 2 10853 664 10866 668 10867 2 10868 668 10869 673 10870 5189 10871 7229 10872 7229 10854 6295 10873 6295 10874 82 223 4 10401 2 10875 2 10876 2 10877 4 143 2 10878 2 143 2 10523 2 143 82 10879 82 143 2 553 2 7395 2 143 2 10880 2 143 82 143 2 568 2 329 2 3421 2 143 2 10881 2 143 82 143 2 10882 2 143 2 10883 2 143 4 1985 4 13 2 608 2 9115 4 223 82 4577 387 10884 709 10885 260 1 2 10620 2 3993 2 10886 2 7295 709 10887 248 1 2 10888 2 7292 709 10889 981 1 2 10688 2 7292 709 10890 985 1 2 1079 2 10891 709 22 82 223 4 4340 2 1588 2 1008 2 207 2 10892 2 10893 4 223 82 4577 387 10894 82 223 4 1985 4 13 2 10895 2 628 2 10896 4 132 2 10896 2 10897 4 133 2 10898 2 65 2 10743 2 193 2 10899 2 10478 2 25 2 568 2 193 2 10900 2 910 2 458 4 132 2 10895 2 10901 4 2820 2 458 2 193 2 10900 2 10902 2 25 2 568 2 193 2 133 2 10903 2 10268 2 193 2 568 2 10904 2 188 2 559 4 132 2 10905 4 278 2 436 2 77 2 9487 2 10906 2 10268 2 130 2 619 2 513 2 4341 4 1985 4 13 2 1216 2 5886 2 10907 2 3659 4 14 2 1280 2 1216 2 6004 2 10908 2 910 2 1006 2 10909 2 10910 2 568 2 1953 4 132 2 10911 2 2403 4 143 2 1149 2 143 2 266 2 143 2 2856 2 143 82 10912 82 143 2 10913 2 143 2 5792 2 143 2 10914 2 10915 2 10916 2 10917 2 143 82 143 2 10918 2 143 2 10919 2 143 2 10920 2 10921 2 998 2 30 2 6763 2 9393 2 143 82 143 2 10922 2 143 2 10923 2 143 2 10924 2 10925 2 10926 2 6879 2 10927 2 10928 2 143 82 143 2 10929 2 143 2 9400 2 10930 2 143 2 10931 2 10932 2 10933 2 10934 2 143 82 143 2 10935 2 143 2 4072 2 3072 2 143 2 10936 2 10932 2 10937 2 143 82 143 2 10938 2 143 2 10939 2 143 2 10940 2 10941 2 10942 2 143 82 143 2 10943 2 143 2 10944 2 143 2 10945 2 10946 2 10947 2 143 82 143 2 10948 2 143 2 10949 2 143 2 10950 2 10951 2 10952 2 143 4 132 2 1149 2 1323 4 143 2 468 2 143 2 1149 2 143 82 10953 82 143 2 10954 2 143 2 10955 2 143 82 143 2 10956 2 143 2 10957 2 143 82 143 2 10929 2 143 2 10958 2 143 82 143 2 10959 2 143 2 10960 2 143 82 143 2 10922 2 143 2 10961 2 143 82 143 2 10962 2 143 2 10963 2 143 82 143 2 10938 2 143 2 10949 2 143 4 132 2 10964 4 143 2 468 2 143 2 10965 2 143 2 1216 2 143 82 10966 82 143 2 10967 2 143 2 10968 2 143 2 10969 2 10970 2 143 82 143 2 10971 2 143 2 5855 2 143 2 10972 2 10973 2 143 82 143 2 10974 2 143 2 2644 2 143 2 10974 2 143 82 143 2 10975 2 143 2 10976 2 143 2 10975 2 143 82 143 2 10977 2 143 2 10978 2 143 2 10977 2 143 82 143 2 10616 2 143 2 10979 2 143 2 10616 2 143 82 143 2 10577 2 143 2 10980 2 143 2 10981 2 143 82 143 2 10982 2 143 2 10983 2 143 2 10984 2 143 82 143 2 10985 2 143 2 10986 2 143 2 10987 2 143 82 143 2 10988 2 143 2 10989 2 143 2 10990 2 10991 2 143 4 132 2 1467 4 223 82 10992 82 223 4 1352 2 568 2 1008 2 10993 82 51 2 4724 2 7416 2 10994 82 51 2 10255 2 7558 2 10995 2 188 2 10996 82 51 2 7568 2 5852 2 10997 4 132 2 1025 2 1216 2 193 2 568 4 10998 82 10999 82 1 2 4016 82 6659 2 1807 387 5907 2 11000 709 2242 2 292 2 11001 2 11002 709 7020 2 2242 387 1293 82 1293 82 223 4 11003 82 223 82 11004 2 11005 82 223 4 11006 82 51 2 11007 2 51 2 4724 2 4523 82 51 2 11008 2 11009 2 51 2 10911 2 2436 2 10955 2 4407 82 51 2 11010 2 51 2 10911 2 1956 2 11011 2 829 2 11012 82 51 2 11013 2 51 2 10911 2 1986 2 1519 2 10968 2 25 2 7558 2 11014 82 51 2 11015 2 51 2 10911 2 2489 2 1519 2 5855 2 25 2 6763 2 943 82 51 2 10977 2 51 2 7568 2 5852 4 132 2 11016 2 11017 4 10911 2 1731 2 929 2 11018 2 11019 2 11020 82 51 2 11021 2 292 2 6763 2 829 82 51 2 11022 2 292 2 6763 2 4112 82 51 2 11023 2 292 2 6763 2 641 82 51 2 11024 2 292 2 6763 2 11025 82 51 2 11026 2 292 2 6763 2 11027 4 1985 4 13 2 1088 2 5423 4 14 2 1216 2 6004 2 368 2 11028 2 130 2 8689 2 1088 2 1089 2 11029 4 132 2 1088 2 608 2 10269 4 71 2 11030 2 1853 2 2069 2 134 2 3992 2 1008 1337 223 1337 4016 1337 11031 247 11032 2 2002 2 11033 1337 223 4 83 2 11034 2 11035 2 11036 2 1202 2 436 1337 223 1337 4016 1337 4017 247 11032 2 4340 2 11033 1337 223 4 132 2 1149 2 11037 4 10999 82 1 2 11038 82 5907 2 11039 2 11040 2 19 2 10955 247 1 2 235 2 11041 2 11042 82 5907 2 8881 2 10917 2 19 2 11043 2 1 2 235 2 11044 2 11045 82 5907 2 11046 2 11047 2 19 2 11048 260 1 2 235 2 11049 2 11050 82 223 4 10398 2 11051 2 1233 2 2214 2 25 2 11052 2 11053 4 1985 4 13 2 3 2 5423 2 11054 4 132 2 5887 2 11055 4 71 2 1807 2 11056 2 3992 2 1008 2 499 2 11057 2 1794 82 83 2 11058 2 1804 2 11059 2 11060 2 1008 2 11061 82 93 2 5887 2 3542 2 6241 2 499 2 11062 1337 2522 1337 663 2787 11063 2 6399 2787 11064 2 663 3132 11065 2 11066 3132 11067 2 705 2787 706 1337 706 1337 223 82 104 2 5887 2 11068 1337 51 2 2226 2 568 2 11069 2 11070 1337 51 2 10501 2 11071 1337 51 2 2226 2 177 2 1006 2 3992 2 11072 1337 51 2 11073 2 11074 2 130 2 463 2 11075 82 1022 2 192 2 8527 1337 51 2 1253 2 1202 2 1045 2 11076 2 43 2 7858 1337 51 2 1816 2 207 2 3994 2 1008 1337 51 2 1262 2 568 2 6004 1337 51 2 461 2 25 2 584 82 1620 2 5887 2 11077 2 37 2 458 2 829 2 11078 2 363 2 1008 2 11079 4 132 2 1466 2 2430 2 9115 4 223 82 11080 82 5053 2 10272 82 240 42 5053 2 10273 82 240 42 240 42 5058 2 11081 82 240 42 5058 2 10277 82 240 985 5058 2 11082 82 5053 2 5975 82 240 42 5058 2 10272 82 240 985 5058 2 10273 82 240 6430 5058 2 11038 82 5058 2 11083 709 5058 2 10884 10271 11032 2 568 2 35 668 5053 2 10272 668 240 42 5053 2 10273 668 240 42 240 42 5058 2 10274 245 11032 2 11084 668 240 42 5058 2 10277 668 240 985 5058 2 11085 82 223 4 132 2 6083 2 556 4 287 2 11086 2 2227 2 25 2 11087 4 649 82 6537 2 3055 2 11088 82 223 4 132 2 11089 4 51 2 11090 2 5139 2 11091 2 11092 82 51 2 1520 2 1045 2 11093 2 11094 82 51 2 568 2 11095 2 11096 2 11097 2 11098 82 51 2 608 2 11099 2 11091 82 51 2 4312 2 11100 2 1184 2 6366 4 132 2 1058 2 10498 2 11089 4 51 2 11101 2 3549 2 11102 2 11103 2 11104 2 8397 82 51 2 1936 2 3549 2 11105 2 11103 2 11106 2 8397 82 51 2 11107 2 3549 2 11108 2 11103 2 11109 2 1353 4 1985 4 13 2 1143 2 2201 4 287 2 2122 2 186 2 11110 2 608 2 2272 2 53 2 11111 2 10065 2 115 2 568 2 1163 2 5230 4 132 2 1435 2 10501 4 11112 2 11113 2 8226 2 217 2 6236 2 1008 2 11114 2 11115 4 11116 82 649 82 5964 2 5965 2 5952 2 4007 82 223 4 132 2 3349 2 11117 4 11112 2 1216 2 1119 2 1437 2 65 2 571 2 1008 4 11118 2 5887 2 11119 2 11120 2 1008 2 11121 2 516 2 11122 2 1922 4 132 2 1088 2 11117 4 11112 2 11123 2 1088 2 1119 4 11118 2 5886 2 11119 2 11124 2 966 2 1233 2 11125 2 25 2 11126 4 132 2 150 2 1520 2 10620 4 11112 2 11127 2 3992 2 1008 2 8988 2 1202 4 11118 2 5887 2 11128 2 9697 2 1202 2 11129 2 3266 2 568 2 1163 4 1985 4 13 2 4589 4 132 2 568 2 4447 2 3696 2 11130 2 11084 4 71 2 316 2 536 2 6041 2 3598 2 58 2 5892 2 188 2 11131 1337 649 1337 3063 2 11132 247 1 2 1487 2 344 2 2625 2 635 2 6555 2 43 2 183 2 9848 2 25 2 942 1337 223 4 83 2 316 2 8491 1337 649 1337 652 2 6456 2 11133 2 11134 2 166 2 11135 2 7020 2 11136 1337 223 4 93 2 316 2 1597 2 11137 1337 649 1337 6537 2 3055 2 11088 1337 223 4 104 2 1139 2 6004 2 11138 1337 649 1337 650 2 651 1337 652 2 11139 2 11140 1337 223 4 132 2 5887 2 3696 2 11141 4 71 2 1269 2 11142 1337 649 1337 5740 2 11143 2 143 2 6517 2 11144 1337 223 4 83 2 316 2 11145 1337 649 1337 3552 2 11146 2 11147 1337 1 2 1487 2 11148 2 11149 1337 223 4 93 2 1139 2 4341 2 3598 2 58 2 5892 2 188 2 1383 2 125 2 5151 2 11150 1337 649 1337 3063 2 11151 2 143 2 6627 2787 11152 2 6627 2787 652 2 11147 1337 223 4 1985 4 13 2 11153 4 1773 2 25 2 11154 4 223 82 1 2 568 2 1922 2 586 82 11083 82 223 4 568 2 586 2 186 2 1922 2 11155 2 130 2 48 2 183 2 344 2 11156 4 1985 4 13 2 11157 4 132 2 11158 2 5887 2 11159 4 11160 82 51 2 4760 2 586 2 193 2 1194 2 207 2 568 2 11161 82 51 2 11162 2 586 2 193 2 3152 2 1375 2 11163 2 1711 2 4754 82 51 2 7764 2 586 2 193 2 2047 2 568 2 7558 2 134 2 11164 4 568 2 5436 2 166 2 57 2 9092 2 25 2 11165 2 10268 2 11166 4 1985 4 13 2 1996 2 10665 4 132 2 71 2 11167 2 468 2 2038 2 207 2 10900 2 11168 4 11169 2 11170 2 1216 2 1650 2 11171 2 10900 2 3302 2 11172 4 11116 2 1996 2 568 2 25 2 11173 2 458 2 11174 2 11175 2 1316 2 3302 4 649 82 1 2 1896 2 6562 2 184 82 652 2 653 2 654 4 1 2 4530 2 5944 2 586 2 65 2 11176 2 6179 2 115 2 4013 2 586 82 1 2 11177 2 5788 2 115 2 1216 2 193 2 11178 2 5788 2 115 2 568 82 223 4 132 2 83 2 11179 2 11180 4 11169 2 11181 2 1216 2 184 2 25 2 1241 4 11116 2 1216 2 193 2 568 2 193 2 1241 2 11182 4 223 82 1216 2 329 2 1088 2 193 2 568 2 11183 2 11184 673 8552 2787 1241 2 6004 2 11185 673 8552 2787 1241 2 329 2 1233 82 223 4 132 2 93 2 10255 2 1658 4 11169 2 11186 2 458 2 324 2 85 2 10075 2 184 4 11116 2 3349 2 568 2 25 2 79 2 569 2 324 4 649 82 1 2 1253 2 86 2 1589 2 37 2 11187 2 4004 82 3108 2 6518 2 11188 2 10270 4 1 2 1253 2 86 2 7273 82 3108 2 6518 2 11189 2 10270 82 223 4 132 2 104 2 11190 2 4942 4 11169 2 3440 2 10268 2 5476 2 65 2 1056 2 2339 4 11116 2 1573 2 1310 2 568 2 1557 2 11191 2 7185 2 619 2 513 4 1985 4 13 2 2716 2 11192 4 71 2 518 2 568 2 7131 2 11193 2 51 2 3245 2 11194 2 1056 82 83 2 11195 2 11193 2 51 2 568 2 193 2 1241 2 11182 82 93 2 1237 2 11193 2 51 2 568 2 193 2 3400 2 11182 82 104 2 285 2 647 2 11196 2 51 2 1606 2 586 2 9110 82 1022 2 8668 2 11197 2 51 2 15 2 11198 2 5362 2 586 82 1620 2 607 2 11199 2 51 2 11200 2 11201 2 207 2 569 2 436 82 2297 2 11202 2 11203 2 51 2 10412 2 1233 2 966 2 1088 4 1985 4 13 2 1624 4 568 2 795 2 573 2 6432 2 569 2 11204 2 11205 4 51 2 11206 2 11058 2 1804 2 11059 2 120 2 279 2 3992 2 1008 2 9270 82 51 2 11207 2 5697 2 1088 2 1665 2 920 2 1330 82 51 2 11208 2 626 2 581 2 627 2 628 2 6241 2 11209 2 10240 2 207 2 630 2 11210 82 51 2 11211 2 1324 2 11212 2 1008 2 2272 82 51 2 11213 2 553 2 1408 2 25 2 11214 82 51 2 11215 2 11216 2 3245 2 11217 2 207 2 11218 2 10459 2 7185 2 619 2 513 4 568 2 1163 2 58 2 10485 2 188 2 11219 2 11 2 3492 2 4881 2 1216 2 458 2 130 2 568 2 586 2 2061 2 344 2 1922 2 368 2 65 2 11220 2 934 2 11221 2 5151 2 11222 2 11223 4 1985 4 607 2 10467 2 10468 82 11224 2 11225 82 4904 2 11226
+
+# ILX: Intent-Level Exchange
+
+**ILX Specification v0.1** - Compressed semantic notation designed for machine-to-machine communication between language models.
+
+ILX is not human-readable by design. Humans interact in natural English; a small language model compresses to ILX; a large language model consumes ILX and generates code.
+
+## Quick Start (AgentC Integration)
+
+### Automatic ILX Generation (ON by default)
+
+ILX generation is **enabled by default** for Ruby/Rails projects.
+
+**To disable** (if needed):
+
+```bash
+export DISABLE_ILX_EMITTER=1
+echo 'export DISABLE_ILX_EMITTER=1' >> ~/.zshrc
+source ~/.zshrc
+```
+
+### Automatic Generation (PreToolUse Hook)
+
+ILX files are automatically generated when you:
+- Create a new Ruby file (`.rb`)
+- Edit an existing Ruby file
+- Save changes to Ruby files
+
+**Output location**: `.agentc/ilx/` (mirrors your project structure)
+
+Example:
+```
+app/models/user.rb  →  .agentc/ilx/app/models/user.ilx
+```
+
+### Manual Batch Conversion
+
+Convert all existing Ruby files in a project:
+
+```bash
+cd plugins/agentc/scripts
+ruby ilx_batch_convert.rb /path/to/your/project
+```
+
+### Dependencies
+
+Install required Ruby gems:
+
+```bash
+gem install prism rbs
+```
+
+---
+
+## ILX Specification v0.1
+
+### Design Principles
+
+1. **Token Efficiency**: Maximize semantic content per token
+2. **Unambiguous Parsing**: No inference required, deterministic interpretation
+3. **Hierarchical Addressing**: Any node reachable by path
+4. **Diffability**: Small intent changes produce small ILX changes
+5. **Completeness**: Edge cases, constraints, and triggers are first-class
+
+### Compression Target
+
+| Codebase Size | Raw Tokens | ILX Tokens | Ratio |
+|---------------|------------|------------|-------|
+| 10k LOC       | ~150k      | ~500       | 300:1 |
+| 100k LOC      | ~1.5M      | ~3k        | 500:1 |
+
+---
+
+## Grammar
+
+### Sigils (Prefixes)
+
+| Sigil | Meaning | Example |
+|-------|---------|---------|
+| `@`   | App/module root | `@app` |
+| `::`  | Namespace | `::billing` |
+| `#`   | Feature/action | `#create` |
+| `$`   | Entity (explicit) | `$User` |
+| `λ`   | Trigger/callback | `λnotify` |
+
+**Note**: Capitalized words without sigil are implicitly entities: `User` = `$User`
+
+### Operators
+
+| Operator | Meaning | Example |
+|----------|---------|---------|
+| `→`      | Produces/transforms | `#login→Session` |
+| `\|`     | Constraints follow | `#bid\|amt>current` |
+| `⟹`      | Consequence/then | `\|valid⟹λemail` |
+| `∧`      | And | `a>0∧b<10` |
+| `∨`      | Or | `admin∨owner` |
+| `=`      | Equals | `status=active` |
+| `≠`      | Not equal | `bidder≠seller` |
+| `>`      | Greater than | `amt>min` |
+| `<`      | Less than | `now<ends` |
+| `≥`      | Greater or equal | `photos≥3` |
+| `≤`      | Less or equal | `attempts≤5` |
+| `∈`      | Member of / type | `status∈[a,b,c]` |
+| `⊂`      | Belongs to | `U⊂seller` |
+| `⊃`      | Has many | `U⊃Posts` |
+| `⊃?`     | Has one (optional) | `U⊃?Profile` |
+| `∅`      | Null/void/nothing | `→∅` |
+| `Δ`      | Increment/change | `amt>cur+Δmin` |
+| `?`      | Optional field | `reserve?` |
+| `!`      | Required field | `email!` |
+| `~`      | Approximate/fuzzy | `~match` |
+| `/`      | Rate (per time) | `5/15m` |
+
+### Structure
+
+#### Application Root
+
+```
+@app_name
+```
+
+#### Namespaces
+
+```
+@app
+  ::namespace1
+  ::namespace2
+```
+
+#### Entity Definition
+
+```
+EntityName{field1!,field2?,field3∈[a,b,c],RelatedEntity⊂role}
+```
+
+**Components**:
+- `field!` — required field
+- `field?` — optional field
+- `field∈[a,b,c]` — enum field
+- `field∈[0,5]` — numeric range
+- `field∈ℝ⁺` — positive real number
+- `field∈T` — timestamp
+- `OtherEntity⊂role` — belongs_to relationship with role name
+
+#### Relationships (Standalone)
+
+```
+User⊃Posts:posts
+User⊃?Profile:profile
+Post⊂User:author
+```
+
+Format: `Entity⊃Target:relation_name` or `Entity⊂Target:relation_name`
+
+#### Feature Definition
+
+```
+#feature_name:@actor→Result|constraints⟹consequences
+```
+
+**Components**:
+- `#feature_name` — the action identifier
+- `@actor` — who performs it (optional, defaults to any)
+- `→Result` — what it produces
+- `|constraints` — conditions that must be true
+- `⟹consequences` — side effects and triggers
+
+#### Constraints
+
+Constraints follow `|` and are joined with `∧` (and) or `∨` (or):
+
+```
+|amt>0∧amt≤balance∧status=active
+|admin∨owner
+```
+
+#### Triggers/Consequences
+
+Consequences follow `⟹` and represent side effects:
+
+```
+⟹λnotify(seller)∧λemail(buyer)
+⟹λwebhook∧λaudit
+```
+
+Conditional triggers use `?`:
+
+```
+⟹λextend?  # triggered conditionally
+```
+
+#### Edge Cases
+
+Edge cases are nested under features:
+
+```
+#bid→Bid|amt>current
+  edge:amt=current→reject:must_exceed
+  edge:bidder.suspended→reject:account
+  edge:ends-now<10m⟹λextend(10m)
+```
+
+Format: `edge:condition→outcome` or `edge:condition⟹trigger`
+
+#### Implementation References
+
+When code must be hand-written:
+
+```
+#optimize→Route.best|impl:lib/solver.rb
+```
+
+Format: `impl:path/to/file.ext`
+
+#### File Mappings
+
+Link features to implementation files:
+
+```
+#bid→Bid
+  files:[bids_controller.rb,bid.rb,bid_placer.rb]
+  tests:[bid_placer_spec.rb]
+```
+
+### Addressing
+
+Any node is addressable by path:
+
+| Path | Resolves To |
+|------|-------------|
+| `@app` | Entire application |
+| `@app::billing` | Billing namespace |
+| `@app::billing#subscribe` | Subscribe feature |
+| `@app::billing.Subscription` | Subscription entity |
+| `@app::billing#subscribe\|` | Subscribe constraints |
+| `@app::billing#subscribe⟹` | Subscribe triggers |
+
+### Time and Rate Expressions
+
+| Expression | Meaning |
+|------------|---------|
+| `5/15m`    | 5 per 15 minutes |
+| `100/1h`   | 100 per hour |
+| `1/1d`     | 1 per day |
+| `24h`      | 24 hours |
+| `10m`      | 10 minutes |
+| `30d`      | 30 days |
+
+### State Machines
+
+```
+Entity.status[state1>state2>state3]
+```
+
+Or with multiple paths:
+
+```
+Entity.status[
+  draft>pending>active
+  pending>rejected
+  active>cancelled
+]
+```
+
+---
+
+## Complete Domain Example
+
+```
+@auction
+
+::core
+  User{email!,pw!,verified?,rating∈[0,5],suspended?}
+
+::listings
+  Listing{title!,reserve?,start_bid!,ends∈T,User⊂seller}
+  User⊃Listing:listings
+  Listing.status[draft>active>ended>sold]
+
+  #create:@seller→Listing|verified=1∧photos≥3⟹λindex
+  #publish:@seller→Listing.active|status=draft∧valid⟹λnotify_followers
+
+::bidding
+  Bid{amt∈ℝ⁺,User⊂bidder,Listing⊂listing,ts∈T}
+  Listing⊃Bid:bids
+  User⊃Bid:bids
+
+  #place:@buyer→Bid|amt>current+Δmin∧bidder≠seller∧now<ends∧!suspended⟹λnotify(seller)
+    edge:ends-now<10m⟹λextend(10m)
+    edge:amt<reserve→hidden_reject
+    edge:bidder.suspended→reject:account_status
+    edge:first_bid∧amt<start_bid→reject:below_start
+
+  #retract:@buyer→Bid.retracted|ts-now<5m∧!only_bid⟹λnotify(seller)
+
+::auth
+  Session{User⊂user,token!,expires∈T}
+
+  #login→Session|email∈valid∧attempts≤5/15m∧verified=1⟹λjwt(24h)
+    edge:attempts>5/15m→lockout(30m)∧λemail_alert
+    edge:!verified→reject:verify_first
+
+  #logout→∅|⟹Session.del
+
+::payments
+  Charge{amt∈ℝ⁺,Bid⊂bid,stripe_id!,status∈[pending,captured,failed]}
+
+  #capture:@system→Charge.captured|Listing.status=sold⟹λstripe.capture∧λemail_receipt
+    edge:stripe.fail→Charge.failed∧λalert_admin∧λemail_buyer
+    impl:lib/stripe_service.rb
+```
+
+**Token count**: ~180 tokens
+
+**Equivalent**:
+- English prose: ~2000+ tokens
+- Implementation code: ~5000+ LOC
+
+---
+
+## Views Specification
+
+Views represent UI structure, data bindings, interactions, and styling in compressed form.
+
+### View Syntax
+
+```
+#namespace/view_name
+  layout:element.tailwind.classes
+  element.classes:binding|constraint
+```
+
+### Core Elements
+
+| Element | Purpose | Example |
+|---------|---------|---------|
+| `layout` | Root container | `layout:div.max-w-4xl.mx-auto` |
+| `div` | Container | `div.p-4.bg-white` |
+| `text` | Text display | `text:user.name.font-bold` |
+| `img` | Image | `img:listing.photo.w-full.h-48` |
+| `input` | Form field | `input:amt.border.rounded` |
+| `each` | Iteration | `each:Listing.active` |
+| `component` | Reusable block | `component:bid_form` |
+| `action` | Interaction | `action:click→#show` |
+| `empty` | Fallback | `empty:div:"No items"` |
+| `cond` | Conditional | `cond:@admin` |
+
+### Tailwind Classes
+
+Dot-chain classes directly onto elements:
+
+```
+text:listing.title.font-bold.text-lg.truncate
+img:listing.photo.w-full.h-48.object-cover.rounded-lg
+div.bg-white.shadow.rounded-lg.p-4.hover:shadow-lg
+```
+
+### Formatters
+
+Use `|fmt:` for data formatting:
+
+| Formatter | Output |
+|-----------|--------|
+| `fmt:currency` | $1,234.56 |
+| `fmt:date` | Jan 15, 2024 |
+| `fmt:relative` | 3 hours ago |
+| `fmt:truncate(n)` | First n chars... |
+| `fmt:number` | 1,234 |
+| `fmt:percent` | 45% |
+
+Example: `text:listing.price|fmt:currency.text-green-600`
+
+### Constraints on Views
+
+Constraints follow `|` and control visibility or validation:
+
+```
+component:bid_form|@buyer∧listing.active
+input:amt|min:listing.current+Δ|max:balance
+action:delete|@admin∨@owner
+```
+
+### Actions
+
+Wire interactions to features:
+
+```
+action:click→#listings/show
+action:submit→#bid.place
+action:+→#listings/new
+action:×→#listings/destroy|confirm:"Delete?"
+```
+
+**Action modifiers**:
+- `|confirm:"message"` — confirmation dialog
+- `|disable:condition` — conditional disable
+- `|loading` — show loading state
+
+### Nesting
+
+Indentation defines hierarchy:
+
+```
+#listings/index
+  layout:div.container.mx-auto
+    div.grid.grid-cols-3.gap-4
+      each:Listing.active
+        div.bg-white.rounded.shadow
+          img:listing.photo[0].w-full.h-48
+          div.p-4
+            text:listing.title.font-bold
+            text:listing.price|fmt:currency
+          action:click→#listings/show
+```
+
+### Complete View Example
+
+```
+::views
+
+  #listings/index
+    layout:div.max-w-6xl.mx-auto.p-6
+      div.flex.justify-between.items-center.mb-6
+        text:"Listings".text-2xl.font-bold
+        action:+→#listings/new.bg-blue-500.text-white.px-4.py-2.rounded|@seller
+      div.grid.grid-cols-3.gap-6
+        each:Listing.active.order(ends:asc)
+          div.bg-white.rounded-lg.shadow.overflow-hidden.hover:shadow-lg
+            img:listing.photo[0].w-full.h-48.object-cover
+            div.p-4
+              text:listing.title.font-bold.text-lg.truncate
+              div.flex.justify-between.mt-2
+                text:listing.current_bid|fmt:currency.text-green-600.font-bold
+                text:listing.ends|fmt:relative.text-gray-500.text-sm
+            action:click→#listings/show
+        empty:div.col-span-3.py-12.text-center.text-gray-400
+          text:"No active listings"
+          action:+→#listings/new.text-blue-500.underline.mt-2|@seller:"Create one"
+
+  #listings/show
+    layout:div.max-w-4xl.mx-auto.p-6
+      img:listing.photos|carousel.rounded-lg.mb-6
+      div.flex.justify-between.items-start
+        div
+          text:listing.title.text-3xl.font-bold
+          text:listing.seller.name.text-gray-500.mt-1:"by {}"
+        div.text-right
+          text:listing.current_bid|fmt:currency.text-3xl.font-bold.text-green-600
+          text:listing.bid_count.text-gray-500:"{} bids"
+      text:listing.description.mt-6.text-gray-700.leading-relaxed
+      component:bid_form.mt-8.p-6.bg-gray-50.rounded-lg|@buyer∧listing.active∧!own
+        div.flex.gap-4
+          input:amt.flex-1.border.rounded.px-4.py-2.text-lg|min:listing.current+Δmin|placeholder:"Your bid"
+          action:submit→#bid.place.bg-blue-500.text-white.px-6.py-2.rounded.font-bold
+        text:listing.min_increment|fmt:currency.text-sm.text-gray-500.mt-2:"Minimum increment: {}"
+      component:bid_history.mt-8|listing.bids.any?
+        text:"Bid History".font-bold.text-lg.mb-4
+        div.divide-y
+          each:listing.bids.recent(10)
+            div.flex.justify-between.py-3
+              text:bid.bidder.name.truncate
+              div.text-right
+                text:bid.amt|fmt:currency.font-bold
+                text:bid.ts|fmt:relative.text-gray-500.text-sm
+```
+
+**Token Efficiency** (typical view):
+
+| Representation | Tokens |
+|----------------|--------|
+| Full ERB/HTML | ~800 |
+| ILX + Tailwind | ~120 |
+| **Compression** | **~7:1** |
+
+---
+
+## File Structure
+
+```
+.claude/
+  ilx/
+    domain.ilx      # Root file, imports namespaces
+    auth.ilx        # Auth namespace
+    billing.ilx     # Billing namespace
+    views.ilx       # UI views
+    ...
+```
+
+Or single file for smaller apps:
+
+```
+.claude/
+  app.ilx
+```
+
+---
+
+## Extraction vs Authoring
+
+### Authoring (ilx-first)
+
+Human describes in English → SLM compresses to ILX → LLM generates code
+
+### Extraction (code-first)
+
+Existing code → LLM extracts to ILX → Human embellishes intent → ILX maintained by hooks
+
+### Hybrid
+
+Extract structure from code, author intent and edge cases manually
+
+---
+
+## Ruby Emitter (Current Implementation)
+
+The current Ruby emitter (`ilx_emitter.rb`) generates a simplified AST-based ILX format:
+
+### Node Types
+
+| Type | Description | Example |
+|------|-------------|---------|
+| `L` | Literal | `LS"hello"` (String), `LI42` (Integer) |
+| `F` | Function/Lambda | `FSS3` (String→String, body at node 3) |
+| `A` | Apply/Call | `ASc0p` (String, concat, args: node0, param0) |
+| `B` | Branch (if/else) | `BS012` (cond=0, then=1, else=2) |
+| `W` | While loop | `WU01` (cond=0, body=1) |
+| `R` | Array/Range | `RA012` (elements: 0,1,2) |
+| `M` | Map/Hash | `MH0:1,2:3` (pairs key:value) |
+| `G` | Range | `GR01` (from=0, to=1) |
+
+### Type System
+
+| Code | Type |
+|------|------|
+| `S` | String |
+| `I` | Int |
+| `B` | Bool |
+| `U` | Unit |
+| `A` | Array |
+| `H` | Hash |
+| `R` | Range |
+
+### Primitives
+
+| Code | Operation | Ruby |
+|------|-----------|------|
+| `c` | concat | `<<`, `concat` |
+| `p` | print | `puts`, `print` |
+| `+` | add | `+` |
+| `-` | subtract | `-` |
+| `*` | multiply | `*` |
+| `/` | divide | `/` |
+| `=` | equals | `==` |
+| `s` | to_s | `to_s` |
+| `i` | to_i | `to_i` |
+| `l` | length | `length`, `size` |
+
+### Format
+
+```
+@file:line:method;node1;node2;node3*
+```
+
+Each ILX file contains:
+- Source map (`@file:line:method`)
+- Semantic nodes (separated by `;`)
+- End marker (`*`)
+
+### Example: Ruby → ILX
+
+**Input**:
+```ruby
+# app/models/user.rb
+class User
+  def greet(name)
+    message = "Hello, #{name}!"
+    puts message
+  end
+end
+```
+
+**Output**:
+```
+@app/models/user.rb:2:greet;LS"Hello, ";LS"p0";ASc01;ASp2*
+```
+
+**Breakdown**:
+- `@app/models/user.rb:2:greet` - Source location
+- `LS"Hello, "` - Node 0: String literal
+- `LS"p0"` - Node 1: Parameter 0 (name)
+- `ASc01` - Node 2: Apply concat to nodes 0,1
+- `ASp2` - Node 3: Apply print to node 2
+- `*` - End marker
+
+### Base-36 Encoding
+
+Node references use base-36 (0-9, a-z):
+- `0` = node 0
+- `9` = node 9
+- `a` = node 10
+- `z` = node 35
+- `10` = node 36
+
+---
+
+## RBS Integration
+
+The Ruby emitter automatically detects and uses RBS type signatures.
+
+### RBS File Locations
+
+1. **Co-located**: Same directory as `.rb` file
+   ```
+   app/models/user.rb
+   app/models/user.rbs  ← Found here
+   ```
+
+2. **Sig directory**: Mirroring project structure
+   ```
+   app/models/user.rb
+   sig/app/models/user.rbs  ← Or here
+   ```
+
+### Type Mapping
+
+```ruby
+# user.rbs
+def greet: (String) -> String  # becomes FSS (String→String)
+def count: (Integer) -> Integer # becomes FII (Integer→Integer)
+def valid?: (User) -> bool      # becomes FSB (String→Bool)
+```
+
+Without RBS, types default to `String` (`S`).
+
+---
+
+## AgentC Integration Details
+
+### Hook Lifecycle
+
+1. User saves `.rb` file via Write/Edit tool
+2. PreToolUse hook fires (before file write)
+3. Hook receives JSON via stdin:
+   ```json
+   {
+     "tool_name": "Write",
+     "tool_input": {
+       "file_path": "/path/to/file.rb",
+       "content": "..."
+     }
+   }
+   ```
+4. Hook checks:
+   - Is ILX disabled? (`DISABLE_ILX_EMITTER=1`)
+   - Dependencies installed?
+   - Is this a `.rb` file?
+   - Outside `vendor/` and test fixtures?
+5. If yes:
+   - Find project root (Gemfile or .git)
+   - Look for `.rbs` file
+   - Run ILX emitter
+   - Write to `.agentc/ilx/`
+6. Hook exits with code 0 (always allow file operation)
+
+### Output Directory Structure
+
+```
+your-project/
+├── app/
+│   ├── models/
+│   │   └── user.rb
+│   └── controllers/
+│       └── users_controller.rb
+├── sig/
+│   └── app/
+│       └── models/
+│           └── user.rbs
+└── .agentc/
+    └── ilx/                    ← ILX output
+        ├── app/
+        │   ├── models/
+        │   │   └── user.ilx    ← Generated
+        │   └── controllers/
+        │       └── users_controller.ilx
+```
+
+### Debug Logging
+
+All activity logged to `/tmp/ilx-emitter-hook.log`:
+
+```bash
+tail -f /tmp/ilx-emitter-hook.log
+```
+
+### Performance
+
+- Dependency check: 1-2ms (cached)
+- Project root detection: 5-10ms
+- ILX emission: 10-50ms (file-size dependent)
+- File write: 1-2ms
+- **Total**: 15-65ms per edit
+
+### Batch Conversion Performance
+
+- **Small project** (100 files): ~3-5 seconds
+- **Medium project** (1000 files): ~30-60 seconds
+- **Large project** (5000 files): ~2-5 minutes
+
+---
+
+## Error Handling
+
+All errors are **non-blocking**. File operations always succeed regardless of ILX generation status.
+
+### Missing Dependencies
+
+**Error**: `LoadError: cannot load such file -- prism`
+
+**Solution**:
+```bash
+gem install prism rbs
+```
+
+### Parse Errors
+
+**Error**: Ruby syntax error in source file
+
+**Behavior**: Hook warns, allows file write, no `.ilx` generated
+
+### RBS Errors
+
+**Error**: Invalid RBS syntax
+
+**Behavior**: Emitter warns, continues without types (defaults to String)
+
+### No Project Root
+
+**Error**: Standalone `.rb` file outside project
+
+**Behavior**: Hook logs "no project root", skips ILX generation
+
+---
+
+## Troubleshooting
+
+### ILX Files Not Being Generated
+
+1. Check if disabled (ILX is ON by default):
+   ```bash
+   echo $DISABLE_ILX_EMITTER  # Should be empty (not set) or not equal to 1
+   ```
+
+2. Check dependencies:
+   ```bash
+   ruby -e "require 'prism'; require 'rbs'; puts 'OK'"
+   ```
+
+3. Check debug log:
+   ```bash
+   tail -f /tmp/ilx-emitter-hook.log
+   ```
+
+4. Test emitter manually:
+   ```bash
+   cd plugins/agentc/scripts
+   ruby ilx_emitter.rb /path/to/file.rb
+   ```
+
+### Hook Not Firing
+
+1. Verify hooks.json:
+   ```bash
+   cat plugins/agentc/hooks/hooks.json | jq '.hooks.PreToolUse'
+   ```
+
+2. Check executable:
+   ```bash
+   ls -l plugins/agentc/hooks/ilx_emitter_hook.rb
+   # Should show: -rwxr-xr-x
+   ```
+
+3. Test manually (ILX is ON by default, don't set DISABLE_ILX_EMITTER):
+   ```bash
+   echo '{"tool_name":"Write","tool_input":{"file_path":"test.rb"}}' | \
+     CLAUDE_PLUGIN_ROOT=plugins/agentc \
+     ruby plugins/agentc/hooks/ilx_emitter_hook.rb
+   ```
+
+---
+
+## Gitignore
+
+Add to `.gitignore`:
+
+```
+# ILX generated files
+.agentc/
+```
+
+ILX files are generated artifacts and should not be committed.
+
+---
+
+## Maintenance
+
+### Post-Commit Hook (Future)
+
+Detects:
+- New files → prompt for ILX addition
+- Changed files → diff against ILX, flag drift
+- Deleted files → mark ILX nodes as deprecated
+
+ILX updates require human approval to preserve intent accuracy.
+
+---
+
+## Use Cases
+
+### 1. Dense Code Context for LLM Conversations
+
+**Problem**: Large Ruby codebases exceed LLM context windows
+
+**Solution**: Use ILX to compress code ~95%, fitting more context
+
+```bash
+# Convert entire codebase
+ruby ilx_batch_convert.rb .
+
+# Reference .ilx files in conversations instead of .rb files
+# 10,000 lines of Ruby → 500 lines of ILX
+```
+
+### 2. Cross-Language Transpilation
+
+**Problem**: Migrating Ruby codebase to TypeScript
+
+**Solution**: Ruby → ILX → TypeScript transpiler
+
+```
+Ruby + RBS → ILX (semantic graph)
+          ↓
+     TypeScript emitter (future)
+          ↓
+     TypeScript + types
+```
+
+### 3. Semantic Analysis
+
+**Problem**: Analyzing code patterns across large codebase
+
+**Solution**: Parse ILX to find semantic patterns
+
+```bash
+# Find all functions with String→String signature
+grep -r "FSS" .agentc/ilx/
+
+# Find all conditionals
+grep -r "^B" .agentc/ilx/
+```
+
+### 4. Intent Documentation
+
+**Problem**: Design intent lost in implementation details
+
+**Solution**: Maintain parallel ILX describing intent, constraints, edge cases
+
+---
+
+## Future Enhancements
+
+1. **Full ILX v0.1 emitter** - Complete spec implementation
+2. **TypeScript emitter** - ILX → TypeScript transpiler
+3. **JavaScript emitter** - ILX → JavaScript transpiler
+4. **Parallel batch conversion** - Process files concurrently
+5. **Incremental updates** - Only regenerate changed files
+6. **ILX visualization** - Graph viewer for semantic structure
+7. **Type inference** - Infer types without RBS
+
+---
+
+## Summary
+
+ILX integration provides automatic semantic graph generation:
+
+- **Automatic**: PreToolUse hook fires on every `.rb` file write
+- **Type-aware**: Uses RBS signatures when available
+- **Dense**: 95% token reduction vs JSON AST (300-500:1 for full spec)
+- **Non-blocking**: Never interrupts file operations
+- **Debuggable**: Full logging to `/tmp/ilx-emitter-hook.log`
+- **Spec v0.1**: Complete grammar for domain, views, constraints, edge cases
+
+ILX generation is **enabled by default**. Just start writing Ruby code and ILX files will be generated automatically in `.agentc/ilx/`. To disable, set `export DISABLE_ILX_EMITTER=1`.
+
+---
+
+**ILX Specification v0.1**
+Draft: 2024-12-31
+Status: Experimental

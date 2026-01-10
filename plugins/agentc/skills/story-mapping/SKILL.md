@@ -2,4 +2,115 @@
 name: story-mapping
 description: Use after JTBD discovery or when you have jobs/needs to convert into user stories. Transforms jobs into INVEST-compliant user stories with acceptance criteria.
 ---
-82 1 2 12186 2 11037 4 13 2 8597 4 1896 2 11227 2 1587 2 13751 2 750 2 3319 2 1549 2 8604 2 13752 4 9215 2 30 2 9216 2 2486 2 1021 2 9 2 13753 2 732 2 25 2 11302 2 750 2 3319 2 77 2 9 2 11264 2 13754 4 587 2 3318 2 77 2 9 2 3300 2 7465 2 2204 2 7926 2 9273 2 2556 2 11302 2 3319 2 39 2 30 2 1006 2 2684 2 1519 2 12203 2 439 2 130 2 4418 2 737 2 3315 2 207 2 1073 2 274 2 13755 4 13 2 14 2 1606 4 9277 2 9147 82 51 2 587 2 9 2 3300 2 7465 2 536 2 1330 2 13756 82 51 2 1414 2 4267 2 750 2 13757 82 51 2 2481 2 9 2 8421 2 9656 2 13758 2 13759 2 13760 4 13761 2 3319 2 2493 2 30 2 1006 2 9293 82 51 2 5462 2 737 2 8421 2 130 2 2223 2 682 2 1320 2 194 2 9 2 750 2 13762 82 51 2 1246 2 103 2 1587 2 13763 2 12217 2 4130 82 51 2 1204 2 3315 2 207 2 1073 2 274 2 9365 2 120 82 51 2 3037 2 176 2 177 2 3315 2 2767 2 9 2 2704 2 13764 4 13765 2 1073 2 207 2 737 2 13766 82 51 2 13767 2 51 2 343 2 344 2 13768 2 65 2 31 2 1812 82 51 2 13769 2 51 2 11054 2 113 2 344 2 13770 82 51 2 13771 2 51 2 13772 2 750 2 1655 82 51 2 13773 2 51 2 343 2 344 2 13774 2 13775 82 51 2 13776 2 51 2 13777 2 65 2 39 2 3333 2 12218 82 51 2 13778 2 51 2 10599 2 1550 2 352 2 439 4 13779 2 12828 2 13780 82 51 2 13781 2 13782 2 10183 2 13690 2 1588 2 3104 82 51 2 13783 2 13784 2 13785 2 13690 2 1588 2 3104 82 51 2 13786 2 13787 2 4141 2 13690 2 2138 2 13788 4 13 2 12186 2 1467 4 13789 2 13790 2 9303 82 11272 2 13791 2 5624 82 11275 2 13792 2 13793 2 13794 2 25 2 1513 2 13795 4 132 2 2885 2 2848 4 461 2 65 2 13796 2 1953 4 13797 2 9309 82 11270 2 2557 82 13798 2 9310 2 9311 4 1025 17 5114 2 1006 2 458 2 1063 709 49 2 2498 2 25 2 488 2 1006 2 3152 2 3260 2 30 2 9 2 12134 2 115 2 9 2 3203 709 9304 2 139 2 49 2 113 2 3726 2 1582 2 110 2 5362 2 966 2 13799 17 2885 2 13800 709 51 2 9308 2 1006 2 3203 2 37 2 1302 2 5362 2 586 664 1005 2 49 2 5363 2 9 2 3203 2 10379 664 5752 2 49 2 488 2 1006 2 3260 2 2712 2 586 2 13801 2 13802 2 13803 17 51 2 9308 2 1006 2 3203 2 37 2 106 2 1639 2 1385 664 1005 2 49 2 5363 2 9 2 3203 2 10379 664 5752 2 49 2 488 2 1006 2 13804 2 9154 2 12145 2 65 2 9 2 3260 4 13 2 11280 4 1326 2 13805 2 12250 2 11282 2 1021 2 13806 4 3923 2 13807 2 485 2 207 2 9 2 8421 2 25 2 344 2 676 82 13808 2 13807 2 478 2 67 2 13809 2 1676 82 13810 2 13807 2 13811 2 25 2 904 2 536 2 1322 2 13812 82 13813 2 13807 2 13814 2 7016 2 115 2 1745 2 3846 2 13815 4 13 2 1466 4 461 2 8647 2 3319 2 1258 2 12205 4 1621 2 1953 82 51 2 9265 2 12254 2 3169 82 51 2 4724 2 3300 2 7465 2 7922 82 51 2 13816 2 13817 2 188 2 2048 2 13818 82 51 2 1352 2 3315 2 4403 2 13819 2 5045 2 13820 2 438 2 13821 2 12828 2 13775 4 13 2 1326 2 11037 4 2637 2 9366 2 25 2 13822 82 51 2 3037 2 8652 2 25 2 9270 2 3327 2 3325 2 586 2 77 2 3523 2 11301 82 51 2 1996 2 12209 2 25 2 4779 2 9274 2 586 4 2637 2 1894 2 9370 82 51 2 5428 2 9 2 3319 2 7465 2 25 2 3091 82 51 2 13816 2 113 2 344 2 9371 2 2713 2 9372 2 37 2 12235 4 13 2 1243 2 264 4 51 2 2607 2 3315 2 30 2 1006 2 2813 2 51 2 2464 2 274 2 9365 2 120 82 51 2 13765 2 13823 2 51 2 192 2 96 2 2624 2 13824 2 1599 2 96 82 51 2 13825 2 11312 2 51 2 13826 2 3319 2 48 2 13827 2 9434 82 51 2 13828 2 439 2 186 2 13829 2 51 2 13830 2 183 2 3035 2 13831 82 51 2 9010 2 25 2 13832 2 51 2 457 2 3315 2 48 2 9039 2 591 2 25 2 1006 2 8421 82 51 2 8662 2 8663 2 51 2 192 2 2286 2 183 2 2296 2 207 2 9 2 13833 2 2286 2 183 2 1006 2 3315 4 13 2 5423 4 9387 2 9388 82 51 2 12193 2 2628 2 8421 2 13834 82 51 2 9391 2 9392 2 5825 4 9394 2 593 82 51 2 12209 2 4944 2 3327 2 13835
+
+# Story Mapping
+
+## Overview
+
+Convert Jobs-to-be-Done into well-formed user stories through collaborative refinement.
+
+**Announce at start:** "I'm using the story-mapping skill to derive user stories from the discovered jobs."
+
+Read jobs from the JTBD document (or discover inline), then derive stories one at a time. Apply INVEST criteria and present each story for validation before continuing.
+
+## The Process
+
+**Loading context:**
+- Read the JTBD document if available (docs/jtbd/*.md)
+- Identify target user roles/personas
+- Understand the job hierarchy (primary, secondary, related)
+
+**Deriving stories (one at a time):**
+- Take each job and ask: "What capabilities does the user need?"
+- Break capability into smallest valuable increment
+- Present story for validation before moving on
+- Ask: "Does this story capture the right scope?"
+
+**INVEST validation for each story:**
+- **I**ndependent - Can be developed in any order
+- **N**egotiable - Details can be discussed
+- **V**aluable - Delivers user value
+- **E**stimable - Can be sized (S/M/L)
+- **S**mall - Fits in one vertical slice
+- **T**estable - Has clear pass/fail criteria
+
+**Story size guidance:**
+- **S (Small):** 1-2 scenarios, single worktree
+- **M (Medium):** 3-4 scenarios, single worktree
+- **L (Large):** 5+ scenarios, consider splitting
+
+## Story Format
+
+**As a** [role]
+**I want** [capability]
+**So that** [benefit tied to original job]
+
+### Acceptance Criteria
+
+Write in Given/When/Then format:
+
+**Given** [precondition]
+**When** [action]
+**Then** [expected outcome]
+
+Example:
+
+    As a code reviewer
+    I want to see a diff summary at the top of the PR
+    So that I can quickly understand what changed without scrolling
+
+    Acceptance Criteria:
+    - Given a PR with 5 changed files
+      When I view the PR page
+      Then I see a summary showing files changed, insertions, deletions
+
+    - Given a PR with only documentation changes
+      When I view the PR page
+      Then I see a "docs only" indicator in the summary
+
+## Prioritization
+
+After deriving stories, prioritize using MoSCoW:
+
+**Must have:** Required for the job to be done
+**Should have:** Important but workarounds exist
+**Could have:** Nice to have if time permits
+**Won't have:** Explicitly out of scope (for now)
+
+## Output
+
+Write validated stories to: docs/stories/YYYY-MM-DD-feature.md
+
+Document format:
+- Feature area name
+- Source JTBD document reference
+- Stories grouped by priority (Must/Should/Could)
+- Each story with: role, capability, benefit, acceptance criteria, size (S/M/L)
+
+## After Mapping
+
+**If continuing to features:**
+- Ask: "Ready to write Gherkin feature files from these stories?"
+- Use superpowers:feature-writing to generate .feature files
+
+**If stopping here:**
+- Commit the stories document to git
+- Stories can be picked up later with /feature-writing
+
+## Key Principles
+
+- **One story at a time** - Validate before moving on
+- **INVEST strictly** - If it doesn't pass, refine it
+- **Size matters** - L stories should probably split
+- **Acceptance criteria are concrete** - Given/When/Then, not vague descriptions
+- **Trace to jobs** - Every story should trace back to a job
+- **YAGNI ruthlessly** - If it's not needed for the job, it's not a story
+
+## Integration
+
+**Called by:**
+- superpowers:jtbd-discovery (after job discovery)
+- superpowers:product-discovery (Phase 2)
+
+**Chains to:**
+- superpowers:feature-writing (write Gherkin scenarios)

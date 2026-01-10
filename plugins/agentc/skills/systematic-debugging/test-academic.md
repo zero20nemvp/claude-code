@@ -1,1 +1,14 @@
-1 2 14038 2 13632 2 13945 2 10348 2 3441 4 44 2 904 2 149 2 25 2 9 2 9205 2 601 2 732 2 30 2 14088 4 587 2 9 2 732 2 130 2 8661 2 3523 2 1339 2 2534 2 14410 2 120 2 110 2 9 2 732 2 14411 4 71 2 1892 2 186 2 9 2 9044 2 12248 2 115 2 9205 2 14412 82 83 2 1892 2 1516 2 112 2 109 2 7872 2 14105 2 31 2 14413 82 93 2 4784 2 3625 2 5118 2 110 2 48 2 112 2 109 2 536 2 228 2 2596 2 14024 2 2624 2 14257 82 104 2 1892 2 194 2 9 2 732 2 14414 2 126 2 1846 2 1290 2 13142 2 30 2 14415 82 1022 2 1892 2 48 2 112 2 109 2 536 2 112 2 125 2 8600 2 1582 2 9 2 14416 82 1620 2 2226 2 96 2 14417 2 492 2 25 2 3879 2 9 2 129 2 207 2 12513 2 2358 4 1951 2 228 2 3285 2 37 2 14418 2 6478 2 77 2 9 2 732 2 123 2 5368 82
+# Academic Test: Systematic Debugging Skill
+
+You have access to the systematic debugging skill at skills/debugging/systematic-debugging
+
+Read the skill and answer these questions based SOLELY on what the skill says:
+
+1. What are the four phases of systematic debugging?
+2. What must you do BEFORE attempting any fix?
+3. In Phase 3, what should you do if your first hypothesis doesn't work?
+4. What does the skill say about fixing multiple things at once?
+5. What should you do if you don't fully understand the issue?
+6. Is it ever acceptable to skip the process for simple bugs?
+
+Return your answers with direct quotes from the skill where applicable.

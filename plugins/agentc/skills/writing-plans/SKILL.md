@@ -2,4 +2,115 @@
 name: writing-plans
 description: Use when design is complete and you need detailed implementation tasks for engineers with zero codebase context - creates comprehensive implementation plans with exact file paths, complete code examples, and verification steps assuming engineer has minimal domain knowledge
 ---
-82 1 2 3639 2 9209 4 13 2 8597 4 461 2 4726 2 1056 2 14523 2 16020 2 9 2 14562 2 2471 2 295 2 3302 2 207 2 524 2 184 2 130 2 16021 2 16022 2 1621 2 95 2 2316 2 754 2 25 2 5279 2 2063 2 586 2 25 2 15927 2 207 2 737 2 5042 2 9487 2 5208 2 16023 2 2316 2 2218 2 754 2 25 2 15835 2 1512 2 25 2 463 2 195 2 13391 2 2606 2 9 2 6658 2 3191 2 134 2 9227 2 907 2 16024 2 16025 2 14921 2 16026 2 16027 4 15808 2 2316 2 186 2 1006 2 16028 2 16029 2 67 2 2720 2 16030 2 13215 2 126 2 524 2 16031 2 43 2 2041 2 9060 2 15808 2 2316 2 125 2 2720 2 13426 2 463 2 799 2 16032 2 10236 4 9215 2 30 2 9216 2 2486 2 1021 2 9 2 16033 2 732 2 25 2 301 2 9 2 1056 2 9219 4 16034 2 2483 2 48 2 344 2 289 2 65 2 1006 2 12810 2 3104 2 16035 2 188 2 16036 2 16037 4 16038 2 14523 2 593 2 16039 4 13 2 16040 2 440 2 16041 4 14318 2 3597 2 58 2 39 2 284 2 15967 2 16042 82 51 2 794 2 9 2 462 2 987 2 51 2 3597 82 51 2 5064 2 96 2 25 2 2361 2 16043 2 96 2 16044 2 51 2 3597 82 51 2 777 2 9 2 283 2 458 2 25 2 2361 2 9 2 463 2 2920 2 51 2 3597 82 51 2 5064 2 9 2 550 2 130 2 2361 2 16043 2 2316 2 2920 2 51 2 3597 82 51 2 16045 2 51 2 3597 4 13 2 3335 2 1621 2 11677 4 33 2 3191 2 1018 2 3492 2 37 2 177 2 16046 4 4460 82 1 2 16047 2 10160 2 3667 2 3335 4 365 2 3601 2 16048 2 14396 2 16049 2 1996 2 12222 2 25 2 9218 2 177 2 3191 2 16050 4 15271 2 16051 2 2756 2 1557 2 110 2 177 2 16052 4 13330 2 16053 2 16054 2 126 2 13683 4 14586 2 16055 2 16056 2 16057 4 1985 82 223 4 13 2 440 2 9115 4 4460 82 132 2 440 2 13863 2 16058 2 10160 4 16059 82 51 2 16060 2 16061 82 51 2 16062 2 16063 82 51 2 13632 2 16064 4 9352 2 1956 2 461 2 9 2 462 2 3632 4 16065 82 5907 2 16066 709 4082 2 292 2 16067 709 16068 2 4082 2 4146 2 2246 82 223 4 9352 2 1986 2 1262 2 463 2 25 2 355 2 96 2 15174 4 5425 2 16069 2 16070 2 3159 82 6523 2 3647 2 37 2 16071 2 183 2 16072 4 9352 2 2489 2 461 2 283 2 15206 4 16065 82 5907 2 16073 709 1531 2 2246 82 223 4 9352 2 2511 2 1262 2 463 2 25 2 355 2 96 2 16074 4 5425 2 16069 2 16070 2 3159 82 6523 2 3668 4 9352 2 2539 2 16075 4 649 82 3091 2 2644 2 16076 2 16077 82 3091 2 3175 2 7946 2 16078 2 2644 2 137 2 16079 82 223 82 223 4 13 2 9260 82 51 2 8454 2 1008 2 2083 2 53 82 51 2 3245 2 458 2 65 2 3191 2 635 2 16080 2 16081 82 51 2 8454 2 921 2 37 2 2246 2 35 82 51 2 4530 2 585 2 1035 2 37 2 16082 2 1119 82 51 2 16083 2 16084 2 3227 2 16085 2 14174 4 13 2 441 2 16086 4 1326 2 2826 2 9 2 9210 2 10090 2 319 2 16087 4 16088 2 725 2 130 2 16089 2 25 2 16090 2 14565 2 319 2 16091 4 4854 2 13836 2 16092 2 16093 2 51 2 49 2 3707 2 7758 2 13236 2 1184 2 5042 2 1374 2 2330 2 3602 2 8678 2 1195 4 4861 2 8448 2 5490 2 16094 2 51 2 9693 2 727 2 1185 2 37 2 16095 2 647 2 319 2 37 2 1059 4 1865 2 16096 4 2637 2 13836 2 16097 82 51 2 9237 2 9238 2 1996 2 12223 82 51 2 467 2 65 2 177 2 1185 82 51 2 13838 2 13236 2 1184 2 435 2 329 2 458 2 1374 4 2637 2 8448 2 5490 2 16097 82 51 2 9401 2 2606 2 25 2 12399 2 727 2 1185 2 65 2 3104 82 51 2 9237 2 9238 2 4760 2 1185 2 8689 2 12222
+
+# Writing Plans
+
+## Overview
+
+Write comprehensive implementation plans assuming the engineer has zero context for our codebase and questionable taste. Document everything they need to know: which files to touch for each task, code, testing, docs they might need to check, how to test it. Give them the whole plan as bite-sized tasks. DRY. YAGNI. TDD. Frequent commits.
+
+Assume they are a skilled developer, but know almost nothing about our toolset or problem domain. Assume they don't know good test design very well.
+
+**Announce at start:** "I'm using the writing-plans skill to create the implementation plan."
+
+**Context:** This should be run in a dedicated worktree (created by brainstorming skill).
+
+**Save plans to:** `docs/plans/YYYY-MM-DD-<feature-name>.md`
+
+## Bite-Sized Task Granularity
+
+**Each step is one action (2-5 minutes):**
+- "Write the failing test" - step
+- "Run it to make sure it fails" - step
+- "Implement the minimal code to make the test pass" - step
+- "Run the tests and make sure they pass" - step
+- "Commit" - step
+
+## Plan Document Header
+
+**Every plan MUST start with this header:**
+
+```markdown
+# [Feature Name] Implementation Plan
+
+> **For Claude:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task.
+
+**Goal:** [One sentence describing what this builds]
+
+**Architecture:** [2-3 sentences about approach]
+
+**Tech Stack:** [Key technologies/libraries]
+
+---
+```
+
+## Task Structure
+
+```markdown
+### Task N: [Component Name]
+
+**Files:**
+- Create: `exact/path/to/file.py`
+- Modify: `exact/path/to/existing.py:123-145`
+- Test: `tests/exact/path/to/test.py`
+
+**Step 1: Write the failing test**
+
+```python
+def test_specific_behavior():
+    result = function(input)
+    assert result == expected
+```
+
+**Step 2: Run test to verify it fails**
+
+Run: `pytest tests/path/test.py::test_name -v`
+Expected: FAIL with "function not defined"
+
+**Step 3: Write minimal implementation**
+
+```python
+def function(input):
+    return expected
+```
+
+**Step 4: Run test to verify it passes**
+
+Run: `pytest tests/path/test.py::test_name -v`
+Expected: PASS
+
+**Step 5: Commit**
+
+```bash
+git add tests/path/test.py src/path/file.py
+git commit -m "feat: add specific feature"
+```
+```
+
+## Remember
+- Exact file paths always
+- Complete code in plan (not "add validation")
+- Exact commands with expected output
+- Reference relevant skills with @ syntax
+- DRY, YAGNI, TDD, frequent commits
+
+## Execution Handoff
+
+After saving the plan, offer execution choice:
+
+**"Plan complete and saved to `docs/plans/<filename>.md`. Two execution options:**
+
+**1. Subagent-Driven (this session)** - I dispatch fresh subagent per task, review between tasks, fast iteration
+
+**2. Parallel Session (separate)** - Open new session with executing-plans, batch execution with checkpoints
+
+**Which approach?"**
+
+**If Subagent-Driven chosen:**
+- **REQUIRED SUB-SKILL:** Use superpowers:subagent-driven-development
+- Stay in this session
+- Fresh subagent per task + code review
+
+**If Parallel Session chosen:**
+- Guide them to open new session in worktree
+- **REQUIRED SUB-SKILL:** New session uses superpowers:executing-plans
