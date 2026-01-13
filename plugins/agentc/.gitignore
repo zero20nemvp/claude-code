@@ -1,3 +1,4 @@
-# Context Lock - ignore key files
+# Context Lock - ignore key files and security markers
 lock.yml
 lock.key*.yml
+.lock-marker
