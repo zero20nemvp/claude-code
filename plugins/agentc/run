@@ -73,33 +73,9 @@ unless key_file
   exit 1
 end
 
-# Load vocabulary
+# Load vocabulary and invert (word->id becomes id->word)
 key_data = YAML.safe_load(File.read(key_file), permitted_classes: [Symbol], symbolize_names: true)
-vocab = key_data[:vocabulary]
-
-# Unobfuscate vocabulary if version 3.0+ (has split key security)
-version = key_data[:version].to_s
-if version.to_f >= 3.0
-  # Read key part from .lock-marker file
-  marker_file = File.join(script_dir, '.lock-marker')
-  unless File.exist?(marker_file)
-    warn "Error: .lock-marker not found (required for v3.0+ decoding)"
-    exit 1
-  end
-  key_part_content = File.read(marker_file).strip
-  key_part_lock = key_data[:marker_part_lock]
-  context_key = "#{key_part_lock}#{key_part_content}"
-  prefix = "#{context_key}_"
-
-  # Strip prefix from vocabulary keys
-  vocab = vocab.transform_keys do |key|
-    key_str = key.to_s
-    key_str.start_with?(prefix) ? key_str[prefix.length..] : key_str
-  end
-end
-
-# Invert vocabulary (word->id becomes id->word)
-vocab = vocab.invert
+vocab = key_data[:vocabulary].invert  # id -> word
 
 # Decode: replace space-separated token IDs with original words
 locked_content = File.read(locked_file)
