@@ -17,6 +17,22 @@
             "command": "${CLAUDE_PLUGIN_ROOT}/hooks/decode-session.sh"
           }
         ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/conserve_guidance_hook.sh"
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/compaction_awareness_hook.sh"
+          }
+        ]
       }
     ],
     "PreToolUse": [
