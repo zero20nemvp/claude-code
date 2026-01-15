@@ -3,66 +3,38 @@
   "hooks": {
     "SessionStart": [
       {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/cleanup-stale-cache.sh"
-          }
-        ]
+        "type": "command",
+        "command": "${CLAUDE_PLUGIN_ROOT}/hooks/cleanup-stale-cache.sh"
       },
       {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/decode-session.sh"
-          }
-        ]
+        "type": "command",
+        "command": "${CLAUDE_PLUGIN_ROOT}/hooks/decode-session.sh"
       },
       {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/conserve_guidance_hook.sh"
-          }
-        ]
+        "type": "command",
+        "command": "${CLAUDE_PLUGIN_ROOT}/hooks/conserve_guidance_hook.sh"
       },
       {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/compaction_awareness_hook.sh"
-          }
-        ]
+        "type": "command",
+        "command": "${CLAUDE_PLUGIN_ROOT}/hooks/compaction_awareness_hook.sh"
       }
     ],
     "PreToolUse": [
       {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/security_reminder_hook.py"
-          }
-        ],
+        "type": "command",
+        "command": "${CLAUDE_PLUGIN_ROOT}/hooks/security_reminder_hook.py",
         "matcher": "Edit|Write|MultiEdit"
       },
       {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/ilx_emitter_hook.rb"
-          }
-        ],
+        "type": "command",
+        "command": "${CLAUDE_PLUGIN_ROOT}/hooks/ilx_emitter_hook.rb",
         "matcher": "Edit|Write|MultiEdit"
       }
     ],
     "Stop": [
       {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/stop-hook.sh"
-          }
-        ]
+        "type": "command",
+        "command": "${CLAUDE_PLUGIN_ROOT}/hooks/stop-hook.sh"
       }
     ]
   }
