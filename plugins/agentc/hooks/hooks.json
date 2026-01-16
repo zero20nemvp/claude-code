@@ -1,5 +1,5 @@
 {
-  "description": "AgentC hooks for session prompts, security reminders, ILX generation, and Ralph loop",
+  "description": "AgentC hooks for session prompts, security reminders, ILX generation, and locked file decoding",
   "hooks": {
     "SessionStart": [
       {
@@ -36,6 +36,15 @@
           }
         ],
         "matcher": "Edit|Write|MultiEdit"
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/decode-locked-hook.sh"
+          }
+        ],
+        "matcher": "Read"
       }
     ],
     "Stop": [
