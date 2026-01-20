@@ -1,0 +1,8 @@
+---
+name: _add-north-star
+description: "Alias for /_create north-star"
+alias: _create
+alias-args: "north-star"
+allowed-tools: []
+---
+10 67 2 1261 2 2729 2 2298 2 9064 2 171 2 1194 2 10070 6 9066 2 120 2 1194 2 10071 2 121 2 892 2 2762 2 9068 10
