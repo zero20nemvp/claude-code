@@ -60,6 +60,17 @@
           }
         ]
       }
+    ],
+    "PostToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/transition_kit_hook.rb"
+          }
+        ],
+        "matcher": "Edit|Write|MultiEdit"
+      }
     ]
   }
 }
