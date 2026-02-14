@@ -37,6 +37,10 @@
           {
             "type": "command",
             "command": "${CLAUDE_PLUGIN_ROOT}/hooks/ilx_emitter_hook.rb"
+          },
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/world-consultation-hook.sh"
           }
         ],
         "matcher": "Edit|Write|MultiEdit"
